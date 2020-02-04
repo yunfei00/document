@@ -395,20 +395,26 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	--force 强制加锁成功，通过从其他用户或者工作拷贝把锁给偷过来。
 	```
 15. svn log 显示一些版本或者文件的日志消息.
---stop-on-copy 在遍历历史的时候不要穿越拷贝（对于查找分支的起点很有用）
-svn merge
-把两个来源的差异应用给工作拷贝路径。
-svn merge –r rev1:rev2  source wcpath
-svn mkdir
-创建版本控制下的新目录
-svn mkdir target
-svn move src dest
-移动或者重命名工作拷贝或者项目仓库中文件或者目录。
---revision, –r rev使用版本rev作为源来执行这次移动。
-svn propdel
-删除文件或者目录的属性
-svn propdel propname path…
-svn propedit
+	```
+	--stop-on-copy 在遍历历史的时候不要穿越拷贝（对于查找分支的起点很有用）
+	```
+16. svn merge 把两个来源的差异应用给工作拷贝路径。
+	```
+	svn merge –r rev1:rev2  source wcpath
+	```
+17. svn mkdir 创建版本控制下的新目录
+	```
+	svn mkdir target
+	```
+18. svn move src dest 移动或者重命名工作拷贝或者项目仓库中文件或者目录
+	```
+	--revision, –r rev使用版本rev作为源来执行这次移动。
+	```
+19. svn propdel 删除文件或者目录的属性
+	```
+	svn propdel propname path…
+	```
+20svn propedit
 编辑文件或者目录的属性
 svn propedit propname path…
 svn propget
@@ -590,7 +596,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDI4MDY2MywxMzMwMTkyODM2LDk3OD
-g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
-NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbODUyNjM3MTYzLDEzMzAxOTI4MzYsOTc4OD
+UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
+MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
