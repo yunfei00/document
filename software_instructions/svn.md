@@ -128,27 +128,28 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 	anon-access = read代表匿名访问的时候是只读的，若改为anon-access = none代表禁止匿名访问，需要帐号密码才能访问
 2. 打开passwd，在[users]下面添加帐号和密码
-```
-[users]
-test=123
-tmp = 456
-```
+	```
+	[users]
+	test=123
+	tmp = 456
+	```
+	帐号是test，密码是123
+3. 打开authz，配置用户组和权限
+	我们可以将在passwd里添加的用户分配到不同的用户组里，以后的话，就可以对不同用户组设置不同的权限，没有必要对每个用户进行单独设置权限。
 
-帐号是test，密码是123
-3.打开authz，配置用户组和权限
-我们可以将在passwd里添加的用户分配到不同的用户组里，以后的话，就可以对不同用户组设置不同的权限，没有必要对每个用户进行单独设置权限。
-
-在[groups]下面添加组名和用户名，多个用户之间用逗号(,)隔开
-[groups]
-testgroup = test,tmp
-说明test和tmp都是属于testgroup这个组的，接下来再进行权限配置。
-使用[/]代表svn服务器中的所有资源库
-[/]
-@topgroup=rw上面的配置说明topgroup这个组中的所有用户对所有资源库都有读写(rw)权限，组名前面要用@
-如果是用户名，不用加@，比如mj这个用户有读写权限
-[/]
-mj=rw
-至于其他精细的权限控制，可以参考authz文件中的其他内容
+	在[groups]下面添加组名和用户名，多个用户之间用逗号(,)隔开
+	```
+	[groups]
+	testgroup = test,tmp
+	```
+	说明test和tmp都是属于testgroup这个组的，接下来再进行权限配置。
+	使用[/]代表svn服务器中的所有资源库
+	[/]
+	@topgroup=rw上面的配置说明topgroup这个组中的所有用户对所有资源库都有读写(rw)权限，组名前面要用@
+	如果是用户名，不用加@，比如mj这个用户有读写权限
+	[/]
+	mj=rw
+	至于其他精细的权限控制，可以参考authz文件中的其他内容
 
 4.启动svn服务器
 前面配置了这么多，最关键还是看能否正常启动服务器，若启动不来，前面做再多工作也是徒劳。
@@ -561,5 +562,5 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MDg2Mzk1LC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbLTEwMDI3NDYwMDcsLTYwMzkyNjY1N119
 -->
