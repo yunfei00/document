@@ -96,23 +96,22 @@ samba 貌似只能在局域网中添加（还未深入研究）
 	```
 	Global parameters
 	[global]
-	printcap name = cups
-	security = USER
-	workgroup = SAMBA   ---用户组
-	idmap config * : backend = tdb
-	cups options = raw
-	[samba]----gong xia
-	comment = Home Directories
-	inherit acls = Yes
-	path = /home/samba_user
-	read only = No
-	valid users = samba_user
+		printcap name = cups
+		security = USER
+		workgroup = SAMBA   ---用户组
+		idmap config * : backend = tdb
+		cups options = raw
+	[samba]----共享目录名称
+		comment = Home Directories
+		inherit acls = Yes
+		path = /home/samba_user ---共享目录位置
+		read only = No
+		valid users = samba_user  ---可以查看的用户
 	```
-
-5. 测试一下刚才的配置文件是否正确：
-
+5. 测试一下刚才的配置文件是否正确
+```
 testparm
-
+```
 出现Loaded services file OK.就说明没有问题。
 
 6. 添加用户组
@@ -133,5 +132,5 @@ systemctl start smb
 
 systemctl enable smb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NDY4OTk0XX0=
+eyJoaXN0b3J5IjpbMTU2MzYxMTUyMF19
 -->
