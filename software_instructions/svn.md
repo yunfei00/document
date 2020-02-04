@@ -1,111 +1,111 @@
 # 1 contOS svn 使用
 1. 安装svn
-```
-yum -y install subversion
-```
-若需查看svn安装位置，可以用以下命令：
-```
-rpm -ql subversion
-```
+	```
+	yum -y install subversion
+	```
+	若需查看svn安装位置，可以用以下命令：
+	```
+	rpm -ql subversion
+	```
 2. 创建版本库目录
-```
-mkdir /home/yunfei/svn_server/
-svnadmin create /home/yunfei/svn_server/
-```
+	```
+	mkdir /home/yunfei/svn_server/
+	svnadmin create /home/yunfei/svn_server/
+	```
 3. 编辑配置文件
-```
-cd /home/yunfei/svn_server/conf
-vim authz 
+	```
+	cd /home/yunfei/svn_server/conf
+	vim authz 
 
-[aliases]
-# joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average
+	[aliases]
+	# joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average
 
-[groups]
-# harry_and_sally = harry,sally
-# harry_sally_and_joe = harry,sally,&joe
+	[groups]
+	# harry_and_sally = harry,sally
+	# harry_sally_and_joe = harry,sally,&joe
 
-# [/foo/bar]
-# harry = rw
-# &joe = r
-# * =
+	# [/foo/bar]
+	# harry = rw
+	# &joe = r
+	# * =
 
-# [repository:/baz/fuz]
-# @harry_and_sally = rw
-# * = r
-#
-[/]
-yunfei = rw
-
-
-vim passwd 
-[users]
-# harry = harryssecret
-# sally = sallyssecret
-yunfei = 82865348
+	# [repository:/baz/fuz]
+	# @harry_and_sally = rw
+	# * = r
+	#
+	[/]
+	yunfei = rw
 
 
-vim svnserve.conf 
-### Visit http://subversion.apache.org/ for more information.
+	vim passwd 
+	[users]
+	# harry = harryssecret
+	# sally = sallyssecret
+	yunfei = 82865348
 
-[general]
-### The anon-access and auth-access options control access to the
-### repository for unauthenticated (a.k.a. anonymous) users and
-### authenticated users, respectively.
-### Valid values are "write", "read", and "none".
-### Setting the value to "none" prohibits both reading and writing;
-### "read" allows read-only access, and "write" allows complete 
-### read/write access to the repository.
-### The sample settings below are the defaults and specify that anonymous
-### users have read-only access to the repository, while authenticated
-### users have read and write access to the repository.
-anon-access = none
-auth-access = write
-### The password-db option controls the location of the password
-### database file.  Unless you specify a path starting with a /,
-### the file's location is relative to the directory containing
-### this configuration file.
-### If SASL is enabled (see below), this file will NOT be used.
-### Uncomment the line below to use the default password file.
-password-db = passwd
-### The authz-db option controls the location of the authorization
-### rules for path-based access control.  Unless you specify a path
-### starting with a /, the file's location is relative to the the
-### directory containing this file.  If you don't specify an
-### authz-db, no path-based access control is done.
-### Uncomment the line below to use the default authorization file.
-authz-db = authz
-### This option specifies the authentication realm of the repository.
-### If two repositories have the same authentication realm, they should
-### have the same password database, and vice versa.  The default realm
-### is repository's uuid.
-realm = /home/yunfei/svn_server
-### The force-username-case option causes svnserve to case-normalize
-### usernames before comparing them against the authorization rules in the
-### authz-db file configured above.  Valid values are "upper" (to upper-
-### case the usernames), "lower" (to lowercase the usernames), and
-### "none" (to compare usernames as-is without case conversion, which
-### is the default behavior).
-# force-username-case = none
 
-[sasl]
-### This option specifies whether you want to use the Cyrus SASL
-### library for authentication. Default is false.
-### This section will be ignored if svnserve is not built with Cyrus
-### SASL support; to check, run 'svnserve --version' and look for a line
-### reading 'Cyrus SASL authentication is available.'
-# use-sasl = true
-### These options specify the desired strength of the security layer
-### that you want SASL to provide. 0 means no encryption, 1 means
-### integrity-checking only, values larger than 1 are correlated
-### to the effective key length for encryption (e.g. 128 means 128-bit
-### encryption). The values below are the defaults.
-# min-encryption = 0
-# max-encryption = 256
-```
+	vim svnserve.conf 
+	### Visit http://subversion.apache.org/ for more information.
+
+	[general]
+	### The anon-access and auth-access options control access to the
+	### repository for unauthenticated (a.k.a. anonymous) users and
+	### authenticated users, respectively.
+	### Valid values are "write", "read", and "none".
+	### Setting the value to "none" prohibits both reading and writing;
+	### "read" allows read-only access, and "write" allows complete 
+	### read/write access to the repository.
+	### The sample settings below are the defaults and specify that anonymous
+	### users have read-only access to the repository, while authenticated
+	### users have read and write access to the repository.
+	anon-access = none
+	auth-access = write
+	### The password-db option controls the location of the password
+	### database file.  Unless you specify a path starting with a /,
+	### the file's location is relative to the directory containing
+	### this configuration file.
+	### If SASL is enabled (see below), this file will NOT be used.
+	### Uncomment the line below to use the default password file.
+	password-db = passwd
+	### The authz-db option controls the location of the authorization
+	### rules for path-based access control.  Unless you specify a path
+	### starting with a /, the file's location is relative to the the
+	### directory containing this file.  If you don't specify an
+	### authz-db, no path-based access control is done.
+	### Uncomment the line below to use the default authorization file.
+	authz-db = authz
+	### This option specifies the authentication realm of the repository.
+	### If two repositories have the same authentication realm, they should
+	### have the same password database, and vice versa.  The default realm
+	### is repository's uuid.
+	realm = /home/yunfei/svn_server
+	### The force-username-case option causes svnserve to case-normalize
+	### usernames before comparing them against the authorization rules in the
+	### authz-db file configured above.  Valid values are "upper" (to upper-
+	### case the usernames), "lower" (to lowercase the usernames), and
+	### "none" (to compare usernames as-is without case conversion, which
+	### is the default behavior).
+	# force-username-case = none
+
+	[sasl]
+	### This option specifies whether you want to use the Cyrus SASL
+	### library for authentication. Default is false.
+	### This section will be ignored if svnserve is not built with Cyrus
+	### SASL support; to check, run 'svnserve --version' and look for a line
+	### reading 'Cyrus SASL authentication is available.'
+	# use-sasl = true
+	### These options specify the desired strength of the security layer
+	### that you want SASL to provide. 0 means no encryption, 1 means
+	### integrity-checking only, values larger than 1 are correlated
+	### to the effective key length for encryption (e.g. 128 means 128-bit
+	### encryption). The values below are the defaults.
+	# min-encryption = 0
+	# max-encryption = 256
+	```
 4. 启动svn
-```
-svnserve -d -r /home/yunfei/svn_server/
-```
+	```
+	svnserve -d -r /home/yunfei/svn_server/
+	```
 5. 配置开机启动svn服务
 	a. 安装好 svn 服务后，默认是没有随系统启动自动启动的， CentOS 7 的 /etc/rc.d/rc.local 是没有执行权限的， 系统建议创建 systemd service 启动服务
 	于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service,内容如下：
@@ -137,11 +137,9 @@ svnserve -d -r /home/yunfei/svn_server/
 	d. 重启服务器，查看是否有svn服务
 	```
 	reboot
-	
+	ps -aux | grep 'svn'  
 	```
 	
-
-于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service
 # 2 mac 上svn使用
 环境说明：
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
@@ -511,8 +509,8 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzkyNTgzMywtMTgyMDAwNjc1LDE0Nz
-gyNTM3NjUsNDM4ODY1MjkzLDEzMzAxOTI4MzYsOTc4ODUzMTc5
-LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3MCwxNj
-k0NDg5MzEyLC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbNDQyNzM1NDIzLC0xODIwMDA2NzUsMTQ3OD
+I1Mzc2NSw0Mzg4NjUyOTMsMTMzMDE5MjgzNiw5Nzg4NTMxNzks
+LTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
