@@ -106,7 +106,7 @@ realm = /home/yunfei/svn_server
 ```
 svnserve -d -r /home/yunfei/svn_server/
 ```
-# 2 mac
+# 2 mac 上svn使用
 环境说明：
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
 我们首先来看下，如何在Mac环境下搭建svn服务器端环境。
@@ -557,5 +557,5 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTM1MTY5MzUzNSwtNjAzOTI2NjU3XX0=
 -->
