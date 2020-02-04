@@ -211,11 +211,13 @@ svnadmin create /Users/j00226207/svn/mycode
 	svn unlock PATH
 	```
 5、更新到某个版本
+```
+```
+
 	```
 svn update -r m path
 svn update如果后面没有目录，默认将当前目录以及子目录下的所有文件都更新到最新版本。
-svn update -r 200 test.php(将版本库中的文件test.php还原到版本200)
-svn update test.php(更新，于版本库同步。如果在提交的时候提示过期的话，是因为冲突，需要先update，修改文件，然后清除svn resolved，最后再提交commit)
+	svn update -r 200 test.php(将版本库中的文件test.php还原到版本200)
 	简写：svn up
 	```
 
@@ -562,6 +564,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgwNzY0NCwxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbLTE3MjA0NTgxOTksMTY0NTY0ODQ3MCwxNj
+k0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
