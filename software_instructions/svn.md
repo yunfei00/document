@@ -275,20 +275,13 @@ svnadmin create /Users/j00226207/svn/mycode
 	svn mkdir 创建纳入版本控制下的新目录。
 	```
 15. 恢复本地修改
-svn revert: 恢复原始未改变的工作副本文件 (恢复大部份的本地修改)。revert:
-用法: revert PATH…
-注意: 本子命令不会存取网络，并且会解除冲突的状况。但是它不会恢复
-被删除的目录
+	```
+	svn revert 恢复原始未改变的工作副本文件 (恢复大部份的本地修改)
+	```
 16. 代码库URL变更
+```
 svn switch (sw): 更新工作副本至不同的URL。
-用法: 1、switch URL [PATH]
-2、switch –relocate FROM TO [PATH...]
-1、更新你的工作副本，映射到一个新的URL，其行为跟“svn update”很像，也会将
-服务器上文件与本地文件合并。这是将工作副本对应到同一仓库中某个分支或者标记的
-方法。
-2、改写工作副本的URL元数据，以反映单纯的URL上的改变。当仓库的根URL变动
-(比如方案名或是主机名称变动)，但是工作副本仍旧对映到同一仓库的同一目录时使用
-这个命令更新工作副本与仓库的对应关系。
+```
 17. 解决冲突
 svn resolved: 移除工作副本的目录或文件的“冲突”状态。
 用法: resolved PATH…
@@ -574,6 +567,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYzMzM3NTEsMTk1NDM5NzkwMywxNj
-Q1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbLTg2OTg5NTY3OSwxOTU0Mzk3OTAzLDE2ND
+U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
