@@ -305,7 +305,7 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 *.perspective* = svn:mime-type=text/X-xcode
 *.pbxproj = svn:mime-type=text/X-xcode
 ```
-## 2.5 svn 参数说明
+## 2.5 svn 命令参数说明
 1. svn 命令共同的选项
 	```
 	--targets list 读取list并将其解释为一个将要操作的参数列表
@@ -338,36 +338,41 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	--revision, –r rev
 	```
 5. svn checkout
-```
-从项目仓库牵出一个工作拷贝
-svn checkout url…path
-如果没有指定path,签出的本地目录名使用URL的base name.
-```
-svn cleanup
-清理工作拷贝，移除锁，完成未完成的操作，等等。
-svn cleanup path…
-svn commit path
-把改动从你的工作拷贝发送到项目仓库
---message, –m msg 使用msg作为提交日志消息。
---file, –F file 使用file的内容作为提交日志消息。
---no-unlock 不要在提交的时候释放锁。
-svn copy
-在工作拷贝或者项目仓库中制造包括历史在内的复本
-svn copy src dest
-src和dest可以是工作拷贝(WC)的路径或者URL.
-src dest 效果……
-WC WC 拷贝并添加
-WC URL 立即提交WC的拷贝到URL
-URL WC 签出URL到WC, 添加
-URL URL 完全服务器端拷贝；用于制作分支和打标签
---revision, –r rev要拷贝的src的版本。只在src是项目仓库的URL时才有意义。
-svn delete target
-从项目仓库删除文件或者目录。如果target是工作拷贝中的文件或者目录，它被从工作拷贝中移除并且预计在下次提交时删除掉。如果target是项目仓库URL,通过一次立即的提交从项目仓库中删除。
---message, –m msg
---file, –F file
-svn diff
-显示两个路径之间的差异
-svn diff –r rev1:rev2 target…
+	```
+	从项目仓库牵出一个工作拷贝
+	svn checkout url…path
+	如果没有指定path,签出的本地目录名使用URL的base name.
+	```
+6. svn cleanup
+	```
+	清理工作拷贝，移除锁，完成未完成的操作，等等。
+	svn cleanup path…
+	svn commit path
+	把改动从你的工作拷贝发送到项目仓库
+	--message, –m msg 使用msg作为提交日志消息。
+	--file, –F file 使用file的内容作为提交日志消息。
+	--no-unlock 不要在提交的时候释放锁。
+	```
+7. svn copy
+	```
+	在工作拷贝或者项目仓库中制造包括历史在内的复本
+	svn copy src dest
+	src和dest可以是工作拷贝(WC)的路径或者URL.
+	src dest 效果……
+	WC WC 拷贝并添加
+	WC URL 立即提交WC的拷贝到URL
+	URL WC 签出URL到WC, 添加
+	URL URL 完全服务器端拷贝；用于制作分支和打标签
+	--revision, –r rev要拷贝的src的版本。只在src是项目仓库的URL时才有意义。
+	```
+8. svn delete target
+	```
+	从项目仓库删除文件或者目录。如果target是工作拷贝中的文件或者目录，它被从工作拷贝中移除并且预计在下次提交时删除掉。如果target是项目仓库URL,通过一次立即的提交从项目仓库中删除。
+	--message, –m msg
+	--file, –F file
+	```
+9. svn diff  显示两个路径之间的差异
+`svn diff –r rev1:rev2 target…
 svn diff oldurl newurl
 svn export
 创建一个无版本记录的拷贝.
@@ -582,7 +587,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTU4MTI2NSwxMzMwMTkyODM2LDk3OD
-g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
-NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbMTgzODQ4NjMwLDEzMzAxOTI4MzYsOTc4OD
+UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
+MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
