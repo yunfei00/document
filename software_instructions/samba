@@ -85,27 +85,19 @@ samba 貌似只能在局域网中添加（还未深入研究）
 	rpm -qc samba samba-common
 	```
 3. 修改配置文件（修改前可以备份一份以备以后查用）
-```
-cp /etc/samba/smb.conf /etc/samba/smb.conf_bak
+	```
+	cp /etc/samba/smb.conf /etc/samba/smb.conf_bak
+	ll /etc/samba/smb.conf*
+	修改配置文件：
+	vim /etc/samba/smb.conf 或 vi /etc/samba/smb.conf
+	```
+	本次参考提示写入一些最基本的信息，其他默认内容可以删除
 
-ll /etc/samba/smb.conf*
-
-修改配置文件：
-
-vim /etc/samba/smb.conf 或 vi /etc/samba/smb.conf
-
-本次按照下面的写入一些最基本的信息，其他默认内容可以删除
-```
-![02147402905df0ad7f3a0430537b253c.png](evernotecid://C023BB62-49B4-4617-9B3C-372C7176E449/appyinxiangcom/22860893/ENResource/p183)
 
 ```
-
 Global parameters
-
 [global]
-
 printcap name = cups
-
 security = USER
 
 workgroup = SAMBA
@@ -152,5 +144,5 @@ systemctl start smb
 
 systemctl enable smb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDgwMTEzOV19
+eyJoaXN0b3J5IjpbLTEwNjUxNzE2MTFdfQ==
 -->
