@@ -108,6 +108,22 @@ svnserve -d -r /home/yunfei/svn_server/
 ```
 5. 配置开机启动svn服务
 	安装好 svn 服务后，默认是没有随系统启动自动启动的， CentOS 7 的 /etc/rc.d/rc.local 是没有执行权限的， 系统建议创建 systemd service 启动服务
+	于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service,内容如下：
+	```
+	[Unit]
+	Description=Subversion protocol daemon
+	After=syslog.target network.target
+
+	[Service]
+	Type=forking
+	EnvironmentFile=/etc/sysconfig/svnserve
+	ExecStart=/usr/bin/svnserve --daemon --pid-file=/run/svnserve/svnserve.pid $OPTIONS
+
+	[Install]
+	WantedBy=multi-user.target
+	```
+	
+	
 
 于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service
 # 2 mac 上svn使用
@@ -479,8 +495,8 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMDUzMTQ2LC0xODIwMDA2NzUsMTQ3OD
-I1Mzc2NSw0Mzg4NjUyOTMsMTMzMDE5MjgzNiw5Nzg4NTMxNzks
-LTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbLTE4NzY0NzQzNywtMTgyMDAwNjc1LDE0Nz
+gyNTM3NjUsNDM4ODY1MjkzLDEzMzAxOTI4MzYsOTc4ODUzMTc5
+LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3MCwxNj
+k0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
