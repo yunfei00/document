@@ -70,23 +70,22 @@
 
 samba 貌似只能在局域网中添加（还未深入研究）
 1. 使用yum方式安装samba，如果并不确定是否有安装samba，可以使用下面命令查看：
+	```
+	rpm -qa | grep samba
+	```
+	如果如图所示为空，则说明未安装samba相关程序
+	```
+	yum install samba -y
+	```
+	看到 Complete! 字样就算安装完成了。
+
+2. 安装完成之后可以查看安装情况以及配置文件的位置
+	```
+	rpm -qa | grep samba
+	rpm -qc samba samba-common
+	```
+3. 修改配置文件（修改前可以备份一份以备以后查用）
 ```
-rpm -qa | grep samba
-```
-3. 如果如图所示为空，则说明未安装samba相关程序
-
-yum install samba -y
-
-看到 Complete! 字样就算安装完成了。
-
-3. 安装完成之后可以查看安装情况以及配置文件的位置：
-
-rpm -qa | grep samba
-
-rpm -qc samba samba-common
-
-4. 修改配置文件（修改前可以备份一份以备以后查用）
-
 cp /etc/samba/smb.conf /etc/samba/smb.conf_bak
 
 ll /etc/samba/smb.conf*
@@ -96,7 +95,7 @@ ll /etc/samba/smb.conf*
 vim /etc/samba/smb.conf 或 vi /etc/samba/smb.conf
 
 本次按照下面的写入一些最基本的信息，其他默认内容可以删除
-
+```
 ![02147402905df0ad7f3a0430537b253c.png](evernotecid://C023BB62-49B4-4617-9B3C-372C7176E449/appyinxiangcom/22860893/ENResource/p183)
 
 ```
@@ -153,5 +152,5 @@ systemctl start smb
 
 systemctl enable smb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg2MDc0OTBdfQ==
+eyJoaXN0b3J5IjpbMTA3NDgwMTEzOV19
 -->
