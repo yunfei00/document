@@ -299,13 +299,13 @@ svnadmin create /Users/j00226207/svn/mycode
 找到 global-ignores 一行，去掉注释，编辑成
 global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 找到 enable-auto-props = yes 把注释去掉，在[auto-props] Section声明以下文本文件
-```
+
 *.mode* = svn:mime-type=text/X-xcode
 *.pbxuser = svn:mime-type=text/X-xcode
 *.perspective* = svn:mime-type=text/X-xcode
 *.pbxproj = svn:mime-type=text/X-xcode
 ```
-=========================================
+## 2.5 svn 参数说明
 svn 命令共同的选项
 --targets list 读取list并将其解释为一个将要操作的参数列表
 --non-recurisive, –N 只操作单个目录，不处理子目录
@@ -572,6 +572,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNj
-Q1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMzU1NDU4NzI2LC0xMzcxOTc0MTcxLDE5NT
+QzOTc5MDMsMTY0NTY0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2
+NTddfQ==
 -->
