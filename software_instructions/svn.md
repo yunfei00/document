@@ -224,7 +224,7 @@ svn status path（目录下的文件和子目录的状态，正常状态不显�
 1）
 【?：不在svn的控制中；M：内容被修改；C：发生冲突；A：预定加入到版本库；K：被锁定】
 2）svn status -v path(显示文件和子目录状态)
-第一列保持相同，第二列显示工作版本号，第三和第四列显示最后一次修改的版本号和修改人。
+第一列保持相同z，第二列显示工作版本号，第三和第四列显示最后一次修改的版本号和修改人。
 注：svn status、svn diff和 svn revert这三条命令在没有网络的情况下也可以执行的，原因是svn在本地的.svn中保留了本地版本的原始拷贝。
 简写：svn st
 7、删除文件
@@ -563,6 +563,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTcwMDE1MzAxLDE5NTQzOTc5MDMsMTY0NT
+Y0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
