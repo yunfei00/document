@@ -271,22 +271,15 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 
 14. 创建纳入版本控制下的新目录
-```
-svn mkdir: 创建纳入版本控制下的新目录。
-用法: 1、mkdir PATH…
-```
-2、mkdir URL…
-创建版本控制的目录。
-1、每一个以工作副本 PATH 指定的目录，都会创建在本地端，并且加入新增
-调度，以待下一次的提交。
-2、每个以URL指定的目录，都会透过立即提交于仓库中创建。
-在这两个情况下，所有的中间目录都必须事先存在。
-15、恢复本地修改
+	```
+	svn mkdir 创建纳入版本控制下的新目录。
+	```
+15. 恢复本地修改
 svn revert: 恢复原始未改变的工作副本文件 (恢复大部份的本地修改)。revert:
 用法: revert PATH…
 注意: 本子命令不会存取网络，并且会解除冲突的状况。但是它不会恢复
 被删除的目录
-16、代码库URL变更
+16. 代码库URL变更
 svn switch (sw): 更新工作副本至不同的URL。
 用法: 1、switch URL [PATH]
 2、switch –relocate FROM TO [PATH...]
@@ -296,15 +289,15 @@ svn switch (sw): 更新工作副本至不同的URL。
 2、改写工作副本的URL元数据，以反映单纯的URL上的改变。当仓库的根URL变动
 (比如方案名或是主机名称变动)，但是工作副本仍旧对映到同一仓库的同一目录时使用
 这个命令更新工作副本与仓库的对应关系。
-17、解决冲突
+17. 解决冲突
 svn resolved: 移除工作副本的目录或文件的“冲突”状态。
 用法: resolved PATH…
 注意: 本子命令不会依语法来解决冲突或是移除冲突标记；它只是移除冲突的
 相关文件，然后让 PATH 可以再次提交。
-18、输出指定文件或URL的内容。
+18. 输出指定文件或URL的内容。
 svn cat 目标[@版本]…如果指定了版本，将从指定的版本开始查找。
 svn cat -r PREV filename > filename (PREV 是上一版本,也可以写具体版本号,这样输出结果是可以提交的)
-19、配置忽略文件 vi ~/.subversion/config
+19. 配置忽略文件 vi ~/.subversion/config
 找到 global-ignores 一行，去掉注释，编辑成
 global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 找到 enable-auto-props = yes 把注释去掉，在[auto-props] Section声明以下文本文件
@@ -581,6 +574,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5Mzk3MDc1LDE5NTQzOTc5MDMsMTY0NT
-Y0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbLTE5NjYzMzM3NTEsMTk1NDM5NzkwMywxNj
+Q1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
 -->
