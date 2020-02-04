@@ -118,19 +118,22 @@ svnadmin create /Users/j00226207/svn/mycode
 ```
 指令执行成功后，会发现硬盘上多了个 /Users/j00226207/svn/mycode目录
 ## 2.2 配置svn的用户权限
-主要是修改/svn/mycode/conf目录下的三个文件
-1. 打开svnserve.conf，将下列配置项前面的#和空格都去掉
+
+1. 主要是修改/svn/mycode/conf目录下的三个文件,打开svnserve.conf，将下列配置项前面的#和空格都去掉
 	```
 	# anon-access = none
 	# auth-access = write
 	# password-db = passwd
 	# authz-db = authz
 	```
-anon-access = read代表匿名访问的时候是只读的，若改为anon-access = none代表禁止匿名访问，需要帐号密码才能访问
-2.打开passwd，在[users]下面添加帐号和密码
+	anon-access = read代表匿名访问的时候是只读的，若改为anon-access = none代表禁止匿名访问，需要帐号密码才能访问
+2. 打开passwd，在[users]下面添加帐号和密码
+```
 [users]
 test=123
 tmp = 456
+```
+
 帐号是test，密码是123
 3.打开authz，配置用户组和权限
 我们可以将在passwd里添加的用户分配到不同的用户组里，以后的话，就可以对不同用户组设置不同的权限，没有必要对每个用户进行单独设置权限。
@@ -558,5 +561,5 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMzQ1NDY1LC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbNDE4MDg2Mzk1LC02MDM5MjY2NTddfQ==
 -->
