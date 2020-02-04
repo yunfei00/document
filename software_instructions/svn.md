@@ -460,21 +460,19 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	--non-recursive, –N
 	--diff3-cm 使用cmd作为合并命令
 	```
-28. svn unlock
-解开工作拷贝文件或者项目仓库URL的锁。
-svn unlock target…
---force 砸坏现有对target的锁，甚至它不是被当前工作拷贝所拥有的。
-svn update
-把改动从项目仓库带到工作拷贝来。
-```
-svn update path…
---revision, –r rev 更新到版本rev
---non-recrusive, –N
---diff3-cmd
-```
-=========================================
-
-svn 出错信息总汇
+28. svn unlock 解开工作拷贝文件或者项目仓库URL的锁
+	```
+	svn unlock target…
+	--force 砸坏现有对target的锁，甚至它不是被当前工作拷贝所拥有的。
+	```
+29. svn update 把改动从项目仓库带到工作拷贝来。
+	```
+	svn update path…
+	--revision, –r rev 更新到版本rev
+	--non-recrusive, –N
+	--diff3-cmd
+	```
+## 2.6 svn 出错信息总汇
 
 -svn 出错信息总汇 . Subversion 错误信息一览表 注意： 不同的客户端（命令行，TortoiseSVN, AnkhSVN, Subclipse等）的出错信息可能稍有不同。 下面表格中的出错信息以 http://svn.moon.ossxp.com/svn/test 版本库做示例，仅供参考。 编号 出错信息 问题剖析 解决方案 1. svn: Server sent unexpected return value (500 I-
 svn 出错信息总汇 . Subversion 错误信息一览表
@@ -604,7 +602,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE1NTEyODksMTMzMDE5MjgzNiw5Nz
-g4NTMxNzksLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4
-NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbNDM4ODY1MjkzLDEzMzAxOTI4MzYsOTc4OD
+UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
+MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
