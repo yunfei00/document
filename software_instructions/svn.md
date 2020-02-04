@@ -142,7 +142,7 @@ svnadmin create /Users/j00226207/svn/mycode
 	[groups]
 	testgroup = test,tmp
 	```
-	说明test和tmp都是属于testgroup这个组的，接下来再进行权限配置。
+	test和tmp都是属于testgroup这个组的，接下来再进行权限配置。
 	使用[/]代表svn服务器中的所有资源库
 	[/]
 	@topgroup=rw上面的配置说明topgroup这个组中的所有用户对所有资源库都有读写(rw)权限，组名前面要用@
@@ -151,10 +151,11 @@ svnadmin create /Users/j00226207/svn/mycode
 	mj=rw
 	至于其他精细的权限控制，可以参考authz文件中的其他内容
 
-4.启动svn服务器
-前面配置了这么多，最关键还是看能否正常启动服务器，若启动不来，前面做再多工作也是徒劳。
-在终端输入下列指令： svnserve -d -r /Users/j00226207/svn/mycode/
-没有任何提示就说明启动成功了
+4. 启动svn服务器
+	```
+	svnserve -d -r /Users/j00226207/svn/mycode/
+	```
+	没有任何提示就说明启动成功了
 
 5.关闭svn服务器
 如果你想要关闭svn服务器，最有效的办法是打开实用工具里面的“活动监视器”
@@ -562,5 +563,5 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI3NDYwMDcsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
