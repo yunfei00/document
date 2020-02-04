@@ -167,12 +167,13 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 	将/Users/j00226207/work/python svn://localhost/mycode/python中的所有内容，上传到服务器mycode仓库的python目录下，后面双引号中的"初始化导入"是注释
 2. 从服务器端下载代码到客户端本地
-在终端中输入 svn checkout svn://localhost/mycode --username=test --password=123 /Users/j00226207/test/
-我解释下指令的意思：将服务器中mycode仓库的内容下载到/Users/j00226207/test/目录中
+	```
+	svn checkout svn://localhost/mycode --username=test --password=123 /Users/j00226207/test/
+	```
+	将服务器中mycode仓库的内容下载到/Users/j00226207/test/目录中
  注：localhost（本地服务器IP地址）可以替换成你本地服务器的IP地址。当你和别人同用一个svn时，你可以输入你要进行数据请求的服务器的IP地址。
-
-3.提交更改过的代码到服务器
-在步骤2中已经将服务器端的代码都下载到 /Users/j00226207/test目录中，现在修改下里面的一些代码，然后提交这些修改到服务器
+3. 提交更改过的代码到服务器
+修改下里面的一些代码，然后提交这些修改到服务器
 1> 打开终端，先定位到 /Users/j00226207/test目录，输入：cd  /Users/j00226207/test
 2> 输入提交指令： svn commit -m "修改了gui.py"
 这个指令会将/Users/j00226207/test下的所有修改都同步到服务器端，假如这次我只修改了gui.py文件
@@ -560,6 +561,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NDUyNzg2LDE2NDU2NDg0NzAsMTY5ND
-Q4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTk4Nzg5OTY0OSwxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
