@@ -180,13 +180,14 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 	svn update
 	```
-5.至于svn的其他用法，可以在终端输入：svn help
-
-1、将文件checkout到本地目录
-svn checkout path（path是服务器上的目录）
-例如：svn checkout svn://192.168.1.1/pro/domain
-简写：svn co
-2、往版本库中添加新的文件
+## 2.4 svn 指令集
+1. 将文件checkout到本地目录
+	```
+	svn checkout path（path是服务器上的目录）
+	例如：svn checkout svn://192.168.1.1/pro/domain
+	简写：svn co
+	```
+2. 往版本库中添加新的文件
 svn add file
 例如：svn add test.PHP(添加test.php)
 svn add *.php(添加当前目录下所有的php文件)
@@ -552,6 +553,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM3NDc4NCwxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTg2NzU1MDM3LDE2NDU2NDg0NzAsMTY5ND
+Q4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
