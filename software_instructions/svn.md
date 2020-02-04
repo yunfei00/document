@@ -210,17 +210,13 @@ svnadmin create /Users/j00226207/svn/mycode
 	例如：svn lock -m “lock test file“ test.php
 	svn unlock PATH
 	```
-5、更新到某个版本
-```
-```
-
+5. 更新到某个版本
 	```
-svn update -r m path
-svn update如果后面没有目录，默认将当前目录以及子目录下的所有文件都更新到最新版本。
+	svn update -r m path
+	svn update如果后面没有目录，默认将当前目录以及子目录下的所有文件都更新到最新版本。
 	svn update -r 200 test.php(将版本库中的文件test.php还原到版本200)
-	简写：svn up
+		简写：svn up
 	```
-
 6、查看文件或者目录状态
 1）svn status path（目录下的文件和子目录的状态，正常状态不显示）
 【?：不在svn的控制中；M：内容被修改；C：发生冲突；A：预定加入到版本库；K：被锁定】
@@ -564,6 +560,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA0NTgxOTksMTY0NTY0ODQ3MCwxNj
-k0NDg5MzEyLC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbMTY0ODc1MzIyMiwxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
