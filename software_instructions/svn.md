@@ -177,13 +177,10 @@ svnadmin create /Users/j00226207/svn/mycode
 	svn commit -m "修改了gui.py"
 	```
 4. 更新服务器端的代码到客户端
-这个应该是最简单的指令了，在终端中定位到客户端代码目录后，比如上面的/Users/j00226207/test目录，然后再输入指令：svn update
+	```
+	svn update
+	```
 5.至于svn的其他用法，可以在终端输入：svn help
-注：1、系统自带的svn无法支持本地删除文件的更新，即当本地删除文件后去更新服务器的文件时，删除的文件又从服务器上的文件夹中下载到你的本地文件夹中。但是它是支持文件修改后的更新操作的。
-2、记得写注释，否则系统不会识别命令的。
-mac svn 删除.svn隐藏文件的命令
-打开终端,进到所在的目录,然后出入一下代码
-find . -name ".svn" | xargs rm -Rf
 
 1、将文件checkout到本地目录
 svn checkout path（path是服务器上的目录）
@@ -555,6 +552,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2ODQ5NDUxLDE2NDU2NDg0NzAsMTY5ND
-Q4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTE2ODM3NDc4NCwxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
