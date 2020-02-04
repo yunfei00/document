@@ -188,7 +188,10 @@ svnadmin create /Users/j00226207/svn/mycode
 	简写：svn co
 	```
 2. 往版本库中添加新的文件
+ ```
 svn add file
+```
+
 例如：svn add test.PHP(添加test.php)
 svn add *.php(添加当前目录下所有的php文件)
 svn add xxx@2x.png 文件时， 正常命令 svn add xxx@2x.png 会报 xxx not found
@@ -553,6 +556,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzU1MDM3LDE2NDU2NDg0NzAsMTY5ND
-Q4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbMTUzNDUwMDQ1MSwxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
