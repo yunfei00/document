@@ -188,16 +188,16 @@ svnadmin create /Users/j00226207/svn/mycode
 	简写：svn co
 	```
 2. 往版本库中添加新的文件
- ```
-svn add file
-```
-
-例如：svn add test.PHP(添加test.php)
-svn add *.php(添加当前目录下所有的php文件)
-svn add xxx@2x.png 文件时， 正常命令 svn add xxx@2x.png 会报 xxx not found
-需用 svn add xxx@2x.png@  来添加，也就是图片名字后面再添加一个@ 符号，
-这是因为 svn 命令最后需要用@符号来指定一个版本导致的
-遇到 xxx@2x.png文件时，如果用svn命令行添加到 版本库的话，只能手动一个一个添加，不能批量添加
+	```
+	svn add file
+	例如：svn add test.PHP(添加test.php)
+	svn add *.php(添加当前目录下所有的php文件)
+	```
+		svn add xxx@2x.png 文件时， 正常命令 svn add xxx@2x.png 会报 xxx not found
+		需用 svn add xxx@2x.png@  来添加，也就是图片名字后面再添加一个@ 符号，
+		这是因为 svn 命令最后需要用@符号来指定一个版本导致的
+		遇到 xxx@2x.png文件时，如果用svn命令行添加到 版本库的话，只能手动一个一个添加，不能批量添加
+	```
 3、将改动的文件提交到版本库
 svn commit -m “LogMessage“ [-N] [--no-unlock] PATH(如果选择了保持锁，就使用–no-unlock开关)
 例如：svn commit -m “add test file for my test“ test.php
@@ -556,6 +556,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDUwMDQ1MSwxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbNjE5Nzc3OTkzLDE2NDU2NDg0NzAsMTY5ND
+Q4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
