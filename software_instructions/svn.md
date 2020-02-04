@@ -111,11 +111,12 @@ svnserve -d -r /home/yunfei/svn_server/
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
 我们首先来看下，如何在Mac环境下搭建svn服务器端环境。
 
-## 1、创建代码仓库，用来存储客户端所上传的代码
-我先在 /Users/j00226207     目录下新建一个svn目录，以后可以在svn目录下创建多个仓库目录
-
-打开终端，创建一个mycode仓库，输入指令：
+## 2.1、创建代码仓库，用来存储客户端所上传的代码
+我先在 /Users/j00226207 目录下新建一个svn目录，创建一个mycode仓库，输入指令：
+	```
 svnadmin create /Users/j00226207/svn/mycode
+	```
+
 指令执行成功后，会发现硬盘上多了个 /Users/j00226207/svn/mycode目录
 二、配置svn的用户权限
 主要是修改/svn/mycode/conf目录下的三个文件
@@ -558,5 +559,5 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTYzMTY5MCwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTExMDgwNjM5MDIsLTYwMzkyNjY1N119
 -->
