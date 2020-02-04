@@ -109,28 +109,28 @@ samba 貌似只能在局域网中添加（还未深入研究）
 		valid users = samba_user  ---可以查看的用户
 	```
 5. 测试一下刚才的配置文件是否正确
-```
-testparm
-```
-出现Loaded services file OK.就说明没有问题。
+	```
+	testparm
+	```
+	出现Loaded services file OK.就说明没有问题。
 
 6. 添加用户组
-
-groupadd SAMBA
-
+	```
+	groupadd SAMBA
+	```
 7. 添加用户samba_user到SAMBA用户组
-
-useradd samba_user -G SAMBA
-
+	```
+	useradd samba_user -G SAMBA
+	```
 7. 设置用户密码
-
-passwd samba_user
-
+	```
+	passwd samba_user
+	```
 8. 启动samba服务，并设置开机启动~
-
-systemctl start smb
-
-systemctl enable smb
+	```
+	systemctl start smb
+	systemctl enable smb
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzYxMTUyMF19
+eyJoaXN0b3J5IjpbNjUxNjM3MDA2XX0=
 -->
