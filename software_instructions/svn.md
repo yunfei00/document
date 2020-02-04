@@ -414,24 +414,29 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	```
 	svn propdel propname path…
 	```
-20svn propedit
-编辑文件或者目录的属性
-svn propedit propname path…
-svn propget
-打印文件或者目录的属性值
-svn propget propname path…
---strict 禁用额外的换行和其它的美化措施（在把二进制属性重定向到文件时会有用处)
-svn proplist
-列出文件或者目录的所有属性
---verbose
---recursive
---revision, –r rev 列出path在版本rev定义的属性
-svn propset(pset, ps)
-svn propset propname propval path…
---file, –F file 读取file的内容，使用它作为属性值.
---recursive
---encoding  enc 把值作为用enc编码的字符集
-svn resolved
+20. svn propedit 编辑文件或者目录的属性
+	```
+	svn propedit propname path…
+	```
+21. svn propget 打印文件或者目录的属性值
+	```
+	svn propget propname path…
+	--strict 禁用额外的换行和其它的美化措施（在把二进制属性重定向到文件时会有用处)
+	```
+22. svn proplist 列出文件或者目录的所有属性
+	```
+	--verbose
+	--recursive
+	--revision, –r rev 列出path在版本rev定义的属性
+	```
+23. svn propset(pset, ps)
+	```
+	svn propset propname propval path…
+	--file, –F file 读取file的内容，使用它作为属性值.
+	--recursive
+	--encoding  enc 把值作为用enc编码的字符集
+	```
+24. svn resolved
 移除工作拷贝文件或者目录的冲突状态
 --recursive
 svn revert
@@ -596,7 +601,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjM3MTYzLDEzMzAxOTI4MzYsOTc4OD
-UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
-MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbMTMyOTc1Mjk1OSwxMzMwMTkyODM2LDk3OD
+g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
+NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
