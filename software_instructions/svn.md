@@ -372,26 +372,29 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	--file, –F file
 	```
 9. svn diff  显示两个路径之间的差异
-`svn diff –r rev1:rev2 target…
-svn diff oldurl newurl
-svn export
-创建一个无版本记录的拷贝.
-svn export –r rev URL path
-从项目仓库的指定URL导出一个干净的目录树到path中，如果指定了rev参数，导出rev版本的，否则到处最新版本。
-svn import
-提交一个无版本的文件或者树到项目仓库
-svn import path URL
-svn info
-显示文件或者目录的信息。
-svn list
-列出项目仓库中的目录条数。
-svn lock
-锁住文件让其它用户不能提交改动。
-svn lock target
---message, –m msg 使用msg作为锁信息消息
---force 强制加锁成功，通过从其他用户或者工作拷贝把锁给偷过来。
-svn log
-显示一些版本或者文件的日志消息.
+	```
+	svn diff –r rev1:rev2 target…
+	svn diff oldurl newurl
+	```
+10. svn export 创建一个无版本记录的拷贝.
+	```
+	svn export –r rev URL path
+	从项目仓库的指定URL导出一个干净的目录树到path中，如果指定了rev参数，导出rev版本的，否则到处最新版本。
+	```
+11. svn import
+	```
+	提交一个无版本的文件或者树到项目仓库
+	svn import path URL
+	```
+12. svn info 显示文件或者目录的信息。
+13. svn list 列出项目仓库中的目录条数。
+14. svn lock 锁住文件让其它用户不能提交改动。
+	```
+	svn lock target
+	--message, –m msg 使用msg作为锁信息消息
+	--force 强制加锁成功，通过从其他用户或者工作拷贝把锁给偷过来。
+	```
+15. svn log 显示一些版本或者文件的日志消息.
 --stop-on-copy 在遍历历史的时候不要穿越拷贝（对于查找分支的起点很有用）
 svn merge
 把两个来源的差异应用给工作拷贝路径。
@@ -587,7 +590,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODQ4NjMwLDEzMzAxOTI4MzYsOTc4OD
-UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
-MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbMTMxNDI4MDY2MywxMzMwMTkyODM2LDk3OD
+g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
+NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
