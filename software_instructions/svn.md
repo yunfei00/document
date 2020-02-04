@@ -254,20 +254,27 @@ svnadmin create /Users/j00226207/svn/mycode
 	简写：svn di
 	```
 11. 将两个版本之间的差异合并到当前文件
+	```
+	svn merge -r m:n path
+	例如：svn merge -r 200:205 test.php（将版本200与205之间的差异合并到当前文件，但是一般都会产生冲突，需要处理一下）
+	```
+12. SVN 帮助
+	```
+	svn help
+	svn help ci
+	```
+13. 版本库下的文件和目录列表
+	```
+	svn list path
+	显示path目录下的所有属于版本库的文件和目录
+	简写：svn ls
+	```
+
+14. 创建纳入版本控制下的新目录
 ```
-svn merge -r m:n path
-例如：svn merge -r 200:205 test.php（将版本200与205之间的差异合并到当前文件，但是一般都会产生冲突，需要处理一下）
-``
-12、SVN 帮助
-svn help
-svn help ci
-13、版本库下的文件和目录列表
-svn list path
-显示path目录下的所有属于版本库的文件和目录
-简写：svn ls
-14、创建纳入版本控制下的新目录
 svn mkdir: 创建纳入版本控制下的新目录。
 用法: 1、mkdir PATH…
+```
 2、mkdir URL…
 创建版本控制的目录。
 1、每一个以工作副本 PATH 指定的目录，都会创建在本地端，并且加入新增
@@ -574,6 +581,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODQzMTQxMCwxOTU0Mzk3OTAzLDE2ND
-U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbNTY5Mzk3MDc1LDE5NTQzOTc5MDMsMTY0NT
+Y0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
