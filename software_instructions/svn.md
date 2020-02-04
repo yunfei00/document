@@ -157,7 +157,7 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 	没有任何提示就说明启动成功了
 
-5.关闭svn服务器
+5. 关闭svn服务器
 如果你想要关闭svn服务器，最有效的办法是打开实用工具里面的“活动监视器”
 这里列出一大堆svn指令，后面括号中的内容的一般代表着指令的简称，比如我们可以用svn ci代替svn commit，用svn co代替svn checkout
 可以使用svn help查看
@@ -563,5 +563,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbMTY0NTY0ODQ3MCwxNjk0NDg5MzEyLC02MD
+M5MjY2NTddfQ==
 -->
