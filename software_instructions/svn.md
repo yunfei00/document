@@ -279,18 +279,23 @@ svnadmin create /Users/j00226207/svn/mycode
 	svn revert 恢复原始未改变的工作副本文件 (恢复大部份的本地修改)
 	```
 16. 代码库URL变更
-```
-svn switch (sw): 更新工作副本至不同的URL。
-```
+	```
+	svn switch (sw): 更新工作副本至不同的URL。
+	```
 17. 解决冲突
-svn resolved: 移除工作副本的目录或文件的“冲突”状态。
-用法: resolved PATH…
-注意: 本子命令不会依语法来解决冲突或是移除冲突标记；它只是移除冲突的
-相关文件，然后让 PATH 可以再次提交。
+	```
+	svn resolved: 移除工作副本的目录或文件的“冲突”状态。
+	用法: resolved PATH…
+	注意: 本子命令不会依语法来解决冲突或是移除冲突标记；它只是移除冲突的
+	相关文件，然后让 PATH 可以再次提交。
+	```
 18. 输出指定文件或URL的内容。
-svn cat 目标[@版本]…如果指定了版本，将从指定的版本开始查找。
-svn cat -r PREV filename > filename (PREV 是上一版本,也可以写具体版本号,这样输出结果是可以提交的)
+	```
+	svn cat 目标[@版本]…如果指定了版本，将从指定的版本开始查找。
+	svn cat -r PREV filename > filename (PREV 是上一版本,也可以写具体版本号,这样输出结果是可以提交的)
+	```
 19. 配置忽略文件 vi ~/.subversion/config
+```
 找到 global-ignores 一行，去掉注释，编辑成
 global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 找到 enable-auto-props = yes 把注释去掉，在[auto-props] Section声明以下文本文件
@@ -567,6 +572,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTg5NTY3OSwxOTU0Mzk3OTAzLDE2ND
-U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNj
+Q1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
 -->
