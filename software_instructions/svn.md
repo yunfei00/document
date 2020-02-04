@@ -307,25 +307,30 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ```
 ## 2.5 svn 参数说明
 1. svn 命令共同的选项
-
---targets list 读取list并将其解释为一个将要操作的参数列表
---non-recurisive, –N 只操作单个目录，不处理子目录
---verbose, –v 打印额外的信息
---quiet, –q 打印的信息尽可能少
---username,  name 指定在连接授权时使用的用户名
---password, pawd 指定要使用的密码
---no-auth-cache 不要缓存身份令牌
---non-interactive 不要提示输入额外的信息
---config-dir  dir  从dir读取用户配置
---editor-cm cmd 使用cmd作为日志消息的编辑器
-svn add
-把文件及目录的名称添加给版本控制系统。他们会在下次提交时被添加到项目仓库
-svn add path
---auto-props 在添加他们的时候自动设置文件的属性
---no-auto-props 禁用自动属性设置
-svn blame
-显示文件每行的版本及作者信息
---revision, –r rev 如果指定的rev是单个版本，显示该版本作者信息。如果是范围rev1:rev2, 显示rev2版本作者的信息，但只检查版本到rev1.
+	```
+	--targets list 读取list并将其解释为一个将要操作的参数列表
+	--non-recurisive, –N 只操作单个目录，不处理子目录
+	--verbose, –v 打印额外的信息
+	--quiet, –q 打印的信息尽可能少
+	--username,  name 指定在连接授权时使用的用户名
+	--password, pawd 指定要使用的密码
+	--no-auth-cache 不要缓存身份令牌
+	--non-interactive 不要提示输入额外的信息
+	--config-dir  dir  从dir读取用户配置
+	--editor-cm cmd 使用cmd作为日志消息的编辑器
+	```
+2. svn add 
+	```
+	把文件及目录的名称添加给版本控制系统。他们会在下次提交时被添加到项目仓库
+	svn add path
+	--auto-props 在添加他们的时候自动设置文件的属性
+	--no-auto-props 禁用自动属性设置
+	```
+3. svn blame
+	```
+	显示文件每行的版本及作者信息
+	--revision, –r rev 如果指定的rev是单个版本，显示该版本作者信息。如果是范围rev1:rev2, 显示rev2版本作者的信息，但只检查版本到rev1.
+	```
 svn cat
 输出指定文件或者URL的内容
 svn cat target…
@@ -573,7 +578,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4ODUzMTc5LC0xMzcxOTc0MTcxLDE5NT
-QzOTc5MDMsMTY0NTY0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2
-NTddfQ==
+eyJoaXN0b3J5IjpbMTMzMDE5MjgzNiw5Nzg4NTMxNzksLTEzNz
+E5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OTQ0ODkz
+MTIsLTYwMzkyNjY1N119
 -->
