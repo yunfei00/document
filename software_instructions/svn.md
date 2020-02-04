@@ -218,20 +218,22 @@ svnadmin create /Users/j00226207/svn/mycode
 	简写：svn up
 	```
 6. 查看文件或者目录状态
-```
-svn status path（目录下的文件和子目录的状态，正常状态不显示）
-?：不在svn的控制中；M：内容被修改；C：发生冲突；A：预定加入到版本库；K：被锁定
-```
+	```
+	svn status path（目录下的文件和子目录的状态，正常状态不显示）
+	?：不在svn的控制中；M：内容被修改；C：发生冲突；A：预定加入到版本库；K：被锁定
+	svn status -v path(显示文件和子目录状态)
+	第一列保持相同z，第二列显示工作版本号，第三和第四列显示最后一次修改的版本号和修改人。
+	注：svn status、svn diff和 svn revert这三条命令在没有网络的情况下也可以执行的，原因是svn在本地的.svn中保留了本地版本的原始拷贝。
+	简写：svn st
+	```
+7. 删除文件
+	```
+	svn delete path -m “delete test fle“
+	例如：svn delete svn://192.168.1.1/pro/domain/test.php -m “delete test file”
+	或者直接svn delete test.php 然后再svn ci -m ‘delete test file‘，推荐使用这种
+	简写：svn (del, remove, rm)
+	```
 
-svn status -v path(显示文件和子目录状态)
-第一列保持相同z，第二列显示工作版本号，第三和第四列显示最后一次修改的版本号和修改人。
-注：svn status、svn diff和 svn revert这三条命令在没有网络的情况下也可以执行的，原因是svn在本地的.svn中保留了本地版本的原始拷贝。
-简写：svn st
-7、删除文件
-svn delete path -m “delete test fle“
-例如：svn delete svn://192.168.1.1/pro/domain/test.php -m “delete test file”
-或者直接svn delete test.php 然后再svn ci -m ‘delete test file‘，推荐使用这种
-简写：svn (del, remove, rm)
 8、查看日志
 svn log path
 例如：svn log test.php 显示这个文件的所有修改记录，及其版本号的变化
@@ -563,6 +565,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQxMTA3NTEsMTk1NDM5NzkwMywxNj
-Q1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTc1Njg3MTIxNiwxOTU0Mzk3OTAzLDE2ND
+U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
