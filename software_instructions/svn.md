@@ -436,28 +436,31 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	--recursive
 	--encoding  enc 把值作为用enc编码的字符集
 	```
-24. svn resolved
-移除工作拷贝文件或者目录的冲突状态
---recursive
-svn revert
-恢复工作拷贝的文件（撤销最新的本地修改）
-svn revert path 这个命令不需要网络连接
---recursive
-svn status
-打印工作拷贝中文件或者目录的状态
-svn status path…
---show-updates, –u 联系服务器显示更新信息
---no-ignore 忽视默认设置和svn:ignore属性设置的忽略项
---non-recursive, –N
---verbose, –v
-svn switch
-把工作拷贝转向到其他的URL
-svn switch URL path
-更新工作拷贝让其使用项目仓库的新URL.这个行为类似svn update 而且是一种把工作拷贝转向到同一项目仓库中的分支或者标签的办法。
---revision, –r rev 转向到版本rev
---non-recursive, –N
---diff3-cm 使用cmd作为合并命令
-svn unlock
+24. svn resolved 移除工作拷贝文件或者目录的冲突状态
+	```
+	--recursive
+	```
+25. svn revert 恢复工作拷贝的文件（撤销最新的本地修改）
+	```
+	svn revert path 这个命令不需要网络连接
+	--recursive
+	```
+26. svn status 打印工作拷贝中文件或者目录的状态
+	```svn status path…
+	--show-updates, –u 联系服务器显示更新信息
+	--no-ignore 忽视默认设置和svn:ignore属性设置的忽略项
+	--non-recursive, –N
+	--verbose, –v
+	```
+27. svn switch 把工作拷贝转向到其他的URL
+	```
+	svn switch URL path
+	更新工作拷贝让其使用项目仓库的新URL.这个行为类似svn update 而且是一种把工作拷贝转向到同一项目仓库中的分支或者标签的办法。
+	--revision, –r rev 转向到版本rev
+	--non-recursive, –N
+	--diff3-cm 使用cmd作为合并命令
+	```
+28. svn unlock
 解开工作拷贝文件或者项目仓库URL的锁。
 svn unlock target…
 --force 砸坏现有对target的锁，甚至它不是被当前工作拷贝所拥有的。
@@ -601,7 +604,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTc1Mjk1OSwxMzMwMTkyODM2LDk3OD
-g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
-NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTEwNDE1NTEyODksMTMzMDE5MjgzNiw5Nz
+g4NTMxNzksLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4
+NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
 -->
