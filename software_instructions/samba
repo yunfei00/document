@@ -51,37 +51,29 @@
 	```
 	chmod u+rwx,g+rwx,o-rwx /home/user
 	```
-这时可以用smbpasswd命令增加samba账号user了
-
-sudo smbpasswd -a user
-
-New SMB password:
-
-Retype new SMB password:
-
-Added user user.
-
-6 重启samba
-
-sudo service smbd restart
-
-7 windows 访问
-
-//192.168.0.20 即可访问
-
-其他：
-
-sudo useradd yunfei
-
+	这时可以用smbpasswd命令增加samba账号user了
+	```
+	sudo smbpasswd -a user
+	New SMB password:
+	Retype new SMB password:
+	Added user user.
+	```
+6. 重启samba
+	```
+	sudo service smbd restart
+	```
+7. windows 访问
+	```
+	\\192.168.0.20 即可访问
+	```
 # 2 centOS 安装samba
 
 samba 貌似只能在局域网中添加（还未深入研究）
-
 1. 使用yum方式安装samba，如果并不确定是否有安装samba，可以使用下面命令查看：
-
+```
 rpm -qa | grep samba
-
-2. 如果如图所示为空，则说明未安装samba相关程序
+```
+3. 如果如图所示为空，则说明未安装samba相关程序
 
 yum install samba -y
 
@@ -161,5 +153,5 @@ systemctl start smb
 
 systemctl enable smb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDMzNTUyNF19
+eyJoaXN0b3J5IjpbLTE0MTg2MDc0OTBdfQ==
 -->
