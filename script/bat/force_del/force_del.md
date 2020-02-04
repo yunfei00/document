@@ -9,9 +9,7 @@ DEL /F /A /Q \\?\%1 　　
 
 RD /S /Q \\?\%1
 
-[脚本文件](https://pan.baidu.com/s/1ErYycQa1ByYTqm98RirAwA)
-
-百度网盘文件提取码： 4gq1
+[脚本文件](https://github.com/yunfei00/document/blob/master/script/bat/force_del/force_del.bat)
 
 脚本解析：
 
@@ -69,4 +67,7 @@ RD [/S] [/Q] [drive:]path
 
 /Q 安静模式，带 /S 删除目录树时不要求确认
 
-Windows下的通配符主要就2个：*代替任意个任意字符?代替1个任意字符主要用在文件/文件夹名上，当然也有一些配置域、IP等高级命令会用到*，但是那是属于网络协议规范的范畴了。例子：比如您想查windows下的所有exe文件：dir c:\windows\*.exe如果您只想查windows下文件名有2个字符的exe文件：dir c:\windows\??.exe*和？也可以和固定字符混用，比如"新建文件夹*"，“exp_201312??.log”，“backup_?_*.txt”等
+Windows下的通配符主要就2个：
+*代替任意个任意字符
+?代替1个任意字符主要用在文件/文件夹名上，当然也有一些配置域、IP等高级命令会用到*，但是那是属于网络协议规范的范畴了。
+例子：比如您想查windows下的所有exe文件：dir c:\windows\*.exe如果您只想查windows下文件名有2个字符的exe文件：dir c:\windows\??.exe*和？也可以和固定字符混用，比如"新建文件夹*"，“exp_201312??.log”，“backup_?_*.txt”等
