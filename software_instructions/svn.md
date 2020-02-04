@@ -306,7 +306,8 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 *.pbxproj = svn:mime-type=text/X-xcode
 ```
 ## 2.5 svn 参数说明
-svn 命令共同的选项
+1. svn 命令共同的选项
+
 --targets list 读取list并将其解释为一个将要操作的参数列表
 --non-recurisive, –N 只操作单个目录，不处理子目录
 --verbose, –v 打印额外的信息
@@ -572,7 +573,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1NDU4NzI2LC0xMzcxOTc0MTcxLDE5NT
+eyJoaXN0b3J5IjpbOTc4ODUzMTc5LC0xMzcxOTc0MTcxLDE5NT
 QzOTc5MDMsMTY0NTY0ODQ3MCwxNjk0NDg5MzEyLC02MDM5MjY2
 NTddfQ==
 -->
