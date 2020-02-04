@@ -107,7 +107,9 @@ realm = /home/yunfei/svn_server
 svnserve -d -r /home/yunfei/svn_server/
 ```
 5. 配置开机启动svn服务
+	安装好 svn 服务后，默认是没有随系统启动自动启动的， CentOS 7 的 /etc/rc.d/rc.local 是没有执行权限的， 系统建议创建 systemd service 启动服务
 
+于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service
 # 2 mac 上svn使用
 环境说明：
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
@@ -477,8 +479,8 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjAwMDY3NSwxNDc4MjUzNzY1LDQzOD
-g2NTI5MywxMzMwMTkyODM2LDk3ODg1MzE3OSwtMTM3MTk3NDE3
-MSwxOTU0Mzk3OTAzLDE2NDU2NDg0NzAsMTY5NDQ4OTMxMiwtNj
-AzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbODAzMDUzMTQ2LC0xODIwMDA2NzUsMTQ3OD
+I1Mzc2NSw0Mzg4NjUyOTMsMTMzMDE5MjgzNiw5Nzg4NTMxNzks
+LTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OT
+Q0ODkzMTIsLTYwMzkyNjY1N119
 -->
