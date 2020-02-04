@@ -107,7 +107,7 @@ realm = /home/yunfei/svn_server
 svnserve -d -r /home/yunfei/svn_server/
 ```
 5. 配置开机启动svn服务
-	安装好 svn 服务后，默认是没有随系统启动自动启动的， CentOS 7 的 /etc/rc.d/rc.local 是没有执行权限的， 系统建议创建 systemd service 启动服务
+	a. 安装好 svn 服务后，默认是没有随系统启动自动启动的， CentOS 7 的 /etc/rc.d/rc.local 是没有执行权限的， 系统建议创建 systemd service 启动服务
 	于是查看 systemd 里 svn 的配置文件 /lib/systemd/system/svnserve.service,内容如下：
 	```
 	[Unit]
@@ -122,13 +122,22 @@ svnserve -d -r /home/yunfei/svn_server/
 	[Install]
 	WantedBy=multi-user.target
 	```
-	找到 svn 的 service 配置文件 /etc/sysconfig/svnserve 编辑配置文件,将OPTIONS="-r /var/svn"改为svnk
+	b. 找到 svn 的 service 配置文件 /etc/sysconfig/svnserve 编辑配置文件,将OPTIONS="-r /var/svn"改为svn库的目录，修改后如下：
 	```
 	# OPTIONS is used to pass command-line arguments to svnserve.
 	# 
 	# Specify the repository location in -r parameter:
 	#OPTIONS="-r /var/svn"
 	OPTIONS="-r /home/yunfei/svn_server"
+	```
+	c. 输入如下命令
+	```
+	systemctl enable svnserve.service  
+	```
+	d. 重启服务器，查看是否有svn服务
+	```
+	reboot
+	
 	```
 	
 
@@ -502,8 +511,8 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEzNjg5NDIsLTE4MjAwMDY3NSwxND
-c4MjUzNzY1LDQzODg2NTI5MywxMzMwMTkyODM2LDk3ODg1MzE3
-OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0NzAsMT
-Y5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbMTYwNzkyNTgzMywtMTgyMDAwNjc1LDE0Nz
+gyNTM3NjUsNDM4ODY1MjkzLDEzMzAxOTI4MzYsOTc4ODUzMTc5
+LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3MCwxNj
+k0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
