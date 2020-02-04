@@ -234,21 +234,30 @@ svnadmin create /Users/j00226207/svn/mycode
 	简写：svn (del, remove, rm)
 	```
 
-8、查看日志
-svn log path
-例如：svn log test.php 显示这个文件的所有修改记录，及其版本号的变化
-9、查看文件详细信息
-svn info path
-例如：svn info test.php
-10、比较差异
-svn diff path(将修改的文件与基础版本比较)
-例如：svn diff test.php
-svn diff -r m:n path(对版本m和版本n比较差异)
-例如：svn diff -r 200:201 test.php
-简写：svn di
-11、将两个版本之间的差异合并到当前文件
+8. 查看日志
+	```
+	svn log path
+	例如：svn log test.php 显示这个文件的所有修改记录，及其版本号的变化
+	```
+
+9. 查看文件详细信息
+	```
+	svn info path
+	例如：svn info test.php
+	``` 
+10. 比较差异
+	```
+	svn diff path(将修改的文件与基础版本比较)
+	例如：svn diff test.php
+	svn diff -r m:n path(对版本m和版本n比较差异)
+	例如：svn diff -r 200:201 test.php
+	简写：svn di
+	```
+11. 将两个版本之间的差异合并到当前文件
+```
 svn merge -r m:n path
 例如：svn merge -r 200:205 test.php（将版本200与205之间的差异合并到当前文件，但是一般都会产生冲突，需要处理一下）
+``
 12、SVN 帮助
 svn help
 svn help ci
@@ -565,6 +574,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Njg3MTIxNiwxOTU0Mzk3OTAzLDE2ND
+eyJoaXN0b3J5IjpbLTY3ODQzMTQxMCwxOTU0Mzk3OTAzLDE2ND
 U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
