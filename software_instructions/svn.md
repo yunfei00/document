@@ -172,17 +172,11 @@ svnadmin create /Users/j00226207/svn/mycode
 	```
 	将服务器中mycode仓库的内容下载到/Users/j00226207/test/目录中
  注：localhost（本地服务器IP地址）可以替换成你本地服务器的IP地址。当你和别人同用一个svn时，你可以输入你要进行数据请求的服务器的IP地址。
-3. 提交更改过的代码到服务器
-修改下里面的一些代码，然后提交这些修改到服务器
-1> 打开终端，先定位到 /Users/j00226207/test目录，输入：cd  /Users/j00226207/test
-2> 输入提交指令： svn commit -m "修改了gui.py"
-这个指令会将/Users/j00226207/test下的所有修改都同步到服务器端，假如这次我只修改了gui.py文件
-可以看到终端的打印信息：
-Sending        gui.py
-Transmitting file data .done
-Committing transaction...
-Committed revision 2.
-4.更新服务器端的代码到客户端
+3. 提交更改过的代码到服务器，修改gui.py文件，然后提交
+	```
+	svn commit -m "修改了gui.py"
+	```
+4. 更新服务器端的代码到客户端
 这个应该是最简单的指令了，在终端中定位到客户端代码目录后，比如上面的/Users/j00226207/test目录，然后再输入指令：svn update
 5.至于svn的其他用法，可以在终端输入：svn help
 注：1、系统自带的svn无法支持本地删除文件的更新，即当本地删除文件后去更新服务器的文件时，删除的文件又从服务器上的文件夹中下载到你的本地文件夹中。但是它是支持文件修改后的更新操作的。
@@ -561,6 +555,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Nzg5OTY0OSwxNjQ1NjQ4NDcwLDE2OT
-Q0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbODU2ODQ5NDUxLDE2NDU2NDg0NzAsMTY5ND
+Q4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
