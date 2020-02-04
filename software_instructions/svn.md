@@ -331,14 +331,18 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 	显示文件每行的版本及作者信息
 	--revision, –r rev 如果指定的rev是单个版本，显示该版本作者信息。如果是范围rev1:rev2, 显示rev2版本作者的信息，但只检查版本到rev1.
 	```
-svn cat
-输出指定文件或者URL的内容
-svn cat target…
---revision, –r rev
-svn checkout
+4. svn cat
+	```
+	输出指定文件或者URL的内容
+	svn cat target…
+	--revision, –r rev
+	```
+5. svn checkout
+```
 从项目仓库牵出一个工作拷贝
 svn checkout url…path
 如果没有指定path,签出的本地目录名使用URL的base name.
+```
 svn cleanup
 清理工作拷贝，移除锁，完成未完成的操作，等等。
 svn cleanup path…
@@ -578,7 +582,7 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDE5MjgzNiw5Nzg4NTMxNzksLTEzNz
-E5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcwLDE2OTQ0ODkz
-MTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMjAxOTU4MTI2NSwxMzMwMTkyODM2LDk3OD
+g1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0
+NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
