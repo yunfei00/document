@@ -158,15 +158,12 @@ svnadmin create /Users/j00226207/svn/mycode
 	没有任何提示就说明启动成功了
 
 5. 关闭svn服务器
-如果你想要关闭svn服务器，最有效的办法是打开实用工具里面的“活动监视器”
-这里列出一大堆svn指令，后面括号中的内容的一般代表着指令的简称，比如我们可以用svn ci代替svn commit，用svn co代替svn checkout
-可以使用svn help查看
-注：首次配置完先关闭svn服务器再进行数据的上传和下载操作。
-
-综合上述，我们就可以轻松搭建svn服务器环境了
-三、使用svn客户端功能
-1.从本地导入代码到服务器(第一次初始化导入)
-在终端中输入
+	如果你想要关闭svn服务器，最有效的办法是打开实用工具里面的“活动监视器”
+	首次配置完先关闭svn服务器再进行数据的上传和下载操作。
+## 2.3 使用svn客户端功能
+1. 从本地导入代码到服务器(第一次初始化导入)
+```
+``
 svn import /Users/j00226207/work/python svn://localhost/mycode/python --username=test --password=123  -m "初始化导入"
 我解释下指令的意思：将/Users/j00226207/work/python svn://localhost/mycode/python中的所有内容，上传到服务器mycode仓库的python目录下，后面双引号中的"初始化导入"是注释
 2.从服务器端下载代码到客户端本地
@@ -563,6 +560,6 @@ linux svn 下载指定版本：
 svn checkout svn://192.168.0.199/project/VF_AIR/硬件/源码/单片机  -r r1803
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTY0ODQ3MCwxNjk0NDg5MzEyLC02MD
-M5MjY2NTddfQ==
+eyJoaXN0b3J5IjpbNjIxMTM4MTYwLDE2NDU2NDg0NzAsMTY5ND
+Q4OTMxMiwtNjAzOTI2NjU3XX0=
 -->
