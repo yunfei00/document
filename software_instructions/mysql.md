@@ -10,7 +10,13 @@
 	```
 	./mysqld_safe --skip-grant-tables &
 	```
-4. 
+	在第一步的mysql设置的画面中发现，关闭的mysql server 又重新变成running了。
+4. 进入mysql ,并刷新权限
+	```
+	./mysql
+	FLUSH PRIVILEGES;
+	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTAzNDk2MCw0OTA1MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyODkwOTk4MjcsNDkwNTI2NDkyXX0=
 -->
