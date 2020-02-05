@@ -61,7 +61,7 @@
 	```
 ## 2.3 不知道密码，重置密码
 
-1. 停止mysql服务 
+1. 切换到管理员账号，停止mysql服务 
 	```
 	sudo /usr/local/mysql/support-files/mysql.server stop
 	```
@@ -75,7 +75,9 @@
 	sudo ./mysqld_safe --skip-grant-tables &
 	```
 4. 登录mysql
-输入./mysql 显示如下时，无安全认证情况下登录成功
+```
+./mysql
+```
 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 
@@ -94,7 +96,7 @@ mysql -u root -p 输入刚刚更新的 888888，登录成功
 版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/u013972652/article/details/87254950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDM4NDQ2MiwyNTI3OTUyNTQsLTE4NT
-M4NDY2ODMsLTcxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgy
-MjE4MywtMTg0MjM5Njg1NCw0OTA1MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbNzI1MDM2Nzg2LDI1Mjc5NTI1NCwtMTg1Mz
+g0NjY4MywtNzE5MTI2NTgzLC0yMDM3NDk1ODIzLC0xNTUwODIy
+MTgzLC0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml19
 -->
