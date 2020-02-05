@@ -91,14 +91,13 @@
 	```
 	 输入刚刚更新的 test，登录成功
 # 3 常用的mysql命令
-1. 查看所有的数据库,一下两条语句作用x
+1. 查看所有的数据库,以下两条语句作用相同
 	```
 	show databases;
 	select schema_name from information_schema.schemata;
 	```
-3. status;查看mysql数据库的运行状态
-
-4. use 命令选择数据库 例如 use information_schema,当使用此命令后
+3. 查看mysql数据库的运行状态  `status;`
+3. use 命令选择数据库 例如 `use information_schema;`,当使用此命令后
 
 select schema_name from information_schema.schemata\G，可以为
 
@@ -156,8 +155,8 @@ desc table_name;
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTczNzE2MTYsMTk4OTQ2NDU0OSwyND
-E4NDc3MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1
-ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NT
-QsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbMTIxNDU2MDQ2MSwxOTg5NDY0NTQ5LDI0MT
+g0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLTcxOTEyNjU4
+MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NC
+w0OTA1MjY0OTJdfQ==
 -->
