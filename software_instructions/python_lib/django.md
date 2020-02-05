@@ -9,6 +9,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 import django
 print(django.get_version())
 3.0.2
+python3 -m django --version
+3.0.2
 ```
 # 2 config django
 1. creat project
@@ -59,6 +61,6 @@ print(django.get_version())
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc3MTkwNzAsMjM5NjUyMzc3LDEyMT
-Y4ODMxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk3NDE1NywtMTk3NzcxOTA3MCwyMz
+k2NTIzNzcsMTIxNjg4MzE1MV19
 -->
