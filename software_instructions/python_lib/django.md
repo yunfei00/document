@@ -42,7 +42,7 @@ print(django.get_version())
 	软链接将新的sqlite3设置到/usr/bin目录下
 	ln -s /usr/local/bin/sqlite3   /usr/bin/sqlite3
 	```
-  4将路径传递给共享库
+	  4. 将路径传递给共享库
    设置开机自启动执行，可以将下面的export语句写入 ~/.bashrc 文件中，如果如果你想立即生效，可以执行source ~/.bashrc 将在每次启动终端时执行
   export LD_LIBRARY_PATH="/usr/local/lib"
     查看python环境中sqlite3 是否已经更新
@@ -56,5 +56,5 @@ print(django.get_version())
     3. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTgxMDQ0NSwxMjE2ODgzMTUxXX0=
+eyJoaXN0b3J5IjpbMjM5NjUyMzc3LDEyMTY4ODMxNTFdfQ==
 -->
