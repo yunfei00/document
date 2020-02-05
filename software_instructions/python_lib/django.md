@@ -13,10 +13,12 @@ print(django.get_version())
 # 2 config django
 1. creat project
 	```
-	django-admin startproject info_list
+	django-admin startproject test
 	```
 2. start project
+    ```
     python3 manage.py  runserver
+    ```
     遇到问题：
     Centos7 虚拟环境安装Django 出现SQLite版本问题
     raise ImproperlyConfigured('SQLite 3.8.3 or later is required (found %s).' %Database.sqlite_version)
@@ -50,5 +52,5 @@ print(django.get_version())
     3. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjg4MzE1MV19
+eyJoaXN0b3J5IjpbLTE5MjY2MjUyOTIsMTIxNjg4MzE1MV19
 -->
