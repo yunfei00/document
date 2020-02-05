@@ -55,18 +55,14 @@
 	quit 
 	```
 
-5. 重新登录 mysql  mysql -u root -p 输入密码 123456 ，如下显示，则为新密码登录成功。
-
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-
-Your MySQL connection id is 80
-————————————————
-版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/u013972652/article/details/87254950
+5. 重新登录 mysql ,输入密码 123456,登录成功
+```
+mysql -u root -p 
+```
 6. 如果密码解析不出来，或者想强制重置密码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYyMDA3MDAsLTE4NTM4NDY2ODMsLT
-cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
-MjM5Njg1NCw0OTA1MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MT
+kxMjY1ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIz
+OTY4NTQsNDkwNTI2NDkyXX0=
 -->
