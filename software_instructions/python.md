@@ -11,6 +11,7 @@
     yum-builddep python
     ```
     [官网获取源码](https://www.python.org/downloads/release/python-381/)
+	  
     ```
     tar xf Python-3.8.1.tgz
     cd Python-3.8.1/
@@ -20,5 +21,5 @@
     ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYyNzY5MzddfQ==
+eyJoaXN0b3J5IjpbMTkyMzM2MTMxMywtMjAwNjI3NjkzN119
 -->
