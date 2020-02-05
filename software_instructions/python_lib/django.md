@@ -25,8 +25,8 @@ print(django.get_version())
 	```
     raise ImproperlyConfigured('SQLite 3.8.3 or later is required (found %s).' %Database.sqlite_version)
     ```
-    ## 解决方案：
-    升级SQLite
+    ## 解决方案：升级SQLite
+    1. 查看当前版本
     sqlite3 --version
     Centos系统自带的sqlite3版本偏低，在上面的错误提示中要求需要SQLite 3.8.3 or later，那么就需要去升级 SQlite 的版本了。
     ＃更新SQLite 3
@@ -55,5 +55,5 @@ print(django.get_version())
     3. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzk4OTYwOSwxMjE2ODgzMTUxXX0=
+eyJoaXN0b3J5IjpbLTEyOTc0MTU1MTAsMTIxNjg4MzE1MV19
 -->
