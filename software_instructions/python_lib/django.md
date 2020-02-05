@@ -19,7 +19,8 @@ print(django.get_version())
     ```
     python3 manage.py  runserver
     ```
-    遇到问题：
+    
+   # 3 遇到问题
     Centos7 虚拟环境安装Django 出现SQLite版本问题
     raise ImproperlyConfigured('SQLite 3.8.3 or later is required (found %s).' %Database.sqlite_version)
     解决方案：
@@ -52,5 +53,5 @@ print(django.get_version())
     3. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY2MjUyOTIsMTIxNjg4MzE1MV19
+eyJoaXN0b3J5IjpbNTQ0NzkxMzc2LDEyMTY4ODMxNTFdfQ==
 -->
