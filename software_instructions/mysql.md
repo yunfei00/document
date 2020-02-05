@@ -119,10 +119,14 @@
 	show variables like '%timeout%';#查看超时时间
 	show variables like 'log_%'; #查看日志是否启动
 	```
+9. 查看端口号 `show global variables like 'port';` 
+10.修改端口号
+ 
+	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTc2Mjc5NywyMDI3MzE0MzgxLDE5OD
-k0NjQ1NDksMjQxODQ3NzMzLDI1Mjc5NTI1NCwtMTg1Mzg0NjY4
-MywtNzE5MTI2NTgzLC0yMDM3NDk1ODIzLC0xNTUwODIyMTgzLC
-0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml19
+eyJoaXN0b3J5IjpbLTEyNzI5MTA5OTIsMTAzNTc2Mjc5NywyMD
+I3MzE0MzgxLDE5ODk0NjQ1NDksMjQxODQ3NzMzLDI1Mjc5NTI1
+NCwtMTg1Mzg0NjY4MywtNzE5MTI2NTgzLC0yMDM3NDk1ODIzLC
+0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml19
 -->
