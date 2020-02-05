@@ -92,11 +92,10 @@ Server version: 5.7.24 MySQL Community Server (GPL)
 6.退出mysql重新登录 quit
 
 mysql -u root -p 输入刚刚更新的 888888，登录成功
-————————————————
-版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/u013972652/article/details/87254950
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxODQ3NzMzLDI1Mjc5NTI1NCwtMTg1Mz
-g0NjY4MywtNzE5MTI2NTgzLC0yMDM3NDk1ODIzLC0xNTUwODIy
-MTgzLC0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml19
+eyJoaXN0b3J5IjpbMTYyMzM3MTIxOCwyNDE4NDc3MzMsMjUyNz
+k1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLTIwMzc0OTU4
+MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX
+0=
 -->
