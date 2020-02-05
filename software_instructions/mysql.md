@@ -84,12 +84,16 @@
 	ALTER USER 'root'@'localhost' IDENTIFIED BY 'test';
 	```
 
-6.退出mysql重新登录 quit
-
-mysql -u root -p 输入刚刚更新的 888888，登录成功
+6. 退出mysql重新登录 
+	```
+	quit
+	mysql -u root -p
+	```
+	 输入刚刚更新的 test，登录成功
+	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM1Njk3MjcsMjQxODQ3NzMzLDI1Mj
+eyJoaXN0b3J5IjpbLTE4OTcyMDYzMDUsMjQxODQ3NzMzLDI1Mj
 c5NTI1NCwtMTg1Mzg0NjY4MywtNzE5MTI2NTgzLC0yMDM3NDk1
 ODIzLC0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml
 19
