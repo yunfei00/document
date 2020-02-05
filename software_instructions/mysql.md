@@ -36,22 +36,16 @@
 	```
 ## 2.2 找到密码后，重置密码
 1. 进入安装目录,登录管理员权限
-```
- cd /usr/local/mysql/bin/
- sudo su 
-```
+	```
+	 cd /usr/local/mysql/bin/
+	 sudo su 
+	```
+2. 登录mysql  
+	```
+	mysql -u root -p 输入密码 
+	```
 
-3.登录mysql  mysql -u root -p 输入密码 
-
-如显示以下欢迎语，则登录成功！
-
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-
-Your MySQL connection id is 70
-
-Server version: 5.7.24 MySQL Community Server (GPL)
-
-4.修改密码
+3. 修改密码
 
 如上一步查看用户名密码时，select * from mysql.user;
 
@@ -80,7 +74,7 @@ Your MySQL connection id is 80
 6. 如果密码解析不出来，或者想强制重置密码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODM3NDc4NCwtNzE5MTI2NTgzLC0yMD
+eyJoaXN0b3J5IjpbMTA4ODI0OTgwNCwtNzE5MTI2NTgzLC0yMD
 M3NDk1ODIzLC0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUy
 NjQ5Ml19
 -->
