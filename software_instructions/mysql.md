@@ -97,19 +97,9 @@
 	select schema_name from information_schema.schemata;
 	```
 3. 查看mysql数据库的运行状态  `status;`
-3. use 命令选择数据库 例如 `use information_schema`,当使用此
-4. 查看数据库中的表
-
-show tables
-
-同样也可以在information_schema中查看，show命令是方便使用的简短模式。
-
-select table_name from tables where table_schema='jblog';
-
-5. 查看表结构
-
-desc table_name;
-
+3. use 命令选择数据库 例如 `use information_schema`
+4. 查看数据库中的表 `show tables;`
+5. 查看表结构 `desc table_name;`
 6.查看表状态 show table status from db like 条件
 
 可以查看engine数据库引擎，version，row、index等信息
@@ -150,8 +140,8 @@ desc table_name;
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI4Nzk4MSwxOTg5NDY0NTQ5LDI0MT
-g0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLTcxOTEyNjU4
-MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NC
-w0OTA1MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDg2NTI1MTAsMTk4OTQ2NDU0OSwyND
+E4NDc3MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1
+ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NT
+QsNDkwNTI2NDkyXX0=
 -->
