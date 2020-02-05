@@ -20,10 +20,9 @@
 	(x+8*3600)/86400+70*365+19 闰年多出来的天数
 	```
 	1900年到1970年共是17个闰年，考虑到Excel将1900-1-1当作1，那么公式最后应该加18才对，为什么要加19？这是Excel中的一个bug——1900年也被当作闰年，因此应当再多加一天。
-另外要注意，在Excel的工具->选项->重新计算中，有个1904年日期系统，如果勾选这个选项，上面的公式应当将70改为66，即
-=(x+8*3600)/86400+66*365+19
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTM3ODEzOCw4OTc1NTgwODhdfQ==
+eyJoaXN0b3J5IjpbLTc0NzIyNDk1OCw4OTc1NTgwODhdfQ==
 -->
