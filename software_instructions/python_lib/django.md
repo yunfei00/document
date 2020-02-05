@@ -1,5 +1,5 @@
 # 1 Django install
-要求已经提前安装好了python3,如果还未安装python3，则参考[python安装](https://www.github.com/yunfei00/document/software_instructions/python.md)
+要求已经提前安装好了python3,如果还未安装python3，则参考[python安装](https://github.com/yunfei00/document/blob/master/software_instructions/python.md)
     ```
     python3 -m pip install Django
     python3
@@ -12,5 +12,5 @@
     ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0MTc3MjQyXX0=
+eyJoaXN0b3J5IjpbODQ4ODAxMDM2XX0=
 -->
