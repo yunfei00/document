@@ -49,22 +49,13 @@
 	```
 	update mysql.user set authentication_string = PASSWORD('123456') where User = 'root';
 	```
+4. 刷新权限,再退出
+	```
+	FLUSH PRIVILEGES;
+	quit 
+	```
 
-这个就是sql语句，一张user表，记录了你的账户信息，修改密码就是要修改其中一条记录的一个值，
-
-新版的密码对应的字段名为：authentication_string，输入命令：
-
-update mysql.user set authentication_string = PASSWORD('123456') where User = 'root';
-
-（旧版的密码对应修改命令为：UPDATE mysql.user SET Password=PASSWORD('123456') WHERE User='root';）
-
-如下显示，则为修改成功！然后刷新权限：FLUSH PRIVILEGES;再退出：quit 
-
-Query OK, 1 row affected, 1 warning (0.00 sec)
-
-Rows matched: 1  Changed: 1  Warnings: 1
-
-5.重新登录 mysql  mysql -u root -p 输入密码 123456 ，如下显示，则为新密码登录成功。
+5. 重新登录 mysql  mysql -u root -p 输入密码 123456 ，如下显示，则为新密码登录成功。
 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 
@@ -75,7 +66,7 @@ Your MySQL connection id is 80
 6. 如果密码解析不出来，或者想强制重置密码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTkwMDM5MiwtMTg1Mzg0NjY4MywtNz
-E5MTI2NTgzLC0yMDM3NDk1ODIzLC0xNTUwODIyMTgzLC0xODQy
-Mzk2ODU0LDQ5MDUyNjQ5Ml19
+eyJoaXN0b3J5IjpbLTIwMTYyMDA3MDAsLTE4NTM4NDY2ODMsLT
+cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
+MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
