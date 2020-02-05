@@ -74,7 +74,7 @@
 	```
 	sudo ./mysqld_safe --skip-grant-tables &
 	```
-4. 登录mysql，
+4. 登录mysql，刷新权限
 	```
 	./mysql
 	FLUSH PRIVILEGES;
@@ -93,8 +93,8 @@
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTcyMDYzMDUsMjQxODQ3NzMzLDI1Mj
-c5NTI1NCwtMTg1Mzg0NjY4MywtNzE5MTI2NTgzLC0yMDM3NDk1
-ODIzLC0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUyNjQ5Ml
-19
+eyJoaXN0b3J5IjpbMTk4OTQ2NDU0OSwyNDE4NDc3MzMsMjUyNz
+k1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLTIwMzc0OTU4
+MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX
+0=
 -->
