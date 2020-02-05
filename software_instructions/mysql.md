@@ -97,12 +97,7 @@
 	select schema_name from information_schema.schemata;
 	```
 3. 查看mysql数据库的运行状态  `status;`
-3. use 命令选择数据库 例如 `use information_schema;`,当使用此命令后
-
-select schema_name from information_schema.schemata\G，可以为
-
-select schema_name from schemata\G
-
+3. use 命令选择数据库 例如 `use information_schema`,当使用此
 4. 查看数据库中的表
 
 show tables
@@ -155,7 +150,7 @@ desc table_name;
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDU2MDQ2MSwxOTg5NDY0NTQ5LDI0MT
+eyJoaXN0b3J5IjpbLTE3NTI4Nzk4MSwxOTg5NDY0NTQ5LDI0MT
 g0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLTcxOTEyNjU4
 MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NC
 w0OTA1MjY0OTJdfQ==
