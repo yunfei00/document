@@ -90,11 +90,71 @@
 	mysql -u root -p
 	```
 	 输入刚刚更新的 test，登录成功
+# 3 常用的mysql命令
+1. show databases;
+查看所有的数据库，等同于select schema_name from information_schema.schemata
+2. status 查看mysql数据库的运行状态
+
+3. use 命令选择数据库 例如 use information_schema,当使用此命令后
+
+select schema_name from information_schema.schemata\G，可以为
+
+select schema_name from schemata\G
+
+4. 查看数据库中的表
+
+show tables
+
+同样也可以在information_schema中查看，show命令是方便使用的简短模式。
+
+select table_name from tables where table_schema='jblog';
+
+5. 查看表结构
+
+desc table_name;
+
+6.查看表状态 show table status from db like 条件
+
+可以查看engine数据库引擎，version，row、index等信息
+
+7.小技巧，当多行命令输入，发现错误后，用\c结束。
+
+-------------------------------------------------------------
+
+另，查询数据库运行状态的基本命令：
+
+`#查询数据库连接`
+
+`show` `full` `processlist;`
+
+`show status` `like` `'%Max_used_connections%'``;`
+
+`show status` `like` `'%Threads_connected%'``;#当前连接数`
+
+`show status` `like` `'%table_lock%'``;#表锁定`
+
+`show status` `like` `'innodb_row_lock%'``;#行锁定`
+
+`show status` `like` `'%qcache%'``; #查询缓存情况`
+
+`show variables` `like` `"%query_cache%"``;`
+
+`SHOW STATUS` `LIKE` `'Qcache%'``;`
+
+`show variables` `like` `"%binlog%"``;`
+
+`show status` `like` `'Aborted_clients'``;#由于客户没有正确关闭连接已经死掉，已经放弃的连接数量`
+
+`show variables` `like` `'%max_connections%'``;//查看最大连接数量`
+
+`show variables` `like` `'%timeout%'``;#查看超时时间`
+
+`show variables` `like` `'log_%'``; #查看日志是否启动`
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTQ2NDU0OSwyNDE4NDc3MzMsMjUyNz
-k1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLTIwMzc0OTU4
-MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX
-0=
+eyJoaXN0b3J5IjpbMTU3Mzg1NDg3NywxOTg5NDY0NTQ5LDI0MT
+g0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLTcxOTEyNjU4
+MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NC
+w0OTA1MjY0OTJdfQ==
 -->
