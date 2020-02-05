@@ -1,5 +1,5 @@
 # 1 mysql install in mac
-# 2 mac 上忘记mysql密码的恢复
+# 2 mac 上忘记mysql密码的处理
 1. 点击系统偏好设置中左下角的MySQL，并单击"Stop MySQL Server"。
 2. 打开终端进入mysql安装路径，登录管理员权限
 	```
@@ -29,6 +29,12 @@
 	3 rows in set (0.00 sec)
 	```
 	用户名为root，密码是经过md5加密的，可以在[md5在线解密](https://www.cmd5.com)网站进行解密查看。
+	如果可以找到密码，那么就可以使用密码登录了。
+	```
+	mysql -u root -p
+	```
+6. 如果密码解析不出来，或者不
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTI1NTI3Mzk4OSwtMTg0MjM5Njg1NCw0OT
+A1MjY0OTJdfQ==
 -->
