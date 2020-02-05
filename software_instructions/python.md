@@ -11,8 +11,7 @@
     ```
     yum-builddep python
     ```
-    [官网获取源码](https://www.python.org/downloads/release/python-381/)
-	  执行一下命令进行安装，并查看版本
+    [官网获取源码](https://www.python.org/downloads/release/python-381/)后，执行以下命令进行安装，并查看版本
     ```
     tar xf Python-3.8.1.tgz
     cd Python-3.8.1/
@@ -23,6 +22,6 @@
     ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjc5OTgyNywxMzk2NDI5NTY1LC0yMD
-A2Mjc2OTM3XX0=
+eyJoaXN0b3J5IjpbMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNj
+I3NjkzN119
 -->
