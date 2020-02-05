@@ -33,8 +33,9 @@
 	```
 	mysql -u root -p
 	```
-6. 如果密码解析不出来，或者想重置密码
+6. 如果密码解析不出来，或者想强制重置密码
+	* 分
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsND
-kwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLT
+E4NDIzOTY4NTQsNDkwNTI2NDkyXX0=
 -->
