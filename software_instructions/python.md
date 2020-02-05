@@ -6,7 +6,7 @@
     yum install libffi-devel -y
     yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
     ```
-    使用yum-builddep为Python3构建环境,安装缺失的软件依赖,使用下面的命令会自动处理.
+   使用yum-builddep为Python3构建环境,安装缺失的软件依赖,使用下面的命令会自动处理.
     ```
     yum-builddep python
     ```
@@ -22,5 +22,6 @@
     ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjQyOTU2NSwtMjAwNjI3NjkzN119
+eyJoaXN0b3J5IjpbMjAxOTMyODQ0OSwxMzk2NDI5NTY1LC0yMD
+A2Mjc2OTM3XX0=
 -->
