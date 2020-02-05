@@ -35,10 +35,52 @@
 	mysql -u root -p
 	```
 ## 2.2 找到密码后，重置密码
+1. 进入安装目录,登录管理员权限
+```
+ cd /usr/local/mysql/bin/
+ sudo su 
+```
+
+3.登录mysql  mysql -u root -p 输入密码 
+
+如显示以下欢迎语，则登录成功！
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+
+Your MySQL connection id is 70
+
+Server version: 5.7.24 MySQL Community Server (GPL)
+
+4.修改密码
+
+如上一步查看用户名密码时，select * from mysql.user;
+
+这个就是sql语句，一张user表，记录了你的账户信息，修改密码就是要修改其中一条记录的一个值，
+
+新版的密码对应的字段名为：authentication_string，输入命令：
+
+update mysql.user set authentication_string = PASSWORD('123456') where User = 'root';
+
+（旧版的密码对应修改命令为：UPDATE mysql.user SET Password=PASSWORD('123456') WHERE User='root';）
+
+如下显示，则为修改成功！然后刷新权限：FLUSH PRIVILEGES;再退出：quit 
+
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+Rows matched: 1  Changed: 1  Warnings: 1
+
+5.重新登录 mysql  mysql -u root -p 输入密码 123456 ，如下显示，则为新密码登录成功。
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+
+Your MySQL connection id is 80
+————————————————
+版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/u013972652/article/details/87254950
 6. 如果密码解析不出来，或者想强制重置密码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgxODMzNDMsLTcxOTEyNjU4MywtMj
-AzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NCw0OTA1
-MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbMTI0ODM3NDc4NCwtNzE5MTI2NTgzLC0yMD
+M3NDk1ODIzLC0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUy
+NjQ5Ml19
 -->
