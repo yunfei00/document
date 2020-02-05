@@ -61,9 +61,14 @@
 	```
 ## 2.3 不知道密码，重置密码
 
-1. 停止mysql服务 sudo /usr/local/mysql/support-files/mysql.server stop 输入开机密码
-
-2.进入安装目录 cd /usr/local/mysql/bin
+1. 停止mysql服务 
+	```
+	sudo /usr/local/mysql/support-files/mysql.server stop
+	```
+2.进入安装目录 
+```
+cd /usr/local/mysql/bin
+```
 
 3.禁止mysql安全验证  ./mysqld_safe --skip-grant-tables &
 
@@ -92,7 +97,7 @@ mysql -u root -p 输入刚刚更新的 888888，登录成功
 版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/u013972652/article/details/87254950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzIyMjM2NiwyNTI3OTUyNTQsLTE4NT
-M4NDY2ODMsLTcxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgy
-MjE4MywtMTg0MjM5Njg1NCw0OTA1MjY0OTJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODUyMDY3NjUsMjUyNzk1MjU0LC0xOD
+UzODQ2NjgzLC03MTkxMjY1ODMsLTIwMzc0OTU4MjMsLTE1NTA4
+MjIxODMsLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX0=
 -->
