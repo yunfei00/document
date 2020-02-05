@@ -28,8 +28,7 @@
 	+---------------+-------------------------------------------+
 	3 rows in set (0.00 sec)
 	```
-	用户名为root，密码是经过md5加密的，可以在[md5在线解密]([https://www.cmd5.com/](https://www.cmd5.com/))
-
+	用户名为root，密码是经过md5加密的，可以在[md5在线解密](https://www.cmd5.com)网站进行解密查看。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAzMDQwMzUsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX0=
 -->
