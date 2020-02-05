@@ -56,13 +56,14 @@
 	```
 
 5. 重新登录 mysql ,输入密码 123456,登录成功
-```
-mysql -u root -p 
-```
-6. 如果密码解析不出来，或者想强制重置密码
+	```
+	mysql -u root -p 
+	```
+## 2.3 不知道密码，重置密码
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MT
-kxMjY1ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIz
-OTY4NTQsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbMTEzODAwNzkyNywyNTI3OTUyNTQsLTE4NT
+M4NDY2ODMsLTcxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgy
+MjE4MywtMTg0MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
