@@ -46,8 +46,10 @@
 	```
 
 3. 修改密码
+```
+select User,authentication_string from mysql.user;
 
-如上一步查看用户名密码时，select * from mysql.user;
+```
 
 这个就是sql语句，一张user表，记录了你的账户信息，修改密码就是要修改其中一条记录的一个值，
 
@@ -74,7 +76,7 @@ Your MySQL connection id is 80
 6. 如果密码解析不出来，或者想强制重置密码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODI0OTgwNCwtNzE5MTI2NTgzLC0yMD
-M3NDk1ODIzLC0xNTUwODIyMTgzLC0xODQyMzk2ODU0LDQ5MDUy
-NjQ5Ml19
+eyJoaXN0b3J5IjpbLTE4NTM4NDY2ODMsLTcxOTEyNjU4MywtMj
+AzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0MjM5Njg1NCw0OTA1
+MjY0OTJdfQ==
 -->
