@@ -61,9 +61,38 @@
 	```
 ## 2.3 不知道密码，重置密码
 
+1. 停止mysql服务 sudo /usr/local/mysql/support-files/mysql.server stop 输入开机密码
 
+2.进入安装目录 cd /usr/local/mysql/bin
+
+3.禁止mysql安全验证  ./mysqld_safe --skip-grant-tables &
+
+显示如下时，禁止成功
+
+root@guofei:/usr/local/mysql-5.7.24-macos10.14-x86_64/bin#     2019-02-14T05:18:51.6NZ mysqld_safe Logging to '/usr/local/mysql-5.7.24-macos10.14-x86_64/data/guofei.local.err'.
+
+2019-02-14T05:18:51.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql-5.7.24-macos10.14-x86_64/data
+
+输入./mysql 显示如下时，无安全认证情况下登录成功
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+
+Your MySQL connection id is 2
+
+Server version: 5.7.24 MySQL Community Server (GPL)
+
+4.刷新权限  FLUSH PRIVILEGES;
+
+5.修改密码 ALTER USER 'root'@'localhost' IDENTIFIED BY '888888';
+
+6.退出mysql重新登录 quit
+
+mysql -u root -p 输入刚刚更新的 888888，登录成功
+————————————————
+版权声明：本文为CSDN博主「猫七姑娘」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/u013972652/article/details/87254950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODAwNzkyNywyNTI3OTUyNTQsLTE4NT
+eyJoaXN0b3J5IjpbMTQzNzIyMjM2NiwyNTI3OTUyNTQsLTE4NT
 M4NDY2ODMsLTcxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgy
 MjE4MywtMTg0MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
