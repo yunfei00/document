@@ -120,13 +120,24 @@
 	show variables like 'log_%'; #查看日志是否启动
 	```
 9. 查看端口号 `show global variables like 'port';` 
+# 3 msyql 常见问题处理
+1. 中文乱码问题
+	解决方案：
+	在创建数据库的时候应该将数据库的字符编码设置成utf8
+	```
+	```bash
+create database customer_gl character set utf8;
+```
+	```
+	 
 
  
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Njc0OTg5NSwxMDM1NzYyNzk3LDIwMj
-czMTQzODEsMTk4OTQ2NDU0OSwyNDE4NDc3MzMsMjUyNzk1MjU0
-LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLTIwMzc0OTU4MjMsLT
-E1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTIxNDY4NzQ2MzQsLTk5Njc0OTg5NSwxMD
+M1NzYyNzk3LDIwMjczMTQzODEsMTk4OTQ2NDU0OSwyNDE4NDc3
+MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLT
+IwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkw
+NTI2NDkyXX0=
 -->
