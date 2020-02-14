@@ -51,45 +51,23 @@ qmake 查看一下 确保是可以运行的
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
 # 4 学习笔记
-1. 10进制转16进制
-02, 81, 0E, 0A, 80, E8, 82, BE, 0B, 03
-转换成对应的10进制的数值，比如20对应的是32
-先逐个分离，然后
-
-# 2 QString与QByteArray互相转换的方法
-
+# 4.1. QString与QByteArray互相转换的方法
 1. QString转QByteArray方法
-
-```
-
-QString str("hello");
-
-QByteArray bytes = str.toUtf8(); // QString转QByteArray方法1
-
-QString str("hello");
-
-QByteArray bytes = str.toLatin1(); // QString转QByteArray方法2
-
-```
-
+	```
+	QString str("hello");
+	QByteArray bytes = str.toUtf8(); // QString转QByteArray方法1
+	QString str("hello");
+	QByteArray bytes = str.toLatin1(); // QString转QByteArray方法2
+	```
 2. QByteArray转QString方法
-
 ```
-
 //Qt5.3.2
-
 QByteArray bytes("hello world");
-
 QString string = bytes; // QByteArray转QString方法1
-
 QByteArray bytes("hello world");
-
 QString string;
-
 string.prepend(bytes);// QByteArray转QString方法2
-
 qDebug() << string;
-
 ```
 
 3. QByteArray不以\0为结束符，和数组一样。
@@ -186,6 +164,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzM1MzY1Nyw5NDI0NzQ5MjQsLTIwMD
+eyJoaXN0b3J5IjpbMjA1MTQ5NDQ0MCw5NDI0NzQ5MjQsLTIwMD
 A0MDY3MzAsMTE4ODUzMDE5MF19
 -->
