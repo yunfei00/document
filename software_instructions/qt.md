@@ -27,7 +27,12 @@ qmake 查看一下 确保是可以运行的
 5. 在未安装Qt的环境下运行程序
 
 # QT 常见问题
+1.  error: cannot find -lGL
+解决办法：
 
+sudo apt-get install build-essential libgl1-mesa-dev
+
+依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjIwNDk1NSwxMTg4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbMTg0MzQ1MDg1NywxMTg4NTMwMTkwXX0=
 -->
