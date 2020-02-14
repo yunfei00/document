@@ -78,7 +78,7 @@ qmake 查看一下 确保是可以运行的
 	ui->le_cal_weight_result->setFocus();
 	```
 2. 清空按钮
-void setClearButtonEnabled(bool); //是否设置一个清空按钮.点击这个清空按钮后，就会自动删除行编辑框内的所有内容,类似于clear().示例如图:
+void setClearButtonEnabled(bool); //是否设置一个清空按钮.点击这个清空按钮后，就会自动删除行编辑框内的所有内容,类似于clear().
 
 3. 设置行编辑框内文本的显示模式.
 
@@ -160,6 +160,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTgyODQzMDcsOTQyNDc0OTI0LC0yMD
-AwNDA2NzMwLDExODg1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbNjUwNDgyMTMyLC0xNzU4Mjg0MzA3LDk0Mj
+Q3NDkyNCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
 -->
