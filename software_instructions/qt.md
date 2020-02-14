@@ -100,41 +100,30 @@ void setEchoMode(QLineEdit::EchoMode); //设置行编辑框内文本的显示模
 1. void cursorPositionChanged(int old, int new); //光标位置改变就发现信号.
 2. void returnPressed(); //光标在行编辑框内时，点击回车即发出信号.
 3. void selectionChanged() //选择的文本发生变化时，发出信号.
+4. void textChanged(const QString & text) //只要文本内容发生改变，则发出信号.
+5. void textEdited(const QString &text); //当文本被编辑后发出信号,注意!程序中调用的setText()方法并不会触发该信号.
 
-4.void textChanged(const QString & text) //只要文本内容发生改变，则发出信号.
-
-5.void textEdited(const QString &text); //当文本被编辑后发出信号,注意!程序中调用的setText()方法并不会触发该信号.
-
-# 4 QT 全屏问题
-
+## 4.3 QT 全屏
 ```
-
 int height = this->height();
-
 int weight = this->width();
 
 QString disp = "修改前分辨率:" + QString::number(weight) + "X" + QString::number(height);
 
 qInfo() << disp;
-
 //ui->textBrowser->append(QString::number(height) + QString::number(weight));
 
 static bool flag = false;
-
 flag = !flag;
 
 if (flag){
 
 this->showFullScreen();
-
 } else {
-
 this->showNormal();
-
 }
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYxMjcxNDgsLTE3NTgyODQzMDcsOT
-QyNDc0OTI0LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbNjYyNzU5NjAsLTE3NTgyODQzMDcsOTQyND
+c0OTI0LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
 -->
