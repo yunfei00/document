@@ -15,19 +15,16 @@ qmake 查看一下 确保是可以运行的
 	./linuxdeployqt-6-x86_64.AppImage test
 	```
 4. 打包发布
-```
-mkdir target
-cd target/
-cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/test ./
-cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/qt.conf ./
-cp ~/smart_production/code/build-smart_production-Desktop_Qt_5_9_1_GCC_64bit-Release/plugins ./ -r
-
-cp ~/smart_production/code/build-smart_production-Desktop_Qt_5_9_1_GCC_64bit-Release/translations/ ./ -r
-
-cp ~/smart_production/code/build-smart_production-Desktop_Qt_5_9_1_GCC_64bit-Release/lib ./ -r
-```
-
+	```
+	mkdir target
+	cd target/
+	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/test ./
+	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/qt.conf ./
+	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/plugins ./ -r
+	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/translations/ ./ -r
+	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/lib ./ -r
+	```
 5. 在未安装Qt的环境下运行程序
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjcxNTgyNV19
+eyJoaXN0b3J5IjpbMTE4ODUzMDE5MF19
 -->
