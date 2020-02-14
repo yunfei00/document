@@ -79,28 +79,14 @@ qmake 查看一下 确保是可以运行的
 	```
 2. 清空按钮
 void setClearButtonEnabled(bool); //是否设置一个清空按钮.点击这个清空按钮后，就会自动删除行编辑框内的所有内容,类似于clear().
-
 3. 设置行编辑框内文本的显示模式.
-
 void setEchoMode(QLineEdit::EchoMode); //设置行编辑框内文本的显示模式.
-
 如图两种显示模式是最常用的模式.分别为:QLineEdit::Normal,QLineEdit::Password.默认为QLineEdit::Normal.
-
-![1d9732e2ff582dc5f9056a08d8a041a7.png](evernotecid://C023BB62-49B4-4617-9B3C-372C7176E449/appyinxiangcom/22860893/ENResource/p168)
-
 4. void setAlignent(Qt::Alignment flag); //设置文本输入的位置.
-
-4.void setValidator(QVaildator*); //设置输入验证器.(很重要!!)(具体用法在后一篇代码实现中会讲到).
-
-5.void setPlaceText(QString); //设置占位符.
-
-示例:
-
-![604c79c1312bd154a406e8c52ef7d951.png](evernotecid://C023BB62-49B4-4617-9B3C-372C7176E449/appyinxiangcom/22860893/ENResource/p169)
-
-6.void setText(QString); //设置行编辑框内的文本.
-
-7.void setReadOnly(bool); //把该行编辑框设置为只读模式，无法进行编辑.
+5. void setValidator(QVaildator*); //设置输入验证器.(很重要!!)
+6. void setPlaceText(QString); //设置占位符.
+7. void setText(QString); //设置行编辑框内的文本.
+8. void setReadOnly(bool); //把该行编辑框设置为只读模式，无法进行编辑.
 
 8.void setEnabled(bool); //设置是否激活行编辑框，作用和7类似.
 
@@ -160,6 +146,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNDgyMTMyLC0xNzU4Mjg0MzA3LDk0Mj
-Q3NDkyNCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbLTg0MjEzMDc2NywtMTc1ODI4NDMwNyw5ND
+I0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
 -->
