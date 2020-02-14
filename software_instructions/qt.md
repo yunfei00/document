@@ -46,8 +46,11 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 2. Qt realease 版本不输出自带日志行号等信息
-
+	原因是：文件信息、行数等信息在Release版本默认舍弃。我们只要在.pro文件定义一个宏
+	```
+	DEFINES += QT_MESSAGELOGCONTEXT
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU0ODYwODEsOTQyNDc0OTI0LC0yMD
-AwNDA2NzMwLDExODg1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbNzE2NjYxNDA5LDk0MjQ3NDkyNCwtMjAwMD
+QwNjczMCwxMTg4NTMwMTkwXX0=
 -->
