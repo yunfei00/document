@@ -87,30 +87,19 @@ void setEchoMode(QLineEdit::EchoMode); //设置行编辑框内文本的显示模
 6. void setPlaceText(QString); //设置占位符.
 7. void setText(QString); //设置行编辑框内的文本.
 8. void setReadOnly(bool); //把该行编辑框设置为只读模式，无法进行编辑.
+9. void setEnabled(bool); //设置是否激活行编辑框，作用和7类似.
+10. void setContextMenuPolicy(Qt::NoContextMenu). //设置该行编辑框内不会出现菜单.(密码输入里必用).
+11. void setDragEnabled(bool); //设置行编辑框内的被选择的文本能否被拖拽，默认不能被拖拽.
+12. void setAcceptDrops(bool); //设置行编辑框能否被拖拽进来文本.
+13. bool isModified(); //判断文本是否被修改.
+14. void selectAll(); //选中框内所有文本.
+15. QString displayText(); //返回显示的文本.
+16. QString selectedText(); //返回被选中的文本.
 
-8.void setEnabled(bool); //设置是否激活行编辑框，作用和7类似.
-
-9.void setContextMenuPolicy(Qt::NoContextMenu). //设置该行编辑框内不会出现菜单.(密码输入里必用).
-
-10.void setDragEnabled(bool); //设置行编辑框内的被选择的文本能否被拖拽，默认不能被拖拽.
-
-11.void setAcceptDrops(bool); //设置行编辑框能否被拖拽进来文本.
-
-12.bool isModified(); //判断文本是否被修改.
-
-13.void selectAll(); //选中框内所有文本.
-
-14.QString displayText(); //返回显示的文本.
-
-15.QString selectedText(); //返回被选中的文本.
-
-信号:
-
-1.void cursorPositionChanged(int old, int new); //光标位置改变就发现信号.
-
-2.void returnPressed(); //光标在行编辑框内时，点击回车即发出信号.
-
-3.void selectionChanged() //选择的文本发生变化时，发出信号.
+## 信号
+1. void cursorPositionChanged(int old, int new); //光标位置改变就发现信号.
+2. void returnPressed(); //光标在行编辑框内时，点击回车即发出信号.
+3. void selectionChanged() //选择的文本发生变化时，发出信号.
 
 4.void textChanged(const QString & text) //只要文本内容发生改变，则发出信号.
 
@@ -146,6 +135,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjEzMDc2NywtMTc1ODI4NDMwNyw5ND
-I0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbLTE2MjYxMjcxNDgsLTE3NTgyODQzMDcsOT
+QyNDc0OTI0LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
 -->
