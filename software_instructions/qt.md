@@ -51,7 +51,7 @@ qmake 查看一下 确保是可以运行的
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
 # 4 学习笔记
-# 4.1. QString与QByteArray互相转换的方法
+## 4.1. QString与QByteArray互相转换的方法
 1. QString转QByteArray方法
 	```
 	QString str("hello");
@@ -60,29 +60,25 @@ qmake 查看一下 确保是可以运行的
 	QByteArray bytes = str.toLatin1(); // QString转QByteArray方法2
 	```
 2. QByteArray转QString方法
-```
-//Qt5.3.2
-QByteArray bytes("hello world");
-QString string = bytes; // QByteArray转QString方法1
-QByteArray bytes("hello world");
-QString string;
-string.prepend(bytes);// QByteArray转QString方法2
-qDebug() << string;
-```
-
+	```
+	//Qt5.3.2
+	QByteArray bytes("hello world");
+	QString string = bytes; // QByteArray转QString方法1
+	QByteArray bytes("hello world");
+	QString string;
+	string.prepend(bytes);// QByteArray转QString方法2
+	qDebug() << string;
+	```
 3. QByteArray不以\0为结束符，和数组一样。
-
 4. char arr 转QByteArray
 
-# 3 QlineEdit常用操作
-
-1. 设置光标：
-
-ui->le_cal_weight_result->setFocus();
-
+## 4.2 QlineEdit常用操作
+1. 设置光标
+	```
+	ui->le_cal_weight_result->setFocus();
+	```
 2. 清空按钮
-
-void setClearButtonEnabled(bool); //是否设置一个清空按钮.点击这个清空按钮后，就会自动删除行编辑框内的所有内容,类似于clear().示例如图:![0b5f9ff767b3662bafa1ae93b28a58b5.png](evernotecid://C023BB62-49B4-4617-9B3C-372C7176E449/appyinxiangcom/22860893/ENResource/p167)
+void setClearButtonEnabled(bool); //是否设置一个清空按钮.点击这个清空按钮后，就会自动删除行编辑框内的所有内容,类似于clear().示例如图:
 
 3. 设置行编辑框内文本的显示模式.
 
@@ -164,6 +160,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTQ5NDQ0MCw5NDI0NzQ5MjQsLTIwMD
-A0MDY3MzAsMTE4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbLTE3NTgyODQzMDcsOTQyNDc0OTI0LC0yMD
+AwNDA2NzMwLDExODg1MzAxOTBdfQ==
 -->
