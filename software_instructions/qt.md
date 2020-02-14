@@ -31,7 +31,8 @@ qmake 查看一下 确保是可以运行的
 3. 编译 ctrl + b
 4. 字体缩放 ctrl + 鼠标滚轮
 5. 查找 chtl + f
-6. 整行移动 ctrl + shift +  
+6. 整行移动 ctrl + shift +  \uparrow
+7. 收到 \rightleftarrows
 # 3 QT 常见问题
 1.  error: cannot find -lGL
 	解决办法：
@@ -40,6 +41,6 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyNTQxNTMzLC0yMDAwNDA2NzMwLDExOD
+eyJoaXN0b3J5IjpbOTM3NTk4OTU3LC0yMDAwNDA2NzMwLDExOD
 g1MzAxOTBdfQ==
 -->
