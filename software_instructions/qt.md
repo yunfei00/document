@@ -32,7 +32,9 @@ qmake 查看一下 确保是可以运行的
 4. 字体缩放 ctrl + 鼠标滚轮
 5. 查找 chtl + f
 6. 整行移动 ctrl + shift +  &uarr; 或者 &darr;
-7. 收到 $\rightleftarrows
+7. 帮助文档 F1
+8. 自动对齐 ctrl + i
+9. 同名之前的.h.cpp
 # 3 QT 常见问题
 1.  error: cannot find -lGL
 	解决办法：
@@ -41,6 +43,6 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTA3MDkxOSwtMjAwMDQwNjczMCwxMT
-g4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbLTE0NDI0OTQ4NTksLTIwMDA0MDY3MzAsMT
+E4ODUzMDE5MF19
 -->
