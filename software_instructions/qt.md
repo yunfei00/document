@@ -25,6 +25,9 @@ qmake 查看一下 确保是可以运行的
 	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/lib ./ -r
 	```
 5. 在未安装Qt的环境下运行程序
+
+# QT 常见问题
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbLTk5NjIwNDk1NSwxMTg4NTMwMTkwXX0=
 -->
