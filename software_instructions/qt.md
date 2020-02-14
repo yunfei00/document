@@ -28,15 +28,15 @@ qmake 查看一下 确保是可以运行的
 # 2 快捷键
  |说明|快捷键|
  |-----|----|
- |注释 ctrl + /
-|运行 ctrl + r
-| 编译 ctrl + b
-4. 字体缩放 ctrl + 鼠标滚轮
-5. 查找 chtl + f
-6. 整行移动 ctrl + shift +  &uarr; 或者 &darr;
-7. 帮助文档 F1
-8. 自动对齐 ctrl + i
-9. 同名之前的.h和.cpp切换 F4
+ |注释 |ctrl + /
+|运行 |ctrl + r
+|编译 |ctrl + b
+|字体缩放 |ctrl + 鼠标滚轮
+|查找 |chtl + f
+|整行移动 |ctrl + shift +  &uarr; 或者 &darr;
+|帮助文档 |F1|
+|自动对齐 |ctrl + i|
+|同名之前的.h和.cpp切换| F4
  
 # 3 QT 常见问题
 1.  error: cannot find -lGL
@@ -46,6 +46,6 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2OTI2NDU5LC0yMDAwNDA2NzMwLDExOD
+eyJoaXN0b3J5IjpbOTQyNDc0OTI0LC0yMDAwNDA2NzMwLDExOD
 g1MzAxOTBdfQ==
 -->
