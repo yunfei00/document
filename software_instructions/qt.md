@@ -51,14 +51,9 @@ qmake 查看一下 确保是可以运行的
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
 # 4 学习笔记
-<?xml version="1.0" encoding="UTF-8"?>
-
-# 1 10进制转16进制
-
+1. 10进制转16进制
 02, 81, 0E, 0A, 80, E8, 82, BE, 0B, 03
-
 转换成对应的10进制的数值，比如20对应的是32
-
 先逐个分离，然后
 
 # 2 QString与QByteArray互相转换的方法
@@ -191,6 +186,6 @@ this->showNormal();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDY5NjUxLDk0MjQ3NDkyNCwtMjAwMD
-QwNjczMCwxMTg4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbLTYyNzM1MzY1Nyw5NDI0NzQ5MjQsLTIwMD
+A0MDY3MzAsMTE4ODUzMDE5MF19
 -->
