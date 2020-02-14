@@ -45,7 +45,9 @@ qmake 查看一下 确保是可以运行的
 	sudo apt-get install build-essential libgl1-mesa-dev
 	```
 	 依赖库问题 安装完成后应该可以解决
+2. Qt realease 版本不输出自带日志行号等信息
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNDc0OTI0LC0yMDAwNDA2NzMwLDExOD
-g1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbLTIwNzU0ODYwODEsOTQyNDc0OTI0LC0yMD
+AwNDA2NzMwLDExODg1MzAxOTBdfQ==
 -->
