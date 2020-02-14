@@ -31,7 +31,7 @@ qmake 查看一下 确保是可以运行的
 3. 编译 ctrl + b
 4. 字体缩放 ctrl + 鼠标滚轮
 5. 查找 chtl + f
-6. 整行移动 ctrl + shift +  $\uparrow   
+6. 整行移动 ctrl + shift +  &uarr; 或者 &darr;
 7. 收到 $\rightleftarrows
 # 3 QT 常见问题
 1.  error: cannot find -lGL
@@ -41,6 +41,6 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcxMDIwMTEsLTIwMDA0MDY3MzAsMT
-E4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbMTE3OTA3MDkxOSwtMjAwMDQwNjczMCwxMT
+g4NTMwMTkwXX0=
 -->
