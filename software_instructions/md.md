@@ -1,13 +1,8 @@
 # 1 特殊符号
 
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 |符号	|说明	|编码（实际使用中需要去掉加号）|
--------|
+|-------|-------|-------------------------|
 |←	|左箭头	|&+larr;|
 →	右箭头	&+rarr;
 ↑	上箭头	&+uarr;
@@ -22,5 +17,5 @@
 ⇕	双线竖直箭头	&+vArr;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTcxNzE5OF19
+eyJoaXN0b3J5IjpbLTU5MTI4ODEzNl19
 -->
