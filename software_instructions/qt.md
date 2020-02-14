@@ -25,8 +25,13 @@ qmake 查看一下 确保是可以运行的
 	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/lib ./ -r
 	```
 5. 在未安装Qt的环境下运行程序
-# 2 常用功能
-1. 注释
+# 2 快捷键
+1. 注释 ctrl + /
+2. 运行 ctrl + r
+3. 编译 ctrl + b
+4. 字体缩放 ctrl + 鼠标滚轮
+5. 查找 chtl + f
+6. zheng hang
 # 3 QT 常见问题
 1.  error: cannot find -lGL
 	解决办法：
@@ -35,5 +40,6 @@ qmake 查看一下 确保是可以运行的
 	```
 	 依赖库问题 安装完成后应该可以解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbMTY1MDY3NzQ5NSwtMjAwMDQwNjczMCwxMT
+g4NTMwMTkwXX0=
 -->
