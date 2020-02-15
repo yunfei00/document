@@ -102,23 +102,26 @@ mac 下载安装包并点击下一步安装，即可完成。
 	select schema_name from information_schema.schemata;
 	```
 3. 创建数据库 `CREATE DATABASE 数据库名;`
-4. 删除数据库 'drop database <数据库名>;`
+4. 删除数据库 `drop database <数据库名>;`
 5. 查看mysql数据库的运行状态  `status;`
-6. use 命令选择数据库 例如 `use information_schema`
+6. 选择数据库 例如 `use information_schema`
 7. 查看数据库中的表 `show tables;`
-8. 显示数据表的详细索引信息，包括PRIMARY KEY（主键）
+8. <?xml version="1.0" encoding="UTF-8"?>
+
+创建数据表
+9. 显示数据表的详细索引信息，包括PRIMARY KEY（主键）
 	```
 	SHOW INDEX FROM runoob_tbl;
 	```
-9. 显示数据表的属性，属性类型，主键信息 ，是否为 NULL，默认值等其他信息：
+10. 显示数据表的属性，属性类型，主键信息 ，是否为 NULL，默认值等其他信息：
 	```
 	show columns from table_name;
 	```
-10. 查看表结构 `desc table_name;`
-11. 查看表状态 `show table status from db like 条件`
+11. 查看表结构 `desc table_name;`
+12. 查看表状态 `show table status from db like 条件`
 可以查看engine数据库引擎，version，row、index等信息
-12. 小技巧，当多行命令输入，发现错误后，用\c结束。
-13.  查询数据库连接
+13. 小技巧，当多行命令输入，发现错误后，用\c结束。
+14.  查询数据库连接
 	```
 	show full  processlist;
 	show status like '%Max_used_connections%';
@@ -134,7 +137,7 @@ mac 下载安装包并点击下一步安装，即可完成。
 	show variables like '%timeout%';#查看超时时间
 	show variables like 'log_%'; #查看日志是否启动
 	```
-14. 查看端口号 `show global variables like 'port';` 
+15. 查看端口号 `show global variables like 'port';` 
 # 3 msyql 常见问题处理
 1. mac 中文乱码问题
 	解决方案：
@@ -148,9 +151,9 @@ mac 下载安装包并点击下一步安装，即可完成。
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA0NTk0NjAsLTE2MDUyMzY5ODcsLT
-k5Njc0OTg5NSwxMDM1NzYyNzk3LDIwMjczMTQzODEsMTk4OTQ2
-NDU0OSwyNDE4NDc3MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC
-03MTkxMjY1ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4
-NDIzOTY4NTQsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbMTE2NDAzOTUyNSwtMTYwNTIzNjk4NywtOT
+k2NzQ5ODk1LDEwMzU3NjI3OTcsMjAyNzMxNDM4MSwxOTg5NDY0
+NTQ5LDI0MTg0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLT
+cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
+MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
