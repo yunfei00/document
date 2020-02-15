@@ -1,4 +1,7 @@
 # 1 mysql install in mac
+<?xml version="1.0" encoding="UTF-8"?>
+
+mac 下载安装包并点击下一步安装，即可完成。
 # 2 mac 上忘记mysql密码的处理
 ## 2.1 查询找到密码
 1. 点击系统偏好设置中左下角的MySQL，并单击"Stop MySQL Server"。
@@ -133,9 +136,9 @@
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUyMzY5ODcsLTk5Njc0OTg5NSwxMD
-M1NzYyNzk3LDIwMjczMTQzODEsMTk4OTQ2NDU0OSwyNDE4NDc3
-MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC03MTkxMjY1ODMsLT
-IwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4NDIzOTY4NTQsNDkw
-NTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTkyNjk1NzMyNiwtMTYwNTIzNjk4NywtOT
+k2NzQ5ODk1LDEwMzU3NjI3OTcsMjAyNzMxNDM4MSwxOTg5NDY0
+NTQ5LDI0MTg0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLT
+cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
+MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
