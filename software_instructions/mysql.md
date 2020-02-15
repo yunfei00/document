@@ -92,7 +92,10 @@ mac 下载安装包并点击下一步安装，即可完成。
 	```
 	 输入刚刚更新的 test，登录成功
 # 3 常用的mysql命令
-1. 
+1. 进入mysql
+	```
+	mysql -u root -p
+	```
 2. 查看所有的数据库,以下两条语句作用相同
 	```
 	show databases;
@@ -135,9 +138,9 @@ mac 下载安装包并点击下一步安装，即可完成。
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI1ODgzMzQsLTE2MDUyMzY5ODcsLT
-k5Njc0OTg5NSwxMDM1NzYyNzk3LDIwMjczMTQzODEsMTk4OTQ2
-NDU0OSwyNDE4NDc3MzMsMjUyNzk1MjU0LC0xODUzODQ2NjgzLC
-03MTkxMjY1ODMsLTIwMzc0OTU4MjMsLTE1NTA4MjIxODMsLTE4
-NDIzOTY4NTQsNDkwNTI2NDkyXX0=
+eyJoaXN0b3J5IjpbLTMyMjg5NzAzMywtMTYwNTIzNjk4NywtOT
+k2NzQ5ODk1LDEwMzU3NjI3OTcsMjAyNzMxNDM4MSwxOTg5NDY0
+NTQ5LDI0MTg0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLT
+cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
+MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
