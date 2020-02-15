@@ -108,9 +108,12 @@ mac 下载安装包并点击下一步安装，即可完成。
 7. 查看数据库中的表 `show tables;`
 8. 创建数据表 `CREATE TABLE table_name (column_name column_type);`
 9. 删除数据表 `DROP TABLE table_name ;`
-10. 插入数据 `INSERT INTO table_name ( field1, field2,...fieldN )
-                       VALUES
-                       ( value1, value2,...valueN );` 
+10. 插入数据 
+	```
+	INSERT INTO table_name ( field1, field2,...fieldN )
+	                       VALUES
+	                       ( value1, value2,...valueN );
+	```
 11. 显示数据表的详细索引信息，包括PRIMARY KEY（主键）
 	```
 	SHOW INDEX FROM runoob_tbl;
@@ -153,9 +156,9 @@ mac 下载安装包并点击下一步安装，即可完成。
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEzNzU4LC0xNjA1MjM2OTg3LC05OT
-Y3NDk4OTUsMTAzNTc2Mjc5NywyMDI3MzE0MzgxLDE5ODk0NjQ1
-NDksMjQxODQ3NzMzLDI1Mjc5NTI1NCwtMTg1Mzg0NjY4MywtNz
-E5MTI2NTgzLC0yMDM3NDk1ODIzLC0xNTUwODIyMTgzLC0xODQy
-Mzk2ODU0LDQ5MDUyNjQ5Ml19
+eyJoaXN0b3J5IjpbMTcxNjA2MDkyNiwtMTYwNTIzNjk4NywtOT
+k2NzQ5ODk1LDEwMzU3NjI3OTcsMjAyNzMxNDM4MSwxOTg5NDY0
+NTQ5LDI0MTg0NzczMywyNTI3OTUyNTQsLTE4NTM4NDY2ODMsLT
+cxOTEyNjU4MywtMjAzNzQ5NTgyMywtMTU1MDgyMjE4MywtMTg0
+MjM5Njg1NCw0OTA1MjY0OTJdfQ==
 -->
