@@ -1,3 +1,8 @@
+# 1 创建定时任务
+# 2 查看该用户下的crontab服务是否创建成功
+# 3 启动crontab服务
+# 4 查看服务是否已经运行用
+# 5 
 https://www.cnblogs.com/mingforyou/p/3930636.html
 0    12   *   *   *   mail dmtsai -s "at 12:00" < /home/dmtsai/.bashrc
 #分  时   日   月  周  |《==============命令行=======================》|
@@ -22,5 +27,5 @@ https://www.cnblogs.com/mingforyou/p/3930636.html
 /etc/init.d/cron restart
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDc0NTQyMl19
+eyJoaXN0b3J5IjpbLTEyNDA4MjYyNDYsMTEwNDc0NTQyMl19
 -->
