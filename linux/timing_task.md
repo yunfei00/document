@@ -62,7 +62,20 @@ cron服务提供crontab命令来设定cron服务的，以下是这个命令的�
 
 # 6 定时任务原理说明
 crond 是**linux**用来定期执行程序的命令。当安装完成操作系统之后，默认便会启动此任务调度命令。crond命令每分钟会定期检查是否有要执行的工作，如果有要执行的工作便会自动执行该工作。
+
+# 7 cron文件语法
+
+|分|小时|日 |月| 星期 |命令|
+|--|-----|----|---|-------|----|
+|0-59| 0-23 |1-31| 1-12| 0-6| command (取值范围,0表示周日一般一行对应一个任务)
+
+记住几个特殊符号的含义:
+
+“*”代表取值范围内的数字,  
+“/”代表”每”,  
+“-”代表从某个数字到某个数字,  
+“,”分开几个离散的数字
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTU1OTA5MiwtMTI0MDgyNjI0NiwxMT
+eyJoaXN0b3J5IjpbMTczMzA0MDkzNCwtMTI0MDgyNjI0NiwxMT
 A0NzQ1NDIyXX0=
 -->
