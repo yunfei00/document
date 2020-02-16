@@ -1,6 +1,13 @@
 # 1 创建定时任务
+```
+crontab -ecrontab -e
+```
 # 2 查看该用户下的crontab服务是否创建成功
+```
+crontab -l
+```
 # 3 启动crontab服务
+
 # 4 查看服务是否已经运行用
 # 5 
 https://www.cnblogs.com/mingforyou/p/3930636.html
@@ -27,5 +34,6 @@ https://www.cnblogs.com/mingforyou/p/3930636.html
 /etc/init.d/cron restart
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA4MjYyNDYsMTEwNDc0NTQyMl19
+eyJoaXN0b3J5IjpbLTE2MTcxMzA5OTgsLTEyNDA4MjYyNDYsMT
+EwNDc0NTQyMl19
 -->
