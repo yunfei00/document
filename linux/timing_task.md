@@ -70,12 +70,14 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 |0-59| 0-23 |1-31| 1-12| 0-6| command (取值范围,0表示周日一般一行对应一个任务)
 
 记住几个特殊符号的含义:
-
 “*”代表取值范围内的数字,  
 “/”代表”每”,  
 “-”代表从某个数字到某个数字,  
 “,”分开几个离散的数字
+
+举例：
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzA0MDkzNCwtMTI0MDgyNjI0NiwxMT
+eyJoaXN0b3J5IjpbMTEyNjQ0NTQ4NCwtMTI0MDgyNjI0NiwxMT
 A0NzQ1NDIyXX0=
 -->
