@@ -8,6 +8,8 @@ crontab -l
 ```
 # 3 启动crontab服务
 一般启动服务用 /sbin/service crond start 若是根用户的cron服务可以用 sudo service crond start， 不同版本**linux**系统启动的服务的命令也不同 ，像我的虚拟机里只需用 sudo service cron restart 即可，若是在根用下直接键入service cron start就能启动服务
+定时任务立刻生效：
+/etc/init.d/cron restart
 # 4 查看服务是否已经运行用
 ```
 ps -ax | grep cron
@@ -33,7 +35,7 @@ cron服务提供crontab命令来设定cron服务的，以下是这个命令的�
 	crontab -u fred -r
 	```  
 
-crond 是**linux**用来定期执行程序的命令。当安装完成操作系统之后，默认便会启动此任务调度命令。crond命令每分钟会定期检查是否有要执行的工作，如果有要执行的工作便会自动执行该工作。
+
 
 
 
@@ -57,10 +59,10 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 * 0-9 * * * flock -xn /tmp/get_fat_data.lock -c "sudo -u root /home/visbodyfit/yunfei/get_data/crontab.sh"
 * 21-23 * * * flock -xn /tmp/get_fat_data.lock -c "sudo -u root /home/visbodyfit/yunfei/get_data/crontab.sh"
 
-定时任务立刻生效：
-/etc/init.d/cron restart
 
+# 6 定时任务原理说明
+crond 是**linux**用来定期执行程序的命令。当安装完成操作系统之后，默认便会启动此任务调度命令。crond命令每分钟会定期检查是否有要执行的工作，如果有要执行的工作便会自动执行该工作。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzg2OTc4MiwtMTI0MDgyNjI0NiwxMT
+eyJoaXN0b3J5IjpbMTMzOTU1OTA5MiwtMTI0MDgyNjI0NiwxMT
 A0NzQ1NDIyXX0=
 -->
