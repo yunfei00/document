@@ -7,7 +7,7 @@ nohup ./01_st.sh >/dev/null 2>&1 &
 scp   visbodyfit@192.168.0.10:/home/visbodyfit/yunfei/test.get_value.c ./
 scp hardware  visbodyfit@192.168.0.10:/home/visbodyfit/yunfei
 ```
-# 3 svn 安装：
+# 3 svn 安装
 ```
 sudo apt-get install subversion  
 ```
@@ -165,7 +165,6 @@ date --date='Dec 27 11:26:07' "+%Y%m%d"
 expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 
 
-
 # 12 ubuntu修改静态IP
 1 打开目标文件
 sudo gedit /etc/network/interfaces // gedit 是用gedit进行编译打开，也可以用其他编译器打开
@@ -199,5 +198,5 @@ https://www.jianshu.com/p/d69a95aa1ed7
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE4OTU0MjFdfQ==
+eyJoaXN0b3J5IjpbLTEzNjc4NDkxMTddfQ==
 -->
