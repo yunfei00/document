@@ -7,7 +7,7 @@ crontab -ecrontab -e
 crontab -l
 ```
 # 3 启动crontab服务
-
+一般启动服务用 /sbin/service crond start 若是根用户的cron服务可以用 sudo service crond start， 不同版本**linux**系统启动的服务的命令也不同 ，像我的虚拟机里只需用 sudo service cron restart 即可，若是在根用下直接键入service cron start就能启动服务
 # 4 查看服务是否已经运行用
 # 5 
 https://www.cnblogs.com/mingforyou/p/3930636.html
@@ -34,6 +34,6 @@ https://www.cnblogs.com/mingforyou/p/3930636.html
 /etc/init.d/cron restart
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcxMzA5OTgsLTEyNDA4MjYyNDYsMT
-EwNDc0NTQyMl19
+eyJoaXN0b3J5IjpbMTI4MTI2NjMxOSwtMTI0MDgyNjI0NiwxMT
+A0NzQ1NDIyXX0=
 -->
