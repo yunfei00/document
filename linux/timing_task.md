@@ -77,7 +77,7 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 
 举例：
 
-|* |      *|         *|     * |    ls|             指定每小时的第5分钟执行一次ls命令
+|* |*|*|*|ls|  指定每小时的第5分钟执行一次ls命令|
 |--|----|-------|-----|-----|-----|
     |5     |*         |*     |*    | ls |            指定每天的 5:30 执行ls命令 
     7       8         *     *     ls             指定每月8号的7：30分执行ls命令
@@ -91,6 +91,6 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
                                               每天7：50以root 身份执行/etc/cron.daily目录中的所有可执行文件
     7       *         *     *     root     run-parts     /etc/cron.daily   [ 注：run-parts参数表示，执行后面目录中的所有可执行文件。 ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzc1NjUxLC0xMjQwODI2MjQ2LDExMD
-Q3NDU0MjJdfQ==
+eyJoaXN0b3J5IjpbMTY2OTAxMTI2NywtMTI0MDgyNjI0NiwxMT
+A0NzQ1NDIyXX0=
 -->
