@@ -32,14 +32,8 @@ cron服务提供crontab命令来设定cron服务的，以下是这个命令的�
 	```
 	crontab -u fred -r
 	```  
-　　在编辑cron服务时，编辑的内容有一些格式和约定，输入:crontab -u root -e  
-　　进入vi编辑模式，编辑的内容一定要符合下面的格式:*/1 * * * * ls >> /tmp/ls.txt  
-任务调度的crond常驻命令  
-crond 是**linux**用来定期执行程序的命令。当安装完成操作系统之后，默认便会启动此
 
-任务调度命令。crond命令每分锺会定期检查是否有要执行的工作，如果有要执行的工
-
-作便会自动执行该工作。
+crond 是**linux**用来定期执行程序的命令。当安装完成操作系统之后，默认便会启动此任务调度命令。crond命令每分钟会定期检查是否有要执行的工作，如果有要执行的工作便会自动执行该工作。
 
 
 
@@ -67,6 +61,6 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 /etc/init.d/cron restart
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMDQ3MDgzLC0xMjQwODI2MjQ2LDExMD
-Q3NDU0MjJdfQ==
+eyJoaXN0b3J5IjpbMTMyNzg2OTc4MiwtMTI0MDgyNjI0NiwxMT
+A0NzQ1NDIyXX0=
 -->
