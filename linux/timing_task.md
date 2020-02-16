@@ -15,13 +15,13 @@ ps -ax | grep cron
 # 5 crontab 命令解析
 
 	cron服务提供crontab命令来设定cron服务的，以下是这个命令的一些参数与说明:
-	|命令参数 |含义|
--------------------
-|
-crontab -u //设定某个用户的cron服务，一般root用户在执行这个命令的时候需要此参数  
-　　crontab -l //列出某个用户cron服务的详细内容  
-　　crontab -r //删除每个用户的cron服务  
-　　crontab -e //编辑某个用户的cron服务  
+	
+|     命令参数        |含义|
+|---------------|---|
+|crontab -u     |设定某个用户的cron服务，一般root用户在执行这个命令的时候需要此参数  
+|crontab -l |列出某个用户cron服务的详细内容  
+　　crontab -r |删除每个用户的cron服务  
+　　crontab -e |编辑某个用户的cron服务  
 
 　　比如说root查看自己的cron设置:crontab -u root -l  
 　　再例如，root想删除fred的cron设置:crontab -u fred -r  
@@ -60,6 +60,6 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 /etc/init.d/cron restart
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTg0MDQ5LC0xMjQwODI2MjQ2LDExMD
-Q3NDU0MjJdfQ==
+eyJoaXN0b3J5IjpbLTkzNTI4OTE1MCwtMTI0MDgyNjI0NiwxMT
+A0NzQ1NDIyXX0=
 -->
