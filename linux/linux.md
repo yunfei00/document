@@ -193,10 +193,175 @@ dns-nameservers 10.0.208.1 // 设置dns服务器地址
 
 https://www.jianshu.com/p/d69a95aa1ed7
 
+# 13 linux 根目录结构
+/boot
+存放系统启动的相关文件，比如内核
+
+/dev
+设备文件
+
+块(block)设备
+可存储或持有数据 (store or hold data)，可随机访问
+举例：软盘，硬盘，CD—ROM驱动
+
+字符(character)设备
+可传输或转移数据 (transmit or transfer data) 线性访问，以字符为单位
+举例：鼠标，显示屏
+
+/etc
+配置文件
+
+/home
+用户的家目录
+
+/lib
+库文件
+
+/lib/modules
+内核模块文件
+
+静态库 (static libraries)
+后缀为 *.a, 代表 ‘archive’，编译时使用，便于管理单个程序
+
+动态库 (dynamic libraries)
+后缀为 *.so, 代表 ‘shared object’, 程序运行时共享同一个实例，节约内存
+
+/media
+挂载点目录，比如移动设备
+
+/mnt
+文件系统或者设备的通用挂载点
+
+/opt
+第三方程序安装目录
+
+/proc
+虚拟文件系统，内核映射文件，存储运行时系统的信息，比如系统内存，设别挂在，硬件配置等，可以看作是内核的控制与信息中心
+
+/sys
+内核的接口(interface)，包含跟硬件设备相关属性的映射文件
+
+/tmp
+存放临时文件
+
+/var
+存放可变化文件
+
+/var/run 进程
+/var/cache 缓存
+/var/log 日志
+/var/mail 邮件
+/var/lock 锁文件
+/var/tmp 临时文件
+/bin
+可执行二进制文件，系统相关的
+
+/sbin
+管理命令
+
+/usr
+universal shared read-only
+
+/usr/bin 普通用户二进制程序
+/usr/sbin centos中/sbin指向此处
+/usr/lib centos中/lib指向此处
+/usr/local 第三方软件
+/usr/local/bin
+/usr/local/sbin
+/usr/local/lib
+
+# 文件及基本操作
+使用 ls 指令查看目录中文件的信息
+使用 ls -l 命令列举当前目录下的文件
+
+-rwxr-xr-x   1 root   wheel      33888  3 23 07:55 zfgrep
+12           3  4       5          6        7        8
+1
+2
+1.文件类型
+( - ) 普通文件
+( d ) 目标文件
+( b ) 块设备文件
+( l ) 符号链接文件
+( p ) 套接字文件
+( s ) 命令管道文件
+2.文件权限
+共九位，三位为一组，三组分别为root，普通用户，客人对应的权限，rwx(读，写，执行)，例: ‘rwxr-xr-x’
+
+3.文件硬链接次数
+与源文件同时指向相同的物理地址
+
+4.文件的属主
+5.文件的属组
+6.文件的字节数
+7.文件的最近修改时间
+文件的时间戳
+access 访问时间
+modify 修改文件具体内容时间
+change 改变文件基本信息时间，比如文件名
+8.文件名
+文件名命名规范
+长度不超255
+不使用 ‘/’ 作为文件名
+严格区分大小写
+> ls 指令的其他参数
+-h 将文件大小转换为根更清晰的格式
+-a 显示以.开头的隐藏文件
+-d 显示目录自身属性
+-r 逆序显示文件
+-i 显示结点号
+-R 递归显示
+> 使用 mkdir 命令
+作用
+创建目录，支持如下写法： mkdir {a,b}{c,d} (= mkdir ac ad bc bd)
+
+> 使用 cd 命令
+作用
+在目录之间跳转
+
+> 使用 pwd 命令
+作用
+显示当前位置的绝对路径
+
+> 使用 touch 命令
+作用
+更新(修改)文件的时间戳，创建文件
+
+参数使用
+-c 若文件不存在则不创建文件
+-t 自定义时间(格式：[[CC]YY]MMDDhhmm[.ss]]， 比如 199706231223.34)
+-a 只修改access时间
+-m 只修改modify时间
+> 使用 stat 命令
+作用
+查看文件(目录)信息
+
+参数使用
+-f 显示目录信息
+> 使用 rm 命令
+作用
+删除文件(目录)
+
+参数使用
+-i 在删除前询问是否删除
+-f force
+-r 递归删除，用于删除目录及其下面的所有文件与子目录，与 -f 合用最佳
+> 使用 cp 命令
+作用
+复制文件(目录)
+
+参数使用
+-r 复制目录及其下的所有文件与子目录
+-f 如果存在目标文件无法打开，则删除它并在此尝试
+-p 不修改文件的基本属性
+-a 文档(archive)复制，常用于备份
+> 使用 mv 命令
+作用
+移动(重命名)文件
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbNzg3OTg2ODc0LC0xMzY3ODQ5MTE3XX0=
 -->
