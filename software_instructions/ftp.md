@@ -41,19 +41,21 @@ windows下访问，可以使用FileZilla
 如果遇到
 ftp: connect: Connection refused
 则使用如下命令删除并重新安装：
-sudo apt-get remove --purge vsftpd
-sudo apt-get install vsftpd
-linux下也可以直接使用ftp命令进行访问。当然还要学习一些ftp命令。
-关于适用shell脚本调用ftp服务，后期推出脚本。
+	```
+	sudo apt-get remove --purge vsftpd
+	sudo apt-get install vsftpd
+	```
+	linux下也可以直接使用ftp命令进行访问。当然还要学习一些ftp命令。
+	关于适用shell脚本调用ftp服务，后期推出脚本。
 
 # 2 在Centos下搭建Ftp服务
 
-1、检查是否安装 了vsftpd，如果未安装 则安装vsftpd。
-
-1）查看系统中是否安装了vsftpd，可以通过执行命令 ：rpm -qa | grep vsftpd
+1. 检查是否安装 了vsftpd，如果未安装 则安装vsftpd。
+```
+查看系统中是否安装了vsftpd rpm -qa | grep vsftpd
 
 2）如果没有安装 vsftpd，则安装 ：yum -y install vsftpd
-
+```
 2、创建ftp用户，比如ftp_test。命令：useradd -s /sbin/nologin -d /home/ftp_test ftp_test
 useradd -s /sbin/nologin -d /home/ftp_server ftp_user
 注意：
@@ -88,5 +90,5 @@ ftp服务的开启与关闭命令：
 关闭：# service vsftpd stop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzA2ODAyOF19
+eyJoaXN0b3J5IjpbLTIwNDkzNDQ5MDhdfQ==
 -->
