@@ -54,6 +54,7 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 “/”代表”每”,  
 “-”代表从某个数字到某个数字,  
 “,”分开几个离散的数字
+命令行的%，是特殊含义，需要进行转义
 
 举例：
 |分|小时|日 |月| 星期 |命令|含义|
@@ -72,11 +73,12 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 	```
 	* * * * * flock -xn /tmp/test.lock -c "sudo -u root test.sh" 
 	```
-2. 每分钟执行`test.sh`
-```
-	* * * * * /usr/bin/bash  /home/yunfei/svn_client_code/project/get_res_data/test.sh air "$(/usr/bin/date --date=@$(/usr/bin/expr $(/usr/bin/date +\%s) - 25 \* 3600) +\%Y\%m\%d)"   > /dev/null 2>&1 &``
+2. 每分钟执行`test.sh`   其中%，是特殊字符，需要转义
+	```
+	* * * * * /usr/bin/bash  /home/test.sh air "$(/usr/bin/date --date=@$(/usr/bin/expr $(/usr/bin/date +\%s) - 25 \* 3600) +\%Y\%m\%d)"   > /dev/null 2>&1 &
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE2NjA1ODgsLTY4Njg3MjQ4OSwtND
+eyJoaXN0b3J5IjpbLTExMTY0NTEwMTAsLTY4Njg3MjQ4OSwtND
 YyNDk1MTIzLDIxMTg2ODk2MTEsLTU2MTYzNzg0MCwtMTI0MDgy
 NjI0NiwxMTA0NzQ1NDIyXX0=
 -->
