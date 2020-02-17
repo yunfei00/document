@@ -54,7 +54,10 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 “/”代表”每”,  
 “-”代表从某个数字到某个数字,  
 “,”分开几个离散的数字
-命令行的%，是特殊含义，需要进行转义
+命令行的%，是特殊含义，被看做是换行符，而且，其后面的内容被当做命令的标准输入，所以需要进行转义
+
+所以，要想正常使用百分号(%)的功能  
+需要在其前面添加转义符(\)
 
 举例：
 |分|小时|日 |月| 星期 |命令|含义|
@@ -78,7 +81,7 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 	* * * * * /usr/bin/bash  /home/test.sh air "$(/usr/bin/date --date=@$(/usr/bin/expr $(/usr/bin/date +\%s) - 25 \* 3600) +\%Y\%m\%d)"   > /dev/null 2>&1 &
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY0NTEwMTAsLTY4Njg3MjQ4OSwtND
-YyNDk1MTIzLDIxMTg2ODk2MTEsLTU2MTYzNzg0MCwtMTI0MDgy
-NjI0NiwxMTA0NzQ1NDIyXX0=
+eyJoaXN0b3J5IjpbMTYzOTA4MTU1NSwtNjg2ODcyNDg5LC00Nj
+I0OTUxMjMsMjExODY4OTYxMSwtNTYxNjM3ODQwLC0xMjQwODI2
+MjQ2LDExMDQ3NDU0MjJdfQ==
 -->
