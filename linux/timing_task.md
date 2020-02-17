@@ -7,9 +7,9 @@ crontab -ecrontab -e
 crontab -l
 ```
 # 3 启动crontab服务
-co
-|service crond start|启动服务
+|命令 |      说明
 |----------------------|----
+|service crond start|启动服务
 |service crond stop|关闭服务
 |service crond restart|重启服务
 |service crond reload|重新载入配置
@@ -73,7 +73,7 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 	* * * * * flock -xn /tmp/test.lock -c "sudo -u root test.sh" 
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4MzA0OTgsLTQ2MjQ5NTEyMywyMT
-E4Njg5NjExLC01NjE2Mzc4NDAsLTEyNDA4MjYyNDYsMTEwNDc0
-NTQyMl19
+eyJoaXN0b3J5IjpbLTY4Njg3MjQ4OSwtNDYyNDk1MTIzLDIxMT
+g2ODk2MTEsLTU2MTYzNzg0MCwtMTI0MDgyNjI0NiwxMTA0NzQ1
+NDIyXX0=
 -->
