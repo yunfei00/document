@@ -56,22 +56,15 @@ ftp: connect: Connection refused
 	yum -y install vsftpd //安装 vsftpd
 	```
 2. 创建ftp用户，比如ftp_test。
-```
-useradd -s /sbin/nologin -d /home/ftp_test ftp_test
-useradd -s /sbin/nologin -d /home/ftp_server ftp_user
-注意：
-1）目录尽量不要选择根目录下，这里是/home/ftp_test，并且ftp_test这个目录不要手动创建，否则权限会有问题，执行命令的时候会自动创建
-2）注意目录的权限，如果有需要，应该设置相应的权限
-3、为ftp_test用户创建密码。命令：passwd ftp_test
-密码 a82865348
-执行之后输入2次密码确认就设置好了密码。
-4、编辑vsftpd配置文件，命令:vim /etc/vsftpd/vsftpd.conf
-
+	```
+	useradd -s /sbin/nologin -d /home/ftp_test ftp_test
+	useradd -s /sbin/nologin -d /home/ftp_server ftp_user
+	passwd ftp_test  //ftp_test用户创建密码
+	```
+3. 编辑vsftpd配置文件，命令:vim /etc/vsftpd/vsftpd.conf
 找到anonymous_enable这个配置项，默认是YES，修改成NO，表示不允许匿名用户登录。
-
-5、启动vsftp服务，命令：systemctl start vsftpd.service
-
-6、查看ftp服务的状态，命令：systemctl status vsftpd.service
+4. 启动vsftp服务，命令：`systemctl start vsftpd.service`
+6、查看ftp服务的状态，命令：systemctl status vsftpd.service`
 
 7、用ftp客户端进行连接访问。
 
@@ -84,5 +77,5 @@ ftp服务的开启与关闭命令：
 关闭：# service vsftpd stop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDQwNjE1Nl19
+eyJoaXN0b3J5IjpbNzUxMDI2NDU3XX0=
 -->
