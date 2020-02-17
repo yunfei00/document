@@ -64,18 +64,14 @@ ftp: connect: Connection refused
 3. 编辑vsftpd配置文件，命令:vim /etc/vsftpd/vsftpd.conf
 找到anonymous_enable这个配置项，默认是YES，修改成NO，表示不允许匿名用户登录。
 4. 启动vsftp服务，命令：`systemctl start vsftpd.service`
-6、查看ftp服务的状态，命令：systemctl status vsftpd.service`
-
-7、用ftp客户端进行连接访问。
-
-
-
-ftp服务的开启与关闭命令：
-
-开启：# service vsftpd start
-
-关闭：# service vsftpd stop
+5. 查看ftp服务的状态，命令：`systemctl status vsftpd.service`
+6. 用ftp客户端进行连接访问。
+7. ftp服务的开启与关闭命令：
+	```
+	service vsftpd start  #开启 
+	service vsftpd stop   #关闭 
+	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMDI2NDU3XX0=
+eyJoaXN0b3J5IjpbOTYzOTUwMTg2XX0=
 -->
