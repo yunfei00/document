@@ -270,7 +270,7 @@ universal shared read-only
 /usr/local/sbin
 /usr/local/lib
 
-# 文件及基本操作
+# 14 文件及基本操作
 使用 ls 指令查看目录中文件的信息
 使用 ls -l 命令列举当前目录下的文件
 
@@ -363,5 +363,5 @@ change 改变文件基本信息时间，比如文件名
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3OTg2ODc0LC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
