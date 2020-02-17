@@ -76,10 +76,11 @@ GDB是一个由GNU开源组织发布的、UNIX/LINUX操作系统下的、基于�
 * layout split：显示源代码和反汇编窗口
 * Ctrl + L：刷新窗口
 
-交互模式下直接回车的作用是重复上一指令，对于单步调试非常方便；
+交互模式下直接回车的作用是重复上一指令，对于单步调试非常方便
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzQ4MjMwN119
+eyJoaXN0b3J5IjpbLTMzMjg1ODkyMF19
 -->
