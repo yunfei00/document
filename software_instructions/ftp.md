@@ -13,12 +13,15 @@ VSFTP是一个基于GPL发布的类Unix系统上使用的FTP服务器软件，�
 在稳定方面，VSFTP就更加的出色，VSFTP在单机（非集群）上支持4000个以上的并发用户同时连接，根据Red Hat的Ftp服务器的数据，VSFTP服务器可以支持15000个并发用户.
 
 下面具体讲述一下ubuntu下vsftpd软件
-一、下载vsftpd软件
-sudo apt-get install vsftpd
-可以使用如下命令查看版本：
-vsftpd -v
-二、配置vsftpd.conf文件，具体的可以看里面的说明。这里采用默认配置。
-sudo vim /etc/vsftpd.conf
+1. 下载vsftpd软件
+	```
+	sudo apt-get install vsftpd
+	vsftpd -v  //查看版本
+	```
+2. 配置vsftpd.conf文件，具体的可以看里面的说明。这里采用默认配置。
+	```
+	sudo vim /etc/vsftpd.conf
+	```
 三、添加FTP用户
 1 建立ftp文件夹
 sudo useradd -d /home/ubuntu/ftp -s /bin/bash username
@@ -81,5 +84,5 @@ ftp服务的开启与关闭命令：
 关闭：# service vsftpd stop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Njc1MjMyXX0=
+eyJoaXN0b3J5IjpbLTk3NDQ1NzRdfQ==
 -->
