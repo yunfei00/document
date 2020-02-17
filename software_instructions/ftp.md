@@ -22,16 +22,20 @@ VSFTP是一个基于GPL发布的类Unix系统上使用的FTP服务器软件，�
 	```
 	sudo vim /etc/vsftpd.conf
 	```
-三、添加FTP用户
-1 建立ftp文件夹
-sudo useradd -d /home/ubuntu/ftp -s /bin/bash username
-3、执行如下语句设置密码（username为用户名）
-sudo passwd username
-如果需要删除用户,可以使用如下命令：
-userdel username
-四、启动ftp服务
-sudo service vsftpd start
-五、访问ftp服务器
+3. 添加FTP用户
+	```
+	//建立ftp文件夹
+	sudo useradd -d /home/ubuntu/ftp -s /bin/bash username
+	//设置密码（username为用户名）
+	sudo passwd username
+	//如果需要删除用户,可以使用如下命令：
+	userdel username
+	```
+4. 启动ftp服务
+	```
+	sudo service vsftpd start
+	```
+5. 访问ftp服务器
 访问ftp服务器需要有ftp客户端软件：
 windows下访问，可以使用FileZilla
 如果遇到
@@ -84,5 +88,5 @@ ftp服务的开启与关闭命令：
 关闭：# service vsftpd stop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDQ1NzRdfQ==
+eyJoaXN0b3J5IjpbLTkzMzA2ODAyOF19
 -->
