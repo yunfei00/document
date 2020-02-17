@@ -68,12 +68,15 @@ crond 是**linux**用来定期执行程序的命令。当安装完成操作系�
 |*/15|*   |*   |*   |*  |ls     |每15分钟执行一次ls命令
 
 脚本实例：
-	使用root账户，每分钟执行一次`test.sh` ，加锁test.lock，如果程序未执行完，则本次不继续执行
+1. 使用root账户，每分钟执行一次`test.sh` ，加锁test.lock，如果程序未执行完，则本次不继续执行
 	```
 	* * * * * flock -xn /tmp/test.lock -c "sudo -u root test.sh" 
 	```
+2. 每分钟执行`test.sh`
+```
+	* * * * * /usr/bin/bash  /home/yunfei/svn_client_code/project/get_res_data/test.sh air "$(/usr/bin/date --date=@$(/usr/bin/expr $(/usr/bin/date +\%s) - 25 \* 3600) +\%Y\%m\%d)"   > /dev/null 2>&1 &``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Njg3MjQ4OSwtNDYyNDk1MTIzLDIxMT
-g2ODk2MTEsLTU2MTYzNzg0MCwtMTI0MDgyNjI0NiwxMTA0NzQ1
-NDIyXX0=
+eyJoaXN0b3J5IjpbLTE5NDE2NjA1ODgsLTY4Njg3MjQ4OSwtND
+YyNDk1MTIzLDIxMTg2ODk2MTEsLTU2MTYzNzg0MCwtMTI0MDgy
+NjI0NiwxMTA0NzQ1NDIyXX0=
 -->
