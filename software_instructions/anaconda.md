@@ -21,15 +21,7 @@
 	python                         3.7.0      hc167b69_0  pkgs/main           
 	python                         3.7.1      haf84260_3  pkgs/main           
 	python                         3.7.1      haf84260_7  pkgs/main           
-	python                         3.7.2      haf84260_0  pkgs/main           
-	python                         3.7.3      h359304d_0  pkgs/main           
-	python                         3.7.4      h359304d_0  pkgs/main           
-	python                         3.7.4      h359304d_1  pkgs/main           
-	python                         3.7.5      h359304d_0  pkgs/main           
-	python                         3.7.6      h359304d_2  pkgs/main           
-	python                         3.8.0      h359304d_0  pkgs/main           
-	python                         3.8.0      h359304d_1  pkgs/main           
-	python                         3.8.0      h359304d_2  pkgs/main           
+	...         
 	python                         3.8.1      h359304d_1  pkgs/main   
 	
 	```
@@ -51,10 +43,13 @@
 	conda info -e
 	```
 8. 退出虚拟环境
-```
-
-```
+	```
+	source deactivate
+	```
 9. 删除虚拟环境
+	```
+	conda remove -n yourenvname -all
+	``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTczNTAyMl19
+eyJoaXN0b3J5IjpbMjAwMTkwMjQxNF19
 -->
