@@ -39,9 +39,15 @@
 	conda create -n jupyter-env  python=3.7.1  anaconda
 	```
 5. 激活虚拟环境
+	```
+	source activate jupyter-env
+	```
 6. 安装虚拟环境软件包
+```
+
+```
 7. 退出虚拟环境
 8. 删除虚拟环境
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjYzNjI5M119
+eyJoaXN0b3J5IjpbLTExOTkwNjM2XX0=
 -->
