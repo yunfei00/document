@@ -16,7 +16,6 @@
 14. （左上肢脂肪+右上肢脂肪+躯干脂肪+左下肢脂肪+右下肢脂肪）≤体脂肪量  
 15. 身体质量指数（BMI）=体重(单位kg)/（身高（单位m））²
 
-<?xml version="1.0" encoding="UTF-8"?>
 
 说明：
 
@@ -33,7 +32,7 @@ ECW（extracellular water）指 细胞外的水
 所有ECW = 右上肢ECW + 左上肢ECW + 躯干ECW + 右下肢ECW + 左下肢ECW + 浮肿指数ECW = 0.373420 + 0.372613 + 0.363941 + 0.359637 + 0.365187 + 0.364726 = 2.199524
 
 全身肌肉量=四肢+躯干=4.362361 + 4.205561 + 31.487587 +10.022278 +10.007860 =60.085647 肌肉量是64.183746 有差别 暂时未知
-
+```
 /// TB0
 
 float reserved_1; //1
@@ -253,8 +252,9 @@ float reserved_33; //98
 float reserved_34; //99
 
 float reserved_35; //100
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODEzNDE0NCwtMTg4MzU1NjQ5LC0xMT
-I2MTcwMzIyXX0=
+eyJoaXN0b3J5IjpbLTE0MDA3NjE5NTksLTE4ODM1NTY0OSwtMT
+EyNjE3MDMyMl19
 -->
