@@ -43,11 +43,18 @@
 	source activate jupyter-env
 	```
 6. 安装虚拟环境软件包
+	```
+	pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --ignore-installed --upgrade   tensorflow "matplotlib<3" pandas sklearn scipy seaborn ipython==5.7 notebook
+	```
+7. 查询虚拟环境
+	```
+	conda info -e
+	```
+8. 退出虚拟环境
 ```
 
 ```
-7. 退出虚拟环境
-8. 删除虚拟环境
+9. 删除虚拟环境
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTkwNjM2XX0=
+eyJoaXN0b3J5IjpbMTAwNTczNTAyMl19
 -->
