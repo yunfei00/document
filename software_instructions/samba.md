@@ -68,7 +68,6 @@
 	```
 # 2 centOS 安装samba
 
-samba 貌似只能在局域网中添加（还未深入研究）
 1. 使用yum方式安装samba，如果并不确定是否有安装samba，可以使用下面命令查看：
 	```
 	rpm -qa | grep samba
@@ -132,5 +131,5 @@ samba 貌似只能在局域网中添加（还未深入研究）
 	systemctl enable smb
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNjM3MDA2XX0=
+eyJoaXN0b3J5IjpbLTE3NDY0Mzk1MzIsNjUxNjM3MDA2XX0=
 -->
