@@ -6,14 +6,31 @@ Netplan使用YAML语法的配置文件。要使用Netplan配置网络接口，�
 ### 使用配置文件修改
 1. 确定要配置的以太网接口的名称
 ```
-ip link
+visbodyfit@server001:/etc/netplan$ ip link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 60:45:cb:88:5d:28 brd ff:ff:ff:ff:ff:ff
 ```
 2. 打开/etc/netplan下面的yaml文件，并编辑内容
 ```
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  #  renderer: NetworkManager
+  renderer: networkd
+  ethernets:
+    enp3s0:
+      dhcp4: no
+      addresses:
+        - 192.168.0.8/24
+      gateway4: 192.168.0.1
+      nameservers:
+        addresses: [8.8.8.8, 1.1.1.1]
 ```
-将DHCP设置为否 dhcp4: yes
-指定静态IP地址192.168.121.199/24。在下面addresses:可以添加一个或多个将分配给网络接口的IPv4或IPv6 IP地址。
-指定网关 gateway4: 192.168.121.1
+将DHCP设置为否 dhcp4: no
+指定静态IP地址192.168.0.8/24。在下面addresses:可以添加一个或多个将分配给网络接口的IPv4或IPv6 IP地址。
+指定网关 gateway4: 192.168.0.1
 在下nameservers，设置名称服务器的IP地址addresses: [8.8.8.8, 1.1.1.1]
 3. 保存并应用修改
 ```
