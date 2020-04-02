@@ -1,4 +1,4 @@
-# 1 ubuntu 上Qt程序发布
+# 1 ubuntu16.04 上Qt程序发布
 1. 下载linuxdeployqt-6-x86_64.AppImage 网址：
 https://github.com/probonopd/linuxdeployqt/releases
 2. 使用Qt提供的qmake工具
@@ -123,7 +123,10 @@ this->showFullScreen();
 this->showNormal();
 }
 ```
+
+# 5 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNzU5NjAsLTE3NTgyODQzMDcsOTQyND
-c0OTI0LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbMTEyNzgyMDcwNSw2NjI3NTk2MCwtMTc1OD
+I4NDMwNyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5
+MF19
 -->
