@@ -46,8 +46,15 @@ sudo netplan apply
 	sudo apt-get install fcitx fcitx-googlepinyin im-config
 	```
 	fcitx :小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法
+	im-config:输入法配置
+2. 配置输入法
+	```
+	im-config
+	```
+	回车进行配置，
+
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMTQzMDY3XX0=
+eyJoaXN0b3J5IjpbMTM3MTY5MzkyN119
 -->
