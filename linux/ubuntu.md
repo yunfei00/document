@@ -39,3 +39,9 @@ sudo netplan apply
 ### 使用界面修改
 1. 打开网络设置
 2. 在"IPV4"方法部分中，选择"手动"，然后输入您的静态IP地址，网络掩码和网关。完成后，单击"应用"按钮。
+
+# 2 ubuntu 16.04 安装中文输入法
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjM0MzgzNjUwXX0=
+-->
