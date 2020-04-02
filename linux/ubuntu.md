@@ -52,10 +52,10 @@ sudo netplan apply
 	im-config
 	```
 	回车进行配置，最后选择fcitx选项。然后重启系统。
-3. 右上角有类似“Configure Input Method”的图标。可以使用ctrl+S
+3. 右上角有类似“Configure Input Method”的图标。可以使用ctrl+space进行输入法切换。
 
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjkzOTc0Nl19
+eyJoaXN0b3J5IjpbLTE3NDU3NTY5OThdfQ==
 -->
