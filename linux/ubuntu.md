@@ -41,7 +41,13 @@ sudo netplan apply
 2. 在"IPV4"方法部分中，选择"手动"，然后输入您的静态IP地址，网络掩码和网关。完成后，单击"应用"按钮。
 
 # 2 ubuntu 16.04 安装中文输入法
-
+1. 打开终端安装
+	```
+	sudo apt-get install fcitx fcitx-googlepinyin im-config
+	```
+	fcitx :小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法
+	
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MzgzNjUwXX0=
+eyJoaXN0b3J5IjpbNDYzMTQzMDY3XX0=
 -->
