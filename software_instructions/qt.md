@@ -124,9 +124,12 @@ this->showNormal();
 }
 ```
 
-# 5 
+# 5 QT ubuntu mp4播放问题
+[参考网址](http://www.open-terrain.org/index.php/Pong/August30th2016QMediaPlayerOnUbuntu16-04LTS)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzgyMDcwNSw2NjI3NTk2MCwtMTc1OD
-I4NDMwNyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5
-MF19
+eyJoaXN0b3J5IjpbLTk5OTI3OTMwNiwxMTI3ODIwNzA1LDY2Mj
+c1OTYwLC0xNzU4Mjg0MzA3LDk0MjQ3NDkyNCwtMjAwMDQwNjcz
+MCwxMTg4NTMwMTkwXX0=
 -->
