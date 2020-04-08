@@ -39,17 +39,17 @@
 5. 安装过程中的依赖库问题
 	- ./autogen.sh: 38: ./autogen.sh: autoreconf: not found
 	安装依赖库
-	```
-	sudo apt-get install autoconf
-	```
+		```
+		sudo apt-get install autoconf
+		```
 	- Can't exec "libtoolize": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 345, <GEN7> line 6.
 autoreconf: failed to run libtoolize: No such file or directory
 autoreconf: libtoolize is needed because this package uses Libtool
 	安装对应软件
-	```
-	sudo apt-get install libtool
-	```
+		```
+		sudo apt-get install libtool
+		```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTE1Njg4NSwtMTg4Nzc1MzA5MV19
+eyJoaXN0b3J5IjpbMTM4OTQ5NjIxMywtMTg4Nzc1MzA5MV19
 -->
