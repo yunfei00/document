@@ -5,14 +5,9 @@
 	```
 2. 编译安装
 ```
-wget https://github.com/google/protobuf/archive/v3.5.1.tar.gz
-
-tar -xzvf v3.5.1.tar.gz
-
-cd protobuf-3.5.1/
-
+# wget https://github.com/google/protobuf/archive/v3.5.1.tar.gz
+cd protobuf-2.6.1
 ./autogen.sh
-
 ./configure --prefix=/usr/local/protobuf
 
 make -j8 && make install
@@ -23,5 +18,5 @@ ldconfig
 原文链接：https://blog.csdn.net/xiangxianghehe/java/article/details/78928629
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc2NjI1NTFdfQ==
+eyJoaXN0b3J5IjpbODY5NjYxNzQyXX0=
 -->
