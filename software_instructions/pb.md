@@ -31,8 +31,9 @@
 	#pkg-config 路径
 	export PKG_CONFIG_PATH=/usr/local/protobuf/lib/pkgconfig/
 	```
-4. 查看版本
+4. 加载配置文件并查看版本
 	```
+	.  ~/.bashrc
 	protoc --version   
 	libprotoc 2.6.1
 	```
@@ -51,5 +52,6 @@ autoreconf: libtoolize is needed because this package uses Libtool
 		```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTQ5NjIxMywtMTg4Nzc1MzA5MV19
+eyJoaXN0b3J5IjpbLTM5ODI5MTk4MCwxMzg5NDk2MjEzLC0xOD
+g3NzUzMDkxXX0=
 -->
