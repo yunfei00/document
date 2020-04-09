@@ -54,8 +54,13 @@ sudo netplan apply
 	回车进行配置，最后选择fcitx选项。然后重启系统。
 3. 右上角有类似“Configure Input Method”的图标。可以使用ctrl+space进行输入法切换。
 
-	
+# 3 隐藏光标
+1. 安装unclutter
+	```
+	sudo apt-get install unclutter
+	```
+2. 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU3NTY5OThdfQ==
+eyJoaXN0b3J5IjpbLTQ0MjYzMDE4LC0xNzQ1NzU2OTk4XX0=
 -->
