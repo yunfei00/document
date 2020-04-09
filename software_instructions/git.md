@@ -353,6 +353,19 @@
 	git push origin master  Git会把master分支推送到远程库对应的远程分支上
 	```
 
+# 2 ubuntu 上git保存用户名密码
+在使用Git 的时候，经常会遇到需要频繁输入密码的情况，每次git push 和 git pull 都要求输入用户名和密码，如果提交频繁的话就十分不方便。
+## 解决方案
+1. 进入Git 配置文件 
+	```
+	vim ~/.gitconfig
+	```
+2. 设置保存用户名密码，只有第一次需要输入
+	```
+	[credential]
+		helper = store
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbMTgxNjc4NDM5NSwtOTIxNDExODUwLC0xNz
+cwNjcyOTEyXX0=
 -->
