@@ -69,6 +69,53 @@ sudo netplan apply
 ```
 
 # 4 ubuntu18.04 设置开机执行脚本
+Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需要设置
+1. 建立 rc-local.service 文件
+	```
+	sudo vim /etc/systemd/system/rc-local.service
+	```
+2. 复制下列内容到 rc-local.service 文件中
+	```
+	[Unit]
+	Description=/etc/rc.local Compatibility
+	ConditionPathExists=/etc/rc.local
+	 
+	[Service]
+	Type=forking
+	ExecStart=/etc/rc.local start
+	TimeoutSec=0
+	StandardOutput=tty
+	RemainAfterExit=yes
+	SysVStartPriority=99
+	 
+	[Install]
+	WantedBy=multi-user.target
+	```
+3.创建文件 rc.local
+
+```
+sudo vim /etc/rc.local
+```
+
+4.复制下列内容到 rc.local 文件中
+
+```
+
+```
+
+5.给 rc.local 加上权限，启用服务
+
+```
+
+```
+
+6.启动服务并检查状态
+
+```
+
+```
+
+7.重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNjEyNzcwLC0xNzQ1NzU2OTk4XX0=
+eyJoaXN0b3J5IjpbODg0ODEzNTY3LC0xNzQ1NzU2OTk4XX0=
 -->
