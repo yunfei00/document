@@ -66,7 +66,14 @@ sudo netplan apply
 3. 设置开机启动，参考4中设置
 
 # 4 ubuntu18.04 设置开机执行脚本
-Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需要设置
+
+## 原理说明
+- Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需要自己创建
+- systemd 默认读取 /etc/systemd/system 下的配置文件，该目录下的文件会链接/lib/systemd/system/下的文件。执行 ls /lib/systemd/system 你可以看到有很多启动脚本，其中就有我们需要的 rc.local.service
+查看rc.local.service文件内容
+————————————————
+版权声明：本文为CSDN博主「dadeity」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/github_38336924/java/article/details/98183253
 1. 建立 rc-local.service 文件
 	```
 	sudo vim /etc/systemd/system/rc-local.service
@@ -121,5 +128,6 @@ Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需�
 	```
 7. 重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDk3MDk0MywtMTc0NTc1Njk5OF19
+eyJoaXN0b3J5IjpbLTE4NDEzNDc1MTcsMTU1NDk3MDk0MywtMT
+c0NTc1Njk5OF19
 -->
