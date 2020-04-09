@@ -63,10 +63,7 @@ sudo netplan apply
 	```
 	unclutter -idle 3  # 3秒后消失
 	```
-3. 设置开机启动
-```
-
-```
+3. 设置开机启动，参考4中设置
 
 # 4 ubuntu18.04 设置开机执行脚本
 Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需要设置
@@ -124,5 +121,5 @@ Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需�
 	```
 7. 重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3ODc4Mzc1LC0xNzQ1NzU2OTk4XX0=
+eyJoaXN0b3J5IjpbMTU1NDk3MDk0MywtMTc0NTc1Njk5OF19
 -->
