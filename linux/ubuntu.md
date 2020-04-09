@@ -75,10 +75,6 @@ sudo netplan apply
 	`[Unit]` 段: 启动顺序与依赖关系  
 	`[Service]` 段: 启动行为,如何启动，启动类型  
 	`[Install]` 段: 定义如何安装这个配置文件，即怎样做到开机启动
-	- 可以看出，rc.local.service 它少了 Install 段，也就没有定义如何做到开机启动，所以显然这样配置是无效的。 因此我们就需要在后面帮他加上 [Install] 段，可以发现rc.local.service是rc-local.service文件的链接文件，所以我们只需要修改rc-local.service文件即可：
-————————————————
-版权声明：本文为CSDN博主「dadeity」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/github_38336924/java/article/details/98183253
 1. 建立 rc-local.service 文件
 	```
 	sudo vim /etc/systemd/system/rc-local.service
@@ -133,6 +129,6 @@ sudo netplan apply
 	```
 7. 重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU1ODk0MzAsMTU1NDk3MDk0MywtMT
-c0NTc1Njk5OF19
+eyJoaXN0b3J5IjpbMTk0NzA1OTIzMywxNTU0OTcwOTQzLC0xNz
+Q1NzU2OTk4XX0=
 -->
