@@ -67,6 +67,8 @@ sudo netplan apply
 ```
 
 ```
+
+# 4 ubuntu18.04 设置开机执行脚本
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTQzNTg5MiwtMTc0NTc1Njk5OF19
+eyJoaXN0b3J5IjpbNjcwNjEyNzcwLC0xNzQ1NzU2OTk4XX0=
 -->
