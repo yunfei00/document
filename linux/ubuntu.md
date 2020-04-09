@@ -91,12 +91,10 @@ Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需�
 	[Install]
 	WantedBy=multi-user.target
 	```
-3.创建文件 rc.local
-
-```
-sudo vim /etc/rc.local
-```
-
+3. 创建文件 rc.local
+	```
+	sudo vim /etc/rc.local
+	```
 4.复制下列内容到 rc.local 文件中
 
 ```
@@ -117,5 +115,5 @@ sudo vim /etc/rc.local
 
 7.重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0ODEzNTY3LC0xNzQ1NzU2OTk4XX0=
+eyJoaXN0b3J5IjpbMzQzMDUyNTM3LC0xNzQ1NzU2OTk4XX0=
 -->
