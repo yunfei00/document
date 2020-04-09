@@ -59,8 +59,14 @@ sudo netplan apply
 	```
 	sudo apt-get install unclutter
 	```
-2. 
-	
+2. 设置光标隐藏
+	```
+	unclutter -idle 3  # 3秒后消失
+	```
+3. 设置开机启动
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjYzMDE4LC0xNzQ1NzU2OTk4XX0=
+eyJoaXN0b3J5IjpbLTc4NTQzNTg5MiwtMTc0NTc1Njk5OF19
 -->
