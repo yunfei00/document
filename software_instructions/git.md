@@ -118,7 +118,7 @@
 ## 1.3 git 连接github使用
 1. 注册github账号 [https://github.com/](https://github.com/).  
 2. 创建SSH Key，由于本地Git仓库和github仓库之间的传输是通过SSH加密的，所以需要进行设置。
-	在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：ssh-keygen -t rsa –C "youremail@example.com"  ssh-keygen -t rsa -b 4096 -C "youremail@example.com"使用自己github注册时的邮箱地址。
+	在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：ssh-keygen -t rsa -b 4096 -C  "youremail@example.com"使用自己github注册时的邮箱地址。
 	id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
 3. 登录github，添加ssh key
 		登录后，点击右上角，进入Settings，单击“[SSH and GPG keys](https://github.com/settings/keys)，点击“New SSH key”,填写任意title，并粘贴id_rsa.pub中的内容。
@@ -354,5 +354,5 @@
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzg0MDk1MywtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
 -->
