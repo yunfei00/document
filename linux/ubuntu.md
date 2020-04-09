@@ -70,7 +70,12 @@ sudo netplan apply
 ## 原理说明
 - Ubuntu18.04 不能像16.04 那样可以直接使用 /etc/rc.local 文件，需要自己创建
 - systemd 默认读取 /etc/systemd/system 下的配置文件，该目录下的文件会链接/lib/systemd/system/下的文件。执行 ls /lib/systemd/system 你可以看到有很多启动脚本，其中就有我们需要的 rc.local.service
-查看rc.local.service文件内容
+- 查看`rc.local.service`文件内容
+	- 一般正常的启动文件主要分成三部分  
+	`[Unit]` 段: 启动顺序与依赖关系  
+	`[Service]` 段: 启动行为,如何启动，启动类型  
+	`[Install]` 段: 定义如何安装这个配置文件，即怎样做到开机启动
+	- 可以看出，rc.local.service 它少了 Install 段，也就没有定义如何做到开机启动，所以显然这样配置是无效的。 因此我们就需要在后面帮他加上 [Install] 段，可以发现rc.local.service是rc-local.service文件的链接文件，所以我们只需要修改rc-local.service文件即可：
 ————————————————
 版权声明：本文为CSDN博主「dadeity」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/github_38336924/java/article/details/98183253
@@ -128,6 +133,6 @@ sudo netplan apply
 	```
 7. 重启后检查test.log文件是否已经存在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEzNDc1MTcsMTU1NDk3MDk0MywtMT
+eyJoaXN0b3J5IjpbLTE3MDU1ODk0MzAsMTU1NDk3MDk0MywtMT
 c0NTc1Njk5OF19
 -->
