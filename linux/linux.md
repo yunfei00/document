@@ -387,10 +387,24 @@ change 改变文件基本信息时间，比如文件名
 	done
 	echo "Reader exiting"
 	```
-	
+	3. 写管道
+	```
+	#!/bin/bash
+	pipe=/tmp/testpipe
+	if [[ ! -p $pipe ]]; then
+	   echo "Reader not running"
+	   exit 1
+	fi
+
+	if [[ "$1" ]]; then
+	   echo "$1" >$pipe
+	else
+	   echo "Hello from $$" >$pipe
+	fi
+	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY3NDk4MTksNTQyMDYzMjExLC0xMz
-Y3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nz
+g0OTExN119
 -->
