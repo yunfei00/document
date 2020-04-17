@@ -358,10 +358,16 @@ change 改变文件基本信息时间，比如文件名
 > 使用 mv 命令
 作用
 移动(重命名)文件
-
+# 15 shell 命名管道操作
+1. 管道建立
+```
+mkfifo /tmp/testpipe 
+mknod /tmp/testpipe p
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTEzMjA0MTYwMjgsNTQyMDYzMjExLC0xMz
+Y3ODQ5MTE3XX0=
 -->
