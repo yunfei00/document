@@ -360,14 +360,40 @@ change 改变文件基本信息时间，比如文件名
 移动(重命名)文件
 # 15 shell 命名管道操作
 1. 管道建立
-```
-mkfifo /tmp/testpipe 
-mknod /tmp/testpipe p
-```
+	```
+	mkfifo /tmp/testpipe 
+	mknod /tmp/testpipe p
+	visbodyfit@visfit:~/yunfei$ ls -al 
+	prw-rw-r--  1 visbodyfit visbodyfit    0 4月  17 17:21 testpipe|
+	```
+2. 读取管道内容
+	```
+	#!/bin/bash
+
+pipe=/tmp/testpipe
+
+trap "rm -f $pipe" EXIT
+
+if [[ ! -p $pipe ]]; then
+  mkfifo $pipe
+fi
+
+while true
+do
+ if read line <$pipe; then
+ if [[ "$line" == 'quit' ]]; then
+  break
+  fi
+  echo $line
+    fi
+done
+
+echo "Reader exiting"
+	```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA0MTYwMjgsNTQyMDYzMjExLC0xMz
+eyJoaXN0b3J5IjpbLTE2NDAzNzMwODYsNTQyMDYzMjExLC0xMz
 Y3ODQ5MTE3XX0=
 -->
