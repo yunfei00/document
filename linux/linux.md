@@ -379,19 +379,15 @@ trap command signal
 	```
 3. 脚本程序通常是以从上到下的顺序解释执行的，所以必须在你想保护的那部分代码以前指定trap命令。
 4. 信号量详细列表可以trap -l即可显示
+
 | 名称 | 默认动作 | 说明 |
-|---------|-----------|--------|
 |------|------------|------|
 |SIGHUP| 终止进程| 终端线路挂断|
-SIGINT 终止进程 中断进程
-
-SIGQUIT 建立CORE文件 终止进程，并且生成core文件
-
-SIGILL 建立CORE文件 非法指令
-
-SIGTRAP 建立CORE文件 跟踪自陷
-
-SIGBUS 建立CORE文件 总线错误
+SIGINT| 终止进程| 中断进程
+SIGQUIT | 建立CORE文件 终止进程，并且生成core文件
+SIGILL| 建立CORE文件| 非法指令
+SIGTRAP| 建立CORE文件| 跟踪自陷
+SIGBUS 建立CORE文件| 总线错误
 
 SIGSEGV 建立CORE文件 段非法错误
 
@@ -593,6 +589,6 @@ exit 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAwMjE3NCw4ODk1ODAzMzgsNTQyMD
+eyJoaXN0b3J5IjpbLTY4MTM0NzUyNiw4ODk1ODAzMzgsNTQyMD
 YzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
