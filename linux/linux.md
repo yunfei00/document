@@ -377,17 +377,11 @@ trap command signal
 	```
 	trap " " signal-list
 	```
-	3.
-
-※请记住，脚本程序通常是以从上到下的顺序解释执行的，所以必须在你想保护的那部分代码以前指定trap命令。
-
-信号量详细列表可以trap -l即可显示
-
-因为肯定有人现在手头没有linux机器，我就列出来吧
-
-名称 默认动作 说明
-
-SIGHUP 终止进程 终端线路挂断
+3. 脚本程序通常是以从上到下的顺序解释执行的，所以必须在你想保护的那部分代码以前指定trap命令。
+4. 信号量详细列表可以trap -l即可显示
+|名称 |默认动作| 说明|
+|------|------------|------
+SIGHUP| 终止进程| 终端线路挂断
 
 SIGINT 终止进程 中断进程
 
@@ -599,6 +593,6 @@ exit 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDA2MzIxOSw4ODk1ODAzMzgsNTQyMD
-YzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTEyNTIzNjY0NzIsODg5NTgwMzM4LDU0Mj
+A2MzIxMSwtMTM2Nzg0OTExN119
 -->
