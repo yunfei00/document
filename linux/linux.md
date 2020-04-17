@@ -359,6 +359,200 @@ change 改变文件基本信息时间，比如文件名
 作用
 移动(重命名)文件
 # 15 trap
+1. 运行格式
+trap命令的参数分为两部分，前一部分是接收到指定信号时将要采取的行动，后一部分是要处理的信号名。
+```
+trap command signal
+```
+2. 它有三种形式分别对应三种不同的信号回应方式。
+	1. 当脚本收到signal-list清单内列出的信号时，trap命令执行双引号中的命令
+	```
+	trap "commands" signal-list
+	```
+	2. trap不指定任何命令，接受信号的默认操作，默认操作是结束进程的运行
+	```
+	trap signal-list
+	```
+	3. trap命令指定一个空命令串，允许忽视信号
+	```
+	trap " " signal-list
+	```
+	3.
+
+※请记住，脚本程序通常是以从上到下的顺序解释执行的，所以必须在你想保护的那部分代码以前指定trap命令。
+
+信号量详细列表可以trap -l即可显示
+
+因为肯定有人现在手头没有linux机器，我就列出来吧
+
+名称 默认动作 说明
+
+SIGHUP 终止进程 终端线路挂断
+
+SIGINT 终止进程 中断进程
+
+SIGQUIT 建立CORE文件 终止进程，并且生成core文件
+
+SIGILL 建立CORE文件 非法指令
+
+SIGTRAP 建立CORE文件 跟踪自陷
+
+SIGBUS 建立CORE文件 总线错误
+
+SIGSEGV 建立CORE文件 段非法错误
+
+SIGFPE 建立CORE文件 浮点异常
+
+SIGIOT 建立CORE文件 执行I/O自陷
+
+SIGKILL 终止进程 杀死进程
+
+SIGPIPE 终止进程 向一个没有读进程的管道写数据
+
+SIGALARM 终止进程 计时器到时
+
+SIGTERM 终止进程 软件终止信号
+
+SIGSTOP 停止进程 非终端来的停止信号
+
+SIGTSTP 停止进程 终端来的停止信号
+
+SIGCONT 忽略信号 继续执行一个停止的进程
+
+SIGURG 忽略信号 I/O紧急信号
+
+SIGIO 忽略信号 描述符上可以进行I/O
+
+SIGCHLD 忽略信号 当子进程停止或退出时通知父进程
+
+SIGTTOU 停止进程 后台进程写终端
+
+SIGTTIN 停止进程 后台进程读终端
+
+SIGXGPU 终止进程 CPU时限超时
+
+SIGXFSZ 终止进程 文件长度过长
+
+SIGWINCH 忽略信号 窗口大小发生变化
+
+SIGPROF 终止进程 统计分布图用计时器到时
+
+SIGUSR1 终止进程 用户定义信号1
+
+SIGUSR2 终止进程 用户定义信号2
+
+SIGVTALRM 终止进程 虚拟计时器到时
+
+  
+
+2.我一开始思路是lscore目录文件grep是否有文件名，然后判断字符串，发现不好用，因为没有文件的时候字符串不是空，是一个换行。但是在这个地方用到了判断字符串是否为空。mark一下
+
+if [ -n $string ] 判断string非null
+
+if [ -z $string ] 判断string是null
+
+  
+
+3.子进程获取父进程进程号
+
+进程获取自己进程号 $$
+
+进程获取父进程号 $PPID
+
+  
+
+4.杀死所有子进程
+
+因为如果父进程执行完毕后，检测core的进程都没有发现core，所有子进程还存在，这就是传说中的僵尸进程。所以要杀死父进程所有子进程。
+
+kill -9 0——杀死脚本自己及衍生出来的子进程
+
+  
+
+  
+
+然后最后贴上我的源码：
+
+callcore.sh
+
+#! /bin/bash
+
+#调用coretest.sh 检测core
+
+  
+
+trap 'echo trap core!!!;exit' 3
+
+  
+
+echo "father pid is $$"
+
+  
+
+./coretest.sh
+
+while true
+
+do
+
+sleep 5
+
+done
+
+  
+
+coretest.sh
+
+#! /bin/bash
+
+#
+
+#this shell script is designed to catch core,if corehappens,will
+
+#send the father to exit
+
+  
+
+echo "sub pid is $$"
+
+echo "father pid is $PPID"
+
+  
+
+#sleep 2
+
+#kill -3 $PPID
+
+  
+
+#rm -r corelog
+
+while true
+
+do
+
+files=`ls/home/doujinye/coresave/ | grep 'core'| grep -v "^$" | wc -l`
+
+echo "files is$files"
+
+if [ $files -gt 0]
+
+then
+
+echo "not empty"
+
+kill -3 $PPID;exit 1
+
+fi
+
+sleep 5
+
+done
+
+  
+
+exit 1
+```
 
 # 16 shell 命名管道操作
 1. 管道建立
@@ -387,7 +581,7 @@ change 改变文件基本信息时间，比如文件名
 	done
 	echo "Reader exiting"
 	```
-	3. 写管道
+3. 写管道
 	```
 	#!/bin/bash
 	pipe=/tmp/testpipe
@@ -405,6 +599,6 @@ change 改变文件基本信息时间，比如文件名
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nz
-g0OTExN119
+eyJoaXN0b3J5IjpbLTM3NDA2MzIxOSw4ODk1ODAzMzgsNTQyMD
+YzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
