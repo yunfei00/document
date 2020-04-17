@@ -369,31 +369,25 @@ change 改变文件基本信息时间，比如文件名
 2. 读取管道内容
 	```
 	#!/bin/bash
-
-pipe=/tmp/testpipe
-
-trap "rm -f $pipe" EXIT
-
-if [[ ! -p $pipe ]]; then
-  mkfifo $pipe
-fi
-
-while true
-do
- if read line <$pipe; then
- if [[ "$line" == 'quit' ]]; then
-  break
-  fi
-  echo $line
-    fi
-done
-
-echo "Reader exiting"
+	pipe=/tmp/testpipe
+	trap "rm -f $pipe" EXIT
+	if [[ ! -p $pipe ]]; then
+	    mkfifo $pipe
+	fi
+	while true
+	do
+	    if read line <$pipe; then
+	        if [[ "$line" == 'quit' ]]; then
+	            break
+	        fi
+	        echo $line
+	    fi
+	done
+	echo "Reader exiting"
 	```
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAzNzMwODYsNTQyMDYzMjExLC0xMz
-Y3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTUzODgwMDg4MCw1NDIwNjMyMTEsLTEzNj
+c4NDkxMTddfQ==
 -->
