@@ -410,116 +410,6 @@ SIGPROF |终止进程 |统计分布图用计时器到时
 SIGUSR1 |终止进程 |用户定义信号1
 SIGUSR2 |终止进程 |用户定义信号2
 SIGVTALRM |终止进程| 虚拟计时器到时
-  
-
-2.我一开始思路是lscore目录文件grep是否有文件名，然后判断字符串，发现不好用，因为没有文件的时候字符串不是空，是一个换行。但是在这个地方用到了判断字符串是否为空。mark一下
-
-if [ -n $string ] 判断string非null
-
-if [ -z $string ] 判断string是null
-
-  
-
-3.子进程获取父进程进程号
-
-进程获取自己进程号 $$
-
-进程获取父进程号 $PPID
-
-  
-
-4.杀死所有子进程
-
-因为如果父进程执行完毕后，检测core的进程都没有发现core，所有子进程还存在，这就是传说中的僵尸进程。所以要杀死父进程所有子进程。
-
-kill -9 0——杀死脚本自己及衍生出来的子进程
-
-  
-
-  
-
-然后最后贴上我的源码：
-
-callcore.sh
-
-#! /bin/bash
-
-#调用coretest.sh 检测core
-
-  
-
-trap 'echo trap core!!!;exit' 3
-
-  
-
-echo "father pid is $$"
-
-  
-
-./coretest.sh
-
-while true
-
-do
-
-sleep 5
-
-done
-
-  
-
-coretest.sh
-
-#! /bin/bash
-
-#
-
-#this shell script is designed to catch core,if corehappens,will
-
-#send the father to exit
-
-  
-
-echo "sub pid is $$"
-
-echo "father pid is $PPID"
-
-  
-
-#sleep 2
-
-#kill -3 $PPID
-
-  
-
-#rm -r corelog
-
-while true
-
-do
-
-files=`ls/home/doujinye/coresave/ | grep 'core'| grep -v "^$" | wc -l`
-
-echo "files is$files"
-
-if [ $files -gt 0]
-
-then
-
-echo "not empty"
-
-kill -3 $PPID;exit 1
-
-fi
-
-sleep 5
-
-done
-
-  
-
-exit 1
-```
 
 # 16 shell 命名管道操作
 1. 管道建立
@@ -566,6 +456,6 @@ exit 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg0Nzg3OTgsODg5NTgwMzM4LDU0Mj
-A2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMD
+YzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
