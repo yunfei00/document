@@ -456,9 +456,16 @@ SIGVTALRM |终止进程| 虚拟计时器到时
 
 # 17 seq 用法
 
-
+1. seq 说明
+	seq 用于生成序列化数字
+2. seq 使用方法
+	* 生成序列化数字1，100
+	```
+	seq 1 100
+	```
+	* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ5NjE4MDUsMTAxMzA1MTI2NCw4OD
+eyJoaXN0b3J5IjpbLTExNjI5ODIwMjksMTAxMzA1MTI2NCw4OD
 k1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
