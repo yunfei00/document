@@ -474,9 +474,14 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 	```
 	seq 100
 	```
-	* 生成序列化数字
+	* 指定分隔符，横着输出
+	```
+	seq -s '#' 5
+	1#2#3#4#5
+	```
+	* 以空格作为分格，且输出单数
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjM3NjY0MywxMDEzMDUxMjY0LDg4OT
+eyJoaXN0b3J5IjpbLTM0MTQ5NTE0MiwxMDEzMDUxMjY0LDg4OT
 U4MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
