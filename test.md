@@ -22,7 +22,15 @@
 # 5 产品开发
 软件bug
 
-# 6 工具优化
+# 6 维塑后台管理工具优化
+最早classic 的界面，到现在Plus界面
+
+# 7 百人测试工具
+
+# 8 HLH 体重检测工具
+
+
+
 
 # 15 
 # 16 个人学习
@@ -32,6 +40,6 @@
 # 20 谢谢大家
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1MDkzMjcxLC0xNzQxNzEwMTE0LDIwOD
+eyJoaXN0b3J5IjpbNzQ0MDYxNjE2LC0xNzQxNzEwMTE0LDIwOD
 U3OTc3MTAsMTI3OTgwMzg3MCwxMDcyODE2ODE3XX0=
 -->
