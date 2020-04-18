@@ -454,8 +454,11 @@ SIGVTALRM |终止进程| 虚拟计时器到时
 	fi
 	```
 
+# 17 seq 用法
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMD
-YzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTEzMDQ5NjE4MDUsMTAxMzA1MTI2NCw4OD
+k1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
