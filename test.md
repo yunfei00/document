@@ -9,11 +9,13 @@
 04 未来展望
 
 # 3 工作总结
-1. VF-CLASSIC 维护
-2. 
+1. 产品开发
+2. 效率提升
+# 4 解决问题
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA5NjE1MDEsMTI3OTgwMzg3MCwxMD
-cyODE2ODE3XX0=
+eyJoaXN0b3J5IjpbMjA4NTc5NzcxMCwxMjc5ODAzODcwLDEwNz
+I4MTY4MTddfQ==
 -->
