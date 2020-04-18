@@ -15,11 +15,13 @@
 4. 测试工具开发
 # 4 解决问题
 1. 工厂调试设备，有一个方便的界面进行调试
-2. 百人测试时，大量日志数据要测试进行查找，拷贝到excel，开发
+2. 百人测试时，大量日志数据要测试进行查找，拷贝到excel，开发日志处理工具，生成指定格式的excel
+3. 测试拉取日志，需要逐个拉取所有服务的日志，开发工具，让测试可以一键拉取所有服务的日志。
+4. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTI0ODQxNywyMDg1Nzk3NzEwLDEyNz
-k4MDM4NzAsMTA3MjgxNjgxN119
+eyJoaXN0b3J5IjpbLTk3ODEyNTM0LDIwODU3OTc3MTAsMTI3OT
+gwMzg3MCwxMDcyODE2ODE3XX0=
 -->
