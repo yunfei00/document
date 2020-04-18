@@ -19,6 +19,11 @@
 3. 测试拉取日志，需要逐个拉取所有服务的日志，开发工具，让测试可以一键拉取所有服务的日志。
 4. HLH新体重板检测工具
 
+# 5 产品开发
+软件bug
+
+# 6 工具优化
+
 # 15 
 # 16 个人学习
 # 17 个人不足
@@ -27,6 +32,6 @@
 # 20 谢谢大家
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3MTAxMTQsMjA4NTc5NzcxMCwxMj
-c5ODAzODcwLDEwNzI4MTY4MTddfQ==
+eyJoaXN0b3J5IjpbMzg1MDkzMjcxLC0xNzQxNzEwMTE0LDIwOD
+U3OTc3MTAsMTI3OTgwMzg3MCwxMDcyODE2ODE3XX0=
 -->
