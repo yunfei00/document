@@ -15,11 +15,11 @@
 4. 测试工具开发
 # 4 解决问题
 1. 工厂调试设备，有一个方便的界面进行调试
-2. 
+2. 百人测试时，大量日志数据要测试进行查找，拷贝到excel，开发
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODczMzgwLDIwODU3OTc3MTAsMTI3OT
-gwMzg3MCwxMDcyODE2ODE3XX0=
+eyJoaXN0b3J5IjpbLTQ1MTI0ODQxNywyMDg1Nzk3NzEwLDEyNz
+k4MDM4NzAsMTA3MjgxNjgxN119
 -->
