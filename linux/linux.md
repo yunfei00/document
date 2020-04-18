@@ -457,15 +457,26 @@ SIGVTALRM |终止进程| 虚拟计时器到时
 # 17 seq 用法
 
 1. seq 说明
-	seq 用于生成序列化数字
+squeue 是一个序列的缩写，主要用来输出序列化的东西
+用法：seq [选项]... 尾数
+　或：seq [选项]... 首数 尾数
+　或：seq [选项]... 首数 增量 尾数
+以指定增量从首数开始打印数字到尾数。
+ 
+  -f, --format=格式     使用printf 样式的浮点格式
+  -s, --separator=字符串        使用指定字符串分隔数字(默认使用：\n)
+  -w, --equal-width    在列前添加0 使得宽度相同【自动补位】
+      --help            显示此帮助信息并退出
+      --version         显示版本信息并退出
+	
 2. seq 使用方法
-	* 生成序列化数字1，100
+	* 生成序列化数字1到100
 	```
-	seq 1 100
+	seq 100
 	```
-	* 
+	* 生成序列化数字
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI5ODIwMjksMTAxMzA1MTI2NCw4OD
-k1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTg3MjM3NjY0MywxMDEzMDUxMjY0LDg4OT
+U4MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
