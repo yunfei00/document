@@ -458,17 +458,17 @@ SIGVTALRM |终止进程| 虚拟计时器到时
 
 1. seq 说明
 squeue 是一个序列的缩写，主要用来输出序列化的东西
-用法：seq [选项]... 尾数
-　或：seq [选项]... 首数 尾数
-　或：seq [选项]... 首数 增量 尾数
-以指定增量从首数开始打印数字到尾数。
- 
-  -f, --format=格式     使用printf 样式的浮点格式
-  -s, --separator=字符串        使用指定字符串分隔数字(默认使用：\n)
-  -w, --equal-width    在列前添加0 使得宽度相同【自动补位】
-      --help            显示此帮助信息并退出
-      --version         显示版本信息并退出
-	
+	```
+	用法：seq [选项]... 尾数
+	　或：seq [选项]... 首数 尾数
+	　或：seq [选项]... 首数 增量 尾数
+	以指定增量从首数开始打印数字到尾数
+	 -f, --format=格式      使用printf 样式的浮点格式
+	 -s, --separator=字符串 使用指定字符串分隔数字(默认使用：\n)
+	 -w, --equal-width     在列前添加0 使得宽度相同【自动补位】
+	     --help            显示此帮助信息并退出
+	     --version         显示版本信息并退出
+	```
 2. seq 使用方法
 	* 生成序列化数字1到100
 	```
@@ -497,6 +497,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NT
-gwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMT
+MwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTEx
+N119
 -->
