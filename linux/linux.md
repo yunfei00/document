@@ -480,8 +480,17 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 	1#2#3#4#5
 	```
 	* 以空格作为分格，且输出单数
+	```
+	seq -s ' ' 1 2 10
+	1 3 5 7 9
+	```
+	* 默认补位操作
+	```
+	seq  -w -s " "  10
+	01 02 03 04 05 06 07 08 09 10
+	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTQ5NTE0MiwxMDEzMDUxMjY0LDg4OT
-U4MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTExMDYxMzA1NzEsMTAxMzA1MTI2NCw4OD
+k1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
