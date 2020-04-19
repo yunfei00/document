@@ -20,7 +20,11 @@
 # 7 工厂工具开发 VF-Air
 # 8 工厂工具开发 VF-D
 # 9 工厂工具开发 VF-R
-# 10 测试工具开发 
+# 10 工厂工具开发 HLH新体重板测试工具
+# 11 工厂工具开发 VF-Air 老化工具
+# 12 测试工具开发 百人测试
+# 13 测试工具开发 获取日志
+# 14 售后工具开发 日志分析工具  
 # 4 解决问题
 1. 工厂调试设备，有一个方便的界面进行调试
 2. 百人测试时，大量日志数据要测试进行查找，拷贝到excel，开发日志处理工具，生成指定格式的excel
@@ -57,7 +61,7 @@
 
 1304
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MTI1MzAxLDE0NDc1OTQ3NiwxMDM0ND
-U0NjcyLC0xNzQxNzEwMTE0LDIwODU3OTc3MTAsMTI3OTgwMzg3
-MCwxMDcyODE2ODE3XX0=
+eyJoaXN0b3J5IjpbLTExNjQ0MTczODksMTQ0NzU5NDc2LDEwMz
+Q0NTQ2NzIsLTE3NDE3MTAxMTQsMjA4NTc5NzcxMCwxMjc5ODAz
+ODcwLDEwNzI4MTY4MTddfQ==
 -->
