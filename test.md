@@ -13,6 +13,14 @@
 2. 工厂工具开发
 3. 售后工具开发
 4. 测试工具开发
+
+# 4 产品开发 VF-Air
+# 5 产品开发 VF-D
+# 6 产品开发 VF-R
+# 7 工厂工具开发 VF-Air
+# 8 工厂工具开发 VF-D
+# 9 工厂工具开发 VF-R
+# 10 测试工具开发 
 # 4 解决问题
 1. 工厂调试设备，有一个方便的界面进行调试
 2. 百人测试时，大量日志数据要测试进行查找，拷贝到excel，开发日志处理工具，生成指定格式的excel
@@ -49,7 +57,7 @@
 
 1304
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzU5NDc2LDEwMzQ0NTQ2NzIsLTE3ND
-E3MTAxMTQsMjA4NTc5NzcxMCwxMjc5ODAzODcwLDEwNzI4MTY4
-MTddfQ==
+eyJoaXN0b3J5IjpbMzA4MTI1MzAxLDE0NDc1OTQ3NiwxMDM0ND
+U0NjcyLC0xNzQxNzEwMTE0LDIwODU3OTc3MTAsMTI3OTgwMzg3
+MCwxMDcyODE2ODE3XX0=
 -->
