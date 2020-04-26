@@ -177,8 +177,7 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	count=$(expr $(expr $(date --date="${end_time}" "+%s") - $(date --date="${begin_time}" "+%s")) / 3600 / 24 + 1)
 	echo  "datas count is ${count}"
 	# datas count is 6
-	current_file_data="${begin_time}"
-
+	current_data="${begin_time}"
 	for  ((i=0;i<  ${count};i++))
 
 	do
@@ -527,7 +526,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU3NzIyNzMsLTEyMDEyNDI5OTIsMz
-k4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIx
-MSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTU0NjY2NDY1MCwtMTIwMTI0Mjk5MiwzOT
+gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
+LC0xMzY3ODQ5MTE3XX0=
 -->
