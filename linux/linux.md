@@ -190,7 +190,6 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 
 
 
-
 # 12 ubuntu修改静态IP
 1 打开目标文件
 sudo gedit /etc/network/interfaces // gedit 是用gedit进行编译打开，也可以用其他编译器打开
@@ -523,7 +522,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Nzg5NDA5NiwtMTIwMTI0Mjk5MiwzOT
+eyJoaXN0b3J5IjpbMTc5MDI5MDIxMCwtMTIwMTI0Mjk5MiwzOT
 gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
 LC0xMzY3ODQ5MTE3XX0=
 -->
