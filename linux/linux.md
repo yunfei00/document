@@ -183,8 +183,8 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	files[i]=${current_file_data}
 	current_data=$(date --date=@$(expr $(date --date="${current_data}" "+%s") + 3600 \* 24) "+%Y%m%d")
 	done
-
-	fi
+	
+	echo "${files[@]}"
 	```
 
 
@@ -522,7 +522,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMxODA0OTYsLTEyMDEyNDI5OTIsMz
-k4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIx
-MSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbNDU1OTkxMTE5LC0xMjAxMjQyOTkyLDM5OD
+M2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEs
+LTEzNjc4NDkxMTddfQ==
 -->
