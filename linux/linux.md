@@ -159,17 +159,41 @@ date "+%Y-%m-%d %H:%M:%S-$(expr $(date +%N) / 1000)"
 2019-12-09 14:14:06-938178
 
 4. 格式化 
-date --date='Dec 27 11:26:07' "+%Y%m%d"
-20191227
-
-比较两个时间差值
-expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
-
-
 date --date="2/24/17 16:13:27"
 2017年 02月 24日 星期五 16:13:27 CST
 date --date="2/24/17"
 2017年 02月 24日 星期五 00:00:00 CST
+date --date='Dec 27 11:26:07' "+%Y%m%d"
+20191227
+
+5. 比较两个时间差值
+expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
+6. 两个日期之间的所有时间
+	```
+	# 说明：20200225到20200301之间所有时间列表
+	begin_time=20200225
+	end_time=20200301
+	declare -a datas
+	count=$(expr $(expr $(date --date="${end_time}" "+%s") - $(date --date="${begin_time}" "+%s")) / 3600 / 24 + 1)
+	echo  "datas count is ${count}"
+	datas count is 6
+	current_file_data="${file_begin_time}"
+
+	for  ((i=0;i<  ${count};i++))
+
+	do
+
+	files[i]=plus-hardware-${current_file_data}.tar.gz
+
+	current_file_data=$(date --date=@$(expr $(date --date="${current_file_data}" "+%s") + 3600 \* 24) "+%Y%m%d")
+
+	done
+
+	fi
+	```
+
+
+
 
 # 12 ubuntu修改静态IP
 1 打开目标文件
@@ -503,7 +527,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE3MDEzMSwtMTIwMTI0Mjk5MiwzOT
-gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
-LC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbMjY2MjE0MTQ5LC0xMjAxMjQyOTkyLDM5OD
+M2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEs
+LTEzNjc4NDkxMTddfQ==
 -->
