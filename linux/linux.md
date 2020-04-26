@@ -146,24 +146,30 @@ sudo ntpdate cn.pool.ntp.org
 或者sudo ntpdate 91.189.89.199
 
 # 11 date 命令
-时间戳解析成指定格式
+1. 时间戳解析成指定格式
 date --date='@1575447167' "+%Y%m%d"
 20191204
 
-时间向前24H：
+2. 时间向前24H：
 date --date="@$(expr  $(date +%s) - 86400)" "+%Y%m%d"
 20191208
 
-时间精确到微妙
+3. 时间精确到微妙
 date "+%Y-%m-%d %H:%M:%S-$(expr $(date +%N) / 1000)"
 2019-12-09 14:14:06-938178
 
+4. 格式化 
 date --date='Dec 27 11:26:07' "+%Y%m%d"
 20191227
 
 比较两个时间差值
 expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 
+
+date --date="2/24/17 16:13:27"
+2017年 02月 24日 星期五 16:13:27 CST
+date --date="2/24/17"
+2017年 02月 24日 星期五 00:00:00 CST
 
 # 12 ubuntu修改静态IP
 1 打开目标文件
@@ -497,7 +503,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMT
-MwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTEx
-N119
+eyJoaXN0b3J5IjpbLTE0NDE3MDEzMSwtMTIwMTI0Mjk5MiwzOT
+gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
+LC0xMzY3ODQ5MTE3XX0=
 -->
