@@ -44,10 +44,10 @@ echo ${nums[*]}
 2 3 4
 ```
 2. 数组定义
-
-1 数组中的元素，必须以"空格"来隔开
-2 字符串是SHELL中最重要的数据类型，其也可通过($str)来转成数组，操作起来非常方便
+- 数组中的元素，必须以"空格"来隔开
+- 字符串是SHELL中最重要的数据类型，其也可通过($str)来转成数组，操作起来非常方便
 --------------------------------------------
+```
 array0=(a1 a2 a3 a4)
 array1[0]=1
 array1[1]=2
@@ -55,20 +55,21 @@ array1[2]=3
 array1[3]=4
 str="I am a good man"
 array2=($str)
-
-3 数组长度
-使用${array_name[@]} 或者 ${array_name[*]} 都可以全部显示数组中的元素.数组长度同理。
-    1 数组长度
-     array1=(a1 a2 a3 a4)
-
-    jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ echo ${#array1[@]}
-    4
-    jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ echo ${#array1[*]}
-    4
-
-    2 元素长度
-    echo ${#array1[0]}
-    
+```
+3. 数组长度
+- 使用${array_name[@]} 或者 ${array_name[*]} 都可以全部显示数组中的元素.数组长度同理。
+* 数组长度
+	```
+	array1=(a1 a2 a3 a4)
+	echo ${#array1[@]}
+	4
+	echo ${#array1[*]}
+	4
+	```
+* 元素长度
+	```
+	echo ${#array1[0]}
+	```
 4 数组遍历
 for ((i=0;i<${#nums[@]};i++)) do echo ${nums[i]};done
 1
@@ -133,5 +134,5 @@ jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_file
 7 元素切片，同字符切片相同
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2OTQwMTA4LDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTMzMDIxODcxLDE5Mjg2NzQ2MjVdfQ==
 -->
