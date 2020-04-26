@@ -185,7 +185,7 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	done
 	
 	echo "${datas[@]}"
-20200225 20200226 20200227 20200228 20200229 20200301
+	# 20200225 20200226 20200227 20200228 20200229 20200301
 	```
 
 
@@ -523,7 +523,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzgyODI2MSwtMTIwMTI0Mjk5MiwzOT
+eyJoaXN0b3J5IjpbMjA0Nzg5NDA5NiwtMTIwMTI0Mjk5MiwzOT
 gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
 LC0xMzY3ODQ5MTE3XX0=
 -->
