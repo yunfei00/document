@@ -84,9 +84,7 @@ for i in ${nums[@]}; do echo ${i};done
 3
 4
 ```
-
-
-5 数组添加
+5 数组元素添加
 jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ declare -a nums=(1 2 3 4)
 jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ nums[4]=5
 jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ echo ${nums[@]}
@@ -137,5 +135,5 @@ jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_file
 7 元素切片，同字符切片相同
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODYwODIzMiwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbODIwNTAxNTUxLDE5Mjg2NzQ2MjVdfQ==
 -->
