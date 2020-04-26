@@ -179,12 +179,9 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	# datas count is 6
 	current_data="${begin_time}"
 	for  ((i=0;i<  ${count};i++))
-
 	do
-
-	files[i]=plus-hardware-${current_file_data}.tar.gz
-
-	current_file_data=$(date --date=@$(expr $(date --date="${current_file_data}" "+%s") + 3600 \* 24) "+%Y%m%d")
+	files[i]=${current_file_data}
+	current_data=$(date --date=@$(expr $(date --date="${current_file_data}" "+%s") + 3600 \* 24) "+%Y%m%d")
 
 	done
 
@@ -526,7 +523,7 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjY2NDY1MCwtMTIwMTI0Mjk5MiwzOT
-gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
-LC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbMTk5OTQxNTM3LC0xMjAxMjQyOTkyLDM5OD
+M2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEs
+LTEzNjc4NDkxMTddfQ==
 -->
