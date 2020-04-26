@@ -70,18 +70,21 @@ array2=($str)
 	```
 	echo ${#array1[0]}
 	```
-4 数组遍历
+4. 数组遍历
+```
 for ((i=0;i<${#nums[@]};i++)) do echo ${nums[i]};done
 1
 2
 3
 4
 
-jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ for i in ${nums[@]}; do echo ${i};done
+jiayunfei@suanier-All-for i in ${nums[@]}; do echo ${i};done
 1
 2
 3
 4
+```
+
 
 5 数组添加
 jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ declare -a nums=(1 2 3 4)
@@ -134,5 +137,5 @@ jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_file
 7 元素切片，同字符切片相同
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDIxODcxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzk2OTE4NCwxOTI4Njc0NjI1XX0=
 -->
