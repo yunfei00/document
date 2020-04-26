@@ -121,7 +121,11 @@
 	```
 
 7. 元素切片，同字符切片相同
-
+# 3 正则表达式匹配数字
+```
+echo office365 | grep -P '\d+' -o
+365
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzkwODAwOCwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
