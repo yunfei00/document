@@ -30,32 +30,31 @@
 
 **说明： shell中只有一维数组**
 1. 数组声明与查看
-```
-declare -a array_name        # 声明数组 也可不声明
-declare -a nums=(1 2 3 4)    # 声明数组并赋值
-unset array_name             # 删除数组
-# 显示数组元素
-echo ${nums[@]}
-1 2 3 4
-echo ${nums[*]}
-1 2 3 4
-unset nums[0]                # 删除数组元素
-echo ${nums[*]}
-2 3 4
-```
+	```
+	declare -a array_name        # 声明数组 也可不声明
+	declare -a nums=(1 2 3 4)    # 声明数组并赋值
+	unset array_name             # 删除数组
+	# 显示数组元素
+	echo ${nums[@]}
+	1 2 3 4
+	echo ${nums[*]}
+	1 2 3 4
+	unset nums[0]                # 删除数组元素
+	echo ${nums[*]}
+	2 3 4
+	```
 2. 数组定义
 - 数组中的元素，必须以"空格"来隔开
 - 字符串是SHELL中最重要的数据类型，其也可通过($str)来转成数组，操作起来非常方便
---------------------------------------------
-```
-array0=(a1 a2 a3 a4)
-array1[0]=1
-array1[1]=2
-array1[2]=3
-array1[3]=4
-str="I am a good man"
-array2=($str)
-```
+	```
+	array0=(a1 a2 a3 a4)
+	array1[0]=1
+	array1[1]=2
+	array1[2]=3
+	array1[3]=4
+	str="I am a good man"
+	array2=($str)
+	```
 3. 数组长度
 - 使用${array_name[@]} 或者 ${array_name[*]} 都可以全部显示数组中的元素.数组长度同理。
 * 数组长度
@@ -71,31 +70,31 @@ array2=($str)
 	echo ${#array1[0]}
 	```
 4. 数组遍历
-```
-for ((i=0;i<${#nums[@]};i++)) do echo ${nums[i]};done
-1
-2
-3
-4
+	```
+	for ((i=0;i<${#nums[@]};i++)) do echo ${nums[i]};done
+	1
+	2
+	3
+	4
 
-for i in ${nums[@]}; do echo ${i};done
-1
-2
-3
-4
-```
-5 数组元素添加
-jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ declare -a nums=(1 2 3 4)
-jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ nums[4]=5
-jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_files$ echo ${nums[@]}
-1 2 3 4 5
+	for i in ${nums[@]}; do echo ${i};done
+	1
+	2
+	3
+	4
+	```
+5. 数组元素添加
+	```
+	declare -a nums=(1 2 3 4)
+	nums[4]=5
+	echo ${nums[@]}
+	1 2 3 4 5
 
-
-new_nums=(${nums[@]} 6 7)
-echo ${new_nums[@]}
-1 2 3 4 5 6 7
-
-6 数组切片
+	new_nums=(${nums[@]} 6 7)
+	echo ${new_nums[@]}
+	1 2 3 4 5 6 7
+	```
+6数组切片
 
 1 通用的格式${array[@]:起始位置:长度}，中间以":"隔开，如果第二项省略的话，就取后面所有的项
 3) 区别于Python之一:起始位置可以为负数，但必须以放在()中，长度不能为负数
@@ -135,5 +134,5 @@ jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_file
 7 元素切片，同字符切片相同
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNTAxNTUxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTM4MjIwMDU4MiwxOTI4Njc0NjI1XX0=
 -->
