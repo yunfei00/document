@@ -78,7 +78,7 @@ for ((i=0;i<${#nums[@]};i++)) do echo ${nums[i]};done
 3
 4
 
-jiayunfei@suanier-All-for i in ${nums[@]}; do echo ${i};done
+for i in ${nums[@]}; do echo ${i};done
 1
 2
 3
@@ -137,5 +137,5 @@ jiayunfei@suanier-All-Series:~/after_sales_service/visbodyfit_D/get_log/log_file
 7 元素切片，同字符切片相同
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk2OTE4NCwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbMTk3ODYwODIzMiwxOTI4Njc0NjI1XX0=
 -->
