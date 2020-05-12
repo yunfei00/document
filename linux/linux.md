@@ -516,7 +516,13 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 	seq  -f "%04g"  -s  " "  10
 	0001 0002 0003 0004 0005 0006 0007 0008 0009 0010
 	```
-		
+# 18 history 格式设置
+	```
+	HISTFILESIZE=2000
+	HISTSIZE=2000
+	HISTTIMEFORMAT="%Y%m%d-%H%M%S: "  或者HISTTIMEFORMAT="%Y%m%d %T "或者HISTTIMEFORMAT="%F %T "
+	export HISTTIMEFORMAT
+	```
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOT
