@@ -140,7 +140,7 @@
 	ps -aux | grep 'svn'  
 	```
 6. svn 迁移
-
+当服务器到期，或者切换svn服务器时，一般需要进行迁移。
 	a. svn 备份
 	```
 	svnadmin dump /path/to/repository > dumpfile
@@ -529,9 +529,9 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDg2NTY2LC04NzI4NjU4NjQsNjkwNT
-gwODUxLC0zMDU1MDA5NzgsMTEzMjQyNDA5LC0xODIwMDA2NzUs
-MTQ3ODI1Mzc2NSw0Mzg4NjUyOTMsMTMzMDE5MjgzNiw5Nzg4NT
-MxNzksLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcw
-LDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
+eyJoaXN0b3J5IjpbMTkyMDAxNjI1NywtODcyODY1ODY0LDY5MD
+U4MDg1MSwtMzA1NTAwOTc4LDExMzI0MjQwOSwtMTgyMDAwNjc1
+LDE0NzgyNTM3NjUsNDM4ODY1MjkzLDEzMzAxOTI4MzYsOTc4OD
+UzMTc5LC0xMzcxOTc0MTcxLDE5NTQzOTc5MDMsMTY0NTY0ODQ3
+MCwxNjk0NDg5MzEyLC02MDM5MjY2NTddfQ==
 -->
