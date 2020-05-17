@@ -145,7 +145,9 @@
 	svnadmin dump /path/to/repository > /path/to/repository-backup.date
 	```
 	b. svn 还原
-	'
+	```
+	
+	```
 # 2 mac 上svn使用
 环境说明：
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
@@ -515,7 +517,7 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NjIyNTU4LC0zMDU1MDA5NzgsMTEzMj
+eyJoaXN0b3J5IjpbNjkwNTgwODUxLC0zMDU1MDA5NzgsMTEzMj
 QyNDA5LC0xODIwMDA2NzUsMTQ3ODI1Mzc2NSw0Mzg4NjUyOTMs
 MTMzMDE5MjgzNiw5Nzg4NTMxNzksLTEzNzE5NzQxNzEsMTk1ND
 M5NzkwMywxNjQ1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1
