@@ -139,7 +139,11 @@
 	reboot
 	ps -aux | grep 'svn'  
 	```
-	6. svn 迁移
+6. svn 迁移
+- svn 备份
+```
+
+```
 # 2 mac 上svn使用
 环境说明：
 在Mac环境下，由于Mac自带了svn的服务器端和客户端功能，所以我们可以在不装任何第三方软件的前提下使用svn功能，不过还需做一下简单的配置。
@@ -509,8 +513,9 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTUwMDk3OCwxMTMyNDI0MDksLTE4Mj
-AwMDY3NSwxNDc4MjUzNzY1LDQzODg2NTI5MywxMzMwMTkyODM2
-LDk3ODg1MzE3OSwtMTM3MTk3NDE3MSwxOTU0Mzk3OTAzLDE2ND
-U2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbLTE4MzQ1MTI4NDAsLTMwNTUwMDk3OCwxMT
+MyNDI0MDksLTE4MjAwMDY3NSwxNDc4MjUzNzY1LDQzODg2NTI5
+MywxMzMwMTkyODM2LDk3ODg1MzE3OSwtMTM3MTk3NDE3MSwxOT
+U0Mzk3OTAzLDE2NDU2NDg0NzAsMTY5NDQ4OTMxMiwtNjAzOTI2
+NjU3XX0=
 -->
