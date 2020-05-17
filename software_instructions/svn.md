@@ -142,11 +142,22 @@
 6. svn 迁移
 	a. svn 备份
 	```
-	svnadmin dump /path/to/repository > /path/to/repository-backup.date
+	svnadmin dump /path/to/repository > dumpfile
+	# 备份配置文件
+	/home/svn/svnpath目录下
+	authz、passwd、svnserve.conf文件
 	```
 	b. svn 还原
 	```
-	
+	# 创建版本库路径
+	mkdir -p /home/svn/svnpath
+	# 创建版本库
+	svnadmin create /home/svn/svnpath
+	# 将dumpfile导入到新的repository 目录中
+	svnadmin load 新建的repos的目录路径（/repository/directory） < dumpfile
+	# 将原先服务器的配置文件备份后复制到新服务器中
+	/home/svn/svnpath目录下
+	authz、passwd、svnserve.conf文件
 	```
 # 2 mac 上svn使用
 环境说明：
@@ -517,9 +528,9 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNTgwODUxLC0zMDU1MDA5NzgsMTEzMj
-QyNDA5LC0xODIwMDA2NzUsMTQ3ODI1Mzc2NSw0Mzg4NjUyOTMs
-MTMzMDE5MjgzNiw5Nzg4NTMxNzksLTEzNzE5NzQxNzEsMTk1ND
-M5NzkwMywxNjQ1NjQ4NDcwLDE2OTQ0ODkzMTIsLTYwMzkyNjY1
-N119
+eyJoaXN0b3J5IjpbLTg3Mjg2NTg2NCw2OTA1ODA4NTEsLTMwNT
+UwMDk3OCwxMTMyNDI0MDksLTE4MjAwMDY3NSwxNDc4MjUzNzY1
+LDQzODg2NTI5MywxMzMwMTkyODM2LDk3ODg1MzE3OSwtMTM3MT
+k3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0NzAsMTY5NDQ4OTMx
+MiwtNjAzOTI2NjU3XX0=
 -->
