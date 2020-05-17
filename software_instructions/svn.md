@@ -140,6 +140,7 @@
 	ps -aux | grep 'svn'  
 	```
 6. svn 迁移
+
 	a. svn 备份
 	```
 	svnadmin dump /path/to/repository > dumpfile
@@ -528,9 +529,9 @@ global-ignores = build *~.nib *.so *.pbxuser *.mode *.perspective*
 ## 2.6 svn 出错信息总汇
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mjg2NTg2NCw2OTA1ODA4NTEsLTMwNT
-UwMDk3OCwxMTMyNDI0MDksLTE4MjAwMDY3NSwxNDc4MjUzNzY1
-LDQzODg2NTI5MywxMzMwMTkyODM2LDk3ODg1MzE3OSwtMTM3MT
-k3NDE3MSwxOTU0Mzk3OTAzLDE2NDU2NDg0NzAsMTY5NDQ4OTMx
-MiwtNjAzOTI2NjU3XX0=
+eyJoaXN0b3J5IjpbMTk1NDg2NTY2LC04NzI4NjU4NjQsNjkwNT
+gwODUxLC0zMDU1MDA5NzgsMTEzMjQyNDA5LC0xODIwMDA2NzUs
+MTQ3ODI1Mzc2NSw0Mzg4NjUyOTMsMTMzMDE5MjgzNiw5Nzg4NT
+MxNzksLTEzNzE5NzQxNzEsMTk1NDM5NzkwMywxNjQ1NjQ4NDcw
+LDE2OTQ0ODkzMTIsLTYwMzkyNjY1N119
 -->
