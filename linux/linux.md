@@ -549,11 +549,15 @@ sudo service supervisor restart
 [参考链接](https://man.linuxde.net/docs/shell_regex.html)
 
 示例：
-1. visbodyfit@visbodyfit:~/visfitdevice/scanServer/log$ echo 2020-05-25|sed 's/^\(....\).*\(..\).*\(..\)/\1/'
-2020
+1. 匹配年
+	``` 
+	echo 2020-05-25|sed 's/^\(....\).*\(..\).*\(..\)/\1/'
+	2020
+	```
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDE2NjMwLC0xNzMxODI1ODQwLDIxMD
+eyJoaXN0b3J5IjpbLTk0Nzc2MTA0LC0xNzMxODI1ODQwLDIxMD
 k2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEy
 NjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
