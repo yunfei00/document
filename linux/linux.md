@@ -526,6 +526,9 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 # 19 service服务
 service命令用于对系统服务进行管理，比如启动（start）、停止（stop）、重启（restart）、查看状态（status）等。
 service命令本身是一个shell脚本，它在/etc/init.d/目录查找指定的服务脚本，然后调用该服务脚本来完成任务。
+	```
+	sudo service supervisor restart
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOT
 gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
