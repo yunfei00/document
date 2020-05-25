@@ -535,7 +535,7 @@ sudo service supervisor restart
 - Perl的正则表达式（Perl Regular Expression 又叫Perl RegEx 简称PREs）
 
 	带有正则表达式的一些常用命令是tr，sed，vi和grep。下面列出了一些基本的正则表达式。
-	
+	基本正则表达式：
 	 符号 |内容描述
 	 |----|--
 	 |.| 替换任何字符
@@ -548,7 +548,7 @@ sudo service supervisor restart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTAwNTk4NzksMjEwOTY4Nzk2MCwtMT
-IwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAz
-MzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbNjMyMjkyMzIyLDIxMDk2ODc5NjAsLTEyMD
+EyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4
+LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
