@@ -531,10 +531,16 @@ sudo service supervisor restart
 ```
 # 20 shell正则表达式
 带有正则表达式的一些常用命令是tr，sed，vi和grep。下面列出了一些基本的正则表达式。
-符号 内容描述
-. 替换任何字符
+符号 |内容描述
+--|--
+.| 替换任何字符
+^|匹配字符串的开头
+$|匹配字符串的结尾
+*|匹配之前的项零次或多次
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5OTU0NDgyLDIxMDk2ODc5NjAsLTEyMD
+eyJoaXN0b3J5IjpbODk0MjE4MTUwLDIxMDk2ODc5NjAsLTEyMD
 EyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4
 LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
