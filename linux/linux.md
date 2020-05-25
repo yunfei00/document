@@ -525,13 +525,16 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 	```
 # 19 service服务
 service命令用于对系统服务进行管理，比如启动（start）、停止（stop）、重启（restart）、查看状态（status）等。
-service命令本身是一个shell脚本，它在/etc/init.d/目录查找指定的服务脚本，然后调用该服务脚本来完成任务。
-	```
-	sudo service supervisor restart
-	```
-	
+	service命令本身是一个shell脚本，它在/etc/init.d/目录查找指定的服务脚本，然后调用该服务脚本来完成任务。
+```
+sudo service supervisor restart
+```
+# 20 shell正则表达式
+带有正则表达式的一些常用命令是tr，sed，vi和grep。下面列出了一些基本的正则表达式。
+符号 内容描述
+. 替换任何字符
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOT
-gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
-LC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbMjg5OTU0NDgyLDIxMDk2ODc5NjAsLTEyMD
+EyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4
+LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
