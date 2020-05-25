@@ -549,10 +549,27 @@ sudo service supervisor restart
 
 正则表达式的基本组成部分：
 
-
+正则表达式|描述|示例|Basic RegEx|Extended RegEx|Python RegEx|Perl regEx
+---|----|---|---|----|---|---
+\\|转义符，将特殊字符进行转义，忽略其特殊意义a\.b匹配a.b，但不能匹配ajb，.被转义为特殊意义\\\\
+^匹配行首，awk中，^则是匹配字符串的开始^tux匹配以tux开头的行^^^^
+$匹配行尾，awk中，$则是匹配字符串的结尾tux$匹配以tux结尾的行$$$$
+.匹配除换行符\n之外的任意单个字符，awk则中可以ab.匹配abc或bad，不可匹配abcd或abde，只能匹配单字符....
+[]匹配包含在[字符]之中的任意一个字符coo[kl]可以匹配cook或cool[][][][]
+[^]匹配[^字符]之外的任意一个字符123[^45]不可以匹配1234或1235，1236、1237都可以[^][^][^][^]
+[-]匹配[]中指定范围内的任意一个字符，要写成递增[0-9]可以匹配1、2或3等其中任意一个数字[-][-][-][-]
+?匹配之前的项1次或者0次colou?r可以匹配color或者colour，不能匹配colouur不支持???
++匹配之前的项1次或者多次sa-6+匹配sa-6、sa-666，不能匹配sa-不支持+++
+*匹配之前的项0次或者多次co*l匹配cl、col、cool、coool等****
+()匹配表达式，创建一个用于匹配的子串ma(tri)?匹配max或maxtrix不支持()()()
+{n}匹配之前的项n次，n是可以为0的正整数[0-9]{3}匹配任意一个三位数，可以扩展为[0-9][0-9][0-9]不支持{n}{n}{n}
+{n,}之前的项至少需要匹配n次[0-9]{2,}匹配任意一个两位数或更多位数不支持{n,}{n,}{n,}
+{n,m}指定之前的项至少匹配n次，最多匹配m次，n<=m[0-9]{2,5}匹配从两位数到五位数之间的任意一个数字不支持{n,m}{n,m}{n,m}
+|交替匹配|两边的任意一项ab(c|d)匹配abc或abd不支持|||
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwOTkyNzEwLC0xNzMxODI1ODQwLDIxMD
-k2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEy
-NjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTEyNzc5MDY3NDIsLTE3MzE4MjU4NDAsMj
+EwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1
+MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX
+0=
 -->
