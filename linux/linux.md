@@ -548,10 +548,10 @@ sudo service supervisor restart
 
 [参考链接](https://man.linuxde.net/docs/shell_regex.html)
 
-shili
+示例：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTMwNDYyNCwtMTczMTgyNTg0MCwyMT
-A5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUx
-MjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ
-==
+eyJoaXN0b3J5IjpbMjA1ODI5ODIsLTE3MzE4MjU4NDAsMjEwOT
+Y4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2
+NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
