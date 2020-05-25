@@ -549,9 +549,9 @@ sudo service supervisor restart
 [参考链接](https://man.linuxde.net/docs/shell_regex.html)
 
 示例：
-
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODI5ODIsLTE3MzE4MjU4NDAsMjEwOT
-Y4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2
-NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbNTc4NjU4ODI3LC0xNzMxODI1ODQwLDIxMD
+k2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEy
+NjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
