@@ -529,6 +529,7 @@ service命令本身是一个shell脚本，它在/etc/init.d/目录查找指定�
 	```
 	sudo service supervisor restart
 	```
+	
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOT
 gzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjEx
