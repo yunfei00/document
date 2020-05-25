@@ -553,11 +553,14 @@ sudo service supervisor restart
 	``` 
 	echo 2020-05-25|sed 's/^\(....\).*\(..\).*\(..\)/\1/'
 	2020
+	echo 20200525|sed 's/^\(....\).*\(..\).*\(..\)/\1\/\2\/\3/'
+	2020/05/25
 	```
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Nzc2MTA0LC0xNzMxODI1ODQwLDIxMD
-k2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEy
-NjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMj
+EwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1
+MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX
+0=
 -->
