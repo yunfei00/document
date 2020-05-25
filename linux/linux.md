@@ -536,7 +536,6 @@ sudo service supervisor restart
 
 	带有正则表达式的一些常用命令是tr，sed，vi和grep。下面列出了一些基本的正则表达式。
 
-## 基本正则表达式
 |符号 |内容描述
 |----|--
 |.| 替换任何字符
@@ -548,8 +547,12 @@ sudo service supervisor restart
 |?|完全匹配一个字符
 
 
+正则表达式的基本组成部分：
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMT
-IwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAz
-MzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbODQwOTkyNzEwLC0xNzMxODI1ODQwLDIxMD
+k2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEy
+NjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
