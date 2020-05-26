@@ -542,7 +542,7 @@ sudo service supervisor restart
 |^|匹配字符串的开头
 |$|匹配字符串的结尾
 |*|匹配之前的项零次或多次
-|\\|转义字符
+|\\ |转义字符
 |()|分组正则表达式
 |?|完全匹配一个字符
 
@@ -559,8 +559,8 @@ sudo service supervisor restart
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMj
-EwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1
-MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX
-0=
+eyJoaXN0b3J5IjpbMTYzNjAzMjEyNiwtMTkzNjc3MTE2MCwtMT
+czMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2
+NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEsLT
+EzNjc4NDkxMTddfQ==
 -->
