@@ -9,8 +9,14 @@ supervisord -v
 ```
 supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般能再这里找到有用的信息
 
+## 常用命令
+-   `启动守护进程：supervisord -c /etc/supervisor/supervisord.conf`
+-   `重载配置：supervisorctl reload`
+参考如下：
+[https://blog.csdn.net/kkevinyang/article/details/80539940](https://blog.csdn.net/kkevinyang/article/details/80539940)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjk4ODkwMl19
+eyJoaXN0b3J5IjpbLTE3ODQ1NjAzNTVdfQ==
 -->
