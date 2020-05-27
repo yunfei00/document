@@ -33,8 +33,7 @@ sudo supervisord -c /etc/supervisor/supervisord.conf  # 启动守护进程
 sudo supervisorctl reload  # 重载配置
 ```
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
+eyJoaXN0b3J5IjpbODUxNDAxNjk2LDExOTIyMTE2NDQsLTQxMD
+g3MjMxMl19
 -->
