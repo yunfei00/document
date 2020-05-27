@@ -12,11 +12,17 @@ supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般
 ## 常用命令
 -   `启动守护进程：supervisord -c /etc/supervisor/supervisord.conf`
 -   `重载配置：supervisorctl reload`
+
 参考如下：
 [https://blog.csdn.net/kkevinyang/article/details/80539940](https://blog.csdn.net/kkevinyang/article/details/80539940)
+
+1. supervisor无法启动
+```
+ps -ef|grep supervisor
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ1NjAzNTVdfQ==
+eyJoaXN0b3J5IjpbLTc2MTExMzc5NV19
 -->
