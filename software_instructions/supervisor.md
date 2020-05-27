@@ -16,6 +16,8 @@ supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般
 参考如下：
 [https://blog.csdn.net/kkevinyang/article/details/80539940](https://blog.csdn.net/kkevinyang/article/details/80539940)
 
+[https://www.jianshu.com/p/805977544d7f](https://www.jianshu.com/p/805977544d7f)
+
 1. supervisor无法启动
 ```
 # 以下命令无法查询到进程
@@ -34,5 +36,5 @@ sudo supervisorctl reload  # 重载配置
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjEzMjQxMywtNDEwODcyMzEyXX0=
+eyJoaXN0b3J5IjpbMTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
 -->
