@@ -22,12 +22,12 @@ supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般
 ps -ef|grep supervisor
 
 # 执行以下命令后恢复
-sudo supervisord -c /etc/supervisor/supervisord.conf  # qi
-sudo supervisorctl reload
+sudo supervisord -c /etc/supervisor/supervisord.conf  # 启动守护进程
+sudo supervisorctl reload  # 重载配置
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTcyMTg2NDldfQ==
+eyJoaXN0b3J5IjpbLTQxMDg3MjMxMl19
 -->
