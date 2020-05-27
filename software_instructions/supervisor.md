@@ -20,6 +20,11 @@ supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般
 ```
 # 以下命令无法查询到进程
 ps -ef|grep supervisor
+# 错误信息如下：
+sudo supervisorctl 
+[sudo] password for visbodyfit: 
+unix:///var/run/supervisor.sock no such file
+supervisor>
 
 # 执行以下命令后恢复
 sudo supervisord -c /etc/supervisor/supervisord.conf  # 启动守护进程
@@ -29,5 +34,5 @@ sudo supervisorctl reload  # 重载配置
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDg3MjMxMl19
+eyJoaXN0b3J5IjpbLTc3NjEzMjQxMywtNDEwODcyMzEyXX0=
 -->
