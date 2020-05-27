@@ -18,11 +18,16 @@ supervisord的日志在 /var/log/supervisor/supervisord.log，启动失败一般
 
 1. supervisor无法启动
 ```
+# 以下命令无法查询到进程
 ps -ef|grep supervisor
+
+# 执行以下命令后恢复
+sudo supervisord -c /etc/supervisor/supervisord.conf  # qi
+sudo supervisorctl reload
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTExMzc5NV19
+eyJoaXN0b3J5IjpbLTExNTcyMTg2NDldfQ==
 -->
