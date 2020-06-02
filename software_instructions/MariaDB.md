@@ -53,7 +53,7 @@ Threads: 1  Questions: 26  Slow queries: 0  Opens: 1  Flush tables: 2  Open tabl
 # 3 配置MariaDB进行远程客户端访问
 1. 测试数据库
  ```
-# 本地可用
+#本地可用
 [root@VM_0_4_centos bin]# mysql --host=localhost --protocol=tcp --port=3306 fat_data -p 
 Enter password: 
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -65,16 +65,23 @@ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [fat_data]> 
+#远程不可用
+mysql --host=XX.XX.XX.XX --protocol=tcp --port=3306 fat_data -p 
+ERROR 1130 (HY000): Host 'XX.XX.XX.XX' is not allowed to connect to this MariaDB server
  ```
 
 2. 找到配置文件
-
+配置文件一般位于如下路径：
+`/etc/my.cnf /etc/mysql/my.cnf ~/.my.cnf`
 3. 编辑配置文件
-
+配置文件最后添加如下内容：
+```[mysqld]
+skip-networking=0
+skip-bind-address
 4. 增加远程用户
 
 5. 重启数据库
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg4NjM0NDcsLTQ1NjkxNzgyOCwtNz
+eyJoaXN0b3J5IjpbLTE5MDQxNDg3MzMsLTQ1NjkxNzgyOCwtNz
 k5MzAwMDJdfQ==
 -->
