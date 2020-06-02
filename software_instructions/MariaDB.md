@@ -22,8 +22,35 @@ sudo systemctl status mariadb
 ```
 sudo systemctl enable mariadb
 ```
-5. 保护MariaDB服务器
+## 第2步-保护MariaDB服务器
+MariaDB包含一个安全脚本，用于更改一些不太安全的默认选项，例如远程root登录和样本用户。使用此命令运行安全脚本:
+```
+sudo mysql_secure_installation
+```
+该脚本为每个步骤提供了详细的说明。第一个提示要求输入root密码（尚未设置），因此我们将按`ENTER`。接下来，将提示我们设置该根密码，我们将这样做。
+
+然后，通过按`Y`，然后`ENTER`接受其余的提示，我们将接受所有安全建议，这将删除匿名用户，禁止远程root登录，删除测试数据库并重新加载特权表。
+
+最后，既然我们已经确保了安装的安全，我们将验证其是否正常运行。
+
+## 第3步-测试安装
+我们可以通过连接该`mysqladmin`工具来验证我们的安装并获取有关该工具的信息，该工具可让您运行管理命令。使用以下命令以**root**（`-u root`）身份连接到MariaDB ，提示输入密码（`-p`），然后返回版本。
+```
+[root@VM_0_4_centos ~]# mysqladmin -u root -p version
+Enter password: 
+mysqladmin  Ver 9.0 Distrib 5.5.65-MariaDB, for Linux on x86_64
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Server version		5.5.65-MariaDB
+Protocol version	10
+Connection		Localhost via UNIX socket
+UNIX socket		/var/lib/mysql/mysql.sock
+Uptime:			58 min 41 sec
+
+Threads: 1  Questions: 26  Slow queries: 0  Opens: 1  Flush tables: 2  Open tables: 27  Queries per second avg: 0.007
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTA5MDAwNV19
+eyJoaXN0b3J5IjpbLTc5OTMwMDAyXX0=
 -->
