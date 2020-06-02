@@ -4,6 +4,7 @@ MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在�
 MariaDB基于[事务](https://baike.baidu.com/item/%E4%BA%8B%E5%8A%A1/5945882)的Maria[存储引擎](https://baike.baidu.com/item/%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/8969956)，替换了[MySQL](https://baike.baidu.com/item/MySQL)的[MyISAM](https://baike.baidu.com/item/MyISAM)存储引擎，它使用了Percona的 XtraDB，InnoDB的变体，分支的开发者希望提供访问即将到来的MySQL 5.4 InnoDB性能。这个版本还包括了 PrimeBase XT (PBXT) 和 FederatedX[存储引擎](https://baike.baidu.com/item/%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E)。
 
 # 2 在CentOS 7上安装MariaDB
+## 第1步-安装MariaDB
 1. 将使用Yum安装MariaDB软件包
 ```
 sudo yum install mariadb-server
@@ -21,8 +22,8 @@ sudo systemctl status mariadb
 ```
 sudo systemctl enable mariadb
 ```
-## 保护MariaDB服务器
+5. 保护MariaDB服务器
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU5MDgzXX0=
+eyJoaXN0b3J5IjpbLTYzNTA5MDAwNV19
 -->
