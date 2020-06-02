@@ -51,7 +51,30 @@ Threads: 1  Questions: 26  Slow queries: 0  Opens: 1  Flush tables: 2  Open tabl
 
 ```
 # 3 配置MariaDB进行远程客户端访问
+1. 测试数据库
+ ```
+# 本地可用
+[root@VM_0_4_centos bin]# mysql --host=localhost --protocol=tcp --port=3306 fat_data -p 
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 14
+Server version: 5.5.65-MariaDB MariaDB Server
 
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [fat_data]> 
+ ```
+
+2. 找到配置文件
+
+3. 编辑配置文件
+
+4. 增加远程用户
+
+5. 重启数据库
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjkxNzgyOCwtNzk5MzAwMDJdfQ==
+eyJoaXN0b3J5IjpbLTIwOTg4NjM0NDcsLTQ1NjkxNzgyOCwtNz
+k5MzAwMDJdfQ==
 -->
