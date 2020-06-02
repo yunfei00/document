@@ -15,9 +15,14 @@ sudo systemctl start mariadb
 3. `systemctl` 不会显示所有服务管理命令的结果，因此为确保成功，我们将使用以下命令
 ```
 sudo systemctl status mariadb
+# 如果MariaDB已成功启动，则输出应包含“ Active：活动（正在运行）
 ```
-如果MariaDB已成功启动，则输出应包含“ Active：活动（正在运行）
 4. `systemctl enable`命令创建MariaDB，该命令将创建必要的符号链接，以确保MariaDB在启动时启动。
+```
+sudo systemctl enable mariadb
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0NDM4MDQ1XX0=
+eyJoaXN0b3J5IjpbLTE2MTQyMzM2NDRdfQ==
 -->
