@@ -51,6 +51,7 @@ Threads: 1  Questions: 26  Slow queries: 0  Opens: 1  Flush tables: 2  Open tabl
 
 ```
 # 3 配置MariaDB进行远程客户端访问
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgyMzE3OTQsLTc5OTMwMDAyXX0=
+eyJoaXN0b3J5IjpbLTQ1NjkxNzgyOCwtNzk5MzAwMDJdfQ==
 -->
