@@ -86,9 +86,14 @@ skip-bind-address
 SELECT User, Host FROM mysql.user WHERE Host <> 'localhost';
 
 #添加用户
+grant all on *.* to test@'%' identified by '123456' with grant option;
 ```
 5. 重启数据库
+```
+sudo systemctl restart mariadb
+```
+6. 使用用户名test,密码123456进行远程连接
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Nzc4NDIwNiwtNDU2OTE3ODI4LC03OT
-kzMDAwMl19
+eyJoaXN0b3J5IjpbLTE5NDY5ODcwMTcsMTQ3Nzc4NDIwNiwtND
+U2OTE3ODI4LC03OTkzMDAwMl19
 -->
