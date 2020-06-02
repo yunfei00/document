@@ -21,8 +21,8 @@ sudo systemctl status mariadb
 ```
 sudo systemctl enable mariadb
 ```
-
+## 保护MariaDB服务器
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQyMzM2NDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU5MDgzXX0=
 -->
