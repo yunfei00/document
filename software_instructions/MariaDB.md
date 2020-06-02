@@ -75,13 +75,20 @@ ERROR 1130 (HY000): Host 'XX.XX.XX.XX' is not allowed to connect to this MariaDB
 `/etc/my.cnf /etc/mysql/my.cnf ~/.my.cnf`
 3. 编辑配置文件
 配置文件最后添加如下内容：
-```[mysqld]
+```
+[mysqld]
 skip-networking=0
 skip-bind-address
+```
 4. 增加远程用户
+```
+#本地登录后，使用如下命令查询
+SELECT User, Host FROM mysql.user WHERE Host <> 'localhost';
 
+#添加用户
+```
 5. 重启数据库
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQxNDg3MzMsLTQ1NjkxNzgyOCwtNz
-k5MzAwMDJdfQ==
+eyJoaXN0b3J5IjpbMTQ3Nzc4NDIwNiwtNDU2OTE3ODI4LC03OT
+kzMDAwMl19
 -->
