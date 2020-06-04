@@ -556,11 +556,12 @@ sudo service supervisor restart
 	echo 20200525|sed 's/^\(....\).*\(..\).*\(..\)/\1\/\2\/\3/'
 	2020/05/25
 	```
+	# 21 Centos postfix 邮箱服务器搭建
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjAzMjEyNiwtMTkzNjc3MTE2MCwtMT
-czMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2
-NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEsLT
-EzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbMTM5MjE4NzAxMywxNjM2MDMyMTI2LC0xOT
+M2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEy
+NDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LD
+U0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
