@@ -557,10 +557,17 @@ sudo service supervisor restart
 	2020/05/25
 	```
 	# 21 Centos postfix 邮箱服务器搭建
+	### 1 检查和删除Sendmail
+	```
+	rpm -qa | grep sendmail
+	# 如果有，则执行如下命令删除
+	sudo yum remove sendmail*
+	```
+	
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjE4NzAxMywxNjM2MDMyMTI2LC0xOT
+eyJoaXN0b3J5IjpbLTUxMjQxODIwNSwxNjM2MDMyMTI2LC0xOT
 M2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEy
 NDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LD
 U0MjA2MzIxMSwtMTM2Nzg0OTExN119
