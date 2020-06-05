@@ -52,7 +52,11 @@
 	``` 
 # 2 ubuntu 安装anaconda
 ## 步骤1 —检索最新版本的Anaconda
+```
+https://www.anaconda.com/distribution/
+```
+查找最新的Linux版本并复制安装程序bash脚本。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk3OTAyNDIsMjAwMTkwMjQxNF19
+eyJoaXN0b3J5IjpbMTMzNTc0ODUxNiwyMDAxOTAyNDE0XX0=
 -->
