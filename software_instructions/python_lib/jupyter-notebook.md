@@ -25,6 +25,10 @@ c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port = 9999
 ```
+6. 运行jupyter
+```
+jupyter-notebook
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NzMxNjY0LDIxNjkwMTc3XX0=
+eyJoaXN0b3J5IjpbMTE2NjM3OTE3MCwyMTY5MDE3N119
 -->
