@@ -16,10 +16,8 @@ jupyter notebook --generate-config
 ```
 4. 设置远程登录密码
 ```
-(base) visbodyfit@visbodyfit-System-Product-Name:~/.jupyter$ jupyter notebook password
-Enter password: 
-Verify password: 
+jupyter notebook password
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTk5NjYzOSwyMTY5MDE3N119
+eyJoaXN0b3J5IjpbLTgwODk5NDA0NCwyMTY5MDE3N119
 -->
