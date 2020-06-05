@@ -556,29 +556,11 @@ sudo service supervisor restart
 	echo 20200525|sed 's/^\(....\).*\(..\).*\(..\)/\1\/\2\/\3/'
 	2020/05/25
 	```
-	# 21 Centos postfix 邮箱服务器搭建
-	### 步骤1：检查和删除Sendmail（仅在安装了Sendmail时才需要）
-	```
-	rpm -qa | grep sendmail
-	# 如果有，则执行如下命令删除
-	sudo yum remove sendmail*
-	```
-	### 步骤2：安装Postfix
-	运行以下命令，检查是否已安装sendmail：
-	```
-	rpm -qa | grep postfix
-	# 如果没有，则安装
-	sudo yum install postfix
-	```
-	### 步骤3：配置Postfix
-	```
-	vim /etc/postfix/main.cf
-	```
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY3NzgxMjIsMTYzNjAzMjEyNiwtMT
-kzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAx
-MjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOC
-w1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOT
+M2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEy
+NDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LD
+U0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
