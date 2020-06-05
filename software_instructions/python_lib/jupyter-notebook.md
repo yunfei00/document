@@ -18,6 +18,10 @@ jupyter notebook --generate-config
 ```
 jupyter notebook password
 ```
+5. 配置允许远程访问
+```
+vim jupyter_notebook_config.py
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODk5NDA0NCwyMTY5MDE3N119
+eyJoaXN0b3J5IjpbLTIwMTMyMjM1MjAsMjE2OTAxNzddfQ==
 -->
