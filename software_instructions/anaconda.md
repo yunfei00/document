@@ -56,7 +56,10 @@
 https://www.anaconda.com/distribution/
 ```
 查找最新的Linux版本并复制安装程序bash脚本。
-
+## 步骤2-下载Anaconda Bash脚本
+```
+curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTc0ODUxNiwyMDAxOTAyNDE0XX0=
+eyJoaXN0b3J5IjpbLTM0MDMyMTc5NywyMDAxOTAyNDE0XX0=
 -->
