@@ -9,6 +9,10 @@
 ```
 jupyter notebook --generate-config
 ```
+3. 文件配置
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2OTAxNzddfQ==
+eyJoaXN0b3J5IjpbLTExMTIxMjgzMTgsMjE2OTAxNzddfQ==
 -->
