@@ -21,7 +21,10 @@ jupyter notebook password
 5. 配置允许远程访问
 ```
 vim jupyter_notebook_config.py
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 9999
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMyMjM1MjAsMjE2OTAxNzddfQ==
+eyJoaXN0b3J5IjpbNzE3NzMxNjY0LDIxNjkwMTc3XX0=
 -->
