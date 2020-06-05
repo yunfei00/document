@@ -51,15 +51,19 @@
 	conda remove -n yourenvname -all
 	``` 
 # 2 ubuntu 安装anaconda
-## 步骤1 —检索最新版本的Anaconda
+## 1 检索最新版本的Anaconda
 ```
 https://www.anaconda.com/distribution/
 ```
 查找最新的Linux版本并复制安装程序bash脚本。
-## 步骤2-下载Anaconda Bash脚本
+## 2 下载Anaconda Bash脚本
 ```
 curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 ```
+## 3 运行Anaconda脚本
+```
+bash Anaconda3-2019.03-Linux-x86_64.sh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDMyMTc5NywyMDAxOTAyNDE0XX0=
+eyJoaXN0b3J5IjpbODQ3MDk4NTc4LDIwMDE5MDI0MTRdfQ==
 -->
