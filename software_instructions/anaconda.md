@@ -73,6 +73,16 @@ source ~/.bashrc
 ```
 conda list
 ```
+您将收到通过Anaconda安装可获得的所有软件包的输出
+## 6 设置Anaconda环境
+您可以使用以下`conda create`命令创建Anaconda环境。例如，`my_env`可以使用以下命令创建一个名为Python 3的环境：
+```
+conda create --name my_env python=3
+```
+激活新环境，如下所示：
+```
+conda activate my_env
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk1ODk1NzAsMjAwMTkwMjQxNF19
+eyJoaXN0b3J5IjpbLTEwNDM5NDUzNTEsMjAwMTkwMjQxNF19
 -->
