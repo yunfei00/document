@@ -11,8 +11,15 @@ jupyter notebook --generate-config
 ```
 3. 文件配置
 ```
-
+ # 设置首次登陆禁止修改密码
+ c.NotebookApp.allow_password_change = False
+```
+4. 设置远程登录密码
+```
+(base) visbodyfit@visbodyfit-System-Product-Name:~/.jupyter$ jupyter notebook password
+Enter password: 
+Verify password: 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTIxMjgzMTgsMjE2OTAxNzddfQ==
+eyJoaXN0b3J5IjpbLTY5OTk5NjYzOSwyMTY5MDE3N119
 -->
