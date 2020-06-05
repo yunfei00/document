@@ -62,8 +62,17 @@ curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 ```
 ## 3 运行Anaconda脚本
 ```
-bash Anaconda3-2019.03-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
+```
+## 4 激活安装
+```
+source ~/.bashrc
+```
+## 5 测试安装
+使用`conda`命令来测试安装和激活：
+```
+conda list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3MDk4NTc4LDIwMDE5MDI0MTRdfQ==
+eyJoaXN0b3J5IjpbLTE4ODk1ODk1NzAsMjAwMTkwMjQxNF19
 -->
