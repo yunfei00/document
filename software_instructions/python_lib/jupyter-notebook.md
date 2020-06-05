@@ -24,6 +24,7 @@ vim jupyter_notebook_config.py
 c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port = 9999
+c.NotebookApp.allow_remote_access = True
 ```
 6. 运行jupyter
 ```
