@@ -50,6 +50,9 @@
 	```
 	conda remove -n yourenvname -all
 	``` 
+# 2 ubuntu 安装anaconda
+## 步骤1 —检索最新版本的Anaconda
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTkwMjQxNF19
+eyJoaXN0b3J5IjpbLTE5Mjk3OTAyNDIsMjAwMTkwMjQxNF19
 -->
