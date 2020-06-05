@@ -5,7 +5,10 @@
 -   OS X:  `/Users/USERNAME/.jupyter/jupyter_notebook_config.py`
 -   Linux:  `/home/USERNAME/.jupyter/jupyter_notebook_config.py`
 ```
-2. 
+2. 配置文件如果不存在，则创建
+```
+jupyter notebook --generate-config
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgyNTMzMzBdfQ==
+eyJoaXN0b3J5IjpbMjE2OTAxNzddfQ==
 -->
