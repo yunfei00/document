@@ -128,13 +128,13 @@
 	```
 
 7. 元素切片，同字符切片相同
-# 3 正则表达式匹配数字
- <h1 id="title3">1 判断文件或者文件夹是否存在</h1>  
+
+ <h1 id="title3"> 3 正则表达式匹配数字</h1>  
 ```
 echo office365 | grep -P '\d+' -o
 365
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyODIzMDU2LDI2NjQ0MjE5NCwtMTc3NT
-E0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTEwMDQzMzY2MjIsMjY2NDQyMTk0LC0xNz
+c1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
