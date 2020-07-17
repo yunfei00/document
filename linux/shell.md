@@ -2,8 +2,8 @@
  <h1 id="demo1">demo1</h1>  
 <h1 id="demo2">demo2</h1>
 
-# 1 判断文件或者文件夹是否存在
- <h1 id="demo1">demo1</h1>  
+# 
+ <h1 id="demo1">1 判断文件或者文件夹是否存在</h1>  
 	```
 	dir_name="./aa"
 	if [ ! -d ${dir_path} ];then
@@ -135,6 +135,6 @@ echo office365 | grep -P '\d+' -o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNTg5ODA4LC0xNzc1MTQxMDQzLC0xNT
+eyJoaXN0b3J5IjpbMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNT
 YxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
