@@ -126,6 +126,10 @@
 echo office365 | grep -P '\d+' -o
 365
 ```
+# 4 wait
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMT
+kyODY3NDYyNV19
 -->
