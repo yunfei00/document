@@ -1,4 +1,4 @@
-<a href="#demo2">1 判断文件或者文件夹是否存在</a> 
+<a href="#title1">1 判断文件或者文件夹是否存在</a> 
  
  <h1 id="demo1">1 判断文件或者文件夹是否存在</h1>  
 	```
@@ -132,6 +132,6 @@ echo office365 | grep -P '\d+' -o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTExNDU1NSwyNjY0NDIxOTQsLTE3Nz
-UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbNzM4NTIyNjIzLDI2NjQ0MjE5NCwtMTc3NT
+E0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
