@@ -3,6 +3,8 @@
 - <a href="#title1">1 判断文件或者文件夹是否存在</a> 
 - <a href="#title2">2 数组操作</a> 
 - <a href="#title3">3 正则表达式匹配数字</a> 
+- <a href="#title4">4 wait</a> 
+
 <div STYLE="page-break-after: always;"></div>
  
  <h1 id="title1">1 判断文件或者文件夹是否存在</h1>  
@@ -211,7 +213,7 @@ wait
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NjMxMjIsLTIzMTg5NiwyNjY0NDIxOT
-QsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
-
+eyJoaXN0b3J5IjpbNjAyMTQ4NDI4LC0yMzE4OTYsMjY2NDQyMT
+k0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVd
+fQ==
 -->
