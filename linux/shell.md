@@ -1,7 +1,9 @@
+# 目录
 
-<a href="#title1">1 判断文件或者文件夹是否存在</a> 
-<a href="#title2">2 数组操作</a> 
-<a href="#title3">3 正则表达式匹配数字</a> 
+- <a href="#title1">1 判断文件或者文件夹是否存在</a> 
+- <a href="#title2">2 数组操作</a> 
+- <a href="#title3">3 正则表达式匹配数字</a> 
+<div STYLE="page-break-after: always;"></div>
  
  <h1 id="title1">1 判断文件或者文件夹是否存在</h1>  
  
@@ -135,6 +137,6 @@ echo office365 | grep -P '\d+' -o
 365
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQzMzY2MjIsMjY2NDQyMTk0LC0xNz
-c1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTk3NTQ2NDEzOCwyNjY0NDIxOTQsLTE3Nz
+UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
