@@ -137,27 +137,27 @@ echo office365 | grep -P '\d+' -o
 365
 ```
  <h1 id="title4"> 4 wait</h1>  
- **wait命令介绍**
+wait [作业指示或进程号]
 
-　　wait [作业指示或进程号]
+1. 等待作业号或者进程号制定的进程退出，返回最后一个作业或进程的退出状态状态。如果没有制定参数，则等待所有子进程的退出，其退出状态为0.
 
-　　1.等待作业号或者进程号制定的进程退出，返回最后一个作业或进程的退出状态状态。如果没有制定参数，则等待所有子进程的退出，其退出状态为0.
+2. 如果是shell中等待使用wait，则不会等待调用函数中子任务。在函数中使用wait，则只等待函数中启动的后台子任务。
 
-　　2.如果是shell中等待使用wait，则不会等待调用函数中子任务。在函数中使用wait，则只等待函数中启动的后台子任务。
+3. 在shell中使用wait命令，相当于高级语言里的多线程同步。
 
-　　3.在shell中使用wait命令，相当于高级语言里的多线程同步。
+**语法**
+　　wait(参数)  使用 wait 是在等待上一批或上一个脚本执行完（即上一个的进程终止），再执行wait之后的命令。
 
-**　　语法**
-
-　　wait(参数) 使用 wait 是在等待上一批或上一个脚本执行完（即上一个的进程终止），再执行wait之后的命令。
-
-**　　参数**
+**参数**
 
 　　进程或作业标示：指定进程号或者作业号。
 
-**　　实例**
+**实例**
 
-　　1.使用wait等待所有子任务结束。
+1. 使用wait等待所有子任务结束
+```
+　
+　```
 
 　　[plain] view plain copy#!/bin/bash
 
@@ -218,7 +218,7 @@ echo office365 | grep -P '\d+' -o
 　　从输出结果，可以看到，整个脚本，等待了所有子任务的退出
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjkzMzA0NCwtMjMxODk2LDI2NjQ0Mj
+eyJoaXN0b3J5IjpbLTMyNjAxMTIxOCwtMjMxODk2LDI2NjQ0Mj
 E5NCwtMTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1
 XX0=
 -->
