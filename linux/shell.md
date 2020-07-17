@@ -136,8 +136,9 @@
 echo office365 | grep -P '\d+' -o
 365
 ```
+ <h1 id="title4"> 3 正则表达式匹配数字</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTA3NzQ5NiwyNjY0NDIxOTQsLTE3Nz
-UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTE5NzQ2MjM4MDQsMjY2NDQyMTk0LC0xNz
+c1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
