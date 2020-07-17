@@ -1,6 +1,8 @@
 
 <a href="#title1">1 判断文件或者文件夹是否存在</a> 
-<a href="#title2">1 判断文件或者文件夹是否存在</a> 
+<a href="#title2">2 数组操作</a> 
+<a href="#title3">2 数组操作</a> 
+# 3 正则表达式匹配数字
  
  <h1 id="title1">1 判断文件或者文件夹是否存在</h1>  
  
@@ -31,6 +33,7 @@
 	| -x filename | 如果 filename可执行，则为真 | [ -L /usr/bin/grep ]
 	| filename1-nt filename2  |如果 filename1比 filename2新，则为真 | [ /tmp/install/etc/services -nt /etc/services ]
 	| filename1-ot filename2 | 如果 filename1比 filename2旧，则为真 | [ /boot/bzImage -ot arch/i386/boot/bzImage ]
+
  <h1 id="title2">2 数组操作</h1>  
 
 **说明： shell中只有一维数组**
@@ -132,6 +135,6 @@ echo office365 | grep -P '\d+' -o
 365
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODAyNTU0MywyNjY0NDIxOTQsLTE3Nz
-UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbMjAwODkyNDMxLDI2NjQ0MjE5NCwtMTc3NT
+E0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
