@@ -1,3 +1,4 @@
+[TOC]
 # 1 判断文件或者文件夹是否存在
 	```
 	dir_name="./aa"
@@ -130,6 +131,6 @@ echo office365 | grep -P '\d+' -o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMT
-kyODY3NDYyNV19
+eyJoaXN0b3J5IjpbMTQzMTEzODcyNywtMTc3NTE0MTA0MywtMT
+U2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
