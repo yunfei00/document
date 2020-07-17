@@ -156,55 +156,33 @@ wait [作业指示或进程号]
 
 1. 使用wait等待所有子任务结束
 ```
-　
-　```
+#!/bin/bash
+sleep 10 &
+sleep 5&
+wait #等待10秒后，退出
 
-　　[plain] view plain copy#!/bin/bash
-
-　　sleep 10 &
-
-　　sleep 5&
-
-　　wait #等待10秒后，退出
-
-　　[plain] view plain copy#!/bin/bash
-
-　　sleep 10 &
-
-　　sleep 5&
-
-　　wait $! #$!表示上个子进程的进程号，wait等待一个子进程，等待5秒后，退出
-
-　　2.在函数中使用wait
-
-　　[plain] view plain copy#!/bin/bash
-
-　　source ~/.bashrc
-
-　　fun(){
-
+#!/bin/bash
+sleep 10 &
+sleep 5&
+wait $! #$!表示上个子进程的进程号，wait等待一个子进程，等待5秒后，退出
+```
+2. 在函数中使用wait
+```
+#!/bin/bash
+fun(){
 　　echo "fun is begin.timeNum:$timeNum"
-
 　　local timeNum=$1
-
 　　sleep $timeNum &
-
 　　wait #这个只等待wait前面sleep
-
 　　echo "fun is end.timeNum:$timeNum"
-
-　　}
-
-　　fun 10 &
-
-　　fun 20 &
-
-　　wait #如果fun里面没有wait，则整个脚本立刻退出，不会等待fun里面的sleep
-
-　　echo "all is ending"
-
-　　输出结果为：
-
+}
+fun 10 &
+fun 20 &
+wait #如果fun里面没有wait，则整个脚本立刻退出，不会等待fun里面的sleep
+echo "all is ending"
+```
+输出结果为：
+```
 　　[plain] view plain copyfun is begin.timeNum:10
 
 　　fun is begin.timeNum:20
@@ -217,8 +195,11 @@ wait [作业指示或进程号]
 
 　　从输出结果，可以看到，整个脚本，等待了所有子任务的退出
 
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjAxMTIxOCwtMjMxODk2LDI2NjQ0Mj
-E5NCwtMTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1
-XX0=
+eyJoaXN0b3J5IjpbLTE4NTUzNTM3NTUsLTIzMTg5NiwyNjY0ND
+IxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYy
+NV19
 -->
