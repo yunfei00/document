@@ -190,7 +190,7 @@ fun is end.timeNum:20
 all is ending
 # 从输出结果，可以看到，整个脚本，等待了所有子任务的退出
 ```
-3. sdf 
+3. 循环中使用
 ```
 #!/bin/bash
 for ((i=0;i<5;i++))
@@ -198,6 +198,7 @@ do
 sleep 3;echo a
 done
 #运行需要15秒。
+
 #!/bin/bash
 for ((i=0;i<5;i++))
 do
@@ -206,12 +207,11 @@ sleep 3;echo a
 } &
 done
 wait
-
 #打开5个子进程并行，运行只需要3秒。
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMwMzU4NDYsLTIzMTg5NiwyNjY0ND
-IxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYy
-NV19
+eyJoaXN0b3J5IjpbODg0NjMxMjIsLTIzMTg5NiwyNjY0NDIxOT
+QsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+
 -->
