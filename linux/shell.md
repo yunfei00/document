@@ -137,9 +137,88 @@ echo office365 | grep -P '\d+' -o
 365
 ```
  <h1 id="title4"> 4 wait</h1>  
- 
+ **wait命令介绍**
+
+　　wait [作业指示或进程号]
+
+　　1.等待作业号或者进程号制定的进程退出，返回最后一个作业或进程的退出状态状态。如果没有制定参数，则等待所有子进程的退出，其退出状态为0.
+
+　　2.如果是shell中等待使用wait，则不会等待调用函数中子任务。在函数中使用wait，则只等待函数中启动的后台子任务。
+
+　　3.在shell中使用wait命令，相当于高级语言里的多线程同步。
+
+**　　语法**
+
+　　wait(参数) 使用 wait 是在等待上一批或上一个脚本执行完（即上一个的进程终止），再执行wait之后的命令。
+
+**　　参数**
+
+　　进程或作业标示：指定进程号或者作业号。
+
+**　　实例**
+
+　　1.使用wait等待所有子任务结束。
+
+　　[plain] view plain copy#!/bin/bash
+
+　　sleep 10 &
+
+　　sleep 5&
+
+　　wait #等待10秒后，退出
+
+　　[plain] view plain copy#!/bin/bash
+
+　　sleep 10 &
+
+　　sleep 5&
+
+　　wait $! #$!表示上个子进程的进程号，wait等待一个子进程，等待5秒后，退出
+
+　　2.在函数中使用wait
+
+　　[plain] view plain copy#!/bin/bash
+
+　　source ~/.bashrc
+
+　　fun(){
+
+　　echo "fun is begin.timeNum:$timeNum"
+
+　　local timeNum=$1
+
+　　sleep $timeNum &
+
+　　wait #这个只等待wait前面sleep
+
+　　echo "fun is end.timeNum:$timeNum"
+
+　　}
+
+　　fun 10 &
+
+　　fun 20 &
+
+　　wait #如果fun里面没有wait，则整个脚本立刻退出，不会等待fun里面的sleep
+
+　　echo "all is ending"
+
+　　输出结果为：
+
+　　[plain] view plain copyfun is begin.timeNum:10
+
+　　fun is begin.timeNum:20
+
+　　fun is end.timeNum:10
+
+　　fun is end.timeNum:20
+
+　　all is ending
+
+　　从输出结果，可以看到，整个脚本，等待了所有子任务的退出
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxND
-EwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTM1MjkzMzA0NCwtMjMxODk2LDI2NjQ0Mj
+E5NCwtMTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1
+XX0=
 -->
