@@ -11,7 +11,7 @@ void parseOption(int argc, char *const argv[])
 {	
 	int opt;
 	while ((opt = getopt(argc, argv, "hvtd")) != -1) {
-	
+```
         switch (opt) {
         case 'h':
             std::cout << argv[0] << std::endl
@@ -32,5 +32,5 @@ void parseOption(int argc, char *const argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDIzMjE4OSwtMTE2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
 -->
