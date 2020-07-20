@@ -7,12 +7,12 @@
 <div STYLE="page-break-after: always;"></div>
  <h1 id="title1">1 帮助函数 getopt</h1>  
 
+参考程序：
  ```
 void parseOption(int argc, char *const argv[])
 {	
 	int opt;
 	while ((opt = getopt(argc, argv, "hvtd")) != -1) {
-```
         switch (opt) {
         case 'h':
             std::cout << argv[0] << std::endl
@@ -32,7 +32,10 @@ void parseOption(int argc, char *const argv[])
     }
 }
 ```
+
+ [相关链接参考]()
+[https://www.cnblogs.com/water-moon/p/5983139.html](https://www.cnblogs.com/water-moon/p/5983139.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYxMTUxNTksLTUyMTQ3NTU4OSwtMT
-E2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbMTE5OTE5MzkwNSwtNTIxNDc1NTg5LC0xMT
+YyMjAzMjUyXX0=
 -->
