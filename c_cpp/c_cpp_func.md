@@ -6,6 +6,7 @@
 - <a href="#title4">4 wait</a> 
 <div STYLE="page-break-after: always;"></div>
  <h1 id="title1">1 帮助函数 getopt</h1>  
+
  ```
 void parseOption(int argc, char *const argv[])
 {	
@@ -32,5 +33,6 @@ void parseOption(int argc, char *const argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbLTE4MTYxMTUxNTksLTUyMTQ3NTU4OSwtMT
+E2MjIwMzI1Ml19
 -->
