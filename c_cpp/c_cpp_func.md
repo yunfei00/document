@@ -7,32 +7,30 @@
 <div STYLE="page-break-after: always;"></div>
  <h1 id="title1">1 帮助函数 getopt</h1>  
  ```
- void parseOption(int argc, char *const argv[])
-{
-    int opt;
-    while ((opt = getopt(argc, argv, "hvtd")) != -1) {
+void parseOption(int argc, char *const argv[])
+{	
+	int opt;
+	while ((opt = getopt(argc, argv, "hvtd")) != -1) {
+	
         switch (opt) {
-
         case 'h':
             std::cout << argv[0] << std::endl
                       << "\t[v] - version" << std::endl
                       << "\t[h] - help" << std::endl;
             exit(0);
             break;
-
         case 'v':
             std::cout << "\n" << SOFTWARE_VERSION << "\n" << std::endl;
             exit(0);
             break;
-
-        default: /* '?' */
+        default:
             std::cout << "No such command" << std::endl;
             exit(0);
             break;
         }
     }
 }
- ```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjAyOTYzOCwtMTE2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbMTQ5MDIzMjE4OSwtMTE2MjIwMzI1Ml19
 -->
