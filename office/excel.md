@@ -36,8 +36,8 @@
 #### 语法
 	=LEFT (text, [num_chars])
 #### 参数
-	- **text** -要从中提取字符的文本。
-	- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+- **text** -要从中提取字符的文本。
+- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
 #### 示例
 ![Excel LEFT function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_left.png?itok=94fFaJe2)
    <h2 id="title2.2">2.2 RIGHT函数</h2>  		
@@ -49,8 +49,8 @@
 #### 语法
 	=RIGHT (text, [num_chars])
 #### 参数
-	- **text** -要从中提取字符的文本。
-	- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+- **text** -要从中提取字符的文本。
+- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
 
 #### 示例
 ![Excel RIGHT function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_right_1.png?itok=dzNv7l7-)
@@ -64,15 +64,13 @@
 #### 语法
 	=MID (text, start_num, num_chars)
 #### 参数
-	- **text** -要从中提取字符的文本。
-	- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+- **text** -要从中提取字符的文本。
+- **start_num** -要提取的第一个字符的位置。
+-  **num_chars** -要提取的字符数。
 
-start_num—要提取的第一个字符的位置。
-
-num_chars—要提取的字符数。
 ### 示例
 ![Excel MID function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_mid_1.png?itok=Um1z_8kh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDI0MTIzOSwxNjI3NjU5MjU3LC03ND
+eyJoaXN0b3J5IjpbMTIwMDgyODA4OCwxNjI3NjU5MjU3LC03ND
 cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
