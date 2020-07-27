@@ -34,7 +34,10 @@
 	```
 	1900年到1970年共是17个闰年，考虑到Excel将1900-1-1当作1，那么公式最后应该加18才对，为什么要加19？这是Excel中的一个bug——1900年也被当作闰年，因此应当再多加一天。
    <h1 id="title2">2 Excel中常用函数</h1>  
-   <h2 id="title2.1">2.1 LEFT函数</h2>  		
+   <h2 id="title2.1">2.1 LEFT函数</h2>  	
+    
+   [Excel 其他功能参考](https://exceljet.net/excel-functions)	
+   
  #### 概述
 	LEFT函数从提供的文本字符串的左侧提取给定数量的字符。
 ### 返回值
@@ -125,7 +128,7 @@ Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位
 ### 示例
 ![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE3NDA0NzYsLTEzMjEwMjM3MDAsMT
-QxMjc1NjU2NiwtMjc3MzYzOTY4LDE2Mjc2NTkyNTcsLTc0NzIy
-NDk1OCw4OTc1NTgwODhdfQ==
+eyJoaXN0b3J5IjpbMjczMzI2NjYzLC0yMDgxNzQwNDc2LC0xMz
+IxMDIzNzAwLDE0MTI3NTY1NjYsLTI3NzM2Mzk2OCwxNjI3NjU5
+MjU3LC03NDcyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
