@@ -89,7 +89,7 @@ Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的�
 <h2 id="title2.5">2.5 SUBSTITUTE 函数</h2>  		
 
 #### 概述
-Excel SUBSTITUTE 函数返回一个文本字符串在另一个文本字符串中的位置。SEARCH返回find_text 在 within_text中第一个字符的位置。与查找不同，搜索允许使用通配符，而且不区分大小写。
+Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SUBSTITUTE("952-455-7865"，"-"，"")返回"9524557865";仪表板被剥离了。SUBSTITUTE是区分大小写的，不支持通配符。
 ### 返回值
 表示find_text位置的数字。
 #### 语法
@@ -102,6 +102,7 @@ Excel SUBSTITUTE 函数返回一个文本字符串在另一个文本字符串中
 ### 示例
 ![Excel SUBSTITUTE function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_substitute.png?itok=vBNNGcgO)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjc1NjU2NiwtMjc3MzYzOTY4LDE2Mj
-c2NTkyNTcsLTc0NzIyNDk1OCw4OTc1NTgwODhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTU4Mzc3NzEsMTQxMjc1NjU2NiwtMj
+c3MzYzOTY4LDE2Mjc2NTkyNTcsLTc0NzIyNDk1OCw4OTc1NTgw
+ODhdfQ==
 -->
