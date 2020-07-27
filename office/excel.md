@@ -97,13 +97,13 @@ Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SU
 #### 参数
 - **text** -要处理的文本。
 - **old_text** -待替换的文本。
--  **new_text ** -替换文本。
--   **instance ** -[可选]要替换的实例。如果不提供，则替换所有实例。
+- **new_text** -替换文本。
+-  **instance** -[可选]要替换的实例。如果不提供，则替换所有实例。
 
 ### 示例
 ![Excel SUBSTITUTE function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_substitute.png?itok=vBNNGcgO)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEwMjM3MDAsMTQxMjc1NjU2NiwtMj
-c3MzYzOTY4LDE2Mjc2NTkyNTcsLTc0NzIyNDk1OCw4OTc1NTgw
-ODhdfQ==
+eyJoaXN0b3J5IjpbLTI4MzI1MDU0NiwtMTMyMTAyMzcwMCwxND
+EyNzU2NTY2LC0yNzczNjM5NjgsMTYyNzY1OTI1NywtNzQ3MjI0
+OTU4LDg5NzU1ODA4OF19
 -->
