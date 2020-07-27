@@ -86,9 +86,24 @@ Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的�
 
 ### 示例
 ![Excel SEARCH function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_search_1.png?itok=1YhJOWw1)
+<h2 id="title2.4">2.4 SUBSTITUTE 函数</h2>  		
 
-SUBSTITUTE
+#### 概述
+Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的位置。SEARCH返回find_text 在 within_text中第一个字符的位置。与查找不同，搜索允许使用通配符，而且不区分大小写。
+### 返回值
+表示find_text位置的数字。
+#### 语法
+	=SEARCH (find_text, within_text, [start_num])
+#### 参数
+- **find_text** -要查找的文本。
+- **within_text** -要在其中搜索的文本。
+-  **start_num** -[可选]在文本中搜索的起始位置。可选，默认为1。
+
+### 示例
+![Excel SEARCH function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_search_1.png?itok=1YhJOWw1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg3NjY3MDAsMTYyNzY1OTI1NywtNz
+eyJoaXN0b3J5IjpbLTEwOTc3ODQ5MDgsMTYyNzY1OTI1NywtNz
 Q3MjI0OTU4LDg5NzU1ODA4OF19
 -->
