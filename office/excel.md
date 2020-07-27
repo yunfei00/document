@@ -1,13 +1,10 @@
 # 目录
 
 - <a href="#title1">1 Excel中时间戳转化成指定格式的时间</a> 
-- <a href="#title2">2 数组操作</a> 
-- <a href="#title3">3 正则表达式匹配数字</a> 
-- <a href="#title4">4 wait</a> 
+- <a href="#title2">2 Excel中分列相关函数</a> 
 
 <div STYLE="page-break-after: always;"></div>
- 
- <h1 id="title1">1 Excel中时间戳转化成指定格式的时间</h1>  
+  <h1 id="title1">1 Excel中时间戳转化成指定格式的时间</h1>  
 
 1. Excel默认不支持Unix格式时间戳，这在导入数据时十分不便。可以用以下公式将时间戳转换成Excel格式的时间，excel格式设置为yyyy-mm-dd hh:mm:ss：
 	```
@@ -30,10 +27,11 @@
 	(x+8*3600)/86400+70*365+19 闰年多出来的天数
 	```
 	1900年到1970年共是17个闰年，考虑到Excel将1900-1-1当作1，那么公式最后应该加18才对，为什么要加19？这是Excel中的一个bug——1900年也被当作闰年，因此应当再多加一天。
-
+   <h1 id="title2">2 Excel中分列相关函数</h1>  
+   1. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDk2NDI3LC03NDcyMjQ5NTgsODk3NT
-U4MDg4XX0=
+eyJoaXN0b3J5IjpbMTYyNzY1OTI1NywtNzQ3MjI0OTU4LDg5Nz
+U1ODA4OF19
 -->
