@@ -43,7 +43,7 @@
    <h2 id="title2.2">2.2 RIGHT函数</h2>  		
 
 #### 概述
-	Excel右函数从提供的文本字符串的右端提取给定数量的字符。例如，RIGHT(“apple”，3)返回“ple”。
+	Excel RIGHT函数从提供的文本字符串的右端提取给定数量的字符。例如，RIGHT(“apple”，3)返回“ple”。
 ### 返回值
 	一个或多个字符。
 #### 语法
@@ -52,9 +52,27 @@
 	- **text** -要从中提取字符的文本。
 	- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
 
-
+#### 示例
 ![Excel RIGHT function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_right_1.png?itok=dzNv7l7-)
+
+<h2 id="title2.3">2.3 MID函数</h2>  		
+
+#### 概述
+	Excel MID函数从提供的文本字符串的中间提取给定数量的字符。例如，=MID("apple"，2,3)返回"ppl"。
+### 返回值
+	提取的字符串。
+#### 语法
+	=MID (text, start_num, num_chars)
+#### 参数
+	- **text** -要从中提取字符的文本。
+	- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+
+start_num—要提取的第一个字符的位置。
+
+num_chars—要提取的字符数。
+### 示例
+![Excel MID function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_mid_1.png?itok=Um1z_8kh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTE3OTUzMSwxNjI3NjU5MjU3LC03ND
+eyJoaXN0b3J5IjpbLTUxMDI0MTIzOSwxNjI3NjU5MjU3LC03ND
 cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
