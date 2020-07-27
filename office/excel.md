@@ -27,11 +27,37 @@
 	(x+8*3600)/86400+70*365+19 闰年多出来的天数
 	```
 	1900年到1970年共是17个闰年，考虑到Excel将1900-1-1当作1，那么公式最后应该加18才对，为什么要加19？这是Excel中的一个bug——1900年也被当作闰年，因此应当再多加一天。
-   <h1 id="title2">2 Excel中分列相关函数</h1>  
-   1. 
+   <h1 id="title2">2 Excel中常用函数</h1>  
+   1. LEFT 
+
+The Excel LEFT function extracts a given number of characters from the left side of a supplied text string. For example, LEFT("apple",3) returns "app".
+
+Purpose
+
+Extract text from the left of a string
+
+Return value
+
+One or more characters.
+
+Syntax
+
+=LEFT (text, [num_chars])
+
+Arguments
+
+-   **text**  - The text from which to extract characters.
+-   **num_chars**  - [optional] The number of characters to extract, starting on the left side of text. Default = 1.
+
+Usage notes
+
+-   Use the LEFT function when you want to extract characters starting at the left side of  **text**.
+-   **num_chars**  is optional and defaults to 1.
+-   LEFT will extract digits from numbers as well.
+-   Number formatting (i.e. the currency symbol $) is not part of a number so is not counted or extracted.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzY1OTI1NywtNzQ3MjI0OTU4LDg5Nz
-U1ODA4OF19
+eyJoaXN0b3J5IjpbNDYyNjY5Mjg0LDE2Mjc2NTkyNTcsLTc0Nz
+IyNDk1OCw4OTc1NTgwODhdfQ==
 -->
