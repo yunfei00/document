@@ -29,20 +29,20 @@
 	1900年到1970年共是17个闰年，考虑到Excel将1900-1-1当作1，那么公式最后应该加18才对，为什么要加19？这是Excel中的一个bug——1900年也被当作闰年，因此应当再多加一天。
    <h1 id="title2">2 Excel中常用函数</h1>  
    1. LEFT 
-#### 概述
-LEFT函数从提供的文本字符串的左侧提取给定数量的字符。
-#### 返回值
-一个或多个字符。
-#### 语法
-=LEFT (text, [num_chars])
-#### 参数
-
-- **text** -要从中提取字符的文本。
-
-- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+		#### 概述
+		LEFT函数从提供的文本字符串的左侧提取给定数量的字符。
+		#### 返回值
+		一个或多个字符。
+		#### 语法
+		=LEFT (text, [num_chars])
+		#### 参数
+		- **text** -要从中提取字符的文本。
+		- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
+		   
+   1. LEFT 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODA1NTU4MCwxNjI3NjU5MjU3LC03ND
+eyJoaXN0b3J5IjpbLTkxNzc3OTk4NiwxNjI3NjU5MjU3LC03ND
 cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
