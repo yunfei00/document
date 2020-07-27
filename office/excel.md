@@ -89,11 +89,11 @@ Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的�
 <h2 id="title2.5">2.5 SUBSTITUTE 函数</h2>  		
 
 #### 概述
-Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SUBSTITUTE("952-455-7865"，"-"，"")返回"9524557865";仪表板被剥离了。SUBSTITUTE是区分大小写的，不支持通配符。
+Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SUBSTITUTE("952-455-7865"，"-"，"")返回"9524557865"。SUBSTITUTE是区分大小写的，不支持通配符。
 ### 返回值
-表示find_text位置的数字。
+处理后的文本。
 #### 语法
-	=SEARCH (find_text, within_text, [start_num])
+	=SUBSTITUTE (text, old_text, new_text, [instance])
 #### 参数
 - **find_text** -要查找的文本。
 - **within_text** -要在其中搜索的文本。
@@ -102,7 +102,7 @@ Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SU
 ### 示例
 ![Excel SUBSTITUTE function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_substitute.png?itok=vBNNGcgO)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU4Mzc3NzEsMTQxMjc1NjU2NiwtMj
-c3MzYzOTY4LDE2Mjc2NTkyNTcsLTc0NzIyNDk1OCw4OTc1NTgw
-ODhdfQ==
+eyJoaXN0b3J5IjpbODUyOTg0NzAyLDE0MTI3NTY1NjYsLTI3Nz
+M2Mzk2OCwxNjI3NjU5MjU3LC03NDcyMjQ5NTgsODk3NTU4MDg4
+XX0=
 -->
