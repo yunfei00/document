@@ -102,8 +102,25 @@ Excel SUBSTITUTE 函数通过匹配替换给定字符串中的文本。例如=SU
 
 ### 示例
 ![Excel SUBSTITUTE function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_substitute.png?itok=vBNNGcgO)
+
+<h2 id="title2.6">2.6 FIND 函数</h2>  		
+
+#### 概述
+Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位置(以数字形式)。当没有找到文本时，FIND将返回一个#VALUE错误。
+### 返回值
+表示find_text位置的数字。
+#### 语法
+	=SUBSTITUTE (text, old_text, new_text, [instance])
+#### 参数
+- **text** -要处理的文本。
+- **old_text** -待替换的文本。
+- **new_text** -替换文本。
+-  **instance** -[可选]要替换的实例。如果不提供，则替换所有实例。
+
+### 示例
+![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzI1MDU0NiwtMTMyMTAyMzcwMCwxND
+eyJoaXN0b3J5IjpbLTcyMDc0Mzk2NywtMTMyMTAyMzcwMCwxND
 EyNzU2NTY2LC0yNzczNjM5NjgsMTYyNzY1OTI1NywtNzQ3MjI0
 OTU4LDg5NzU1ODA4OF19
 -->
