@@ -32,11 +32,17 @@
 #### 概述
 LEFT函数从提供的文本字符串的左侧提取给定数量的字符。
 #### 返回值
-一个或多个字符
+一个或多个字符。
+#### 语法
+=LEFT (text, [num_chars])
+#### 参数
 
+- **text** -要从中提取字符的文本。
+
+- **num_chars** -[可选]要提取的字符数，从文本的左侧开始。默认= 1。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg3MDEwLDE2Mjc2NTkyNTcsLTc0Nz
-IyNDk1OCw4OTc1NTgwODhdfQ==
+eyJoaXN0b3J5IjpbLTI2ODA1NTU4MCwxNjI3NjU5MjU3LC03ND
+cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
