@@ -78,15 +78,15 @@ Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的�
 ### 返回值
 表示find_text位置的数字。
 #### 语法
-	=MID (text, start_num, num_chars)
+	=SEARCH (find_text, within_text, [start_num])
 #### 参数
-- **text** -要从中提取字符的文本。
-- **start_num** -要提取的第一个字符的位置。
--  **num_chars** -要提取的字符数。
+- **find_text** -要查找的文本。
+- **within_text** -要在其中搜索的文本。
+-  **start_num** -[可选]在文本中搜索的起始位置。可选，默认为1。
 
 ### 示例
 ![Excel SEARCH function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_search_1.png?itok=1YhJOWw1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njk1NTI3OSwxNjI3NjU5MjU3LC03ND
+eyJoaXN0b3J5IjpbMTQxMzE3MDQ1MCwxNjI3NjU5MjU3LC03ND
 cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
