@@ -5,9 +5,9 @@
 	-- <a href="#title2.1">2.1 LEFT函数</a> 
 	-- <a href="#title2.2">2.2 RIGHT函数</a> 
 	-- <a href="#title2.3">2.3 MID函数</a> 
-	-- <a href="#title2.4">#2.4 SEARCH 函数</a> 
-	-- <a href="#title2.5">2 Excel中分列相关函数</a> 
-	-- <a href="#title2.6">2 Excel中分列相关函数</a> 
+	-- <a href="#title2.4">2.4 SEARCH 函数</a> 
+	-- <a href="#title2.5">2.5 SUBSTITUTE 函数</a> 
+	-- <a href="#title2.6">2.6 FIND 函数</a> 
 
 <div STYLE="page-break-after: always;"></div>
   <h1 id="title1">1 Excel中时间戳转化成指定格式的时间</h1>  
@@ -125,7 +125,7 @@ Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位
 ### 示例
 ![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3NTIwNzUsLTEzMjEwMjM3MDAsMT
+eyJoaXN0b3J5IjpbLTIwODE3NDA0NzYsLTEzMjEwMjM3MDAsMT
 QxMjc1NjU2NiwtMjc3MzYzOTY4LDE2Mjc2NTkyNTcsLTc0NzIy
 NDk1OCw4OTc1NTgwODhdfQ==
 -->
