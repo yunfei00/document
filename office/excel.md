@@ -86,7 +86,9 @@ Excel SEARCH 函数返回一个文本字符串在另一个文本字符串中的�
 
 ### 示例
 ![Excel SEARCH function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_search_1.png?itok=1YhJOWw1)
+
+SUBSTITUTE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzE3MDQ1MCwxNjI3NjU5MjU3LC03ND
-cyMjQ5NTgsODk3NTU4MDg4XX0=
+eyJoaXN0b3J5IjpbLTE4Nzg3NjY3MDAsMTYyNzY1OTI1NywtNz
+Q3MjI0OTU4LDg5NzU1ODA4OF19
 -->
