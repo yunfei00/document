@@ -70,7 +70,23 @@
 
 ### 示例
 ![Excel MID function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_mid_1.png?itok=Um1z_8kh)
+
+<h2 id="title2.4">2.4 SEARCH 函数</h2>  		
+
+#### 概述
+Excel搜索函数返回一个文本字符串在另一个文本字符串中的位置。SEARCH返回find_text在thin_text中第一个字符的位置。与查找不同，搜索允许使用通配符，而且不区分大小写。
+### 返回值
+	提取的字符串。
+#### 语法
+	=MID (text, start_num, num_chars)
+#### 参数
+- **text** -要从中提取字符的文本。
+- **start_num** -要提取的第一个字符的位置。
+-  **num_chars** -要提取的字符数。
+
+### 示例
+![Excel SEARCH function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_search_1.png?itok=1YhJOWw1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDgyODA4OCwxNjI3NjU5MjU3LC03ND
+eyJoaXN0b3J5IjpbLTg2ODMyNDA0NSwxNjI3NjU5MjU3LC03ND
 cyMjQ5NTgsODk3NTU4MDg4XX0=
 -->
