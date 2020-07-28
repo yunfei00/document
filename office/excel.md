@@ -9,7 +9,7 @@
 		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
 		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
 
-<div STYLE="page-break-after: always;"></div>
+<div style="page-break-after:always"></div>
   <h1 id="title1">1 Excel中时间戳转化成指定格式的时间</h1>  
 
 1. Excel默认不支持Unix格式时间戳，这在导入数据时十分不便。可以用以下公式将时间戳转换成Excel格式的时间，excel格式设置为yyyy-mm-dd hh:mm:ss：
@@ -128,8 +128,8 @@ Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位
 ### 示例
 ![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzI1NzgyNSwtMTk1NjcwOTUxNSwtOT
-cwNjE5ODY1LC0yMDgxNzQwNDc2LC0xMzIxMDIzNzAwLDE0MTI3
-NTY1NjYsLTI3NzM2Mzk2OCwxNjI3NjU5MjU3LC03NDcyMjQ5NT
-gsODk3NTU4MDg4XX0=
+eyJoaXN0b3J5IjpbLTE5NTQzODk3OCwxNjM3MjU3ODI1LC0xOT
+U2NzA5NTE1LC05NzA2MTk4NjUsLTIwODE3NDA0NzYsLTEzMjEw
+MjM3MDAsMTQxMjc1NjU2NiwtMjc3MzYzOTY4LDE2Mjc2NTkyNT
+csLTc0NzIyNDk1OCw4OTc1NTgwODhdfQ==
 -->
