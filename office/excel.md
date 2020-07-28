@@ -2,7 +2,7 @@
 
 <h3><a href="#title1">1 Excel中时间戳转化成指定格式的时间</a> </h3>
 </h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
-		<ul><a href="#title2.1">2.1 LEFT函数</a> <br />
+		</h><ul><a href="#title2.1">2.1 LEFT函数</a> <br />
 		<ul><a href="#title2.2">2.2 RIGHT函数</a> <br />
 		<ul><a href="#title2.3">2.3 MID函数</a> <br />
 		<ul><a href="#title2.4">2.4 SEARCH 函数</a> <br />
@@ -128,8 +128,8 @@ Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位
 ### 示例
 ![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIwMDE4MjIsLTk3MDYxOTg2NSwtMj
-A4MTc0MDQ3NiwtMTMyMTAyMzcwMCwxNDEyNzU2NTY2LC0yNzcz
-NjM5NjgsMTYyNzY1OTI1NywtNzQ3MjI0OTU4LDg5NzU1ODA4OF
-19
+eyJoaXN0b3J5IjpbNDMxNDU4NjgxLC05NzA2MTk4NjUsLTIwOD
+E3NDA0NzYsLTEzMjEwMjM3MDAsMTQxMjc1NjU2NiwtMjc3MzYz
+OTY4LDE2Mjc2NTkyNTcsLTc0NzIyNDk1OCw4OTc1NTgwODhdfQ
+==
 -->
