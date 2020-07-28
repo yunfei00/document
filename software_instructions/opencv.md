@@ -27,6 +27,7 @@ sudo make install
   <h2 id="title3.1">3.1 VideoCapture </h2>  
   在opencv中关于视频的读操作是通过VideoCapture类来完成的；关于视频的写操作是通过VideoWriter类来实现的。
   
+  [官网说明](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a57c0e81e83e60f36c83027dc2a188e80)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNzUyNTcyXX0=
+eyJoaXN0b3J5IjpbLTExMzQ1MDAxNTBdfQ==
 -->
