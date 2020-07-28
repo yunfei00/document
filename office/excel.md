@@ -2,12 +2,12 @@
 
 <h3><a href="#title1">1 Excel中时间戳转化成指定格式的时间</a> </h3>
 <h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
-		<h4><a href="#title2.1">2.1 LEFT函数</a> </h4>
-		<h4><a href="#title2.2">2.2 RIGHT函数</a> </h4>
-		<h4><a href="#title2.3">2.3 MID函数</a> </h4>
-		<h4><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
-		<h4><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4> <a href="#title2.6">2.6 FIND 函数</a> </h4>
+		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
+		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
 
 <div STYLE="page-break-after: always;"></div>
   <h1 id="title1">1 Excel中时间戳转化成指定格式的时间</h1>  
@@ -128,8 +128,8 @@ Excel FIND 函数返回一个文本字符串在另一个文本字符串中的位
 ### 示例
 ![Excel FIND function](https://exceljet.net/sites/default/files/styles/original_with_watermark/public/images/functions/main/exceljet_find_1.png?itok=z_fyCRH-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY3MDk1MTUsLTk3MDYxOTg2NSwtMj
-A4MTc0MDQ3NiwtMTMyMTAyMzcwMCwxNDEyNzU2NTY2LC0yNzcz
-NjM5NjgsMTYyNzY1OTI1NywtNzQ3MjI0OTU4LDg5NzU1ODA4OF
-19
+eyJoaXN0b3J5IjpbMTYzNzI1NzgyNSwtMTk1NjcwOTUxNSwtOT
+cwNjE5ODY1LC0yMDgxNzQwNDc2LC0xMzIxMDIzNzAwLDE0MTI3
+NTY1NjYsLTI3NzM2Mzk2OCwxNjI3NjU5MjU3LC03NDcyMjQ5NT
+gsODk3NTU4MDg4XX0=
 -->
