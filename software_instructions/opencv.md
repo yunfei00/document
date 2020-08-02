@@ -7,7 +7,7 @@
 		
 <div style="page-break-after:always"></div>
 
-  <h1 id="title1">1 mac 上opencv安装</h1>  
+  <h1 id="title1">1 mac 上opencv安装</h1>  1 mac 上opencv安装
 与linux 安装类似
 
 ```
@@ -20,7 +20,7 @@ cmake -D CMAKE_BUILD_TYPE=REALEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 sudo make install
 ```
 
-  <h1 id="title1">2 mac上opencv开发环境配置</h1>  
+#  <h1 id="title1">2 mac上opencv开发环境配置</h1>  
 参考 https://medium.com/@jaskaranvirdi/setting-up-opencv-and-c-development-environment-in-xcode-b6027728003
 
   <h1 id="title3">3 opencv学习</h1>  
@@ -30,5 +30,6 @@ sudo make install
   [官网说明](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a57c0e81e83e60f36c83027dc2a188e80)
   <h2 id="title3.1">3.2 cv::transpose</h2>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODg1NDQ1NiwtMTcwNTk0OTU1Nl19
+eyJoaXN0b3J5IjpbLTExOTkzNzAxNjgsLTY2ODg1NDQ1NiwtMT
+cwNTk0OTU1Nl19
 -->
