@@ -32,8 +32,9 @@ supervisor>
 sudo supervisord -c /etc/supervisor/supervisord.conf  # 启动守护进程
 sudo supervisorctl reload  # 重载配置
 ```
-
+#  supervisor 安装
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNDAxNjk2LDExOTIyMTE2NDQsLTQxMD
-g3MjMxMl19
+eyJoaXN0b3J5IjpbMzEzNTUyODQsODUxNDAxNjk2LDExOTIyMT
+E2NDQsLTQxMDg3MjMxMl19
 -->
