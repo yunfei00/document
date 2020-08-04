@@ -33,8 +33,12 @@ sudo supervisord -c /etc/supervisor/supervisord.conf  # 启动守护进程
 sudo supervisorctl reload  # 重载配置
 ```
 #  supervisor 安装
-1. 
+1. contos install
+```
+yum install supervisor
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNTUyODQsODUxNDAxNjk2LDExOTIyMT
-E2NDQsLTQxMDg3MjMxMl19
+eyJoaXN0b3J5IjpbMTkyNDM1MjIyMyw4NTE0MDE2OTYsMTE5Mj
+IxMTY0NCwtNDEwODcyMzEyXX0=
 -->
