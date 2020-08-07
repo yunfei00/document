@@ -1,5 +1,15 @@
+<h3><a href="#title1">1 Excel中时间戳转化成指定格式的时间</a> </h3>
+<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
+		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
+		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+<div style="page-break-after:always"></div>
+<h1 id="title1">1 nohup</h1>  
+# 
 
-# 1 nohup不产生日志文件
 ```
 nohup ./01_st.sh >/dev/null 2>&1 &
 ```
@@ -578,8 +588,9 @@ sudo service supervisor restart
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2Mz
-YwMzIxMjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4
-Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NC
-w4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTE3MzExMjE1NzIsMTE1MjMwMTQ0OCwxNj
+M2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzExNjAsLTE3MzE4
+MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MT
+gsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3
+ODQ5MTE3XX0=
 -->
