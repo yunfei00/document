@@ -4,9 +4,13 @@
 # 1 软件的本质
 本章主要讲述的软件的定义和应用领域。
 定义：
-1 指令的集合（计算机程序），通过执行这些指令可以满足预期的特性、功能
-2 
+1 指令的集合（计算机程序），通过执行这些指令可以满足预期的特性、功能和性能需求
+2 数据结构，使得程序可以合理利用信息
+3 软件描述信息，它以硬拷贝和虚拟形式存在，用来描述程序的操作和使用
+
+# 2 软件工程
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDExNjQwMSwtMjEzMjI1NjgyNiw2Nj
+eyJoaXN0b3J5IjpbMTMwMDYzOTk1NCwtMjEzMjI1NjgyNiw2Nj
 A5ODU5OV19
 -->
