@@ -20,9 +20,12 @@
 软件工程工具（tool）为过程和方法提供自动化或半自动化的支持。
 过程框架：
 沟通、策划、建模、构建、部署。
-
+软件工程实践的精髓：
+1. 理解问题（沟通和分析）
+2. 策划解决方案（建模和软件设计）
+3. shi shi ji hua
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDA0NzY0MywxMzAwNjM5OTU0LC0yMT
-MyMjU2ODI2LDY2MDk4NTk5XX0=
+eyJoaXN0b3J5IjpbLTEzNTY4ODc2ODcsMTMwMDYzOTk1NCwtMj
+EzMjI1NjgyNiw2NjA5ODU5OV19
 -->
