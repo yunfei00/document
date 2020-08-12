@@ -14,8 +14,9 @@
 软件工程是：1 将系统化的、规范的、可量化的方法应用于软件的开发、运行和维护，即将工程化方法应用于软件；2 对1中所属方法的研究。
 软件工程层次图：
 质量关注点--过程--方法--工具
-支持软件工程的根基在于质量关注点（qua）
+支持软件工程的根基在于质量关注点（quality focus）。
+软件工程的基础是过程(process)层。软件过程将各个技术层次结合在一起，使得合理、及时的开发计算机软件成为可能。过程定义了一个框架，构建该框架是有效实施软件工程技术必不可少d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTc4NDAzLDEzMDA2Mzk5NTQsLTIxMz
-IyNTY4MjYsNjYwOTg1OTldfQ==
+eyJoaXN0b3J5IjpbLTIwMzY0Njk0OCwxMzAwNjM5OTU0LC0yMT
+MyMjU2ODI2LDY2MDk4NTk5XX0=
 -->
