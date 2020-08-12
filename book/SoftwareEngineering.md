@@ -36,9 +36,17 @@
 6. 提前计划复用
 7. 认真思考
 
-  
+# 3 软件过程
+1. 什么是软件过程？
+
+2. 软件过程中，有哪些通用的框架活动？
+
+3. 如何建立过程模型？什么是过程模式？
+
+4. 什么是管
+     
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMxNTkxMTksMTMwMDYzOTk1NCwtMj
-EzMjI1NjgyNiw2NjA5ODU5OV19
+eyJoaXN0b3J5IjpbLTE1MDk3MTQ0MTYsLTEyNTMxNTkxMTksMT
+MwMDYzOTk1NCwtMjEzMjI1NjgyNiw2NjA5ODU5OV19
 -->
