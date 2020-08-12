@@ -10,8 +10,12 @@
 
 # 2 软件工程
 概念：软件工程包括过程、一系列方法（实践）和大量工具，专业人员借由这些来构建高质量的计算机软件。
-软件工程定义
+软件工程定义：
+软件工程是：1 将系统化的、规范的、可量化的方法应用于软件的开发、运行和维护，即将工程化方法应用于软件；2 对1中所属方法的研究。
+软件工程层次图：
+质量关注点--过程--方法--工具
+支持软件工程的根基在于质量关注点（qua）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY3MDY4NjgsMTMwMDYzOTk1NCwtMj
-EzMjI1NjgyNiw2NjA5ODU5OV19
+eyJoaXN0b3J5IjpbLTgxMTc4NDAzLDEzMDA2Mzk5NTQsLTIxMz
+IyNTY4MjYsNjYwOTg1OTldfQ==
 -->
