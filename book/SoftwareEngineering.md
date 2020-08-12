@@ -27,10 +27,18 @@
 4. 检查结果的正确性（测试和质量保证）
 
 通用原则：
-5. 存在价值
-6.  
+
+1. 存在价值
+2. 保持简洁
+3. 保持愿景
+4. 关注使用者
+5. 面向未来
+6. 提前计划复用
+7. 认真思考
+
+  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjQ5OTAwOCwxMzAwNjM5OTU0LC0yMT
-MyMjU2ODI2LDY2MDk4NTk5XX0=
+eyJoaXN0b3J5IjpbLTEyNTMxNTkxMTksMTMwMDYzOTk1NCwtMj
+EzMjI1NjgyNiw2NjA5ODU5OV19
 -->
