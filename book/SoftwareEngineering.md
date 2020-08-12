@@ -15,8 +15,8 @@
 软件工程层次图：
 质量关注点--过程--方法--工具
 支持软件工程的根基在于质量关注点（quality focus）。
-软件工程的基础是过程(process)层。软件过程将各个技术层次结合在一起，使得合理、及时的开发计算机软件成为可能。过程定义了一个框架，构建该框架是有效实施软件工程技术必不可少d
+软件工程的基础是过程(process)层。软件过程将各个技术层次结合在一起，使得合理、及时的开发计算机软件成为可能。过程定义了一个框架，构建该框架是有效实施软件工程技术必不可少的。软件过程构成了软件项目管理控制的基础，建立了工作环境以便于应用技术方法、提交工作产品（模型）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY0Njk0OCwxMzAwNjM5OTU0LC0yMT
+eyJoaXN0b3J5IjpbMTE2MTc2OTg2OSwxMzAwNjM5OTU0LC0yMT
 MyMjU2ODI2LDY2MDk4NTk5XX0=
 -->
