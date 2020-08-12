@@ -23,9 +23,14 @@
 软件工程实践的精髓：
 1. 理解问题（沟通和分析）
 2. 策划解决方案（建模和软件设计）
-3. shi shi ji hua
+3. 实施计划（代码生成）
+4. 检查结果的正确性（测试和质量保证）
+
+通用原则：
+5. 存在价值
+6.  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY4ODc2ODcsMTMwMDYzOTk1NCwtMj
-EzMjI1NjgyNiw2NjA5ODU5OV19
+eyJoaXN0b3J5IjpbLTI1MjQ5OTAwOCwxMzAwNjM5OTU0LC0yMT
+MyMjU2ODI2LDY2MDk4NTk5XX0=
 -->
