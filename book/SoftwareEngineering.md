@@ -43,10 +43,14 @@
 
 3. 如何建立过程模型？什么是过程模式？
 
-4. 什么是管
+4. 什么是惯用过程模型？有哪些优缺点？
+
+5. 为什么现代软件工程关注敏捷问题？
+
+6. 什么是敏捷软件开发？它与传统的过程模型有什么区别？  
      
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk3MTQ0MTYsLTEyNTMxNTkxMTksMT
-MwMDYzOTk1NCwtMjEzMjI1NjgyNiw2NjA5ODU5OV19
+eyJoaXN0b3J5IjpbNDU1ODk4NTIxLC0xMjUzMTU5MTE5LDEzMD
+A2Mzk5NTQsLTIxMzIyNTY4MjYsNjYwOTg1OTldfQ==
 -->
