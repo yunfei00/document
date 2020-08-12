@@ -9,8 +9,9 @@
 3 软件描述信息，它以硬拷贝和虚拟形式存在，用来描述程序的操作和使用
 
 # 2 软件工程
+概念：软件工程包括过程、一系列方法（实践）和大量工具，专业人员借由这些来构建高质量的计算机软件。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDYzOTk1NCwtMjEzMjI1NjgyNiw2Nj
-A5ODU5OV19
+eyJoaXN0b3J5IjpbLTE4NTc3MTE2NDAsMTMwMDYzOTk1NCwtMj
+EzMjI1NjgyNiw2NjA5ODU5OV19
 -->
