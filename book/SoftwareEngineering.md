@@ -38,7 +38,7 @@
 
 # 3 软件过程
 1. 什么是软件过程？
-在开发产品或构建系统时，遵循一系列可预测的步骤（即路线图）是非常重要的，它有助于及时交付高质量的产品。软件开发中sui
+在开发产品或构建系统时，遵循一系列可预测的步骤（即路线图）是非常重要的，它有助于及时交付高质量的产品。软件开发中所遵循的线路图就称为软件过程。
 2. 软件过程中，有哪些通用的框架活动？
 
 3. 如何建立过程模型？什么是过程模式？
@@ -51,7 +51,7 @@
      
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1NzQxNDk3LDQ1NTg5ODUyMSwtMTI1Mz
+eyJoaXN0b3J5IjpbOTgwMTA5MjI5LDQ1NTg5ODUyMSwtMTI1Mz
 E1OTExOSwxMzAwNjM5OTU0LC0yMTMyMjU2ODI2LDY2MDk4NTk5
 XX0=
 -->
