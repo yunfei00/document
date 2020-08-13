@@ -38,7 +38,7 @@
 
 # 3 软件过程
 1. 什么是软件过程？
-
+在开发产品或者
 2. 软件过程中，有哪些通用的框架活动？
 
 3. 如何建立过程模型？什么是过程模式？
@@ -51,6 +51,7 @@
      
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1ODk4NTIxLC0xMjUzMTU5MTE5LDEzMD
-A2Mzk5NTQsLTIxMzIyNTY4MjYsNjYwOTg1OTldfQ==
+eyJoaXN0b3J5IjpbLTg4Mzg2NzQ3Myw0NTU4OTg1MjEsLTEyNT
+MxNTkxMTksMTMwMDYzOTk1NCwtMjEzMjI1NjgyNiw2NjA5ODU5
+OV19
 -->
