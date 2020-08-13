@@ -42,17 +42,17 @@
 2. 软件过程中，有哪些通用的框架活动？
 沟通，策划，建模，构建，部署。
 3. 如何建立过程模型？什么是过程模式？
-4. 
+
 过程模式描述了软件工程工作中遇到的过程相关的问题，明确了问题环境并给出了针对该问题的一种或几种可证明的解决方案。
-5. 什么是惯用过程模型？有哪些优缺点？
+4. 什么是惯用过程模型？有哪些优缺点？
 
-6. 为什么现代软件工程关注敏捷问题？
+5. 为什么现代软件工程关注敏捷问题？
 
-7. 什么是敏捷软件开发？它与传统的过程模型有什么区别？  
+6. 什么是敏捷软件开发？它与传统的过程模型有什么区别？  
      
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3MzQ2NTE2LDQ1NTg5ODUyMSwtMTI1Mz
-E1OTExOSwxMzAwNjM5OTU0LC0yMTMyMjU2ODI2LDY2MDk4NTk5
-XX0=
+eyJoaXN0b3J5IjpbLTYyNjU3MDE4NSw0NTU4OTg1MjEsLTEyNT
+MxNTkxMTksMTMwMDYzOTk1NCwtMjEzMjI1NjgyNiw2NjA5ODU5
+OV19
 -->
