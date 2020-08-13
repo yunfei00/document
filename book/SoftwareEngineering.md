@@ -42,7 +42,7 @@
 2. 软件过程中，有哪些通用的框架活动？
 沟通，策划，建模，构建，部署。
 3. 如何建立过程模型？什么是过程模式？
-
+guo cheng mo s
 4. 什么是惯用过程模型？有哪些优缺点？
 
 5. 为什么现代软件工程关注敏捷问题？
@@ -51,7 +51,7 @@
      
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIwMjgzMTEsNDU1ODk4NTIxLC0xMj
+eyJoaXN0b3J5IjpbLTIxMDYxMTI0NDQsNDU1ODk4NTIxLC0xMj
 UzMTU5MTE5LDEzMDA2Mzk5NTQsLTIxMzIyNTY4MjYsNjYwOTg1
 OTldfQ==
 -->
