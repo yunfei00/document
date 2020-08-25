@@ -584,9 +584,9 @@ sudo service supervisor restart
 	1. ubuntu内核日志错误码，可以在文件/usr/include/asm-generic/errno.h中查看。
 	2. 内核日志中，可以搜索error，查看错误
 	3. 错误码110说明
-		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时
+		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjAzMDQxNywtNjc1Nzg0NzU5LDExNT
+eyJoaXN0b3J5IjpbLTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNT
 IzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2Nzcx
 MTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEyNDI5OT
 IsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2
