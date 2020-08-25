@@ -582,11 +582,13 @@ sudo service supervisor restart
 	
 	# 22 ubuntu 内核日志错误码
 	1. ubuntu内核日志错误码，可以在文件/usr/include/asm-generic/errno.h中查看。
-	2. 
+	2. 内核日志中，可以搜索error，查看错误
+	3. 错误码110说明
+		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI0OTc3MzgsLTY3NTc4NDc1OSwxMT
-UyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEyNiwtMTkzNjc3
-MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAxMjQyOT
-kyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIw
-NjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTY1MjAzMDQxNywtNjc1Nzg0NzU5LDExNT
+IzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2Nzcx
+MTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEyNDI5OT
+IsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2
+MzIxMSwtMTM2Nzg0OTExN119
 -->
