@@ -211,9 +211,19 @@ done
 wait
 #打开5个子进程并行，运行只需要3秒。
 ```
+ <h1 id="title5"> 5 date</h1>  
 
+ 1. 本月第一天
+```
+date +"%Y%m01"
+20200801
+```
+ 2. 本月最后一天
+ ```
+ 
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMTQ4NDI4LC0yMzE4OTYsMjY2NDQyMT
-k0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMDI1MTQxNTcsNjAyMTQ4NDI4LC0yMz
+E4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMx
+LDE5Mjg2NzQ2MjVdfQ==
 -->
