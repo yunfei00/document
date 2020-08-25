@@ -580,11 +580,13 @@ sudo service supervisor restart
 	vim /etc/postfix/main.cf
 	```
 	
-
+	# 22 ubuntu 内核日志错误码
+	1. ubuntu内核日志错误码，可以在文件/usr/include/asm-generic/errno.h中查看。
+	2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTc4NDc1OSwxMTUyMzAxNDQ4LDE2Mz
-YwMzIxMjYsMTYzNjAzMjEyNiwtMTkzNjc3MTE2MCwtMTczMTgy
-NTg0MCwyMTA5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2NjgxOC
-wxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIwNjMyMTEsLTEzNjc4
-NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTEzNDI0OTc3MzgsLTY3NTc4NDc1OSwxMT
+UyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEyNiwtMTkzNjc3
+MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAxMjQyOT
+kyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4MDMzOCw1NDIw
+NjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
