@@ -220,10 +220,11 @@ date +"%Y%m01"
 ```
  2. 本月最后一天
  ```
- 
+date -d"$(date -d"1 month" +"%Y%m01") -1 day" +"%Y%m%d"
+20200831
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI1MTQxNTcsNjAyMTQ4NDI4LC0yMz
-E4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMx
-LDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTY0NDIyNDg5Nyw2MDIxNDg0MjgsLTIzMT
+g5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEs
+MTkyODY3NDYyNV19
 -->
