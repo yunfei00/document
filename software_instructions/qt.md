@@ -1,4 +1,15 @@
-# 1 ubuntu16.04 上Qt程序发布
+# 目录
+
+- <a href="#title1">1 ubuntu16.04 上Qt程序发布</a> 
+- <a href="#title2">2 数组操作</a> 
+- <a href="#title3">3 正则表达式匹配数字</a> 
+- <a href="#title4">4 wait</a> 
+-  <a href="#title5">5 date</a> 
+
+<div STYLE="page-break-after: always;"></div>
+ 
+ <h1 id="title1">1 ubuntu16.04 上Qt程序发布</h1>  
+
 1. 下载linuxdeployqt-6-x86_64.AppImage 网址：
 https://github.com/probonopd/linuxdeployqt/releases
 2. 使用Qt提供的qmake工具
@@ -129,7 +140,7 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTI3OTMwNiwxMTI3ODIwNzA1LDY2Mj
-c1OTYwLC0xNzU4Mjg0MzA3LDk0MjQ3NDkyNCwtMjAwMDQwNjcz
-MCwxMTg4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbLTE3NTU3NjUwMzYsLTk5OTI3OTMwNiwxMT
+I3ODIwNzA1LDY2Mjc1OTYwLC0xNzU4Mjg0MzA3LDk0MjQ3NDky
+NCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
 -->
