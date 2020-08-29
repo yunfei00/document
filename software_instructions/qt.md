@@ -4,11 +4,11 @@
 <h3><a href="#title3">3 QT 常见问题</a> </h3>
 <h3><a href="#title4">4 学习笔记</a> </h3>
 		<h4><ul><a href="#title4.1">4.1. QString与QByteArray互相转换的方法</a> </h4>
-		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
-		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
-		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
-		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+		<h4><ul><a href="#title4.2">4.2 QlineEdit常用操作</a> </h4>
+		<h4><ul><a href="#title4.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title4.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title4.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title4.6">2.6 FIND 函数</a> </h4>
 
 
 <div STYLE="page-break-after: always;"></div>
@@ -93,6 +93,7 @@ qmake 查看一下 确保是可以运行的
 4. char arr 转QByteArray
 
  <h2 id="title4.2">4.2 QlineEdit常用操作</h2>  	
+ 
 1. 设置光标
 	```
 	ui->le_cal_weight_result->setFocus();
@@ -123,7 +124,9 @@ void setEchoMode(QLineEdit::EchoMode); //设置行编辑框内文本的显示模
 4. void textChanged(const QString & text) //只要文本内容发生改变，则发出信号.
 5. void textEdited(const QString &text); //当文本被编辑后发出信号,注意!程序中调用的setText()方法并不会触发该信号.
 
-## 4.3 QT 全屏
+
+ <h2 id="title4.3">4.3 QT 全屏</h2>  
+
 ```
 int height = this->height();
 int weight = this->width();
@@ -143,13 +146,13 @@ this->showFullScreen();
 this->showNormal();
 }
 ```
-
-# 5 QT ubuntu mp4播放问题
+ <h1 id="title5">5 QT ubuntu mp4播放问题</h1>  
+# 
 [参考网址](http://www.open-terrain.org/index.php/Pong/August30th2016QMediaPlayerOnUbuntu16-04LTS)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDAwMzUyNSwxNzg0MTQxNzM4LC05OT
+eyJoaXN0b3J5IjpbMTA1NDQ4NDc0NiwxNzg0MTQxNzM4LC05OT
 kyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2MCwtMTc1ODI4NDMw
 Nyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
 -->
