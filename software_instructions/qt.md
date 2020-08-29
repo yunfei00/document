@@ -3,8 +3,8 @@
 - <a href="#title1">1 ubuntu16.04 上Qt程序发布</a> 
 - <a href="#title2">2 快捷键</a> 
 - <a href="#title3">3 QT 常见问题</a> 
-- <a href="#title4">4 wait</a> 
--  <a href="#title5">5 date</a> 
+- <a href="#title4">4 学习笔记</a> 
+
 
 <div STYLE="page-break-after: always;"></div>
  
@@ -63,8 +63,8 @@ qmake 查看一下 确保是可以运行的
 	```
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
-
-# 4 学习笔记
+ <h1 id="title4">4 学习笔记</h1>  
+ 
 ## 4.1. QString与QByteArray互相转换的方法
 1. QString转QByteArray方法
 	```
@@ -143,7 +143,7 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcxNDE0MDAsLTk5OTI3OTMwNiwxMT
-I3ODIwNzA1LDY2Mjc1OTYwLC0xNzU4Mjg0MzA3LDk0MjQ3NDky
-NCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbMTc4NDE0MTczOCwtOTk5Mjc5MzA2LDExMj
+c4MjA3MDUsNjYyNzU5NjAsLTE3NTgyODQzMDcsOTQyNDc0OTI0
+LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
 -->
