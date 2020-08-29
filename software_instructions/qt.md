@@ -1,9 +1,14 @@
 # 目录
-
-- <a href="#title1">1 ubuntu16.04 上Qt程序发布</a> 
-- <a href="#title2">2 快捷键</a> 
-- <a href="#title3">3 QT 常见问题</a> 
-- <a href="#title4">4 学习笔记</a> 
+<h3><a href="#title1">1 ubuntu16.04 上Qt程序发布</a> </h3>
+<h3><a href="#title2">2 快捷键</a> </h3>
+<h3><a href="#title3">3 QT 常见问题</a> </h3>
+<h3><a href="#title4">4 学习笔记</a> </h3>
+		<h4><ul><a href="#title4.1">4.1. QString与QByteArray互相转换的方法</a> </h4>
+		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
 
 
 <div STYLE="page-break-after: always;"></div>
@@ -65,7 +70,8 @@ qmake 查看一下 确保是可以运行的
 	```
  <h1 id="title4">4 学习笔记</h1>  
  
-## 4.1. QString与QByteArray互相转换的方法
+ <h2 id="title4.1">4.1. QString与QByteArray互相转换的方法</h2>  		
+
 1. QString转QByteArray方法
 	```
 	QString str("hello");
@@ -86,7 +92,7 @@ qmake 查看一下 确保是可以运行的
 3. QByteArray不以\0为结束符，和数组一样。
 4. char arr 转QByteArray
 
-## 4.2 QlineEdit常用操作
+ <h2 id="title4.2">4.2 QlineEdit常用操作</h2>  	
 1. 设置光标
 	```
 	ui->le_cal_weight_result->setFocus();
@@ -143,7 +149,7 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDE0MTczOCwtOTk5Mjc5MzA2LDExMj
-c4MjA3MDUsNjYyNzU5NjAsLTE3NTgyODQzMDcsOTQyNDc0OTI0
-LC0yMDAwNDA2NzMwLDExODg1MzAxOTBdfQ==
+eyJoaXN0b3J5IjpbMTM3NDAwMzUyNSwxNzg0MTQxNzM4LC05OT
+kyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2MCwtMTc1ODI4NDMw
+Nyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
 -->
