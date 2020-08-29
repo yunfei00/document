@@ -4,6 +4,7 @@
 - <a href="#title2">2 数组操作</a> 
 - <a href="#title3">3 正则表达式匹配数字</a> 
 - <a href="#title4">4 wait</a> 
+-  <a href="#title5">5 date</a> 
 
 <div STYLE="page-break-after: always;"></div>
  
@@ -221,11 +222,11 @@ date +"%Y%m01"
  2. 本月最后一天
  
  ```
-date -d"$(date -d"1 month" +"%Y%m01") -1 day" +"%Y%m%d"
+date -d"$(date -d"1 month" +%Y%m01) -1 day" +"%Y%m%d"
 20200831
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU0ODAzNjUsNjAyMTQ4NDI4LC0yMz
-E4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMx
-LDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTI0NDUwNDQ4MCwtMTcyNTQ4MDM2NSw2MD
+IxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMs
+LTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
