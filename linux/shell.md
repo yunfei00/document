@@ -224,16 +224,18 @@ date +"%Y%m01"
 date -d"$(date -d"1 month" +"%Y%m01") -1 day" +"%Y%m%d"
 20200831
 ```
-3. 时间戳转化成时间(当地hiji)
+3. 时间戳转化成时间
 ```
 date --date='@1' +"%Y-%m-%d %H:%M:%S"
 1970-01-01 08:00:01
-```
 
 date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 1970-01-01 00:00:01
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ2OTc5MDAsLTE3MjU0ODAzNjUsNj
-AyMTQ4NDI4LC0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQz
-LC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMj
+E0ODQyOCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0Mywt
+MTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
