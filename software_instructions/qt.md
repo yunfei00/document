@@ -5,10 +5,11 @@
 <h3><a href="#title4">4 学习笔记</a> </h3>
 		<h4><ul><a href="#title4.1">4.1. QString与QByteArray互相转换的方法</a> </h4>
 		<h4><ul><a href="#title4.2">4.2 QlineEdit常用操作</a> </h4>
-		<h4><ul><a href="#title4.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title4.3">4.3 QT 全屏</a> </h4>
 		<h4><ul><a href="#title4.4">2.4 SEARCH 函数</a> </h4>
 		<h4><ul><a href="#title4.5">2.5 SUBSTITUTE 函数</a> </h4>
 		<h4><ul><a href="#title4.6">2.6 FIND 函数</a> </h4>
+<h3><a href="#title5">5 QT ubuntu mp4播放问题</a> </h3>
 
 
 <div STYLE="page-break-after: always;"></div>
@@ -152,7 +153,7 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDQ4NDc0NiwxNzg0MTQxNzM4LC05OT
+eyJoaXN0b3J5IjpbMjAyNDI2MjE2OCwxNzg0MTQxNzM4LC05OT
 kyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2MCwtMTc1ODI4NDMw
 Nyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMTE4ODUzMDE5MF19
 -->
