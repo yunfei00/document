@@ -1,8 +1,8 @@
 # 目录
 
 - <a href="#title1">1 ubuntu16.04 上Qt程序发布</a> 
-- <a href="#title2">2 数组操作</a> 
-- <a href="#title3">3 正则表达式匹配数字</a> 
+- <a href="#title2">2 快捷键</a> 
+- <a href="#title3">3 QT 常见问题</a> 
 - <a href="#title4">4 wait</a> 
 -  <a href="#title5">5 date</a> 
 
@@ -36,7 +36,8 @@ qmake 查看一下 确保是可以运行的
 	cp ~/build-test-Desktop_Qt_5_9_1_GCC_64bit-Release/lib ./ -r
 	```
 5. 在未安装Qt的环境下运行程序
-# 2 快捷键
+
+ <h1 id="title2">2 快捷键</h1>  
  |说明|快捷键|
  |-----|----|
  |注释 |ctrl + /
@@ -49,7 +50,8 @@ qmake 查看一下 确保是可以运行的
 |自动对齐 |ctrl + i|
 |同名之前的.h和.cpp切换| F4
  
-# 3 QT 常见问题
+ <h1 id="title3">3 QT 常见问题</h1>  
+ 
 1.  error: cannot find -lGL
 	解决办法：
 	```
@@ -61,6 +63,7 @@ qmake 查看一下 确保是可以运行的
 	```
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
+
 # 4 学习笔记
 ## 4.1. QString与QByteArray互相转换的方法
 1. QString转QByteArray方法
@@ -140,7 +143,7 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU3NjUwMzYsLTk5OTI3OTMwNiwxMT
+eyJoaXN0b3J5IjpbLTE1MTcxNDE0MDAsLTk5OTI3OTMwNiwxMT
 I3ODIwNzA1LDY2Mjc1OTYwLC0xNzU4Mjg0MzA3LDk0MjQ3NDky
 NCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
 -->
