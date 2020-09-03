@@ -144,7 +144,16 @@ this->showFullScreen();
 this->showNormal();
 }
 ```
- <h2 id="title4.">4.3 QT 全屏</h2>  
+ <h2 id="title4.4">4.4 QTablewidget 去掉默认行号</h2>  
+
+```
+QHeaderView* headerView = ui->tableWidget->verticalHeader();
+headerView->setHidden(true);
+
+    QHeaderView*  = ui->tableWidget_fat_data->verticalHeader();
+    headerView->setHidden(true);
+
+```
  
  <h1 id="title5">5 QT ubuntu mp4播放问题</h1>  
 # 
@@ -152,8 +161,8 @@ this->showNormal();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI0MTQ1NzAsMjAyNDI2MjE2OCwxNz
-g0MTQxNzM4LC05OTkyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2
-MCwtMTc1ODI4NDMwNyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMT
-E4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbMTcwODc5MjIxNiwyMDI0MjYyMTY4LDE3OD
+QxNDE3MzgsLTk5OTI3OTMwNiwxMTI3ODIwNzA1LDY2Mjc1OTYw
+LC0xNzU4Mjg0MzA3LDk0MjQ3NDkyNCwtMjAwMDQwNjczMCwxMT
+g4NTMwMTkwXX0=
 -->
