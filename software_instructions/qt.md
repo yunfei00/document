@@ -6,8 +6,8 @@
 		<h4><ul><a href="#title4.1">4.1. QString与QByteArray互相转换的方法</a> </h4>
 		<h4><ul><a href="#title4.2">4.2 QlineEdit常用操作</a> </h4>
 		<h4><ul><a href="#title4.3">4.3 QT 全屏</a> </h4>
+		<h4><ul><a href="#title4.4">4.4 QTablewidget 去掉默认行号</a> </h4>
 <h3><a href="#title5">5 QT ubuntu mp4播放问题</a> </h3>
-
 
 <div STYLE="page-break-after: always;"></div>
  
@@ -149,10 +149,6 @@ this->showNormal();
 ```
 QHeaderView* headerView = ui->tableWidget->verticalHeader();
 headerView->setHidden(true);
-
-    QHeaderView*  = ui->tableWidget_fat_data->verticalHeader();
-    headerView->setHidden(true);
-
 ```
  
  <h1 id="title5">5 QT ubuntu mp4播放问题</h1>  
@@ -161,8 +157,8 @@ headerView->setHidden(true);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODc5MjIxNiwyMDI0MjYyMTY4LDE3OD
-QxNDE3MzgsLTk5OTI3OTMwNiwxMTI3ODIwNzA1LDY2Mjc1OTYw
-LC0xNzU4Mjg0MzA3LDk0MjQ3NDkyNCwtMjAwMDQwNjczMCwxMT
-g4NTMwMTkwXX0=
+eyJoaXN0b3J5IjpbLTE0MjU3NzIyMzMsMjAyNDI2MjE2OCwxNz
+g0MTQxNzM4LC05OTkyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2
+MCwtMTc1ODI4NDMwNyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMT
+E4ODUzMDE5MF19
 -->
