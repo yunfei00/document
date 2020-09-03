@@ -254,7 +254,10 @@ float reserved_34; //99
 float reserved_35; //100
 ```
 
+
+# 生物电阻抗分析
+**生物电阻抗分析**（**BIA**）是估算[身体成分](https://en.wikipedia.org/wiki/Body_composition "身体构成")（尤其是人体脂肪和肌肉质量）的常用方法。在BIA中，弱电流流经人体并测量电压，以计算人体的[阻抗](https://en.wikipedia.org/wiki/Electrical_impedance "电阻抗")（电阻）。人体大部分水分存储在肌肉中。因此，如果一个人肌肉发达，则很有可能该人也会有更多的体内水分，从而导致较低的阻抗。自从1980年代中期出现第一批可商购的设备以来，该方法由于其易用性和设备的便携性而变得流行。在消费者市场中，它是估算人体脂肪的简单工具。BIA [[1]](https://en.wikipedia.org/wiki/Bioelectrical_impedance_analysis#cite_note-1)实际上确定[电阻抗](https://en.wikipedia.org/wiki/Electrical_impedance "电阻抗")或与通过人体组织的电流相反，然后可用于估算[人体总水](https://en.wikipedia.org/wiki/Total_body_water "体内总水")（TBW），可用于估算无脂肪体重以及体重差异，[体内脂肪](https://en.wikipedia.org/wiki/Adiposity "肥胖")。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA3NjE5NTksLTE4ODM1NTY0OSwtMT
-EyNjE3MDMyMl19
+eyJoaXN0b3J5IjpbLTE5NDgwNDY1ODMsLTE0MDA3NjE5NTksLT
+E4ODM1NTY0OSwtMTEyNjE3MDMyMl19
 -->
