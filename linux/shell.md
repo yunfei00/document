@@ -5,6 +5,7 @@
 - <a href="#title3">3 正则表达式匹配数字</a> 
 - <a href="#title4">4 wait</a> 
 -  <a href="#title5">5 date</a> 
+-  <a href="#title6">6 sed</a> 
 
 <div STYLE="page-break-after: always;"></div>
  
@@ -233,9 +234,11 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 1970-01-01 00:00:01
 ```
 
+ <h1 id="title6"> 6 sed</h1>  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMj
-E0ODQyOCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0Mywt
-MTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTM5ODU5OTUyLDYyOTgzMzM5MCwtMTcyNT
+Q4MDM2NSw2MDIxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3
+NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
