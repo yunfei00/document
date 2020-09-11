@@ -246,10 +246,11 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 	echo "asdf sdf 12345678 dsf"|sed 's/.*\([0-9]\{8\}\).*/\1/'
 	12345678
 	```
-	其中，
+	其中，"(){}"在shell中是特殊符号，所以要加转义字符。
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg2NzE2MCw2Mjk4MzMzOTAsLTE3Mj
-U0ODAzNjUsNjAyMTQ4NDI4LC0yMzE4OTYsMjY2NDQyMTk0LC0x
-Nzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbLTEzMzAyOTI2NzUsNjI5ODMzMzkwLC0xNz
+I1NDgwMzY1LDYwMjE0ODQyOCwtMjMxODk2LDI2NjQ0MjE5NCwt
+MTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
