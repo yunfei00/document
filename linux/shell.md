@@ -236,9 +236,13 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 
  <h1 id="title6"> 6 sed</h1>  
 
+1. 简介
+	sed是非交互式的编辑器。它不会修改文件，除非使用shell重定向来保存结果。默认情况下，所有的输出行都被打印到屏幕上。
+	sed编辑器逐行处理文件（或输入），并将结果发送到屏幕。具体过程如下：首先sed把当前正在处理的行保存在一个临时缓存区中（也称为模式空间），然后处理临时缓冲区中的行，完成后把该行发送到屏幕上。sed每处理完一行就将其从临时缓冲区删除，然后将下一行读入，进行处理和显示。处理完输入文件的最后一行后，sed便结束运行。sed把每一行都存在临时缓冲区中，对这个副本进行编辑，所以不会修改原文件。
+2.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODU5OTUyLDYyOTgzMzM5MCwtMTcyNT
-Q4MDM2NSw2MDIxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3
-NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTIxMTc5NzE3NCw2Mjk4MzMzOTAsLTE3Mj
+U0ODAzNjUsNjAyMTQ4NDI4LC0yMzE4OTYsMjY2NDQyMTk0LC0x
+Nzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
