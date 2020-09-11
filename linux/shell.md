@@ -243,11 +243,13 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 2. 正则匹配示例
 	匹配行中的连续8个数字
 	```
-	
+	visbodyfit@visbodyfit:~$ echo "asdf sdf 12345678 dsf"|sed 's/.*\([0-9]\{8\}\).*/\1/'
+12345678
+
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NDE4NDE2LDYyOTgzMzM5MCwtMTcyNT
+eyJoaXN0b3J5IjpbNTA3MDQ4MTg3LDYyOTgzMzM5MCwtMTcyNT
 Q4MDM2NSw2MDIxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3
 NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
