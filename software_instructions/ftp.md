@@ -47,6 +47,8 @@ ftp: connect: Connection refused
 	```
 	linux下也可以直接使用ftp命令进行访问。当然还要学习一些ftp命令。
 	关于适用shell脚本调用ftp服务，后期推出脚本。
+	
+6. 匿名用户登录配置
 
 # 2 在Centos下搭建Ftp服务
 
@@ -73,5 +75,5 @@ ftp: connect: Connection refused
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzOTUwMTg2XX0=
+eyJoaXN0b3J5IjpbODE2MDg1Mzk4LDk2Mzk1MDE4Nl19
 -->
