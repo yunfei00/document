@@ -49,6 +49,13 @@ ftp: connect: Connection refused
 	关于适用shell脚本调用ftp服务，后期推出脚本。
 	
 6. 匿名用户登录配置
+	```
+	/etc/vsftpd.conf
+	anonymous_enable=YES 是否允许匿名用户登录(ftp和anonymous俩个名称都被认为是匿名用户)
+	local_enable=YES 是否启用系统用户登录
+	write_enable=YES 系统用户是否可以上传文件
+	anon_upload_enable=YES 匿名用户是否要上传文件
+	```
 
 # 2 在Centos下搭建Ftp服务
 
@@ -75,5 +82,5 @@ ftp: connect: Connection refused
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2MDg1Mzk4LDk2Mzk1MDE4Nl19
+eyJoaXN0b3J5IjpbLTE2NzYzOTQ2OTUsOTYzOTUwMTg2XX0=
 -->
