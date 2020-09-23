@@ -48,7 +48,7 @@ ftp: connect: Connection refused
 	linux下也可以直接使用ftp命令进行访问。当然还要学习一些ftp命令。
 	关于适用shell脚本调用ftp服务，后期推出脚本。
 	
-6. 匿名用户登录配置
+6. 匿名用户登录配置（未通过）
 	```
 	/etc/vsftpd.conf
 	anonymous_enable=YES 是否允许匿名用户登录(ftp和anonymous俩个名称都被认为是匿名用户)
@@ -82,5 +82,6 @@ ftp: connect: Connection refused
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYzOTQ2OTUsOTYzOTUwMTg2XX0=
+eyJoaXN0b3J5IjpbNDkyNDMwNTUsLTE2NzYzOTQ2OTUsOTYzOT
+UwMTg2XX0=
 -->
