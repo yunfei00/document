@@ -647,12 +647,14 @@ sudo service supervisor restart
 这种手段实质上是由B 向A 主动地建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上，只要这条隧道不关闭，这个转发就是有效的。有了这个端口转发，只需要访问A 的6766 端口反向连接B 即可。
 
 首先在**B**  上建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上：
-
+```
+ssh -p  22 -qngfNTR 6766:localhost:22 usera@a.site
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAxMjA5NzIsLTMyNzY5MDc0NiwtNj
-c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
-MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
-AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
-NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbMTAxNjUzMzM1OCwtMzI3NjkwNzQ2LC02Nz
+U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
+MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
+wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
+ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
