@@ -1,5 +1,7 @@
 <h3><a href="#title1">1 nohup</a> </h3>
 <h3><a href="#title2">2 scp</a> </h3>
+<h3><a href="#title3">3 svn 安装</a> </h3>
+<h3><a href="#title4">4 命令行控制颜色</a> </h3>
 <div style="page-break-after:always"></div>
 <h1 id="title1">1 nohup</h1>  
 
@@ -12,11 +14,12 @@ nohup ./01_st.sh >/dev/null 2>&1 &
 scp visbodyfit@192.168.0.10:/home/yunfei/test.get_value.c ./
 scp hardware  visbodyfit@192.168.0.10:/home/visbodyfit/yunfei
 ```
-# 3 svn 安装
+<h1 id="title3">3 svn 安装</h1>  
 ```
 sudo apt-get install subversion  
 ```
-# 4 命令行控制颜色
+<h1 id="title3">3 svn 安装</h1>  
+# 
 ```
 #!/bin/bash
 
@@ -586,9 +589,9 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNT
-IzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2Nzcx
-MTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEyNDI5OT
-IsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2
-MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTEyNDIzODM4NzYsLTMyNzY5MDc0NiwtNj
+c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
+MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
+AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
+NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
