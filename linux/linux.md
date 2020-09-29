@@ -636,20 +636,26 @@ sudo service supervisor restart
 
 	假设有机器A 和B，A 有公网IP，B 位于NAT 之后并无可用的端口转发，现在想由A 主动向B 发起SSH 连接。由于B 在NAT 后端，无可用**公网IP + 端口** 这样一个组合，所以A 无法穿透NAT，这篇文章应对的就是这种情况。
 
-| 机器代号|机器位置|地址|账户|ssh/sshd 端口|是否需要运行sshd|
-|:----------:|:-------------:|------:|:----:|---|---|
-|  A |  位于公网 | $1600 |
-|  B |    centered   |   $12 |
-|  C | right-aligned |    $1 |
+| 机器代号| 机器位置  |地址     |账户  |ssh/sshd 端口|是否需要运行sshd|
+|:------:|:--------:|--------:|:---:|:----------:|:-------------:|
+|  A     | 位于公网  | a.site  |usera|22          |是|
+|  B     |位于NAT之后|localhost|userb|22          |是|
+|  C     |位于NAT之后|localhost|userc|22          |否|
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ## SSH 反向隧道
 这种手段实质上是由B 向A 主动地建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上，只要这条隧道不关闭，这个转发就是有效的。有了这个端口转发，只需要访问A 的6766 端口反向连接B 即可。
 
 首先在**B**  上建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg4MDYxNDYsLTMyNzY5MDc0NiwtNj
-c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
-MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
-AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
-NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
+eyJoaXN0b3J5IjpbNzU1NzMyMTQxLC0zMjc2OTA3NDYsLTY3NT
+c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
+NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
+0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
+MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
