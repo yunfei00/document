@@ -11,30 +11,21 @@
 <h3><a href="#title11">11 date 命令</a> </h3>
 <h3><a href="#title12">12 ubuntu修改静态IP</a> </h3>
 <h3><a href="#title13">13 linux 根目录结构</a> </h3>
-<h3><a href="#title14">4 命令行控制颜色</a> </h3>
-<h3><a href="#title15">4 命令行控制颜色</a> </h3>
-<h3><a href="#title16">4 命令行控制颜色</a> </h3>
-<h3><a href="#title17">4 命令行控制颜色</a> </h3>
-<h3><a href="#title18">4 命令行控制颜色</a> </h3>
-<h3><a href="#title19">4 命令行控制颜色</a> </h3>
-<h3><a href="#title20">4 命令行控制颜色</a> </h3>
-<h3><a href="#title21">4 命令行控制颜色</a> </h3>
-<h3><a href="#title22">4 命令行控制颜色</a> </h3>
-<h3><a href="#title23">4 命令行控制颜色</a> </h3>
+<h3><a href="#title14">14 文件及基本操作</a> </h3>
+<h3><a href="#title15">15 trap</a> </h3>
+<h3><a href="#title16">16 shell 命名管道操作</a> </h3>
+<h3><a href="#title17">17 seq 用法</a> </h3>
+<h3><a href="#title18">18 history 格式设置</a> </h3>
+<h3><a href="#title19">19 service服务</a> </h3>
+<h3><a href="#title20">20 shell正则表达式</a> </h3>
+<h3><a href="#title21">21 Centos postfix 邮箱服务器搭建</a> </h3>
+<h3><a href="#title22">22 ubuntu 内核日志错误码</a> </h3>
+<h3><a href="#title23">23 反向链接</a> </h3>
 <div style="page-break-after:always"></div>
+
 <h1 id="title1">1 nohup</h1>  
 
-
-15 trap
-16 shell 命名管道操作
-17 seq 用法
-18 history 格式设置
-19 service服务
-20 shell正则表达式
-21 Centos postfix 邮箱服务器搭建
-22 ubuntu 内核日志错误码
-23 反向链接
-```
+``
 nohup ./01_st.sh >/dev/null 2>&1 &
 ```
 <h1 id="title1">2 scp</h1>  
@@ -643,9 +634,9 @@ sudo service supervisor restart
 		
 	<h1 id="title23">23 反向链接</h1>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjIyOTYxMCwtMzI3NjkwNzQ2LC02Nz
-U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
-MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
-wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
-ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbNTg4ODI0NDk1LC0zMjc2OTA3NDYsLTY3NT
+c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
+NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
+0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
+MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
