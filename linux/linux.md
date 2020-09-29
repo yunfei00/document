@@ -110,8 +110,8 @@ b=$(($(($b%7))+40))
 echo -e "\033[4A\033[0m"
 done
 ```
-# 
-<h1 id="title4">4 命令行控制颜色</h1>  
+
+<h1 id="title5">5 Ubuntu用户操作</h1>  
 
 查询用户组
 添加用户组
@@ -129,13 +129,15 @@ afei
 suanier@521
 ```
 
-# 6 远程执行命令  带窗口
+<h1 id="title6">6 远程执行命令  带窗口</h1>  
+
 ```
 sshpass -p "afei"  ssh -X visbodyfit@192.168.0.10 /home/visbodyfit/visfitdevice/hardwareServer/tool/hardware_test/hardware_test
 
 ```
 
-# 7 内核版本与系统版本查看
+<h1 id="title7">7 内核版本与系统版本查看</h1>  
+
 ```
     uname -a
 ```
@@ -145,7 +147,8 @@ x.系统版本
     cat /etc/issue
 ```
 
-# 8 英伟达显卡安装卸载
+<h1 id="title8">8 英伟达显卡安装卸载</h1>  
+
 https://www.geforce.cn/drivers
 卸载
 ```
@@ -156,7 +159,9 @@ sudo ./NVIDIA-Linux-x86_64-384.98.run --no-x-check --no-nouveau-check --no-openg
 查看是否安装OK
 nvidia-smi
 
-# 9 tar命令
+# 
+<h1 id="title8">8 9 tar命令</h1>  
+
 解压到目标文件夹
 tar xf 20190714-20190718.tar.gz  -C 0714-0718/
 
@@ -608,7 +613,7 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDcyODk4NCwtMzI3NjkwNzQ2LC02Nz
+eyJoaXN0b3J5IjpbMjAxOTMzMjUxMiwtMzI3NjkwNzQ2LC02Nz
 U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
 MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
 wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
