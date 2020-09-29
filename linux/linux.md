@@ -2,25 +2,25 @@
 <h3><a href="#title2">2 scp</a> </h3>
 <h3><a href="#title3">3 svn 安装</a> </h3>
 <h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
-<h3><a href="#title4">4 命令行控制颜色</a> </h3>
+<h3><a href="#title5">5 Ubuntu用户操作</a> </h3>
+<h3><a href="#title6">6 远程执行命令 带窗口</a> </h3>
+<h3><a href="#title7">4 命令行控制颜色</a> </h3>
+<h3><a href="#title8">4 命令行控制颜色</a> </h3>
+<h3><a href="#title9">4 命令行控制颜色</a> </h3>
+<h3><a href="#title10">4 命令行控制颜色</a> </h3>
+<h3><a href="#title11">4 命令行控制颜色</a> </h3>
+<h3><a href="#title12">4 命令行控制颜色</a> </h3>
+<h3><a href="#title13">4 命令行控制颜色</a> </h3>
+<h3><a href="#title14">4 命令行控制颜色</a> </h3>
+<h3><a href="#title15">4 命令行控制颜色</a> </h3>
+<h3><a href="#title16">4 命令行控制颜色</a> </h3>
+<h3><a href="#title17">4 命令行控制颜色</a> </h3>
+<h3><a href="#title18">4 命令行控制颜色</a> </h3>
+<h3><a href="#title19">4 命令行控制颜色</a> </h3>
+<h3><a href="#title20">4 命令行控制颜色</a> </h3>
+<h3><a href="#title21">4 命令行控制颜色</a> </h3>
+<h3><a href="#title22">4 命令行控制颜色</a> </h3>
+<h3><a href="#title23">4 命令行控制颜色</a> </h3>
 <div style="page-break-after:always"></div>
 <h1 id="title1">1 nohup</h1>  
 
@@ -616,9 +616,9 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTYyMzY3NCwtMzI3NjkwNzQ2LC02Nz
-U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
-MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
-wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
-ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbODEwMzE2MzI5LC0zMjc2OTA3NDYsLTY3NT
+c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
+NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
+0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
+MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
