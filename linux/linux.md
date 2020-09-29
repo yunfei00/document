@@ -677,11 +677,22 @@ ssh -p 6766 userb@localhost
 下面演示如何使用SSH 反向隧道，让C 连接到B。
 
 首先在**A** 上编辑`sshd` 的配置文件`/etc/ssh/sshd_config`，将`GatewayPorts` 开关打开：
+```
+GatewayPorts  yes
+```
+然后在**B** 上对之前用到的`autossh` 指令略加修改：
+```
+autossh -p  22 -M 6777 -NR '*:6766:localhost:22' usera@a.site
+```
+之后在**C** 上利用**A** 的6766 端口SSH 连接到**B**：
+```
+ssh -p  6766 userb@a.site
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MD
-M0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTks
-MTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5Mz
-Y3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0
-Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNT
-QyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2Mz
+QxNTM4NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2
+LC02NzU3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2Mz
+YwMzIxMjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4
+Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NC
+w4ODk1ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
