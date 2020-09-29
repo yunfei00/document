@@ -8,8 +8,8 @@
 <h3><a href="#title8">8 英伟达显卡安装卸载</a> </h3>
 <h3><a href="#title9">9 tar命令</a> </h3>
 <h3><a href="#title10">10 时间同步</a> </h3>
-<h3><a href="#title11">4 命令行控制颜色</a> </h3>
-<h3><a href="#title12">4 命令行控制颜色</a> </h3>
+<h3><a href="#title11">11 date 命令</a> </h3>
+<h3><a href="#title12">12 ubuntu修改静态IP</a> </h3>
 <h3><a href="#title13">4 命令行控制颜色</a> </h3>
 <h3><a href="#title14">4 命令行控制颜色</a> </h3>
 <h3><a href="#title15">4 命令行控制颜色</a> </h3>
@@ -250,7 +250,9 @@ dns-nameservers 10.0.208.1 // 设置dns服务器地址
 
 https://www.jianshu.com/p/d69a95aa1ed7
 
-# 13 linux 根目录结构
+
+<h1 id="title13">13 linux 根目录结构</h1>  
+
 /boot
 存放系统启动的相关文件，比如内核
 
@@ -327,7 +329,9 @@ universal shared read-only
 /usr/local/sbin
 /usr/local/lib
 
-# 14 文件及基本操作
+
+<h1 id="title14">14 文件及基本操作</h1>  
+
 使用 ls 指令查看目录中文件的信息
 使用 ls -l 命令列举当前目录下的文件
 
@@ -415,7 +419,9 @@ change 改变文件基本信息时间，比如文件名
 > 使用 mv 命令
 作用
 移动(重命名)文件
-# 15 trap
+
+<h1 id="title15">15 trap</h1>  
+
 1. 运行格式
 trap命令的参数分为两部分，前一部分是接收到指定信号时将要采取的行动，后一部分是要处理的信号名。
 ```
@@ -469,6 +475,7 @@ SIGUSR2 |终止进程 |用户定义信号2
 SIGVTALRM |终止进程| 虚拟计时器到时
 
 # 16 shell 命名管道操作
+
 1. 管道建立
 	```
 	mkfifo /tmp/testpipe 
@@ -616,7 +623,7 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTU3NTkxMiwtMzI3NjkwNzQ2LC02Nz
+eyJoaXN0b3J5IjpbMTMyOTUyMDkwMiwtMzI3NjkwNzQ2LC02Nz
 U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
 MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
 wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
