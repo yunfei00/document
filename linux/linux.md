@@ -474,7 +474,7 @@ SIGUSR1 |终止进程 |用户定义信号1
 SIGUSR2 |终止进程 |用户定义信号2
 SIGVTALRM |终止进程| 虚拟计时器到时
 
-# 16 shell 命名管道操作
+<h1 id="title16">16 shell 命名管道操作</h1>  
 
 1. 管道建立
 	```
@@ -518,7 +518,9 @@ SIGVTALRM |终止进程| 虚拟计时器到时
 	fi
 	```
 
-# 17 seq 用法
+
+<h1 id="title17">17 seq 用法</h1>  
+
 
 1. seq 说明
 squeue 是一个序列的缩写，主要用来输出序列化的东西
@@ -558,20 +560,23 @@ squeue 是一个序列的缩写，主要用来输出序列化的东西
 	seq  -f "%04g"  -s  " "  10
 	0001 0002 0003 0004 0005 0006 0007 0008 0009 0010
 	```
-# 18 history 格式设置
+<h1 id="title18">18 history 格式设置</h1>  
+
 	```
 	HISTFILESIZE=2000
 	HISTSIZE=2000
 	HISTTIMEFORMAT="%Y%m%d-%H%M%S: "  或者HISTTIMEFORMAT="%Y%m%d %T "或者HISTTIMEFORMAT="%F %T "
 	export HISTTIMEFORMAT
 	```
-# 19 service服务
+<h1 id="title19">19 service服务</h1>  
+
 service命令用于对系统服务进行管理，比如启动（start）、停止（stop）、重启（restart）、查看状态（status）等。
 	service命令本身是一个shell脚本，它在/etc/init.d/目录查找指定的服务脚本，然后调用该服务脚本来完成任务。
 ```
 sudo service supervisor restart
 ```
-# 20 shell正则表达式
+<h1 id="title20">20 shell正则表达式</h1>  
+
 - 基本的正则表达式（Basic Regular Expression 又叫Basic RegEx 简称BREs）
 - 扩展的正则表达式（Extended Regular Expression 又叫Extended RegEx 简称EREs）
 - Perl的正则表达式（Perl Regular Expression 又叫Perl RegEx 简称PREs）
@@ -598,7 +603,9 @@ sudo service supervisor restart
 	echo 20200525|sed 's/^\(....\).*\(..\).*\(..\)/\1\/\2\/\3/'
 	2020/05/25
 	```
-	# 21 Centos postfix 邮箱服务器搭建
+
+	<h1 id="title21">21 Centos postfix 邮箱服务器搭建</h1>  
+	
 	### 步骤1：检查和删除Sendmail（仅在安装了Sendmail时才需要）
 	```
 	rpm -qa | grep sendmail
@@ -617,15 +624,18 @@ sudo service supervisor restart
 	vim /etc/postfix/main.cf
 	```
 	
-	# 22 ubuntu 内核日志错误码
+	<h1 id="title22">22 ubuntu 内核日志错误码</h1>  
+		
 	1. ubuntu内核日志错误码，可以在文件/usr/include/asm-generic/errno.h中查看。
 	2. 内核日志中，可以搜索error，查看错误
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
+		
+	<h1 id="title23">23 饭</h1>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTUyMDkwMiwtMzI3NjkwNzQ2LC02Nz
-U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
-MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
-wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
-ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
+eyJoaXN0b3J5IjpbMjQyMjQ3MjUxLC0zMjc2OTA3NDYsLTY3NT
+c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
+NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
+0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
+MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
 -->
