@@ -159,13 +159,13 @@ sudo ./NVIDIA-Linux-x86_64-384.98.run --no-x-check --no-nouveau-check --no-openg
 查看是否安装OK
 nvidia-smi
 
-# 
-<h1 id="title8">8 9 tar命令</h1>  
+<h1 id="title9">9 tar命令</h1>  
 
 解压到目标文件夹
 tar xf 20190714-20190718.tar.gz  -C 0714-0718/
 
-# 10 时间同步
+<h1 id="title10">10 时间同步</h1>  
+
 ubuntu 设备 默认服务器同步时间：
 /var/log
 grep 'step time server'  *
@@ -177,7 +177,9 @@ sudo ntpdate cn.pool.ntp.org
 26 Nov 17:51:30 ntpdate[30566]: adjust time server 84.16.73.33 offset 0.020134 sec
 或者sudo ntpdate 91.189.89.199
 
-# 11 date 命令
+<h1 id="title11">11 date 命令</h1>  
+
+
 1. 时间戳解析成指定格式
 date --date='@1575447167' "+%Y%m%d"
 20191204
@@ -219,7 +221,8 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	echo "${datas[@]}"
 	# 20200225 20200226 20200227 20200228 20200229 20200301
 	```
-# 12 ubuntu修改静态IP
+<h1 id="title12">12 ubuntu修改静态IP</h1>  
+
 1 打开目标文件
 sudo gedit /etc/network/interfaces // gedit 是用gedit进行编译打开，也可以用其他编译器打开
 
@@ -613,7 +616,7 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTMzMjUxMiwtMzI3NjkwNzQ2LC02Nz
+eyJoaXN0b3J5IjpbMTQ3OTYyMzY3NCwtMzI3NjkwNzQ2LC02Nz
 U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
 MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
 wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
