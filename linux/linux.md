@@ -671,12 +671,17 @@ autossh -p  22 -M 6777 -NR 6766:localhost:22 usera@a.site
 ssh -p 6766 userb@localhost
 ```
 ### 隧道的自动建立
+然而这又有了另外一个问题，如果B 重启隧道就会消失。那么需要有一种手段在B 每次启动时使用`autossh`  来建立SSH 隧道。很自然的一个想法就是做成服务，之后会给出在`systemd`  下的一种解决方案。
+## “打洞”
+之所以标题这么起，是因为自己觉得这件事情有点类似于UDP 打洞，即通过一台在公网的机器，让两台分别位于各自NAT 之后的机器可以建立SSH 连接。
+下面演示如何使用SSH 反向隧道，让C 连接到B。
 
+首先在**A** 上编辑`sshd` 的配置文件`/etc/ssh/sshd_config`，将`GatewayPorts` 开关打开：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MTUzODU4LDM2OTAzNDM5OCw2MjMyND
-k2MjAsLTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNTIzMDE0NDgs
-MTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2NzcxMTYwLC0xNz
-MxODI1ODQwLDIxMDk2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2
-ODE4LDEwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMT
-M2Nzg0OTExN119
+eyJoaXN0b3J5IjpbLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MD
+M0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTks
+MTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5Mz
+Y3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0
+Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNT
+QyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
