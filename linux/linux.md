@@ -633,9 +633,10 @@ sudo service supervisor restart
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 		
 	<h1 id="title23">23 反向链接</h1>  
-	
+
+	假设有机器A 和B，A 有公网IP，B 位于NAT 之后并无可用的端口转发，现在想由A 主动向B 发起SSH 连接。由于B 在NAT 后端，无可用**公网IP + 端口** 这样一个组合，所以A 无法穿透NAT，这篇文章应对的就是这种情况。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU2ODgxMjcsLTMyNzY5MDc0NiwtNj
+eyJoaXN0b3J5IjpbLTE3MDIwNjY3MjAsLTMyNzY5MDc0NiwtNj
 c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
 MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
 AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
