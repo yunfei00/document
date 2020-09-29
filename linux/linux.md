@@ -654,10 +654,18 @@ sudo service supervisor restart
 	```
 	ssh -p 6766 userb@localhost
 	```
-	## 隧道的维持
+	
+## 隧道的维持
+### 稳定性维持
+然而不幸的是SSH 连接是会超时关闭的，如果连接关闭，隧道无法维持，那么A 就无法利用反向隧道穿透B 所在的NAT 了，为此我们需要一种方案来提供一条稳定的SSH 反向隧道。
 
+一个最简单的方法就是`autossh`，这个软件会在超时之后自动重新建立SSH 隧道，这样就解决了隧道的稳定性问题，如果你使用[Arch Linux](https://www.archlinux.org/)，你可以这样获得它：
+
+```
+sudo pacman -S autossh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5ODUzMjk1LDYyMzI0OTYyMCwtMzI3Nj
+eyJoaXN0b3J5IjpbMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3Nj
 kwNzQ2LC02NzU3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2
 LDE2MzYwMzIxMjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMj
 EwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1
