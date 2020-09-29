@@ -25,7 +25,7 @@
 
 <h1 id="title1">1 nohup</h1>  
 
-``
+```
 nohup ./01_st.sh >/dev/null 2>&1 &
 ```
 <h1 id="title1">2 scp</h1>  
@@ -633,10 +633,11 @@ sudo service supervisor restart
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 		
 	<h1 id="title23">23 反向链接</h1>  
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4ODI0NDk1LC0zMjc2OTA3NDYsLTY3NT
-c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
-NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
-0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
-MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTE5MzU2ODgxMjcsLTMyNzY5MDc0NiwtNj
+c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
+MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
+AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
+NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
