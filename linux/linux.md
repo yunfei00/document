@@ -690,12 +690,21 @@ ssh -p  6766 userb@a.site
 ```
 至此你已经轻而易举的穿透了两层NAT。
 
+## 最终的解决方案
+整合一下前面提到的，最终的解决方案如下：
+首先打开**A**  上`sshd`  的`GatewayPorts`  开关，并重启`sshd`（如有需要）。
+
+然后在**B**  上新建一个用户_autossh_，根据权限最小化思想，B 上的`autossh`  服务将以_autossh_  用户的身份运行，以尽大可能避免出现安全问题：
+```
+sudo useradd -m autossh
+sudo passwd autossh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MDM2MDIwLC0xNDgwMjE5NTEzLC00OT
-MyOTQ3OTgsNjM0MTUzODU4LDM2OTAzNDM5OCw2MjMyNDk2MjAs
-LTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNj
-AzMjEyNiwxNjM2MDMyMTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1
-ODQwLDIxMDk2ODc5NjAsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LD
-EwMTMwNTEyNjQsODg5NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0
-OTExN119
+eyJoaXN0b3J5IjpbMjA0NzczNDQwOCw5NjcwMzYwMjAsLTE0OD
+AyMTk1MTMsLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MDM0Mzk4
+LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTksMTE1Mj
+MwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzEx
+NjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5Mi
+wzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1ODAzMzgsNTQyMDYz
+MjExXX0=
 -->
