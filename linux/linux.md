@@ -642,20 +642,17 @@ sudo service supervisor restart
 |  B     |位于NAT之后|localhost|userb|22          |是|
 |  C     |位于NAT之后|localhost|userc|22          |否|
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
 ## SSH 反向隧道
 这种手段实质上是由B 向A 主动地建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上，只要这条隧道不关闭，这个转发就是有效的。有了这个端口转发，只需要访问A 的6766 端口反向连接B 即可。
 
 首先在**B**  上建立一个SSH 隧道，将A 的6766 端口转发到B 的22 端口上：
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NzMyMTQxLC0zMjc2OTA3NDYsLTY3NT
-c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
-NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
-0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
-MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTE5NzAxMjA5NzIsLTMyNzY5MDc0NiwtNj
+c1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMy
+MTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2ODc5Nj
+AsLTEyMDEyNDI5OTIsMzk4MzY2ODE4LDEwMTMwNTEyNjQsODg5
+NTgwMzM4LDU0MjA2MzIxMSwtMTM2Nzg0OTExN119
 -->
