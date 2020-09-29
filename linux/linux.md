@@ -10,7 +10,7 @@
 <h3><a href="#title10">10 时间同步</a> </h3>
 <h3><a href="#title11">11 date 命令</a> </h3>
 <h3><a href="#title12">12 ubuntu修改静态IP</a> </h3>
-<h3><a href="#title13">4 命令行控制颜色</a> </h3>
+<h3><a href="#title13">13 linux 根目录结构</a> </h3>
 <h3><a href="#title14">4 命令行控制颜色</a> </h3>
 <h3><a href="#title15">4 命令行控制颜色</a> </h3>
 <h3><a href="#title16">4 命令行控制颜色</a> </h3>
@@ -24,6 +24,16 @@
 <div style="page-break-after:always"></div>
 <h1 id="title1">1 nohup</h1>  
 
+
+15 trap
+16 shell 命名管道操作
+17 seq 用法
+18 history 格式设置
+19 service服务
+20 shell正则表达式
+21 Centos postfix 邮箱服务器搭建
+22 ubuntu 内核日志错误码
+23 反向链接
 ```
 nohup ./01_st.sh >/dev/null 2>&1 &
 ```
@@ -631,11 +641,11 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 		
-	<h1 id="title23">23 饭</h1>  
+	<h1 id="title23">23 反向链接</h1>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMjQ3MjUxLC0zMjc2OTA3NDYsLTY3NT
-c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
-NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
-0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
-MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbMTQzMjIyOTYxMCwtMzI3NjkwNzQ2LC02Nz
+U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
+MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
+wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
+ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
