@@ -4,10 +4,10 @@
 <h3><a href="#title4">4 命令行控制颜色</a> </h3>
 <h3><a href="#title5">5 Ubuntu用户操作</a> </h3>
 <h3><a href="#title6">6 远程执行命令 带窗口</a> </h3>
-<h3><a href="#title7">4 命令行控制颜色</a> </h3>
-<h3><a href="#title8">4 命令行控制颜色</a> </h3>
-<h3><a href="#title9">4 命令行控制颜色</a> </h3>
-<h3><a href="#title10">4 命令行控制颜色</a> </h3>
+<h3><a href="#title7">7 内核版本与系统版本查看</a> </h3>
+<h3><a href="#title8">8 英伟达显卡安装卸载</a> </h3>
+<h3><a href="#title9">9 tar命令</a> </h3>
+<h3><a href="#title10">10 时间同步</a> </h3>
 <h3><a href="#title11">4 命令行控制颜色</a> </h3>
 <h3><a href="#title12">4 命令行控制颜色</a> </h3>
 <h3><a href="#title13">4 命令行控制颜色</a> </h3>
@@ -616,9 +616,9 @@ sudo service supervisor restart
 	3. 错误码110说明
 		设备启动后，内核日志显示错误码110，#define	ETIMEDOUT	110	/* Connection timed out */，连接超时，初步怀疑可能是某个USB口短路或异常导致，待排查。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMzE2MzI5LC0zMjc2OTA3NDYsLTY3NT
-c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
-NiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC
-0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEzMDUxMjY0LDg4OTU4
-MDMzOCw1NDIwNjMyMTEsLTEzNjc4NDkxMTddfQ==
+eyJoaXN0b3J5IjpbLTQwNTU3NTkxMiwtMzI3NjkwNzQ2LC02Nz
+U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
+MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
+wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
+ODAzMzgsNTQyMDYzMjExLC0xMzY3ODQ5MTE3XX0=
 -->
