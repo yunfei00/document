@@ -8,7 +8,6 @@
 		<h4><ul><a href="#title3.3">3.3 无机盐</a> </h4>
 		<h4><ul><a href="#title3.4">3.4 蛋白质</a> </h4>
 		<h4><ul><a href="#title3.5">3.5 人体脂肪</a> </h4>
-		<h4><ul><a href="#title3.6">3.6 FIND 函数</a> </h4>
 <div style="page-break-after:always"></div>
 
   <h1 id="title1">1 一组体成分数据</h1>  
@@ -303,7 +302,7 @@ float reserved_35; //100
 [人体脂肪](https://baike.baidu.com/item/%E4%BA%BA%E4%BD%93%E8%84%82%E8%82%AA)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NzA5OTUyLC0xNjIzNzk0MDU3LDYwNj
-UwMTY0OCwtMTk0ODA0NjU4MywtMTQwMDc2MTk1OSwtMTg4MzU1
-NjQ5LC0xMTI2MTcwMzIyXX0=
+eyJoaXN0b3J5IjpbNjMzMjAzMjI2LDYzODcwOTk1MiwtMTYyMz
+c5NDA1Nyw2MDY1MDE2NDgsLTE5NDgwNDY1ODMsLTE0MDA3NjE5
+NTksLTE4ODM1NTY0OSwtMTEyNjE3MDMyMl19
 -->
