@@ -4,7 +4,7 @@
 <h3><a href="#title2">2 生物电阻抗分析</a> </h3>
 <h3><a href="#title3">3 名词解释</a> </h3>
 		<h4><ul><a href="#title3.1">3.1 有机化合物</a> </h4>
-		<h4><ul><a href="#title3.2">3.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.2">3.2 无极</a> </h4>
 		<h4><ul><a href="#title3.3">3.3 MID函数</a> </h4>
 		<h4><ul><a href="#title3.4">3.4 SEARCH 函数</a> </h4>
 		<h4><ul><a href="#title3.5">3.5 SUBSTITUTE 函数</a> </h4>
@@ -280,6 +280,6 @@ float reserved_35; //100
 [有机化合物](https://baike.baidu.com/item/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%90%88%E7%89%A9/2950156)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTIwMjcwMiwtMTk0ODA0NjU4MywtMT
+eyJoaXN0b3J5IjpbLTUyMDIyNDA3MCwtMTk0ODA0NjU4MywtMT
 QwMDc2MTk1OSwtMTg4MzU1NjQ5LC0xMTI2MTcwMzIyXX0=
 -->
