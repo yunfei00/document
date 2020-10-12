@@ -2,13 +2,13 @@
 
 <h3><a href="#title1">1 一组体成分数据</a> </h3>
 <h3><a href="#title2">2 生物电阻抗分析</a> </h3>
-		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
-		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
-		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
-		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
-		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
-<h3><a href="#title3">3 概念名</a> </h3>
+<h3><a href="#title3">3 名词解释</a> </h3>
+		<h4><ul><a href="#title3.1">3.1 有机化合物</a> </h4>
+		<h4><ul><a href="#title3.2">3.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.3">3.3 MID函数</a> </h4>
+		<h4><ul><a href="#title3.4">3.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title3.5">3.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title3.6">3.6 FIND 函数</a> </h4>
 <div style="page-break-after:always"></div>
 
   <h1 id="title1">1 一组体成分数据</h1>  
@@ -275,6 +275,6 @@ float reserved_35; //100
    
 **生物电阻抗分析**（**BIA**）是估算[身体成分](https://en.wikipedia.org/wiki/Body_composition "身体构成")（尤其是人体脂肪和肌肉质量）的常用方法。在BIA中，弱电流流经人体并测量电压，以计算人体的[阻抗](https://en.wikipedia.org/wiki/Electrical_impedance "电阻抗")（电阻）。人体大部分水分存储在肌肉中。因此，如果一个人肌肉发达，则很有可能该人也会有更多的体内水分，从而导致较低的阻抗。自从1980年代中期出现第一批可商购的设备以来，该方法由于其易用性和设备的便携性而变得流行。在消费者市场中，它是估算人体脂肪的简单工具。BIA [[1]](https://en.wikipedia.org/wiki/Bioelectrical_impedance_analysis#cite_note-1)实际上确定[电阻抗](https://en.wikipedia.org/wiki/Electrical_impedance "电阻抗")或与通过人体组织的电流相反，然后可用于估算[人体总水](https://en.wikipedia.org/wiki/Total_body_water "体内总水")（TBW），可用于估算无脂肪体重以及体重差异，[体内脂肪](https://en.wikipedia.org/wiki/Adiposity "肥胖")。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NzY2OTk2LC0xOTQ4MDQ2NTgzLC0xND
-AwNzYxOTU5LC0xODgzNTU2NDksLTExMjYxNzAzMjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTgzMDM5OTMsLTE5NDgwNDY1ODMsLT
+E0MDA3NjE5NTksLTE4ODM1NTY0OSwtMTEyNjE3MDMyMl19
 -->
