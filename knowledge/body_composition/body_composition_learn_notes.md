@@ -6,7 +6,7 @@
 		<h4><ul><a href="#title3.1">3.1 有机化合物</a> </h4>
 		<h4><ul><a href="#title3.2">3.2 无机化合物</a> </h4>
 		<h4><ul><a href="#title3.3">3.3 无机盐</a> </h4>
-		<h4><ul><a href="#title3.4">3.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title3.4">3.4 蛋白质</a> </h4>
 		<h4><ul><a href="#title3.5">3.5 SUBSTITUTE 函数</a> </h4>
 		<h4><ul><a href="#title3.6">3.6 FIND 函数</a> </h4>
 <div style="page-break-after:always"></div>
@@ -294,8 +294,12 @@ float reserved_35; //100
 
 [参考文档](http://www.cqvip.com/main/export.aspx?id=1002733096&type=2&sign=f768a5e59379d03f64a930019c6cf52e)
 
+   <h2 id="title3.4">3.4 蛋白质</h1>  
+  
+[蛋白质](https://baike.baidu.com/item/%E8%9B%8B%E7%99%BD%E8%B4%A8/309120?fr=aladdin)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM3OTQwNTcsNjA2NTAxNjQ4LC0xOT
-Q4MDQ2NTgzLC0xNDAwNzYxOTU5LC0xODgzNTU2NDksLTExMjYx
-NzAzMjJdfQ==
+eyJoaXN0b3J5IjpbNzI1Nzc0NTI1LC0xNjIzNzk0MDU3LDYwNj
+UwMTY0OCwtMTk0ODA0NjU4MywtMTQwMDc2MTk1OSwtMTg4MzU1
+NjQ5LC0xMTI2MTcwMzIyXX0=
 -->
