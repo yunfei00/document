@@ -4,8 +4,8 @@
 <h3><a href="#title2">2 生物电阻抗分析</a> </h3>
 <h3><a href="#title3">3 名词解释</a> </h3>
 		<h4><ul><a href="#title3.1">3.1 有机化合物</a> </h4>
-		<h4><ul><a href="#title3.2">3.2 无极</a> </h4>
-		<h4><ul><a href="#title3.3">3.3 MID函数</a> </h4>
+		<h4><ul><a href="#title3.2">3.2 无机化合物</a> </h4>
+		<h4><ul><a href="#title3.3">3.3 无机盐</a> </h4>
 		<h4><ul><a href="#title3.4">3.4 SEARCH 函数</a> </h4>
 		<h4><ul><a href="#title3.5">3.5 SUBSTITUTE 函数</a> </h4>
 		<h4><ul><a href="#title3.6">3.6 FIND 函数</a> </h4>
@@ -279,7 +279,15 @@ float reserved_35; //100
    
 [有机化合物](https://baike.baidu.com/item/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%90%88%E7%89%A9/2950156)
 
+   <h2 id="title3.2">3.2 无机化合物</h1>  
+  
+[无机化合物](https://baike.baidu.com/item/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%90%88%E7%89%A9/10716655)
+
+   <h2 id="title3.3">3.3 无机盐</h1>  
+  
+[无机盐](https://baike.baidu.com/item/%E6%97%A0%E6%9C%BA%E7%9B%90/2726998?fr=aladdin)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDIyNDA3MCwtMTk0ODA0NjU4MywtMT
+eyJoaXN0b3J5IjpbMTkzNzQyNjc3OCwtMTk0ODA0NjU4MywtMT
 QwMDc2MTk1OSwtMTg4MzU1NjQ5LC0xMTI2MTcwMzIyXX0=
 -->
