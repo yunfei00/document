@@ -221,7 +221,18 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	
 	echo "${datas[@]}"
 	# 20200225 20200226 20200227 20200228 20200229 20200301
-	for data in 
+	for data in ${datas[@]}
+	do 
+		echo $data 
+	done
+	
+	20200225
+	20200226
+	20200227
+	20200228
+	20200229
+	20200301
+
 	```
 <h1 id="title12">12 ubuntu修改静态IP</h1>  
 
@@ -708,7 +719,7 @@ ssh-keygen -t 'rsa' -C 'autossh@B'
 B $ ssh-copy-id usera@a.site
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTk3NDU0NywtMjA2NTk1NjE0Nyw5Nj
+eyJoaXN0b3J5IjpbMTM4MzMwNzk3OSwtMjA2NTk1NjE0Nyw5Nj
 cwMzYwMjAsLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2MzQxNTM4
 NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02Nz
 U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
