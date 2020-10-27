@@ -178,6 +178,12 @@ sudo ntpdate cn.pool.ntp.org
 26 Nov 17:51:30 ntpdate[30566]: adjust time server 84.16.73.33 offset 0.020134 sec
 或者sudo ntpdate 91.189.89.199
 
+开启关闭ntp服务
+```
+sudo timedatectl set-ntp false
+sudo timedatectl set-ntp true
+```
+
 <h1 id="title11">11 date 命令</h1>  
 
 
@@ -719,11 +725,11 @@ ssh-keygen -t 'rsa' -C 'autossh@B'
 B $ ssh-copy-id usera@a.site
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzMwNzk3OSwtMjA2NTk1NjE0Nyw5Nj
-cwMzYwMjAsLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2MzQxNTM4
-NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02Nz
-U3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIx
-MjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4Nzk2MC
-wtMTIwMTI0Mjk5MiwzOTgzNjY4MTgsMTAxMzA1MTI2NCw4ODk1
-ODAzMzhdfQ==
+eyJoaXN0b3J5IjpbMjA2NTMwMjQwNywxMzgzMzA3OTc5LC0yMD
+Y1OTU2MTQ3LDk2NzAzNjAyMCwtMTQ4MDIxOTUxMywtNDkzMjk0
+Nzk4LDYzNDE1Mzg1OCwzNjkwMzQzOTgsNjIzMjQ5NjIwLC0zMj
+c2OTA3NDYsLTY3NTc4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIx
+MjYsMTYzNjAzMjEyNiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MC
+wyMTA5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEz
+MDUxMjY0XX0=
 -->
