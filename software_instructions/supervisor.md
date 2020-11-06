@@ -93,17 +93,15 @@ supervisorctl reload        //重新启动配置中的所有程序
 supervisord -c /etc/supervisor/supervisord.conf  //启动守护进程
 ```
 
-<h1 id="title6">  </h1>
+<h1 id="title6"> 6 相关链接 </h1>
 
+[supervisor常见报错](https://blog.csdn.net/kkevinyang/article/details/80539940)
 
-参考如下：
-[https://blog.csdn.net/kkevinyang/article/details/80539940](https://blog.csdn.net/kkevinyang/article/details/80539940)
-
-[https://www.jianshu.com/p/805977544d7f](https://www.jianshu.com/p/805977544d7f)
+[supervisor 进程管理](https://www.jianshu.com/p/805977544d7f)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk3NTY4NTUsMTM1MTI2MzkzOSw4Nz
-I2ODg1NTYsLTY0NzEyNDY5MSw3NDU0NTM3OTQsMTkyNDM1MjIy
-Myw4NTE0MDE2OTYsMTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
+eyJoaXN0b3J5IjpbNDM2MTg1MTg1LDEzNTEyNjM5MzksODcyNj
+g4NTU2LC02NDcxMjQ2OTEsNzQ1NDUzNzk0LDE5MjQzNTIyMjMs
+ODUxNDAxNjk2LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
 -->
