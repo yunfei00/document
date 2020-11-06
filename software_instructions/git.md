@@ -390,7 +390,15 @@
 
 [git官网下载](https://git-scm.com/download/win)
 
+<h2 id="title3.2">3.2 建立本地工程</h2>  	
+
+1. 下载git工程到本地，并建立debug分支
+2. 使用vscode 进行代码查看
+3. 合并代码后，到debug分支，然后提交给远程服务器
+4. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MT
-Y3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTEwNTIyODA5MTAsMTgzMjg4MjE0NSwyMD
+A4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3
+MjkxMl19
 -->
