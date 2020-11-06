@@ -19,9 +19,12 @@ sudo apt-get update
 sudo apt-get install seafile-cli
 ```
 <h1 id="title4">4 seafile 客户端 使用 </h1>
+
 ```
+# init 初始化seafile配置文件夹
+seaf-cli init -d /home/www/seafile-config
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzUzOTkxOCwtMTM2MjQzODE1NF19
+eyJoaXN0b3J5IjpbNzcyODU3MjI5LC0xMzYyNDM4MTU0XX0=
 -->
