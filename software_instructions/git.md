@@ -5,7 +5,11 @@
 		<h4><ul><a href="#title1.2">1.2 git 基本使用</a> </h4>
 		<h4><ul><a href="#title1.3">1.3 git 连接github使用</a> </h4>
 		<h4><ul><a href="#title1.4">1.4 创建与合并分支</a> </h4>
-<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
+		<h4><ul><a href="#title1.5">1.5 分支冲突解决</a> </h4> 
+		<h4><ul><a href="#title1.6">1.6 bug分支</a> </h4> 
+		<h4><ul><a href="#title1.7">1.7 多人协作</a> </h4> 
+		<h4><ul><a href="#title1.8">1.8 Git常用命令集</a> </h4> 
+<h3><a href="#title2">2 ubuntu 上git保存用户名密码</a> </h3>
 
 <div style="page-break-after:always"></div>
 
@@ -242,7 +246,8 @@
 	git log --graph --pretty=oneline --abbrev-commit
 	```
 	分支策略：首先master主分支应该是非常稳定的，也就是用来发布新版本，一般情况下不允许在上面干活，干活一般情况下在新建的dev分支上干活，干完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。
-## 1.6 bug分支
+	
+<h2 id="title1.6">1.6 bug分支</h2>  	
 1. 场景说明：在分支dev上开发的时候，遇到一个紧急bug需要修复，那么需要暂停dev上的工作，新建一个分支fix-bug，修复后，在返回原来的分支继续工作。
 2. 在master分支上，增加BBBBB到test.txt中
 	```
@@ -281,7 +286,7 @@
 	cat test.txt 
 	git stash list
 	```
-## 1.7 多人协作
+<h2 id="title1.7">1.7 多人协作</h2>  	
 1. 简要说明：当你从远程库克隆时候，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且远程库的默认名称是origin。
 要查看远程库的信息 使用 git remote
 要查看远程库的详细信息 使用 git remote –v
@@ -332,7 +337,9 @@
 	git commit -m 'fix confict'
 	git push origin dev
 	```
-## 1.8 Git常用命令集
+
+<h2 id="title1.8">1.8 Git常用命令集</h2>  	
+
 	```
 	git init         把当前的目录变成可以管理的git仓库，生成隐藏.git文件。
 	git add XX       把xx文件添加到暂存区去。
@@ -363,8 +370,8 @@
 	git remote –v 查看远程库的详细信息
 	git push origin master  Git会把master分支推送到远程库对应的远程分支上
 	```
-
-# 2 ubuntu 上git保存用户名密码
+ <h1 id="title2">2 ubuntu 上git保存用户名密码</h1>  
+ 
 在使用Git 的时候，经常会遇到需要频繁输入密码的情况，每次git push 和 git pull 都要求输入用户名和密码，如果提交频繁的话就十分不方便。
 ## 解决方案
 1. 进入Git 配置文件 
@@ -377,6 +384,6 @@
 		helper = store
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjg4NjQ3OCwxODE2Nzg0Mzk1LC05Mj
-E0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjc4ODM2NzAsMTgxNjc4NDM5NSwtOT
+IxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
