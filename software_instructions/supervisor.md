@@ -55,6 +55,7 @@ serverurl=unix:///tmp/supervisor.sock ;通过UNIX socket连接supervisord，路�
  
 ; [program:xx]是被管理的进程配置参数，xx是进程的名称
 [program:xx]
+directory=/home/visbodyfit/visfitdevice/hardwareServer  ;程序运行目录
 command=/home/visbodyfit/visfitdevice/hardwareServer/hardware ; 程序启动命令
 environment=        LD_LIBRARY_PATH=/home/visbodyfit/visfitdevice/hardwareServer/lib
 autostart=true       ; 在supervisord启动的时候也自动启动
@@ -118,7 +119,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNjg4NTU2LC02NDcxMjQ2OTEsNzQ1ND
-UzNzk0LDE5MjQzNTIyMjMsODUxNDAxNjk2LDExOTIyMTE2NDQs
-LTQxMDg3MjMxMl19
+eyJoaXN0b3J5IjpbLTE2OTA2MDA1MDIsODcyNjg4NTU2LC02ND
+cxMjQ2OTEsNzQ1NDUzNzk0LDE5MjQzNTIyMjMsODUxNDAxNjk2
+LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
 -->
