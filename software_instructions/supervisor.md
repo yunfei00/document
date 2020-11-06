@@ -1,3 +1,16 @@
+# 目录
+
+<h3><a href="#title1">1 supervisor 介绍</a> </h3>
+<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
+		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
+		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+
+# 
+
 # supervisor常见报错
 ## 基本思路：
 首先我们要明确问题出在supervisor上还是启动的程序上，可以用ps -ef | grep supervisord查看是否启动，在用ps查看自己的进程有没有启动；
@@ -39,6 +52,6 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDM1MjIyMyw4NTE0MDE2OTYsMTE5Mj
-IxMTY0NCwtNDEwODcyMzEyXX0=
+eyJoaXN0b3J5IjpbLTEzMTY0NTIyMTMsMTkyNDM1MjIyMyw4NT
+E0MDE2OTYsMTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
 -->
