@@ -8,9 +8,9 @@
 		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
 		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
 		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
-<h3>
-# 
+
 <h1 id="title1"> 1 supervisor 介绍</h1>
+
 # supervisor常见报错
 ## 基本思路：
 首先我们要明确问题出在supervisor上还是启动的程序上，可以用ps -ef | grep supervisord查看是否启动，在用ps查看自己的进程有没有启动；
@@ -52,6 +52,6 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjk3MDg3OSwxOTI0MzUyMjIzLDg1MT
+eyJoaXN0b3J5IjpbMTIxNDM4NDE2NywxOTI0MzUyMjIzLDg1MT
 QwMTY5NiwxMTkyMjExNjQ0LC00MTA4NzIzMTJdfQ==
 -->
