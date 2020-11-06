@@ -21,18 +21,14 @@ sudo apt-get install supervisor
 
 _注：supervisor的配置文件默认是不全的，不过在大部分默认的情况下，上面说的基本功能已经满足。_
 
-##### 子进程配置文件路径：`/etc/supervisord.d/`
+**子进程配置文件路径**：`/etc/supervisord.d/`
 
 _注：默认子进程配置文件为ini格式，可在supervisor主配置文件中修改。_
 
-  
-  
-作者：风吹我已散博客  
-链接：https://www.jianshu.com/p/0b9054b33db3  
-来源：简书  
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+<h1 id="title4">4 配置文件说明使用 </h1>
 
-
+supervisor.conf配置文件说明：
+  
 
 
 # supervisor常见报错
@@ -76,6 +72,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NDUzNzk0LDE5MjQzNTIyMjMsODUxND
-AxNjk2LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
+eyJoaXN0b3J5IjpbLTQ0MjAwMzIyNCw3NDU0NTM3OTQsMTkyND
+M1MjIyMyw4NTE0MDE2OTYsMTE5MjIxMTY0NCwtNDEwODcyMzEy
+XX0=
 -->
