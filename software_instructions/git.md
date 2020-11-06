@@ -1,25 +1,23 @@
 # 目录
 
 <h3><a href="#title1">1 mac 上git安装使用说明</a> </h3>
+		<h4><ul><a href="#title1.1">1.1 git 安装</a> </h4>
+		<h4><ul><a href="#title1.2">1.2 git 基本使用</a> </h4>
+		<h4><ul><a href="#title1.3">1.3 git 连接github使用</a> </h4>
+		<h4><ul><a href="#title1.4">1.4 创建与合并分支</a> </h4>
 <h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
-		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
-		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
-		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
-		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
-		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
 
 <div style="page-break-after:always"></div>
 
   <h1 id="title1">1 mac 上git安装使用说明</h1>  
-## 1.1 git 安装
+   <h2 id="title1.1">1.1 git 安装</h2>  	
 1. 下载git  [https://git-scm.com/download/mac](https://git-scm.com/download/mac). 
 2. 双击安装,安装完成后查看版本
 	```
 	git --version
 	git version 2.17.2 (Apple Git-113)
 	```
-## 1.2 git 基本使用
+   <h2 id="title1.2">1.2 git 基本使用</h2>  	
 1. 创建版本库
 		创建版本库github_test，并使用git init命令,git init 把这个目录变成git可以管理的仓库
 	```
@@ -128,7 +126,7 @@
 	git reset --hard 1be7d44
 	```
 	
-## 1.3 git 连接github使用
+   <h2 id="title1.3">1.3 git 连接github使用</h2>  	
 1. 注册github账号 [https://github.com/](https://github.com/).  
 2. 创建SSH Key，由于本地Git仓库和github仓库之间的传输是通过SSH加密的，所以需要进行设置。
 	在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：ssh-keygen -t rsa -b 4096 -C  "youremail@example.com"使用自己github注册时的邮箱地址。
@@ -162,7 +160,7 @@
 	git commit -m 'add 66666'
 	git push origin master
 	```
-## 1.4 创建与合并分支
+ <h2 id="title1.4">1.4 创建与合并分支</h2>  	
 1. 简要说明
 	 每次提交，Git都把它们串成一条时间线，这条时间线就是一个分支。截止到目前，只有一条时间线，在Git里，这个分支叫主分支，即master分支。HEAD严格来说不是指向提交，而是指向master，master才是指向提交的，所以，HEAD指向的就是当前分支。
 2. 创建dev分支，并切换到dev分支，命令如下：
@@ -193,7 +191,7 @@
 	```
 	git branch -d dev
 	```
-## 1.5 分支冲突解决
+ <h2 id="title1.5">1.5 分支冲突解决</h2>  	
 1. 创建分支branch1，在test.txt中添加88888，然后提交
 	```
 	git checkout -b branch1  
@@ -379,6 +377,6 @@
 		helper = store
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTg1ODE5LDE4MTY3ODQzOTUsLTkyMT
-QxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTkwNjg4NjQ3OCwxODE2Nzg0Mzk1LC05Mj
+E0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
