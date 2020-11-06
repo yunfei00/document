@@ -3,7 +3,8 @@
 <h3><a href="#title1">1 supervisor 介绍</a> </h3>
 <h3><a href="#title2">2 在ubuntu 18.04 上安装</a> </h3>
 <h3><a href="#title3">3 supervisor 使用</a> </h3>
-		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
+<h3><a href="#title4">4 配置文件说明使用</a> </h3>
+<h3><a href="#title5">5 supervisor命令说明</a> </h3>		
 
 <h1 id="title1"> 1 supervisor 介绍</h1>
 
@@ -129,7 +130,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDg5MTYzOCwxMzUxMjYzOTM5LDg3Mj
-Y4ODU1NiwtNjQ3MTI0NjkxLDc0NTQ1Mzc5NCwxOTI0MzUyMjIz
-LDg1MTQwMTY5NiwxMTkyMjExNjQ0LC00MTA4NzIzMTJdfQ==
+eyJoaXN0b3J5IjpbMzE1NDc3MzQyLDEzNTEyNjM5MzksODcyNj
+g4NTU2LC02NDcxMjQ2OTEsNzQ1NDUzNzk0LDE5MjQzNTIyMjMs
+ODUxNDAxNjk2LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
 -->
