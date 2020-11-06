@@ -385,11 +385,12 @@
 		helper = store
 	```
 <h1 id="title3">3 Windows 上git 使用</h1>  
-3.  安装
 
-5. 使用
+<h2 id="title3.1">3.1 安装</h2>  	
+
+[git官网下载](https://git-scm.com/download/win)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODQ4NTI2OSwxODE2Nzg0Mzk1LC05Mj
-E0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MT
+Y3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
 -->
