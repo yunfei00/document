@@ -393,19 +393,27 @@
 
 <h2 id="title3.2">3.2 建立本地工程</h2>  	
 
+使用git bash
+
 1. 下载git工程到本地，并建立debug分支
 	```
 	git clone XXX
 	git checkout -b debug
 	```
 2. 使用vscode 进行代码查看
+直接添加文件夹就可以了。
+为了能够看到历史记录，下载GitHistory 插件。
+GitLens 插件显示当前行commit信息
 
 3. 合并代码后，到debug分支，然后提交给远程服务器
 
-4. 下载代码到服务器，并进行编译
+4. 下载代码到服务器，并进行编译。
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU2NjkwMTcsLTE1NjA0Njc5NjIsMT
-gzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQx
-MTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbNDc4NzI0MzA4LC0xMTE1NjY5MDE3LC0xNT
+YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
+Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
