@@ -49,12 +49,15 @@ seaf-cli desync -d /home/yunfei/seafile
 # create 创建远程资料库，命令例子：
 seaf-cli create -n remote_directory -s [服务器地址] -u [用户名] -p [密码]
 
-# sync把本地文件夹和远程资料库绑定同步,命令例子：
-seaf-cli sync -l [Library ID] -s [服务器地址] -d l -u [用户名] -p [密码]
+# sync 把本地文件夹和远程资料库绑定同步,命令例子：
+seaf-cli sync -l [Library ID] -s [服务器地址] -d local_directory -u [用户名] -p [密码]
+
+
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTQzOTcwMSwtMTM2MjQzODE1NF19
+eyJoaXN0b3J5IjpbLTEzMzcyODYyNTQsLTEzNjI0MzgxNTRdfQ
+==
 -->
