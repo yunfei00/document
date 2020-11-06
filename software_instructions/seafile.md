@@ -27,11 +27,14 @@ seaf-cli init -d /home/yunfei/seafile
 # start 启动seafile服务
 seaf-cli start
 
-list-remote获取远程服务器的资料库列表，命令例子：
+# list-remote获取远程服务器的资料库列表，命令例子：(该命令可以查询到远程的ID)
 seaf-cli list-remote -s [服务器地址] -u [用户名] -p [密码]
-seaf-cli list-remote -s http://192.168.2.117:9000 -u jiayunfei@suanier.com -p suanier
+seaf-cli list-remote -s http://192.168.2.117:9000 -u XXX -p YYY
+
+list 获取本地已同步的文件夹，命令例子：
+seaf-cli list
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MzMzOTMxLC0xMzYyNDM4MTU0XX0=
+eyJoaXN0b3J5IjpbMjA4MDY5OTI4LC0xMzYyNDM4MTU0XX0=
 -->
