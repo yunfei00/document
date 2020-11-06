@@ -385,8 +385,11 @@
 		helper = store
 	```
 <h1 id="title3">3 Windows 上git 使用</h1>  
+3.  安装
+
+5. 使用
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzMwODQyMDAsMTgxNjc4NDM5NSwtOT
-IxNDExODUwLC0xNzcwNjcyOTEyXX0=
+eyJoaXN0b3J5IjpbMjAwODQ4NTI2OSwxODE2Nzg0Mzk1LC05Mj
+E0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
