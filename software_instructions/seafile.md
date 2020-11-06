@@ -37,10 +37,24 @@ seaf-cli list
 # download下载远程资料库，并且会默认的同步,命令例子：
 seaf-cli download -l [Library ID] -s [服务器地址] -d /home/yunfei/seafile -u [用户名] -p [密码]
 
+# status 查看状态
+seaf-cli status
+
+# stop 停止seafile服务
+seaf-cli stop
+
+# desync 解除同步，命令例子：
+seaf-cli desync -d /home/yunfei/seafile
+
+# create 创建远程资料库，命令例子：
+seaf-cli create -n remote_directory -s [服务器地址] -u [用户名] -p [密码]
+
+# sync把本地文件夹和远程资料库绑定同步,命令例子：
+seaf-cli sync -l [Library ID] -s [服务器地址] -d l -u [用户名] -p [密码]
 
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE1Mjk3NjAsLTEzNjI0MzgxNTRdfQ
-==
+eyJoaXN0b3J5IjpbMjEwMTQzOTcwMSwtMTM2MjQzODE1NF19
 -->
