@@ -10,6 +10,7 @@
 		<h4><ul><a href="#title1.7">1.7 多人协作</a> </h4> 
 		<h4><ul><a href="#title1.8">1.8 Git常用命令集</a> </h4> 
 <h3><a href="#title2">2 ubuntu 上git保存用户名密码</a> </h3>
+<h3><a href="#title3">3 Windows 上git 使用</a> </h3>
 
 <div style="page-break-after:always"></div>
 
@@ -383,7 +384,9 @@
 	[credential]
 		helper = store
 	```
+<h1 id="title3">3 Windows 上git 使用</h1>  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc4ODM2NzAsMTgxNjc4NDM5NSwtOT
+eyJoaXN0b3J5IjpbLTE0NzMwODQyMDAsMTgxNjc4NDM5NSwtOT
 IxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
