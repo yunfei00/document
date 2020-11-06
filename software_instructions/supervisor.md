@@ -68,7 +68,7 @@ redirect_stderr=true ; 把stderr重定向到stdout，默认false
 stdout_logfile_maxbytes=20MB  ; stdout 日志文件大小，默认50MB
 stdout_logfile_backups = 20   ; stdout 日志文件备份数，默认是10
 ; stdout 日志文件，需要注意当指定目录不存在时无法正常启动，所以需要手动创建目录（supervisord 会自动创建日志文件）
-stdout_logfile=/home/visbodyfit/visfitdevice/hardwareServer/hardware/logs/hardware_out.log
+stdout_logfile=/home/visbodyfit/visfitdevice/hardwareServer/logs/hardware_out.log
 stopasgroup=false     ;默认为false,进程被杀死时，是否向这个进程组发送stop信号，包括子进程
 killasgroup=false     ;默认为false，向进程组发送kill信号，包括子进程
  
@@ -119,7 +119,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA2MDA1MDIsODcyNjg4NTU2LC02ND
-cxMjQ2OTEsNzQ1NDUzNzk0LDE5MjQzNTIyMjMsODUxNDAxNjk2
-LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
+eyJoaXN0b3J5IjpbMTM1MTI2MzkzOSw4NzI2ODg1NTYsLTY0Nz
+EyNDY5MSw3NDU0NTM3OTQsMTkyNDM1MjIyMyw4NTE0MDE2OTYs
+MTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
 -->
