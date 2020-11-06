@@ -389,6 +389,7 @@
 <h2 id="title3.1">3.1 安装</h2>  	
 
 [git官网下载](https://git-scm.com/download/win)
+[git  使用手册](https://git-scm.com/book/en/v2)
 
 <h2 id="title3.2">3.2 建立本地工程</h2>  	
 
@@ -401,7 +402,7 @@
 4. 下载代码到服务器，并进行编译
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyODM1NDIyLDE4MzI4ODIxNDUsMjAwOD
-Q4NTI2OSwxODE2Nzg0Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5
-MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMD
+A4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3
+MjkxMl19
 -->
