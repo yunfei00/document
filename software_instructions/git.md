@@ -393,12 +393,15 @@
 <h2 id="title3.2">3.2 建立本地工程</h2>  	
 
 1. 下载git工程到本地，并建立debug分支
+
 2. 使用vscode 进行代码查看
+
 3. 合并代码后，到debug分支，然后提交给远程服务器
-4. 
+
+4. 下载代码到服务器，并进行编译
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIyODA5MTAsMTgzMjg4MjE0NSwyMD
-A4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3
-MjkxMl19
+eyJoaXN0b3J5IjpbOTMyODM1NDIyLDE4MzI4ODIxNDUsMjAwOD
+Q4NTI2OSwxODE2Nzg0Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5
+MTJdfQ==
 -->
