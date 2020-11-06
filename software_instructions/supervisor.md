@@ -15,6 +15,8 @@ Supervisor是用Python开发的一套通用的进程管理程序，能将一个�
 
 ```
 sudo apt-get install supervisor
+# 查看版本
+
 ```
 <h1 id="title3">3 supervisor 使用 </h1>
 
@@ -130,7 +132,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDc3MzQyLDEzNTEyNjM5MzksODcyNj
+eyJoaXN0b3J5IjpbNTI2MTcxMDgxLDEzNTEyNjM5MzksODcyNj
 g4NTU2LC02NDcxMjQ2OTEsNzQ1NDUzNzk0LDE5MjQzNTIyMjMs
 ODUxNDAxNjk2LDExOTIyMTE2NDQsLTQxMDg3MjMxMl19
 -->
