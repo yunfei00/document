@@ -77,6 +77,16 @@ killasgroup=false     ;默认为false，向进程组发送kill信号，包括子
 files = relative/directory/*.ini    ;可以指定一个或多个以.ini结束的配置文件
 ```  
 
+<h1 id="title5"> 5 supervisor命令说明 </h1>
+
+```
+supervisorctl status        //查看所有进程的状态
+supervisorctl stop es       //停止es
+supervisorctl start es      //启动es
+supervisorctl restart       //重启es
+supervisorctl update        //配置文件修改后使用该命令加载新的配置
+supervisorctl reload        //重新启动配置中的所有程序
+```
 
 # supervisor常见报错
 ## 基本思路：
@@ -119,7 +129,7 @@ yum install supervisor
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTI2MzkzOSw4NzI2ODg1NTYsLTY0Nz
-EyNDY5MSw3NDU0NTM3OTQsMTkyNDM1MjIyMyw4NTE0MDE2OTYs
-MTE5MjIxMTY0NCwtNDEwODcyMzEyXX0=
+eyJoaXN0b3J5IjpbLTM1MDg5MTYzOCwxMzUxMjYzOTM5LDg3Mj
+Y4ODU1NiwtNjQ3MTI0NjkxLDc0NTQ1Mzc5NCwxOTI0MzUyMjIz
+LDg1MTQwMTY5NiwxMTkyMjExNjQ0LC00MTA4NzIzMTJdfQ==
 -->
