@@ -1,4 +1,17 @@
-# 1 mac 上git安装使用说明
+# 目录
+
+<h3><a href="#title1">1 mac 上git安装使用说明</a> </h3>
+<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
+		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
+		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
+		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
+		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
+		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+
+<div style="page-break-after:always"></div>
+
+  <h1 id="title1">1 mac 上git安装使用说明</h1>  
 ## 1.1 git 安装
 1. 下载git  [https://git-scm.com/download/mac](https://git-scm.com/download/mac). 
 2. 双击安装,安装完成后查看版本
@@ -366,6 +379,6 @@
 		helper = store
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjc4NDM5NSwtOTIxNDExODUwLC0xNz
-cwNjcyOTEyXX0=
+eyJoaXN0b3J5IjpbMTUzOTg1ODE5LDE4MTY3ODQzOTUsLTkyMT
+QxMTg1MCwtMTc3MDY3MjkxMl19
 -->
