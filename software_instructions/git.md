@@ -396,7 +396,7 @@
 1. 下载git工程到本地，并建立debug分支
 	```
 	git clone XXX
-git checkout -b debug
+	git checkout -b debug
 	```
 2. 使用vscode 进行代码查看
 
@@ -405,7 +405,7 @@ git checkout -b debug
 4. 下载代码到服务器，并进行编译
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NDI5ODM5LC0xNTYwNDY3OTYyLDE4Mz
-I4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0Mzk1LC05MjE0MTE4
-NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbLTExMTU2NjkwMTcsLTE1NjA0Njc5NjIsMT
+gzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQx
+MTg1MCwtMTc3MDY3MjkxMl19
 -->
