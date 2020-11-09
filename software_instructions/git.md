@@ -421,9 +421,17 @@ yum install git
 [root@mail ~]# git --version
 git version 1.8.3.1
 ```
+<h2 id="title4.2">4.2 创建一个git用户组和用户
 
+创建一个git用户组和用户,运行git服务
+```
+[root@mail ~]# groupadd git
+[root@mail ~]# useradd git -g git
+```
+<h2 id="title4.2">4.2 创建一个git用户组和用户
+### 2、创建证书登录
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0ODI0MDUzLC0xMTE1NjY5MDE3LC0xNT
-YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
-Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NzA1NzYxNzIsLTExMTU2NjkwMTcsLT
+E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
+ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
 -->
