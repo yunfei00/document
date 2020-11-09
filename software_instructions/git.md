@@ -439,9 +439,12 @@ $ touch .ssh/authorized_keys
 $ chmod 644  .ssh/authorized_keys
 ```
 <h2 id="title4.4">4.4 初始化Git仓库 </h2>
-首先我们选定一个目录作为Git仓库，假定是/home/git/runoob.git，在/home/git目录下输入命令：
+首先我们选定一个目录作为Git仓库，假定是/home/gitrepo/runoob.git，在/home/gitrepo目录下输入命令
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUyMDEwMDksLTExMTU2NjkwMTcsLT
-E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
-ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbNzYxMDk4NjI1LC0xMTE1NjY5MDE3LC0xNT
+YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
+Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
