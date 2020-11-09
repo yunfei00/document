@@ -458,9 +458,9 @@ chown -R git:git smart.git
 
 ```
 $ git clone git@192.168.45.4:/home/gitrepo/runoob.git Cloning  into  'runoob'... warning:  You appear to have cloned an empty repository.  Checking connectivity...  done.
-``
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU0ODEyOCwtMTExNTY2OTAxNywtMT
-U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
-NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
+eyJoaXN0b3J5IjpbMjg0MzM0NjEyLC0xMTE1NjY5MDE3LC0xNT
+YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
+Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
