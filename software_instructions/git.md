@@ -441,10 +441,15 @@ $ chmod 644  .ssh/authorized_keys
 <h2 id="title4.4">4.4 初始化Git仓库 </h2>
 首先我们选定一个目录作为Git仓库，假定是/home/gitrepo/runoob.git，在/home/gitrepo目录下输入命令
 ```
+$ cd /home
+$ mkdir gitrepo
+$ chown git:git gitrepo/ 
+$ cd gitrepo
 
+$ git init --bare runoob.git Initialized empty Git repository in  /home/gitrepo/runoob.git/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMDk4NjI1LC0xMTE1NjY5MDE3LC0xNT
-YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
-Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbMTE4NTAzOTMyNywtMTExNTY2OTAxNywtMT
+U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
+NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
