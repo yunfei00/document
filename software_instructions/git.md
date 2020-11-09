@@ -415,10 +415,15 @@ GitLens 插件显示当前行commit信息
 <h2 id="title4.1">4.1 git 安装
 
 ```
-	
+yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-devel
+yum install git	
+
+[root@mail ~]# git --version
+git version 1.8.3.1
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDEyODYzLC0xMTE1NjY5MDE3LC0xNT
+eyJoaXN0b3J5IjpbMjE0ODI0MDUzLC0xMTE1NjY5MDE3LC0xNT
 YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
 Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
