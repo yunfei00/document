@@ -440,6 +440,7 @@ $ chmod 644  .ssh/authorized_keys
 ```
 <h2 id="title4.4">4.4 初始化Git仓库 </h2>
 首先我们选定一个目录作为Git仓库，假定是/home/gitrepo/runoob.git，在/home/gitrepo目录下输入命令
+
 ```
 $ cd /home
 $ mkdir gitrepo
@@ -448,8 +449,18 @@ $ cd gitrepo
 
 $ git init --bare smart.git
 ```
+
+以上命令Git创建一个空仓库，服务器上的Git仓库通常都以.git结尾。然后，把仓库所属用户改为git
+```
+chown -R git:git smart.git
+```
+<h2 id="title4.5">4.5 克隆仓库 </h2>
+
+```
+$ git clone git@192.168.45.4:/home/gitrepo/runoob.git Cloning  into  'runoob'... warning:  You appear to have cloned an empty repository.  Checking connectivity...  done.
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAxMjA5NDcsLTExMTU2NjkwMTcsLT
-E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
-ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTE1NjU0ODEyOCwtMTExNTY2OTAxNywtMT
+U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
+NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
