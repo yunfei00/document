@@ -457,10 +457,11 @@ chown -R git:git smart.git
 <h2 id="title4.5">4.5 克隆仓库 </h2>
 
 ```
-$ git clone git@192.168.45.4:/home/gitrepo/runoob.git Cloning  into  'runoob'... warning:  You appear to have cloned an empty repository.  Checking connectivity...  done.
+$ git clone git@192.168.45.4:/home/gitrepo/runoob.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MzM0NjEyLC0xMTE1NjY5MDE3LC0xNT
-YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
-Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbMTY5MDY2ODc4NiwyODQzMzQ2MTIsLTExMT
+U2NjkwMTcsLTE1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1
+MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl
+19
 -->
