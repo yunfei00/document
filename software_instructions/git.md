@@ -410,11 +410,11 @@ GitLens 插件显示当前行commit信息
 
 4. 下载代码到服务器，并进行编译。
 
-
+<h1 id="title4">4 git服務器搭建</h1>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc5MzMyNDgsLTExMTU2NjkwMTcsLT
-E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
-ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTE2NTk1NjY0NCwtMTExNTY2OTAxNywtMT
+U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
+NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
