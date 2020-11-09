@@ -410,11 +410,15 @@ GitLens 插件显示当前行commit信息
 
 4. 下载代码到服务器，并进行编译。
 
-<h1 id="title4">4 git服務器搭建</h1>
+<h1 id="title4">4 centOS 7 上 git服务器搭建</h1>
 
+<h2 id="title4.1">4.1 git 安装
 
+```
+	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk1NjY0NCwtMTExNTY2OTAxNywtMT
-U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
-NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
+eyJoaXN0b3J5IjpbMTAyMDEyODYzLC0xMTE1NjY5MDE3LC0xNT
+YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
+Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
