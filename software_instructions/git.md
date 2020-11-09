@@ -459,9 +459,16 @@ chown -R git:git smart.git
 ```
 $ git clone git@192.168.45.4:/home/gitrepo/runoob.git
 ```
+
+需要输入密码，可以在客户端设备上生成公钥，然后拷贝到/home/git/.ssh/authorized_keys文件中，一个一行。
+生成公钥使用如下命令：
+```
+ssh-keygen
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDY2ODc4NiwyODQzMzQ2MTIsLTExMT
-U2NjkwMTcsLTE1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1
-MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl
-19
+eyJoaXN0b3J5IjpbMTcxMzY0MTMzMywxNjkwNjY4Nzg2LDI4ND
+MzNDYxMiwtMTExNTY2OTAxNywtMTU2MDQ2Nzk2MiwxODMyODgy
+MTQ1LDIwMDg0ODUyNjksMTgxNjc4NDM5NSwtOTIxNDExODUwLC
+0xNzcwNjcyOTEyXX0=
 -->
