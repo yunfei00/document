@@ -11,6 +11,7 @@
 		<h4><ul><a href="#title1.8">1.8 Git常用命令集</a> </h4> 
 <h3><a href="#title2">2 ubuntu 上git保存用户名密码</a> </h3>
 <h3><a href="#title3">3 Windows 上git 使用</a> </h3>
+<h3><a href="#title4">4 git服務器搭建 </a> </h3>
 
 <div style="page-break-after:always"></div>
 
@@ -413,7 +414,7 @@ GitLens 插件显示当前行commit信息
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NzI0MzA4LC0xMTE1NjY5MDE3LC0xNT
-YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
-Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MDc5MzMyNDgsLTExMTU2NjkwMTcsLT
+E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
+ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
 -->
