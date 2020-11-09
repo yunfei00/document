@@ -446,10 +446,10 @@ $ mkdir gitrepo
 $ chown git:git gitrepo/ 
 $ cd gitrepo
 
-$ git init --bare runoob.git Initialized empty Git repository in  /home/gitrepo/runoob.git/
+$ git init --bare smart.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTAzOTMyNywtMTExNTY2OTAxNywtMT
-U2MDQ2Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4
-NDM5NSwtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
+eyJoaXN0b3J5IjpbLTE5NjAxMjA5NDcsLTExMTU2NjkwMTcsLT
+E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
+ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
 -->
