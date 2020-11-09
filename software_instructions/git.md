@@ -412,7 +412,7 @@ GitLens 插件显示当前行commit信息
 
 <h1 id="title4">4 centOS 7 上 git服务器搭建</h1>
 
-<h2 id="title4.1">4.1 git 安装
+<h2 id="title4.1">4.1 git 安装 </h2>
 
 ```
 yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-devel
@@ -421,17 +421,25 @@ yum install git
 [root@mail ~]# git --version
 git version 1.8.3.1
 ```
-<h2 id="title4.2">4.2 创建一个git用户组和用户
+<h2 id="title4.2">4.2 创建一个git用户组和用户</h2>
 
 创建一个git用户组和用户,运行git服务
 ```
 [root@mail ~]# groupadd git
 [root@mail ~]# useradd git -g git
 ```
-<h2 id="title4.2">4.2 创建一个git用户组和用户
-### 2、创建证书登录
+<h2 id="title4.3">4.3 创建证书登录 </h2>
+收集所有需要登录的用户的公钥，公钥位于id_rsa.pub文件中，把我们的公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个。
+
+如果没有该文件创建它：
+```
+$ cd /home/git/ $ mkdir .ssh
+$ chmod 755  .ssh
+$ touch .ssh/authorized_keys
+$ chmod 644  .ssh/authorized_keys
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA1NzYxNzIsLTExMTU2NjkwMTcsLT
-E1NjA0Njc5NjIsMTgzMjg4MjE0NSwyMDA4NDg1MjY5LDE4MTY3
-ODQzOTUsLTkyMTQxMTg1MCwtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbNjIyODM3NzQ0LC0xMTE1NjY5MDE3LC0xNT
+YwNDY3OTYyLDE4MzI4ODIxNDUsMjAwODQ4NTI2OSwxODE2Nzg0
+Mzk1LC05MjE0MTE4NTAsLTE3NzA2NzI5MTJdfQ==
 -->
