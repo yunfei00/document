@@ -24,9 +24,17 @@
   git 是一个版本控制软件。
   
    <h1 id="title2">2 Gitlab</h1>  
-gitLab是一个用于仓库管理地开源项目，使用git作为代码管理工具，并再次基础上搭建起来地web服务。个
+gitLab是一个用于仓库管理地开源项目，使用git作为代码管理工具，并再次基础上搭建起来地web服务。gitLab比较重，配置相对繁琐，个人可以考虑gogs替换。
+<h1 id="title3">3 NumPy</h1>  
+<h1 id="title4">4 Pandas</h1>  
+<h1 id="title5">5 Matplotlib</h1>  
+<h1 id="title6">6 BeautifulSoup</h1>  
+<h1 id="title3">3 NumPy</h1>  
+<h1 id="title4">4 Pandas</h1>  
+<h1 id="title5">5 Matplotlib</h1>  
+<h1 id="title6">6 BeautifulSoup</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc5NjA3MDAsLTE1NTQ4MDYyODUsMT
-U1MDUxNzU3OV19
+eyJoaXN0b3J5IjpbLTY1NDU3MTU0NywtMTU1NDgwNjI4NSwxNT
+UwNTE3NTc5XX0=
 -->
