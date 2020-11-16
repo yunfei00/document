@@ -29,12 +29,14 @@ gitLab是一个用于仓库管理地开源项目，使用git作为代码管理�
 <h1 id="title4">4 Pandas</h1>  
 <h1 id="title5">5 Matplotlib</h1>  
 <h1 id="title6">6 BeautifulSoup</h1>  
-<h1 id="title3">3 NumPy</h1>  
-<h1 id="title4">4 Pandas</h1>  
-<h1 id="title5">5 Matplotlib</h1>  
-<h1 id="title6">6 BeautifulSoup</h1>  
+<h1 id="title7">7 SymPy</h1>  
+<h1 id="title8">8 SciPy</h1>  
+<h1 id="title9">9 TensorFlow</h1>  
+<h1 id="title10">10 Sqlite</h1>  
+<h1 id="title11">11 Sklearn</h1>  
+<h1 id="title12">12 Jupyter Notebook</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDU3MTU0NywtMTU1NDgwNjI4NSwxNT
+eyJoaXN0b3J5IjpbMTMxMDIyNzkyMiwtMTU1NDgwNjI4NSwxNT
 UwNTE3NTc5XX0=
 -->
