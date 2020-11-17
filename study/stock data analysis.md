@@ -23,7 +23,7 @@
   
   1. 如何判断一支股票的趋势是涨还是跌？
   2. 如何寻找一支值得长期投资的股票？
-  3. 
+ 
   
    <h1 id="title2">2 Gitlab</h1>  
 gitLab是一个用于仓库管理地开源项目，使用git作为代码管理工具，并再次基础上搭建起来地web服务。gitLab比较重，配置相对繁琐，个人可以考虑gogs替换。
@@ -39,5 +39,5 @@ gitLab是一个用于仓库管理地开源项目，使用git作为代码管理�
 <h1 id="title12">12 Jupyter Notebook</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODQxMTM2M119
+eyJoaXN0b3J5IjpbLTEyNTk1ODQzNCwxMDM4NDExMzYzXX0=
 -->
