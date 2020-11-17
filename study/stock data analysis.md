@@ -25,8 +25,9 @@
   2. 如何寻找一支值得长期投资的股票？
  
   
-   <h1 id="title2">2 Gitlab</h1>  
-gitLab是一个用于仓库管理地开源项目，使用git作为代码管理工具，并再次基础上搭建起来地web服务。gitLab比较重，配置相对繁琐，个人可以考虑gogs替换。
+   <h1 id="title2">2 get datas</h1>  
+获取数据
+
 <h1 id="title3">3 NumPy</h1>  
 <h1 id="title4">4 Pandas</h1>  
 <h1 id="title5">5 Matplotlib</h1>  
@@ -39,5 +40,5 @@ gitLab是一个用于仓库管理地开源项目，使用git作为代码管理�
 <h1 id="title12">12 Jupyter Notebook</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk1ODQzNCwxMDM4NDExMzYzXX0=
+eyJoaXN0b3J5IjpbMTg1NDg4NTQ2MywxMDM4NDExMzYzXX0=
 -->
