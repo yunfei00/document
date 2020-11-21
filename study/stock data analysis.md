@@ -28,7 +28,7 @@
    <h1 id =“ title2”> 2获取数据</ h1>获取数据  
 
 
-<h1 id =“ title3”> 3 NumPy </ h1> <h1 id =“ title4”> 4熊猫</ h1> <h1 id =“ title5”> 5 Matplotlib </ h1> <h1 id =“ title6”> 6个BeautifulSoup / </ </ </ </ </ </密”  
+<h1 id =“ title3”> 3 NumPy </ h1> <h1 id =“ title4”> 4熊猫</ h1> <h1 id =“ title5”> 5 Matplotlib </ h1> <h1 id =“ title6”> 6个BeautifulSoup / </ </ </ </ </密”  
    
    
    
@@ -40,6 +40,6 @@
 id =“ title12”> 12个Jupyter笔记本</ h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2OTY4MDksMTg1NDg4NTQ2MywxMD
-M4NDExMzYzXX0=
+eyJoaXN0b3J5IjpbODY2MDMxMTUyLDE4NTQ4ODU0NjMsMTAzOD
+QxMTM2M119
 -->
