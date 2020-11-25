@@ -163,7 +163,9 @@ nvidia-smi
 <h1 id="title9">9 tar命令</h1>  
 
 解压到目标文件夹
-tar xf 20190714-20190718.tar.gz  -C 0714-0718/
+`tar xf 20190714-20190718.tar.gz  -C 0714-0718/`
+
+压缩保持绝对路径
 
 <h1 id="title10">10 时间同步</h1>  
 
@@ -725,11 +727,11 @@ ssh-keygen -t 'rsa' -C 'autossh@B'
 B $ ssh-copy-id usera@a.site
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTMwMjQwNywxMzgzMzA3OTc5LC0yMD
-Y1OTU2MTQ3LDk2NzAzNjAyMCwtMTQ4MDIxOTUxMywtNDkzMjk0
-Nzk4LDYzNDE1Mzg1OCwzNjkwMzQzOTgsNjIzMjQ5NjIwLC0zMj
-c2OTA3NDYsLTY3NTc4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIx
-MjYsMTYzNjAzMjEyNiwtMTkzNjc3MTE2MCwtMTczMTgyNTg0MC
-wyMTA5Njg3OTYwLC0xMjAxMjQyOTkyLDM5ODM2NjgxOCwxMDEz
-MDUxMjY0XX0=
+eyJoaXN0b3J5IjpbNDAwNDA3NjYyLDIwNjUzMDI0MDcsMTM4Mz
+MwNzk3OSwtMjA2NTk1NjE0Nyw5NjcwMzYwMjAsLTE0ODAyMTk1
+MTMsLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MDM0Mzk4LDYyMz
+I0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTksMTE1MjMwMTQ0
+OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzExNjAsLT
+E3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgz
+NjY4MThdfQ==
 -->
