@@ -23,7 +23,7 @@
 	git --version
 	git version 2.17.2 (Apple Git-113)
 	```
-   <h2 id="title1.2">1.2 git 基本使用</h2>  	
+ <h2 id="title1.2">1.2 git 基本使用</h2>  	
 1. 创建版本库
 		创建版本库github_test，并使用git init命令,git init 把这个目录变成git可以管理的仓库
 	```
@@ -339,7 +339,6 @@
 	git commit -m 'fix confict'
 	git push origin dev
 	```
-
 <h2 id="title1.8">1.8 Git常用命令集</h2>  	
 
 	```
@@ -469,8 +468,8 @@ ssh-keygen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEzNjM1MzgsMTY5MDY2ODc4NiwyOD
-QzMzQ2MTIsLTExMTU2NjkwMTcsLTE1NjA0Njc5NjIsMTgzMjg4
-MjE0NSwyMDA4NDg1MjY5LDE4MTY3ODQzOTUsLTkyMTQxMTg1MC
-wtMTc3MDY3MjkxMl19
+eyJoaXN0b3J5IjpbLTk0MzI4MTYzNiwtMTA2MTM2MzUzOCwxNj
+kwNjY4Nzg2LDI4NDMzNDYxMiwtMTExNTY2OTAxNywtMTU2MDQ2
+Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4NDM5NS
+wtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
