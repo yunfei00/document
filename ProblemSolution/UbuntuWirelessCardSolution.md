@@ -19,7 +19,7 @@
 
 <h2 id="title1.2">1.2  无线网卡规格</h2>  
 
-选用
+选用EP-AC1670 1300M双频无线网卡，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjA3MjEzLC0xNDM0NjIzMDcxXX0=
+eyJoaXN0b3J5IjpbMTMzMTkxNjI2NCwtMTQzNDYyMzA3MV19
 -->
