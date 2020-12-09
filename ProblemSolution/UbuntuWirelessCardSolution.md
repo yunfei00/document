@@ -48,7 +48,16 @@ sudo make install
 
 服务器端使用如下命令：
 ```
+iperf -s -p 6666
+```
+
+客户端使用如下命令：
+```
+iperf -c 192.168.0.44 -p 6666 -f M -t 10 -i 1
+```
+
+查看测试的结果即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjIxMDA2OCwxMTk2NDAxNDcsLTE0Mz
+eyJoaXN0b3J5IjpbLTkwMDQ1MDMyNCwxMTk2NDAxNDcsLTE0Mz
 Q2MjMwNzFdfQ==
 -->
