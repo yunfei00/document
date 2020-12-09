@@ -39,8 +39,16 @@ sudo make install
 <h2 id="title1.5">1.5  传输速度测试</h2>  
 
 1. 测试工具下载
-[iperf下载网址]()
+[iperf下载网址](https://iperf.fr/iperf-download.php)
+根据系统下载不同的版本。
+
+2. 工具测试
+使用电脑，通过网线连接路由器，另一台插有无限网卡的电脑通过wifi连接。
+
+
+服务器端使用如下命令：
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NjE3OTY0LDExOTY0MDE0NywtMTQzND
-YyMzA3MV19
+eyJoaXN0b3J5IjpbLTIzMjIxMDA2OCwxMTk2NDAxNDcsLTE0Mz
+Q2MjMwNzFdfQ==
 -->
