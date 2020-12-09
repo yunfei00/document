@@ -24,6 +24,12 @@
 
 <h2 id="title1.3">1.3  驱动下载安装</h2>  
 
+[驱动下载git网址](https://github.com/RinCat/RTL88x2BU-Linux-Driver)
+安装方法
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjQwMTQ3LC0xNDM0NjIzMDcxXX0=
+eyJoaXN0b3J5IjpbMTAzNzY0MzY3MSwxMTk2NDAxNDcsLTE0Mz
+Q2MjMwNzFdfQ==
 -->
