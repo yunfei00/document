@@ -17,7 +17,9 @@
 
 台式机ubuntu系统，需要通过USB无线网卡上网。需要购买USB无线网卡，并进行配置，测试。
 
-<h2 id="title1.12">1.2 </h1>  
+<h2 id="title1.2">1.2  无线网卡规格</h2>  
+
+选用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ2MjMwNzFdfQ==
+eyJoaXN0b3J5IjpbLTU2NjA3MjEzLC0xNDM0NjIzMDcxXX0=
 -->
