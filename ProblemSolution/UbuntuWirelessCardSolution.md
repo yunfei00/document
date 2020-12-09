@@ -4,11 +4,10 @@
 		<h4><ul><a href="#title1.1">1.1 问题说明</a> </h4>
 		<h4><ul><a href="#title1.2">1.2  无线网卡规格</a> </h4>
 		<h4><ul><a href="#title1.3">1.3  驱动下载安装</a> </h4>
-		<h4><ul><a href="#title1.4">2.4 SEARCH 函数</a> </h4>
-<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
-
-		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+		<h4><ul><a href="#title1.4">1.4 网络连接</a> </h4>
+		<h4><ul><a href="#title1.5">1.5  传输速度测试</a> </h4>
+		
+<h3><a href="#title2">2 ubuntu 系统通过USB无线网卡产生热点</a> </h3>
 
 <div style="page-break-after:always"></div>
 
@@ -57,7 +56,9 @@ iperf -c 192.168.0.44 -p 6666 -f M -t 10 -i 1
 ```
 
 查看测试的结果即可。
+
+  <h1 id="title2">2 ubuntu 系统通过USB无线网卡产生热点</h1>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDQ1MDMyNCwxMTk2NDAxNDcsLTE0Mz
+eyJoaXN0b3J5IjpbLTg4MjAyMzUzMSwxMTk2NDAxNDcsLTE0Mz
 Q2MjMwNzFdfQ==
 -->
