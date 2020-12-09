@@ -32,10 +32,15 @@ cd RTL88x2BU-Linux-Driver-master
 make
 sudo make install
 ```
-<h2 id="title1.4">1.4  驱动下载安装</h2>  
+<h2 id="title1.4">1.4 网络连接</h2>  
 
-手工在界面连接5G和
+手工在界面连接5G网络和2.4G网络。
+
+<h2 id="title1.5">1.5  传输速度测试</h2>  
+
+1. 测试工具下载
+[iperf下载网址]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzA4NDg0MCwxMTk2NDAxNDcsLTE0Mz
-Q2MjMwNzFdfQ==
+eyJoaXN0b3J5IjpbMzQ2NjE3OTY0LDExOTY0MDE0NywtMTQzND
+YyMzA3MV19
 -->
