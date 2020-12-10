@@ -8,6 +8,8 @@
 		<h4><ul><a href="#title1.5">1.5  传输速度测试</a> </h4>
 		
 <h3><a href="#title2">2 ubuntu 系统通过USB无线网卡产生热点</a> </h3>
+		<h4><ul><a href="#title2.1">2.1 网络连接</a> </h4>
+		<h4><ul><a href="#title2.2">1.5  传输速度测试</a> </h4>
 
 <div style="page-break-after:always"></div>
 
@@ -58,7 +60,21 @@ iperf -c 192.168.0.44 -p 6666 -f M -t 10 -i 1
 查看测试的结果即可。
 
   <h1 id="title2">2 ubuntu 系统通过USB无线网卡产生热点</h1>  
+  
+<h2 id="title2.1">2.1  问题说明</h2>  
+
+有线连接的电脑，希望能够产生无线。
+
+<h2 id="title2.2">2.2  驱动安装</h2>
+
+ 参考<a href="#title1.3">1.3  驱动下载安装</a>
+<h2 id="title2.3">2.3  脚本参考</h2>
+
+<h2 id="title2.4">2.4  开机启动与定时任务</h2>
+
+
+  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjAyMzUzMSwxMTk2NDAxNDcsLTE0Mz
-Q2MjMwNzFdfQ==
+eyJoaXN0b3J5IjpbNTgzNDk1MDA1LC04ODIwMjM1MzEsMTE5Nj
+QwMTQ3LC0xNDM0NjIzMDcxXX0=
 -->
