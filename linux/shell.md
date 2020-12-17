@@ -277,18 +277,24 @@ y=20
 res=`expr $x = $y`
 echo $res
 0
+
 # displays 1 when arg1 is less than arg2
 res=`expr $x \< $y`
 echo $res
+1
 
 # display 1 when arg1 is not equal to arg2
 res=`expr $x \!= $y`
 echo $res
+1
+
+# OR operation
+expr length  "geekss"  "<"  5  "|"  19  -  6  ">"  10
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTM3NTk3MSw5MzgwMDMzODEsLTEzMz
-AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
-OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
-A0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTEyNzk0MzA4NzQsOTM4MDAzMzgxLC0xMz
+MwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0
+MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1Nj
+EwNDQwMzEsMTkyODY3NDYyNV19
 -->
