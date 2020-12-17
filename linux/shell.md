@@ -328,9 +328,10 @@ expr geeks : geek
 ```
  <h1 id="title8"> 8 bc</h1>  
 
+**bc**命令用于命令行计算器。它类似于基本计算器，通过它我们可以进行基本的数学计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMwMDQwMzAsOTM4MDAzMzgxLC0xMz
-MwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0
-MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1Nj
-EwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTE1MDUxOTU3MjcsLTEyMzMwMDQwMzAsOT
+M4MDAzMzgxLC0xMzMwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4
+MDM2NSw2MDIxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3Nz
+UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
 -->
