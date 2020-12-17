@@ -268,14 +268,27 @@ expr 1 % 2
 1
 ```
 
-2. 变量使用
+2. 表达式比较
 ```
+x=10
+y=20
 
+# matching numbers with '='
+res=`expr $x = $y`
+echo $res
+0
+# displays 1 when arg1 is less than arg2
+res=`expr $x \< $y`
+echo $res
+
+# display 1 when arg1 is not equal to arg2
+res=`expr $x \!= $y`
+echo $res
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMTk0MjQyLDkzODAwMzM4MSwtMTMzMD
-I5MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4
-LC0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMD
-Q0MDMxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbMTc0NTM3NTk3MSw5MzgwMDMzODEsLTEzMz
+AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
+OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
+A0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
