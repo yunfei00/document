@@ -304,11 +304,23 @@ expr length  "geekss"  "<"  5  "&"  19  -  6  ">"  10
 x=geeks
 len=`expr length $x`
 echo $len
+5
+```
+
+4. 字符串匹配
+
+```
+x=geeks
+sub=`expr substr $x 2 3` 
+#extract 3 characters starting from index 2
+
+echo $sub
+eek
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjMzOTk3OCw5MzgwMDMzODEsLTEzMz
-AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
-OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
-A0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTU0NjEyNjA5LDkzODAwMzM4MSwtMTMzMD
+I5MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4
+LC0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMD
+Q0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
