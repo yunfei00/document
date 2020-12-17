@@ -256,11 +256,26 @@ expr 命令用于评估表达式并显示相应的输出。
 
 1. 加减乘数取余
 ```
+expr 1 + 2
+3
+expr 1 - 2 
+-1
+expr 1 \* 2 
+2
+expr 1 / 2 
+0
+expr 1 % 2 
+1
+```
+
+2. 变量使用
+```
 
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTMzNjAyNCw5MzgwMDMzODEsLTEzMz
-AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
-OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
-A0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbNTUxMTk0MjQyLDkzODAwMzM4MSwtMTMzMD
+I5MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4
+LC0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMD
+Q0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
