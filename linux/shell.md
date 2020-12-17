@@ -248,9 +248,11 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 	```
 	其中，"(){}"在shell中是特殊符号，所以要加转义字符。
 	
+ <h1 id="title7"> 7 expr</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzAyOTI2NzUsNjI5ODMzMzkwLC0xNz
-I1NDgwMzY1LDYwMjE0ODQyOCwtMjMxODk2LDI2NjQ0MjE5NCwt
-MTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbOTM4MDAzMzgxLC0xMzMwMjkyNjc1LDYyOT
+gzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0MjgsLTIzMTg5Niwy
+NjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyOD
+Y3NDYyNV19
 -->
