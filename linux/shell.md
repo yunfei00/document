@@ -6,6 +6,8 @@
 - <a href="#title4">4 wait</a> 
 -  <a href="#title5">5 date</a> 
 -  <a href="#title6">6 sed</a> 
+-  <a href="#title7">7 expr</a> 
+- <a href="#title8">8 bc</a> 
 
 <div STYLE="page-break-after: always;"></div>
  
@@ -324,10 +326,11 @@ eek
 expr geeks : geek
 4
 ```
+ <h1 id="title8"> 8 bc</h1>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzc2MDk1Niw5MzgwMDMzODEsLTEzMz
-AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
-OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
-A0NDAzMSwxOTI4Njc0NjI1XX0=
+eyJoaXN0b3J5IjpbLTEyMzMwMDQwMzAsOTM4MDAzMzgxLC0xMz
+MwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0
+MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1Nj
+EwNDQwMzEsMTkyODY3NDYyNV19
 -->
