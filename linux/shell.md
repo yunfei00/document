@@ -290,11 +290,25 @@ echo $res
 
 # OR operation
 expr length  "geekss"  "<"  5  "|"  19  -  6  ">"  10
+1
+
+# AND operation
+expr length  "geekss"  "<"  5  "&"  19  -  6  ">"  10
+0
+
+```
+
+3. 字符串长度
+
+```
+x=geeks
+len=`expr length $x`
+echo $len
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk0MzA4NzQsOTM4MDAzMzgxLC0xMz
-MwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0
-MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1Nj
-EwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbLTk2NjMzOTk3OCw5MzgwMDMzODEsLTEzMz
+AyOTI2NzUsNjI5ODMzMzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQy
+OCwtMjMxODk2LDI2NjQ0MjE5NCwtMTc3NTE0MTA0MywtMTU2MT
+A0NDAzMSwxOTI4Njc0NjI1XX0=
 -->
