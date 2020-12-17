@@ -250,9 +250,12 @@ date -u --date='@1' +"%Y-%m-%d %H:%M:%S"
 	
  <h1 id="title7"> 7 expr</h1>  
 
+expr 命令用于评估表达式并显示相应的输出。
+* 支持加减乘除取余等基本操作，仅支持整数。
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MDAzMzgxLC0xMzMwMjkyNjc1LDYyOT
-gzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0MjgsLTIzMTg5Niwy
-NjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQwMzEsMTkyOD
-Y3NDYyNV19
+eyJoaXN0b3J5IjpbMTYxOTU1ODI0LDkzODAwMzM4MSwtMTMzMD
+I5MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4
+LC0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMD
+Q0MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
