@@ -70,13 +70,13 @@ iperf -c 192.168.0.44 -p 6666 -f M -t 10 -i 1
  参考<a href="#title1.3">1.3  驱动下载安装</a>
 <h2 id="title2.3">2.3  脚本参考</h2>
 
-[wifi驱动程序](https://github.com/oblique/create_ap)
+[wifi热点驱动程序](https://github.com/oblique/create_ap)
 
 <h2 id="title2.4">2.4  开机启动与定时任务</h2>
 
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTQxNDUzNyw1ODM0OTUwMDUsLTg4Mj
+eyJoaXN0b3J5IjpbLTQ1MjQ3NTc2NSw1ODM0OTUwMDUsLTg4Mj
 AyMzUzMSwxMTk2NDAxNDcsLTE0MzQ2MjMwNzFdfQ==
 -->
