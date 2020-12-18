@@ -63,18 +63,20 @@ iperf -c 192.168.0.44 -p 6666 -f M -t 10 -i 1
   
 <h2 id="title2.1">2.1  问题说明</h2>  
 
-有线连接的电脑，希望能够产生无线。
+有线连接的电脑，插上USB无线网卡，希望能够产生wifi热点。
 
 <h2 id="title2.2">2.2  驱动安装</h2>
 
  参考<a href="#title1.3">1.3  驱动下载安装</a>
 <h2 id="title2.3">2.3  脚本参考</h2>
 
+[wifi驱动程序](https://github.com/oblique/create_ap)
+
 <h2 id="title2.4">2.4  开机启动与定时任务</h2>
 
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNDk1MDA1LC04ODIwMjM1MzEsMTE5Nj
-QwMTQ3LC0xNDM0NjIzMDcxXX0=
+eyJoaXN0b3J5IjpbLTkwOTQxNDUzNyw1ODM0OTUwMDUsLTg4Mj
+AyMzUzMSwxMTk2NDAxNDcsLTE0MzQ2MjMwNzFdfQ==
 -->
