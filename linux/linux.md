@@ -115,6 +115,7 @@ done
 <h1 id="title5">5 Ubuntu用户操作</h1>  
 
 查询用户组
+目前没有发现单独查询用户组的
 添加用户组
 ```
 sudo groupadd -g 1055 visbodyfit
@@ -727,11 +728,11 @@ ssh-keygen -t 'rsa' -C 'autossh@B'
 B $ ssh-copy-id usera@a.site
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNDA3NjYyLDIwNjUzMDI0MDcsMTM4Mz
-MwNzk3OSwtMjA2NTk1NjE0Nyw5NjcwMzYwMjAsLTE0ODAyMTk1
-MTMsLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MDM0Mzk4LDYyMz
-I0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTksMTE1MjMwMTQ0
-OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzExNjAsLT
-E3MzE4MjU4NDAsMjEwOTY4Nzk2MCwtMTIwMTI0Mjk5MiwzOTgz
-NjY4MThdfQ==
+eyJoaXN0b3J5IjpbMTAzMTI2Mjg1Nyw0MDA0MDc2NjIsMjA2NT
+MwMjQwNywxMzgzMzA3OTc5LC0yMDY1OTU2MTQ3LDk2NzAzNjAy
+MCwtMTQ4MDIxOTUxMywtNDkzMjk0Nzk4LDYzNDE1Mzg1OCwzNj
+kwMzQzOTgsNjIzMjQ5NjIwLC0zMjc2OTA3NDYsLTY3NTc4NDc1
+OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEyNiwtMT
+kzNjc3MTE2MCwtMTczMTgyNTg0MCwyMTA5Njg3OTYwLC0xMjAx
+MjQyOTkyXX0=
 -->
