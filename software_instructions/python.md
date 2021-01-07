@@ -20,8 +20,9 @@
     make install
     python3 -V
     ```
+# 2 安装虚拟环境
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNj
-I3NjkzN119
+eyJoaXN0b3J5IjpbLTU2Mjg4ODcyMCwxMjk3OTQyNiwxMzk2ND
+I5NTY1LC0yMDA2Mjc2OTM3XX0=
 -->
