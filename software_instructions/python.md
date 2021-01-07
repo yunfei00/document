@@ -29,10 +29,16 @@ sudo pip3 install virtualenv
 virtualenv venv 
 
 # you can use any name insted of **venv**
+virtualenv -p /usr/bin/python2.7 venv
+
+# Active your virtual environment:
+source venv/bin/activate
+
+
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjM4NzM0LDEyOTc5NDI2LDEzOTY0Mj
+eyJoaXN0b3J5IjpbLTU1MjMzMjYxLDEyOTc5NDI2LDEzOTY0Mj
 k1NjUsLTIwMDYyNzY5MzddfQ==
 -->
