@@ -31,14 +31,17 @@ virtualenv venv
 # you can use any name insted of **venv**
 virtualenv -p /usr/bin/python2.7 venv
 
+# Create virtualenv using Python3
+virtualenv -p python3 myenv
+
 # Active your virtual environment:
 source venv/bin/activate
 
-
-
+# To deactivate:
+deactivate
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjMzMjYxLDEyOTc5NDI2LDEzOTY0Mj
-k1NjUsLTIwMDYyNzY5MzddfQ==
+eyJoaXN0b3J5IjpbMTE3NjUxMzYxMiwxMjk3OTQyNiwxMzk2ND
+I5NTY1LC0yMDA2Mjc2OTM3XX0=
 -->
