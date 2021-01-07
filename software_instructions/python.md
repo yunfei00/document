@@ -22,7 +22,17 @@
     ```
 # 2 安装虚拟环境
 
+```
+sudo pip3 install virtualenv 
+
+# Now create a virtual environment
+virtualenv venv 
+
+# you can use any name insted of **venv**
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mjg4ODcyMCwxMjk3OTQyNiwxMzk2ND
-I5NTY1LC0yMDA2Mjc2OTM3XX0=
+eyJoaXN0b3J5IjpbLTc1MjM4NzM0LDEyOTc5NDI2LDEzOTY0Mj
+k1NjUsLTIwMDYyNzY5MzddfQ==
 -->
