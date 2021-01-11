@@ -28,7 +28,11 @@ else
 	echo "file is not exists."
 fi
 
-if []
+# 判断是否为空
+STRING=
+if [ -z "$STRING" ]; then  
+echo "STRING is empty"  
+fi
 ```
 文件比较符
 |     命令|解析|举例|
@@ -332,9 +336,9 @@ expr geeks : geek
 
 **bc**命令用于命令行计算器。它类似于基本计算器，通过它我们可以进行基本的数学计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1Njc2NjAzLC0xNTA1MTk1NzI3LC0xMj
-MzMDA0MDMwLDkzODAwMzM4MSwtMTMzMDI5MjY3NSw2Mjk4MzMz
-OTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4LC0yMzE4OTYsMjY2ND
-QyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2
-MjVdfQ==
+eyJoaXN0b3J5IjpbMjAwMTk2MDYwNCwtMTUwNTE5NTcyNywtMT
+IzMzAwNDAzMCw5MzgwMDMzODEsLTEzMzAyOTI2NzUsNjI5ODMz
+MzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQyOCwtMjMxODk2LDI2Nj
+Q0MjE5NCwtMTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0
+NjI1XX0=
 -->
