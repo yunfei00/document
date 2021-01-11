@@ -1,6 +1,6 @@
 # 目录
 
-- <a href="#title1">1 判断文件或者文件夹是否存在</a> 
+- <a href="#title1">1 if语句</a> 
 - <a href="#title2">2 数组操作</a> 
 - <a href="#title3">3 正则表达式匹配数字</a> 
 - <a href="#title4">4 wait</a> 
@@ -13,33 +13,35 @@
  
  <h1 id="title1">1 判断文件或者文件夹是否存在</h1>  
  
-	```
-	dir_name="./aa"
-	if [ ! -d ${dir_path} ];then
-	        mkdir ${dir_path}
-	else
-	        echo "file already exists."
-	fi
-	
-	file_name="cc"
-	if [ -f "${file_name}" ];then
-		echo "file already exists."
-	else
-		echo "file is not exists."
-	fi
-	```
-	文件比较符
-	|     命令|解析|举例|
-	|-----|------|----|
-	| -e filename|  如果 filename存在，则为真 | [ -e /var/log/syslog ]
-	| -d filename|  如果 filename为目录，则为真|  [ -d /tmp/mydir ]
-	| -f filename  |如果 filename为常规文件，则为真 | [ -f /usr/bin/grep ]
-	| -L filename  |如果 filename为符号链接，则为真 | [ -L /usr/bin/grep ]
-	| -r filename  |如果 filename可读，则为真  |[ -r /var/log/syslog ]
-	| -w filename | 如果 filename可写，则为真 | [ -w /var/mytmp.txt ]
-	| -x filename | 如果 filename可执行，则为真 | [ -L /usr/bin/grep ]
-	| filename1-nt filename2  |如果 filename1比 filename2新，则为真 | [ /tmp/install/etc/services -nt /etc/services ]
-	| filename1-ot filename2 | 如果 filename1比 filename2旧，则为真 | [ /boot/bzImage -ot arch/i386/boot/bzImage ]
+```
+dir_name="./aa"
+if [ ! -d ${dir_path} ];then
+        mkdir ${dir_path}
+else
+        echo "file already exists."
+fi
+
+file_name="cc"
+if [ -f "${file_name}" ];then
+	echo "file already exists."
+else
+	echo "file is not exists."
+fi
+
+if []
+```
+文件比较符
+|     命令|解析|举例|
+|-----|------|----|
+| -e filename|  如果 filename存在，则为真 | [ -e /var/log/syslog ]
+| -d filename|  如果 filename为目录，则为真|  [ -d /tmp/mydir ]
+| -f filename  |如果 filename为常规文件，则为真 | [ -f /usr/bin/grep ]
+| -L filename  |如果 filename为符号链接，则为真 | [ -L /usr/bin/grep ]
+| -r filename  |如果 filename可读，则为真  |[ -r /var/log/syslog ]
+| -w filename | 如果 filename可写，则为真 | [ -w /var/mytmp.txt ]
+| -x filename | 如果 filename可执行，则为真 | [ -L /usr/bin/grep ]
+| filename1-nt filename2  |如果 filename1比 filename2新，则为真 | [ /tmp/install/etc/services -nt /etc/services ]
+| filename1-ot filename2 | 如果 filename1比 filename2旧，则为真 | [ /boot/bzImage -ot arch/i386/boot/bzImage ]
 
  <h1 id="title2">2 数组操作</h1>  
 
@@ -330,8 +332,9 @@ expr geeks : geek
 
 **bc**命令用于命令行计算器。它类似于基本计算器，通过它我们可以进行基本的数学计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUxOTU3MjcsLTEyMzMwMDQwMzAsOT
-M4MDAzMzgxLC0xMzMwMjkyNjc1LDYyOTgzMzM5MCwtMTcyNTQ4
-MDM2NSw2MDIxNDg0MjgsLTIzMTg5NiwyNjY0NDIxOTQsLTE3Nz
-UxNDEwNDMsLTE1NjEwNDQwMzEsMTkyODY3NDYyNV19
+eyJoaXN0b3J5IjpbNDM1Njc2NjAzLC0xNTA1MTk1NzI3LC0xMj
+MzMDA0MDMwLDkzODAwMzM4MSwtMTMzMDI5MjY3NSw2Mjk4MzMz
+OTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4LC0yMzE4OTYsMjY2ND
+QyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0MDMxLDE5Mjg2NzQ2
+MjVdfQ==
 -->
