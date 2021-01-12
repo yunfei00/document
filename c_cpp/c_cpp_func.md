@@ -37,7 +37,7 @@ void parseOption(int argc, char *const argv[])
 
  <h1 id="title2">2 信号集 sigset_t</h1>  
 
-1. 信号集书
+1. 信号集说明
 
 	信号集被定义为一种数据类型
 	```
@@ -52,6 +52,6 @@ void parseOption(int argc, char *const argv[])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ4NjYxNjksMTcxMjEwOTU3MCwtNT
-IxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbLTUwMDUwNTUzNywxNzEyMTA5NTcwLC01Mj
+E0NzU1ODksLTExNjIyMDMyNTJdfQ==
 -->
