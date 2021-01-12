@@ -34,7 +34,17 @@ void parseOption(int argc, char *const argv[])
 ```
 
  [相关链接参考](https://www.cnblogs.com/water-moon/p/5983139.html)
+
+ <h1 id="title2">2 信号集 sigset_t</h1>  
+1. 新
+ 信号集被定义为一种数据类型：
+
+typedef struct {
+
+unsigned long sig[_NSIG_WORDS]；
+
+}  sigset_t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMT
-YyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbMTg3NDE1OTA0MCwxNzEyMTA5NTcwLC01Mj
+E0NzU1ODksLTExNjIyMDMyNTJdfQ==
 -->
