@@ -36,15 +36,22 @@ void parseOption(int argc, char *const argv[])
  [相关链接参考](https://www.cnblogs.com/water-moon/p/5983139.html)
 
  <h1 id="title2">2 信号集 sigset_t</h1>  
-1. 新
- 信号集被定义为一种数据类型：
 
-typedef struct {
+1. 信号集书
 
-unsigned long sig[_NSIG_WORDS]；
+	信号集被定义为一种数据类型
+	```
+	typedef struct {
+	unsigned long sig[_NSIG_WORDS]；
+	}  sigset_t
+	```
+	信号集用来描述信号的集合，每个信号占用一位（64位）。Linux所支持的所有信号可以全部或部分的出现在信号集中，主要与信号阻塞相关函数配合使用
 
-}  sigset_t
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDE1OTA0MCwxNzEyMTA5NTcwLC01Mj
-E0NzU1ODksLTExNjIyMDMyNTJdfQ==
+eyJoaXN0b3J5IjpbLTE2ODQ4NjYxNjksMTcxMjEwOTU3MCwtNT
+IxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
 -->
