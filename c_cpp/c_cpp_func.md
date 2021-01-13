@@ -3,6 +3,7 @@
 - <a href="#title1">1 帮助函数 getopt</a> 
 - <a href="#title2">2 信号集 sigset_t</a> 
 - <a href="#title3">3 json 解析</a> 
+ - <a href="#title4">4 thread </a> 
 <div STYLE="page-break-after: always;"></div>
  <h1 id="title1">1 帮助函数 getopt</h1>  
 
@@ -254,14 +255,15 @@ g++ -o test test.cpp -l jsoncpp
 345
 ```
 
- 
+  <h1 id="title4">4 thread</h1>  
+  
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI0ODQ2MzEsMTE2OTMwMTkwMywtMT
-k3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNjMxOTAw
-MDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3MywxND
-Q1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1
-NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMT
+E2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0
+NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMT
+I4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEw
+OTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
 -->
