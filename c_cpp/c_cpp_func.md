@@ -87,13 +87,19 @@ void parseOption(int argc, char *const argv[])
 	./a.out 
 	0110000001000000000000000000000001000000000000000000000000000000
 	```
+2. 信号阻塞与未决
+
+执行信号的处理动作称为信号递达（Delivery），信号从产生到递达之间的状态，称为信号未决（Pending）。进程可以选择阻塞（Block）某个信号。被阻塞的信号产生时将保持在未决状态，直到进程解除对此信号的阻塞，才执行递达的动作。注意，阻塞和忽略是不同的，只要信号被阻塞就不会递达，而忽略是在递达之后可选的一种处理动作。每个进程都有一个用来描述哪些信号递送到进程时将被阻塞的信号集，该信号集中的所有信号在递送到进程后都将被阻塞。
+```
+
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MD
-A1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAz
-MjUyXX0=
+eyJoaXN0b3J5IjpbMTYwNTA2NTQ1MCwxMjgzMDAwMzczLDE0ND
+UyODM1NTUsLTUwMDUwNTUzNywxNzEyMTA5NTcwLC01MjE0NzU1
+ODksLTExNjIyMDMyNTJdfQ==
 -->
