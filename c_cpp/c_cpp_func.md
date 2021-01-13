@@ -1,7 +1,7 @@
 # 目录
 
 - <a href="#title1">1 帮助函数 getopt</a> 
-- <a href="#title2">2 数组操作</a> 
+- <a href="#title2">2 信号集 sigset_t</a> 
 - <a href="#title3">3 正则表达式匹配数字</a> 
 - <a href="#title4">4 wait</a> 
 <div STYLE="page-break-after: always;"></div>
@@ -86,6 +86,6 @@ void parseOption(int argc, char *const argv[])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNDk0NzY4LC01MDA1MDU1MzcsMTcxMj
-EwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbMTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MT
+IxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
 -->
