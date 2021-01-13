@@ -183,13 +183,13 @@ void handler(int sig)
     }
 }
 ```
-
+说明：程序首先将SIGINT信号加入进程阻塞集（屏蔽集）中，一开始并没有发送SIGINT信号，所以进程未决集中没有处于未决态的信号，当我们连续按下ctrl+c时，向进程发送SIGINT信号，由于SIGINT信号处于进程的阻塞集中，所以发送的SIGINT信号不能递达，也是就是处于未决状态，所以当我打印未决集合时发现SIGINT所对应的位为1，现在我们按下ctrl+\，发送SIGQUIT信号，由于此信号并没被进程阻塞，所以SIGQUIT信号直接递达，执行对应的处理函数，在该处理函数中解除进程对SIGINT信号的阻塞，所以之前发送的SIGINT信号递达了，执行对应的处理函数，但由于SIGINT信号是不可靠信号，不支持排队，所以最终只有一个信号递达。
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3ODE5OTA5LDEyODMwMDAzNzMsMTQ0NT
-I4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3NTU4
-OSwtMTE2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbLTk1MDQ1OTA3LDU4NzgxOTkwOSwxMjgzMD
+AwMzczLDE0NDUyODM1NTUsLTUwMDUwNTUzNywxNzEyMTA5NTcw
+LC01MjE0NzU1ODksLTExNjIyMDMyNTJdfQ==
 -->
