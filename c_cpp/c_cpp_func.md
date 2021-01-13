@@ -3,7 +3,6 @@
 - <a href="#title1">1 帮助函数 getopt</a> 
 - <a href="#title2">2 信号集 sigset_t</a> 
 - <a href="#title3">3 json 解析</a> 
-- <a href="#title4">4 wait</a> 
 <div STYLE="page-break-after: always;"></div>
  <h1 id="title1">1 帮助函数 getopt</h1>  
 
@@ -260,7 +259,7 @@ g++ -o test test.cpp -l jsoncpp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI2Nzc3OTcsMTE2OTMwMTkwMywtMT
+eyJoaXN0b3J5IjpbLTEyOTI0ODQ2MzEsMTE2OTMwMTkwMywtMT
 k3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNjMxOTAw
 MDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3MywxND
 Q1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1
