@@ -192,13 +192,32 @@ void handler(int sig)
  <h1 id="title1">3 json 解析</h1>  
  
  1. JSON for Modern C++
-	 该
+	 该库使用简单，适合做配置文件时使用。
+	```
+	#include <iostream>
+	#include <fstream>
+	#include <nlohmann/json.hpp>
+	using json = nlohmann::json;
+
+	int main()
+	{
+	    std::ifstream ifs("file.json");
+	    json jf = json::parse(ifs);
+	    std::cout << jf << std::endl;
+	    std::cout << jf["a"] << std::endl;
+	    return 0;
+	}
+	
+	g++ test.cpp -std=c++11
+	
+
+	```
  
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUyODk0MSwtNjc5NDU1NjU1LDYzMT
+eyJoaXN0b3J5IjpbMTU0MDUyMzc5MiwtNjc5NDU1NjU1LDYzMT
 kwMDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMs
 MTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMT
 Q3NTU4OSwtMTE2MjIwMzI1Ml19
