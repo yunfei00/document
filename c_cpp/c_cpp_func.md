@@ -77,7 +77,7 @@ void parseOption(int argc, char *const argv[])
 	    }
 	    putchar('\n');
 	}
-		./a.out 
+	./a.out 
 	0110000001000000000000000000000001000000000000000000000000000000
 	```
 
@@ -86,6 +86,6 @@ void parseOption(int argc, char *const argv[])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIzNjA5NTIsLTUwMDUwNTUzNywxNz
-EyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNTJdfQ==
+eyJoaXN0b3J5IjpbNTgxNDk0NzY4LC01MDA1MDU1MzcsMTcxMj
+EwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
 -->
