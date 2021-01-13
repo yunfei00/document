@@ -218,7 +218,10 @@ void handler(int sig)
 2. jsoncpp
  
  [Jsoncpp](https://github.com/open-source-parsers/jsoncpp) 是一个用来处理 Json文本的开源C++库
- 
+* 安装
+ubuntu 上使用：
+```
+sudo apt-get install libjsoncpp-dev
 
  * 使用Json::Reader对Json文件进行解析：
  
@@ -234,7 +237,7 @@ bool parse (std::istream &is, Value &root, bool collectComments=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzEyMjU0MywtMTk3Nzc4NTQ5MywtOD
+eyJoaXN0b3J5IjpbLTg4MzQyNTA3NywtMTk3Nzc4NTQ5MywtOD
 M2MjQ2MzEyLC02Nzk0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkw
 Nyw1ODc4MTk5MDksMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MD
 A1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAz
