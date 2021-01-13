@@ -249,8 +249,10 @@ int main()
         std::cout<<root["b"].asInt()<<std::endl;
     }
 }
-
-
+g++ -o test test.cpp -l jsoncpp
+./test 
+123
+345
 ```
 
  
@@ -258,7 +260,7 @@ int main()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjIwMDg1NywxMTY5MzAxOTAzLC0xOT
+eyJoaXN0b3J5IjpbLTUwNDcxNTgwMCwxMTY5MzAxOTAzLC0xOT
 c3Nzg1NDkzLC04MzYyNDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAw
 NzIsLTk1MDQ1OTA3LDU4NzgxOTkwOSwxMjgzMDAwMzczLDE0ND
 UyODM1NTUsLTUwMDUwNTUzNywxNzEyMTA5NTcwLC01MjE0NzU1
