@@ -227,8 +227,28 @@ sudo apt-get install libjsoncpp-dev
  * 使用Json::Reader对Json文件进行解析：
  
  ```
-bool parse (const  std::string &document, Value &root, bool collectComments=true) 
-bool parse (std::istream &is, Value &root, bool collectComments=true)
+#include <iostream>
+#include <fstream>
+
+#include "jsoncpp/json/json.h"
+#include "jsoncpp/json/value.h"
+#include "jsoncpp/json/writer.h"
+
+
+int main()
+{
+    std::ifstream ifs("file.json");//open file file.json
+    Json::Reader reader;
+    Json::Value root;
+    if (!reader.parse(ifs, root))
+    {
+        return -1;
+    } else {
+        // success
+        std::cout<<root["a"].asString()<<std::endl;
+        std::cout<<root["b"].asInt()<<std::endl;
+    }
+}
 
 
 ```
@@ -238,9 +258,9 @@ bool parse (std::istream &is, Value &root, bool collectComments=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTMwMTkwMywtMTk3Nzc4NTQ5MywtOD
-M2MjQ2MzEyLC02Nzk0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkw
-Nyw1ODc4MTk5MDksMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MD
-A1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAz
-MjUyXX0=
+eyJoaXN0b3J5IjpbLTMyMjIwMDg1NywxMTY5MzAxOTAzLC0xOT
+c3Nzg1NDkzLC04MzYyNDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAw
+NzIsLTk1MDQ1OTA3LDU4NzgxOTkwOSwxMjgzMDAwMzczLDE0ND
+UyODM1NTUsLTUwMDUwNTUzNywxNzEyMTA5NTcwLC01MjE0NzU1
+ODksLTExNjIyMDMyNTJdfQ==
 -->
