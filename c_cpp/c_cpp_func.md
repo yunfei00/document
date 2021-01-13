@@ -46,12 +46,46 @@ void parseOption(int argc, char *const argv[])
 	}  sigset_t
 	```
 	信号集用来描述信号的集合，每个信号占用一位（64位）。Linux所支持的所有信号可以全部或部分的出现在信号集中，主要与信号阻塞相关函数配合使用
+	```
+	#include <stdio.h>
+	#include <unistd.h>
+	#include <stdlib.h>
+	#include <signal.h>
+	#include <sys/types.h>
+	void print_sigset(sigset_t *set);
+	int main(void)
+	{
+	    sigset_t myset;
+	    sigemptyset(&myset);
+	    sigaddset(&myset,SIGINT);
+	    sigaddset(&myset,SIGQUIT);
+	    sigaddset(&myset,SIGUSR1);
+	    sigaddset(&myset,SIGRTMIN);
+	    print_sigset(&myset);
+
+	    return 0;
+
+	}
+	void print_sigset(sigset_t *set)
+	{
+	    int i;
+	    for(i = 1; i < NSIG; ++i){
+	        if(sigismember(set,i))
+	            printf("1");
+	        else
+	            printf("0");
+	    }
+	    putchar('\n');
+	}
+		./a.out 
+	0110000001000000000000000000000001000000000000000000000000000000
+	```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDUwNTUzNywxNzEyMTA5NTcwLC01Mj
-E0NzU1ODksLTExNjIyMDMyNTJdfQ==
+eyJoaXN0b3J5IjpbLTExMzIzNjA5NTIsLTUwMDUwNTUzNywxNz
+EyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNTJdfQ==
 -->
