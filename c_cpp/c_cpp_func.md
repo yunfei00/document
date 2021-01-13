@@ -219,15 +219,19 @@ void handler(int sig)
  
  [Jsoncpp](https://github.com/open-source-parsers/jsoncpp) 是一个用来处理 Json文本的开源C++库
 
-
+ * 使用Json::Reader对Json文件进行解析：
+ 
+	 ```
+   bool parse (const  std::string &document, Value &root, bool collectComments=true) bool parse (std::istream &is, Value &root, bool collectComments=true)
+	 ```
 
  
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzgwMDQ1NywtODM2MjQ2MzEyLC02Nz
-k0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDks
-MTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMj
-EwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbLTEyODgyNzMyMzUsLTgzNjI0NjMxMiwtNj
+c5NDU1NjU1LDYzMTkwMDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5
+LDEyODMwMDAzNzMsMTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MT
+IxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
 -->
