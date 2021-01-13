@@ -151,11 +151,13 @@ int main(int argc, char *argv[])
 {
     sigset_t pset;
     sigset_t bset;
-    sigemptyset(&bset);
-    sigaddset(&bset, SIGINT);
+    sigemptyset(&bset);   //清空信号集
+    sigaddset(&bset, SIGINT);  //增加信号集（CTRL+C）
+    // 注册信号处理
     if (signal(SIGINT, handler) == SIG_ERR)
         ERR_EXIT("signal error");
-    if (signal(SIGQUIT, handler) == SIG_ERR)
+    
+    if (signal(SIGQUIT, handler) == SIG_ERR)  //Ctrl + \
         ERR_EXIT("signal error");
 
     sigprocmask(SIG_BLOCK, &bset, NULL);//将信号加入进程阻塞集中
@@ -187,7 +189,7 @@ void handler(int sig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEwMDYzMDQsMTI4MzAwMDM3MywxND
-Q1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1
-NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbNTg3ODE5OTA5LDEyODMwMDAzNzMsMTQ0NT
+I4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3NTU4
+OSwtMTE2MjIwMzI1Ml19
 -->
