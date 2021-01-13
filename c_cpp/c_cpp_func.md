@@ -192,7 +192,7 @@ void handler(int sig)
  <h1 id="title1">3 json 解析</h1>  
  
  1. JSON for Modern C++
-	 该库使用简单，适合做配置文件时使用。只需要包含头文件
+	 该库使用简单，适合做配置文件时使用。只需要包含头文件json.hpp，文件可在 [json.hpp](https://github.com/nlohmann/json/releases) 下载。
 	```
 	#include <iostream>
 	#include <fstream>
@@ -220,8 +220,8 @@ void handler(int sig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MDAyOTMzLC02Nzk0NTU2NTUsNjMxOT
-AwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3Mywx
-NDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNTIxND
-c1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbMTU2ODM0MDUzNywtNjc5NDU1NjU1LDYzMT
+kwMDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMs
+MTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMT
+Q3NTU4OSwtMTE2MjIwMzI1Ml19
 -->
