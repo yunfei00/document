@@ -47,6 +47,13 @@ void parseOption(int argc, char *const argv[])
 	```
 	信号集用来描述信号的集合，每个信号占用一位（64位）。Linux所支持的所有信号可以全部或部分的出现在信号集中，主要与信号阻塞相关函数配合使用
 	```
+	sigemptyset(sigset_t *set)初始化由set指定的信号集，信号集里面的所有信号被清空，相当于64为置0；
+	sigfillset(sigset_t *set)调用该函数后，set指向的信号集中将包含linux支持的64种信号，相当于64为都置1；
+	sigaddset(sigset_t *set, int signum)在set指向的信号集中加入signum信号，相当于将给定信号所对应的位置1；
+	sigdelset(sigset_t *set, int signum)在set指向的信号集中删除signum信号，相当于将给定信号所对应的位置0；
+	sigismember(const sigset_t *set, int signum)判定信号signum是否在set指向的信号集中，相当于检查给定信号所对应的位是0还是1,异常返回-1。
+	```
+	```
 	#include <stdio.h>
 	#include <unistd.h>
 	#include <stdlib.h>
@@ -86,6 +93,7 @@ void parseOption(int argc, char *const argv[])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MT
-IxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
+eyJoaXN0b3J5IjpbMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MD
+A1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAz
+MjUyXX0=
 -->
