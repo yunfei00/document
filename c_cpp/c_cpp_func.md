@@ -193,6 +193,7 @@ void handler(int sig)
  
  1. JSON for Modern C++
 	 该库使用简单，适合做配置文件时使用。只需要包含头文件json.hpp，文件可在 [json.hpp](https://github.com/nlohmann/json/releases) 下载。
+	 使用帮助可参考 [帮助](https://www.jianshu.com/p/69e57f2af904)
 	```
 	#include <iostream>
 	#include <fstream>
@@ -220,7 +221,7 @@ void handler(int sig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODM0MDUzNywtNjc5NDU1NjU1LDYzMT
+eyJoaXN0b3J5IjpbLTgzNjI0NjMxMiwtNjc5NDU1NjU1LDYzMT
 kwMDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMs
 MTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMT
 Q3NTU4OSwtMTE2MjIwMzI1Ml19
