@@ -221,16 +221,19 @@ void handler(int sig)
 
  * 使用Json::Reader对Json文件进行解析：
  
-	 ```
-   bool parse (const  std::string &document, Value &root, bool collectComments=true) bool parse (std::istream &is, Value &root, bool collectComments=true)
-	 ```
+ ```
+bool parse (const  std::string &document, Value &root, bool collectComments=true) 
+bool parse (std::istream &is, Value &root, bool collectComments=true)
+
+
+```
 
  
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgyNzMyMzUsLTgzNjI0NjMxMiwtNj
+eyJoaXN0b3J5IjpbLTE5Nzc3ODU0OTMsLTgzNjI0NjMxMiwtNj
 c5NDU1NjU1LDYzMTkwMDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5
 LDEyODMwMDAzNzMsMTQ0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MT
 IxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIwMzI1Ml19
