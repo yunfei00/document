@@ -10,9 +10,10 @@
   <h1 id="title1">1 install opencv-python</h1>  
 
 ```
-
+pip install opencv-python
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzA2MTU0OF19
+eyJoaXN0b3J5IjpbLTQ5NTU1MzgwNF19
 -->
