@@ -190,10 +190,6 @@ fourcc :four character code
 是一种4字符代码，是一种视频流格式
 ```
 
--   在Fedora中：DIVX，XVID，MJPG，X264，WMV1，WMV2。（最好使用XVID。MJPG可以生成大尺寸的视频。X264提供非常小的尺寸的视频）
--   在Windows中：DIVX（还有待测试和添加）
--   在OSX中：MJPG（.mp4），DIVX（.avi），X264（.mkv）。
-
 <h2 id="title4.7">4.7 cv.VideoWriter </h2>  
 
 
@@ -219,10 +215,10 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMjY2NTI2LC0yMDAyNzc5NTExLDIxMj
-cxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEy
-NTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOT
-A1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwt
-MTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMD
-gwNTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMT
+I3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAx
+MjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMz
+kwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIs
+LTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMT
+A4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
