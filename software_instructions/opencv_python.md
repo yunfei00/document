@@ -1,18 +1,18 @@
 # 目录
 <h3><a href="#title1">1 install</a> </h3>
 <h3><a href="#title2">2 help document</a> </h3>
-<h3><a href="#title3">3 load an image, display it, and save it</a> </h3>
+<h3><a href="#title3">3 images</a> </h3>
 		<h4><ul><a href="#title3.1">3.1 cv.imread </a> </h4>
 		<h4><ul><a href="#title3.2">3.2 cv.imshow</a> </h4>
 		<h4><ul><a href="#title3.3">3.3 cv.waitKey</a> </h4>
 		<h4><ul><a href="#title3.4">3.4 cv.imwrite</a> </h4>
 		<h4><ul><a href="#title3.5">3.5 cv.samples.findFile</a> </h4>
-<h3><a href="#title4">4 参考函数</a> </h3>
-		<h4><ul><a href="#title3.1">3.1 cv.imread </a> </h4>
-		<h4><ul><a href="#title3.2">3.2 cv.imshow</a> </h4>
-		<h4><ul><a href="#title3.3">3.3 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title3.4">3.4 cv.imwrite</a> </h4>
-		<h4><ul><a href="#title3.5">3.5 cv.samples.findFile</a> </h4>
+<h3><a href="#title4">4 videos</a> </h3>
+		<h4><ul><a href="#title4.1">3.1 cv.imread </a> </h4>
+		<h4><ul><a href="#title4.2">3.2 cv.imshow</a> </h4>
+		<h4><ul><a href="#title4.3">3.3 cv.waitKey</a> </h4>
+		<h4><ul><a href="#title4.4">3.4 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title4.5">3.5 cv.samples.findFile</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -26,7 +26,9 @@ pip install opencv-python
  
 [document](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html)
 
-<h1 id="title3">3 load an image, display it, and save it </h1>  
+<h1 id="title3">3 images </h1>  
+
+load an image, display it, and save it.
 
 <h2 id="title3.1">3.1 cv.imread </h2>  
 
@@ -104,6 +106,11 @@ findFile(relative_path[, required[, silentMode]])
 找到则返回路径，否则返回空
 ```
 
+<h1 id="title4">4 videos </h1>  
+
+Learn to play videos, capture videos from a camera, and write videos
+
+<h2 id="title4.1">4.1 cv.imread </h2>  
 
 
 
@@ -111,8 +118,8 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg0MzY2MjQsLTExNDQyMzkwNTMsLT
-Y5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3
-NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNz
-YsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMTQzOTg3MTg1OSwtMTE0NDIzOTA1MywtNj
+kwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2
+MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3Ni
+wtNDk1NTUzODA0XX0=
 -->
