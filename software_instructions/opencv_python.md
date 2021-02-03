@@ -73,6 +73,8 @@ para2:matrix image
 waitKey([, delay]) -> retval
 param: delay Delay in milliseconds. 0 is the special value that means "forever".
 retval:key value
+
+注意：只有在窗口模式下，才起作用。
 ```
 
 <h2 id="title3.X">3.X cv.samples.findFile </h2>  
@@ -89,7 +91,8 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2Nz
-A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
-NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbLTcyNTc0NTM2MywtNjkwNTU2NzUyLC0xNz
+QxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEy
+NzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX
+0=
 -->
