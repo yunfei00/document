@@ -166,8 +166,9 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 
 ```
 
+<h2 id="title4.5">4.4 cv.VideoCapture </h2>  
 ```
-
+cvtColor(src, code[, dst[, dstCn]]) -> dst
 ```
 
 
@@ -177,8 +178,9 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLT
-ExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4
-Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNz
-csLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMTU5NTI3NzExOSwtMTM4MDE2MzQwMCwtMT
+c4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQx
+Mzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNz
+M0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
+
 -->
