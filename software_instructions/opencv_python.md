@@ -198,6 +198,12 @@ fourcc :four character code
 ```
 flip(src, flipCode[, dst]) -> dst
 翻转图片
+@param src input array.
+@param dst output array of the same size and type as src.
+@param flipCode a flag to specify how to flip the array; 0 means
+ flipping around the x-axis and positive value (for example, 1) means
+    .   flipping around y-axis. Negative value (for example, -1) means flipping
+    .   around both axes.
 ```
 
 
@@ -206,10 +212,10 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NjA5MzI4LDIxMjcxMzI4NTcsLTMzMT
-A0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2
-MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2Nz
-UyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwx
-OTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NT
-UzODA0XX0=
+eyJoaXN0b3J5IjpbLTIwOTA3OTgxNTksMjEyNzEzMjg1NywtMz
+MxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgw
+MTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NT
+Y3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUx
+LDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OT
+U1NTM4MDRdfQ==
 -->
