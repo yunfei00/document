@@ -195,10 +195,9 @@ fourcc :four character code
 
 <h2 id="title4.8">4.8 cv.flip </h2>  
 
-
 ```
-
-
+flip(src, flipCode[, dst]) -> dst
+翻转图片
 ```
 
 
@@ -207,9 +206,10 @@ fourcc :four character code
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC0xNz
-k5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0xNzg5
-MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3NDEzNz
-U1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3MzQs
-MTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbOTI5NjA5MzI4LDIxMjcxMzI4NTcsLTMzMT
+A0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2
+MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2Nz
+UyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwx
+OTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NT
+UzODA0XX0=
 -->
