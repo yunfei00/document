@@ -18,7 +18,7 @@ pip install opencv-python
 
 <h1 id="title3">read,write,show image </h1>  
 
-1.  cv.imread
+<h2 id="title3.1">3.1 cv.imread </h2>  
 
 ```
 cv2.imread(filename[,flags])
@@ -53,19 +53,19 @@ None
 
 Color Channel:
 imread() takes the image as input and decodes into a matrix with the color channels stored in the order of Blue, Green, Red, and A respectively.  
-`image[:,:,0] represents Blue channel  
-`image[:,:,1]` represents Green channel  
-`image[:,:,2]` represents Red channel  
-`image[:,:,3]` represents Transparency channel
+image[:,:,0] represents Blue channel  
+image[:,:,1] represents Green channel  
+image[:,:,2] represents Red channel  
+image[:,:,3] represents Transparency channel  透明通道
 ```
 
-3. ds 
+2. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjEzMTcwMSw2NzA4Nzg0MTIsLTE2Mz
+eyJoaXN0b3J5IjpbMTI2MTgwOTk3OSw2NzA4Nzg0MTIsLTE2Mz
 g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
 NzYsLTQ5NTU1MzgwNF19
 -->
