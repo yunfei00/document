@@ -194,7 +194,7 @@ fourcc :four character code
 
 
 ```
-
+const [String](https://docs.opencv.org/3.4/d1/d8f/classcv_1_1String.html) &filename, int [fourcc](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html#afec93f94dc6c0b3e28f4dd153bc5a7f0), double fps, [Size](https://docs.opencv.org/3.4/dc/d84/group__core__basic.html#ga346f563897249351a34549137c8532a0) frameSize, bool isColor=true)
 
 ```
 
@@ -215,10 +215,10 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMT
-I3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAx
-MjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMz
-kwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIs
-LTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMT
-A4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMD
+AyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEw
+ODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNz
+c1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgw
+LDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MD
+Q3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
