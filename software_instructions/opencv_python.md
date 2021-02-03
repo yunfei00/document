@@ -324,7 +324,9 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 ```
 polylines(img, pts, isClosed, color[, thickness[, lineType[, shift]]]) -> img
-
+pts = np.array（[[10,5]，[20,30]，[70,20]，[50,10]]，np.int32）
+pts = pts.reshape（（-1,1,2））
+cv.polylines（img，[pts]，True，（0,255,255））
 如果第三个参数为False，您将获得一条连接所有点的折线，而不是闭合形状
 
 ```
@@ -339,7 +341,7 @@ polylines(img, pts, isClosed, color[, thickness[, lineType[, shift]]]) -> img
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDYzMTIxNyw4MTY2NDE0OTcsNTEzMj
+eyJoaXN0b3J5IjpbLTMwODYzNTY4Myw4MTY2NDE0OTcsNTEzMj
 k5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMy
 NSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLT
 MzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4
