@@ -9,11 +9,14 @@
 		<h4><ul><a href="#title3.5">3.5 cv.imwrite</a> </h4>
 		<h4><ul><a href="#title3.6">3.6 cv.samples.findFile</a> </h4>
 <h3><a href="#title4">4 videos</a> </h3>
-		<h4><ul><a href="#title4.1">3.1 cv.imread </a> </h4>
-		<h4><ul><a href="#title4.2">3.2 cv.imshow</a> </h4>
-		<h4><ul><a href="#title4.3">3.3 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title4.4">3.4 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title4.1">4.1 Capture Video from Camera </a> </h4>
+		<h4><ul><a href="#title4.2">4.2 Playing Video from file</a> </h4>
+		<h4><ul><a href="#title4.3">4.3 Saving a Video</a> </h4>
+		<h4><ul><a href="#title4.4">4.4 cv.VideoCapture</a> </h4>
 		<h4><ul><a href="#title4.5">3.5 cv.samples.findFile</a> </h4>
+		<h4><ul><a href="#title4.6">3.4 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title4.7">3.5 cv.samples.findFile</a> </h4>  			
+		<h4><ul><a href="#title4.8">3.4 cv.imwrite</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -260,11 +263,11 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYzNjk0MiwtMTY2NTEyMjcwNiwtND
-U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
-Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
-E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
-LC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
-M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
-MTc2LC00OTU1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbLTEzNjUzMjMwNzMsLTE2NjUxMjI3MDYsLT
+Q1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcx
+MzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNT
+AxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1
+MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMT
+YzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgw
+NTE3NiwtNDk1NTUzODA0XX0=
 -->
