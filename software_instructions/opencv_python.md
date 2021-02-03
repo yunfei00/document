@@ -259,13 +259,8 @@ flip(src, flipCode[, dst]) -> dst
 
 
 
-
-
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjEzMjI2NCwtMTY2NTEyMjcwNiwtND
+eyJoaXN0b3J5IjpbLTEwMjYzNjk0MiwtMTY2NTEyMjcwNiwtND
 U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
 Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
 E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
