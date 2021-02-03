@@ -23,7 +23,8 @@ pip install opencv-python
 ```
 cv2.imread(filename[,flags])
 para1:filename
-para2:cv::Imrea
+para2:cv::ImreadModes
+	
 ```
 
 3. ds 
@@ -32,6 +33,6 @@ para2:cv::Imrea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjk5NTg0OCwxOTAzMjEyNzM0LDE5MD
+eyJoaXN0b3J5IjpbLTcwNzg1MTE3MCwxOTAzMjEyNzM0LDE5MD
 Q3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
