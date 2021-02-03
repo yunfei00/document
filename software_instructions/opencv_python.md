@@ -25,7 +25,7 @@ cv2.imread(filename[,flags])
 para1:filename
 para2:cv::ImreadModes
 	
-re
+return:This method returns the matrix of pixels which represent the given image. Pixel is nothing but the smallest unit of the image.
 ```
 
 3. ds 
@@ -34,6 +34,6 @@ re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTU1MjYwNSwxOTAzMjEyNzM0LDE5MD
-Q3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOT
+A0NzMzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
