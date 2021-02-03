@@ -295,7 +295,7 @@ thickness:厚度
 cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 参数和line类似
 ```
-<h2 id="title5.3">5.2 cv.rectangle </h2>  
+<h2 id="title5.3">5.3 cv.circle </h2>  
 
 ```
 cv.circle(img,(447,63), 63, (0,0,255), -1)
@@ -313,11 +313,11 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgzMzI4OTgsNTEzMjk5NTgzLDE2MD
-k5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAw
-OTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNi
-wtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwt
-MTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNz
-QxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEy
-NzM0LDE5MDQ3MzM3N119
+eyJoaXN0b3J5IjpbLTExOTcxMDUwNiw1MTMyOTk1ODMsMTYwOT
+k5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5
+NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC
+0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0x
+Nzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3ND
+EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
+MzQsMTkwNDczMzc3XX0=
 -->
