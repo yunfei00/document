@@ -61,6 +61,13 @@ image[:,:,3] represents Transparency channel  透明通道
 
 <h2 id="title3.2">3.2 cv.imshow </h2>  
 
+```
+imshow(winname, mat) -> None
+para1:window name
+para2:matrix image
+打开了一个窗口以显示图像。窗口大小取决于图像的大小。如果窗口大小大于屏幕分辨率，则它将显示图像的缩放版本
+```
+
 
 <h2 id="title3.X">3.X cv.samples.findFile </h2>  
 
@@ -76,7 +83,7 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDEyNTA3MywtMTc0MTM3NTU4MCw2Nz
+eyJoaXN0b3J5IjpbLTg0NTU4MTA0OCwtMTc0MTM3NTU4MCw2Nz
 A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
 NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
