@@ -13,10 +13,10 @@
 		<h4><ul><a href="#title4.2">4.2 Playing Video from file</a> </h4>
 		<h4><ul><a href="#title4.3">4.3 Saving a Video</a> </h4>
 		<h4><ul><a href="#title4.4">4.4 cv.VideoCapture</a> </h4>
-		<h4><ul><a href="#title4.5">3.5 cv.samples.findFile</a> </h4>
-		<h4><ul><a href="#title4.6">3.4 cv.imwrite</a> </h4>
-		<h4><ul><a href="#title4.7">3.5 cv.samples.findFile</a> </h4>  			
-		<h4><ul><a href="#title4.8">3.4 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title4.5">4.5 cv.cvtColor</a> </h4>
+		<h4><ul><a href="#title4.6">4.6 cv.VideoWriter_fourcc</a> </h4>
+		<h4><ul><a href="#title4.7">4.7 cv.VideoWriter </a> </h4>  			
+		<h4><ul><a href="#title4.8">4.8 cv.flip </a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -263,11 +263,11 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUzMjMwNzMsLTE2NjUxMjI3MDYsLT
-Q1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcx
-MzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNT
-AxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1
-MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMT
-YzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgw
-NTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMjU2NDE0OTQxLC0xNjY1MTIyNzA2LC00NT
+Y1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMy
+ODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMT
+csLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMs
+LTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mz
+g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
+NzYsLTQ5NTU1MzgwNF19
 -->
