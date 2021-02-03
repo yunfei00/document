@@ -67,7 +67,12 @@ para1:window name
 para2:matrix image
 打开了一个窗口以显示图像。窗口大小取决于图像的大小。如果窗口大小大于屏幕分辨率，则它将显示图像的缩放版本
 ```
+<h2 id="title3.3">3.3 cv.waitKey</h2>  
 
+```
+waitKey([, delay]) -> retval
+
+```
 
 <h2 id="title3.X">3.X cv.samples.findFile </h2>  
 
@@ -83,7 +88,7 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTU4MTA0OCwtMTc0MTM3NTU4MCw2Nz
+eyJoaXN0b3J5IjpbMTE2NDI2NTUyMSwtMTc0MTM3NTU4MCw2Nz
 A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
 NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
