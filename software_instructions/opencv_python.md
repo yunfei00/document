@@ -172,6 +172,15 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 ```
 cvtColor(src, code[, dst[, dstCn]]) -> dst
 颜色转换，将图像的颜色从一种颜色空间更改为另一种颜色
+
+BGR –>蓝绿色红色  
+HSV –>色相饱和度值
+
+**注意：**  
+1）对于BGR，蓝色，绿色，红色的值范围是[0,255]  
+2）对于HSV，色相的范围是[0,179]，饱和度范围是[0,255]，值范围是[0,255]。
+
+convert_image  =  cv2.cvtColor(image,  cv2.COLOR_BGR2HSV)
 ```
 
 <h2 id="title4.6">4.6 cv.VideoWriter_fourcc </h2>  
@@ -210,10 +219,10 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mzk5MDAyOSwtMjAwMjc3OTUxMSwyMT
-I3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAx
-MjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMz
-kwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIs
-LTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMT
-A4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbNDkzMjY2NTI2LC0yMDAyNzc5NTExLDIxMj
+cxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEy
+NTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOT
+A1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwt
+MTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMD
+gwNTE3NiwtNDk1NTUzODA0XX0=
 -->
