@@ -201,9 +201,7 @@ flip(src, flipCode[, dst]) -> dst
 @param src input array.
 @param dst output array of the same size and type as src.
 @param flipCode a flag to specify how to flip the array; 0 means
- flipping around the x-axis and positive value (for example, 1) means
-    .   flipping around y-axis. Negative value (for example, -1) means flipping
-    .   around both axes.
+ flipping around the x-axis and positive value (for example, 1) means flipping around y-axis. Negative value (for example, -1) means flipping around both axes.
 ```
 
 
@@ -212,7 +210,7 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA3OTgxNTksMjEyNzEzMjg1NywtMz
+eyJoaXN0b3J5IjpbLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMz
 MxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgw
 MTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NT
 Y3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUx
