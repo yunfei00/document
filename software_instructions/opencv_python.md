@@ -21,7 +21,8 @@ pip install opencv-python
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OT
-U1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbMzk0OTA3Mjc5LDE5MDQ3MzM3NywtMTIxMD
+gwNTE3NiwtNDk1NTUzODA0XX0=
 -->
