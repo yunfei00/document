@@ -3,7 +3,13 @@
 <h3><a href="#title2">2 help document</a> </h3>
 <h3><a href="#title3">3 参考函数</a> </h3>
 		<h4><ul><a href="#title3.1">3.1 cv.imread </a> </h4>
-		<h4><ul><a href="#title3.2">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.2">3.2 cv.imshow</a> </h4>
+		<h4><ul><a href="#title3.3">3.3 cv.waitKey</a> </h4>
+		<h4><ul><a href="#title3.4">3.4 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title3.5">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.6">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.7">2.2 RIGHT函数</a> </h4>
+		<h4><ul><a href="#title3.8">2.2 RIGHT函数</a> </h4>
 		
 <div style="page-break-after:always"></div>
 
@@ -83,7 +89,7 @@ imwrite(filename, img[, params]) -> retval
 para1:filename
 para2:img (Mat or vector of Mat) Image or Images to be saved.
 para3:Format-specific parameters encoded as pairs (paramId_1, paramValue_1, paramId_2, paramValue_2, ... .) see cv::ImwriteFlags
-	cv2::ImwriteFlags 暂不涉及
+	cv2::ImwriteFlags 暂不涉及，后期遇到查看
 retval:It returns either True or False. Return `True` if the image is successfully saved otherwise return `False`.
 ```
 
@@ -103,8 +109,8 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTYxMzEyLC02OTA1NTY3NTIsLTE3ND
-EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
-MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ
-==
+eyJoaXN0b3J5IjpbLTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMT
+c0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIx
+MjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF
+19
 -->
