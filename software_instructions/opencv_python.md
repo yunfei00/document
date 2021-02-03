@@ -161,7 +161,7 @@ cv.destroyAllWindows()
 ```
 class VideoCapture(builtins.object)
 cv2.VideoCapture(video_path or  device index  )
-VideoCapture是一个对象，如果需要打开本地文件，则初始化参数需要本地的视频文件路径，如果是打开网络摄像头，则需要是
+VideoCapture是一个对象，如果需要打开本地文件，则初始化参数需要本地的视频文件路径，如果是打开网络摄像头，则需要输入摄像头的编号0或-1
 
 ```
 
@@ -176,8 +176,8 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg2MjkyNjMsLTE3ODkzMTc3NTgsLT
-ExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4
-Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNz
-csLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMTE0MDkzMzk4LC0xNzg5MzE3NzU4LC0xMT
+Q0MjM5MDUzLC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4
+NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC
+0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ==
 -->
