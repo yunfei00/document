@@ -18,11 +18,14 @@ pip install opencv-python
 
 <h1 id="title3">read,write,show image </h1>  
 
+1.  cv.imread
+
+2. ds 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0OTA3Mjc5LDE5MDQ3MzM3NywtMTIxMD
-gwNTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMT
+A4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
