@@ -83,8 +83,8 @@ imwrite(filename, img[, params]) -> retval
 para1:filename
 para2:img (Mat or vector of Mat) Image or Images to be saved.
 para3:Format-specific parameters encoded as pairs (paramId_1, paramValue_1, paramId_2, paramValue_2, ... .) see cv::ImwriteFlags
-	cv2::ImwriteFlags
-	cv2.
+	cv2::ImwriteFlags 暂不涉及
+retval:It returns either True or False. Return `True` if the image is successfully saved otherwise return `False`.
 ```
 
 
@@ -103,8 +103,8 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzM4OTM0NiwtNjkwNTU2NzUyLC0xNz
-QxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEy
-NzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX
-0=
+eyJoaXN0b3J5IjpbMTY2OTYxMzEyLC02OTA1NTY3NTIsLTE3ND
+EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
+MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ
+==
 -->
