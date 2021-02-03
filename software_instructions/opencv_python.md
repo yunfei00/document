@@ -23,9 +23,7 @@
 		<h4><ul><a href="#title5.3">5.3 cv.circle</a> </h4>
 		<h4><ul><a href="#title5.4">5.4 cv.ellipse</a> </h4>
 		<h4><ul><a href="#title5.5">5.5 绘图多边形</a> </h4>
-		<h4><ul><a href="#title5.6">4.6 cv.VideoWriter_fourcc</a> </h4>
-		<h4><ul><a href="#title5.7">4.7 cv.VideoWriter </a> </h4>  			
-		<h4><ul><a href="#title5.8">4.8 cv.flip </a> </h4>		
+		<h4><ul><a href="#title5.6">5.6 向图像添加文本</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -357,11 +355,11 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDgxNTM3MSwxNzc2Mjg4MzA4LC0yMT
-I0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkz
-MSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5NDEsLT
-IwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC0xNzk5
-MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0xNzg5Mz
-E3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3NDEzNzU1
-ODAsNjcwODc4NDEyXX0=
+eyJoaXN0b3J5IjpbLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMj
+EyNDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5
+MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC
+0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5
+OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OT
+MxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1
+NTgwLDY3MDg3ODQxMl19
 -->
