@@ -25,7 +25,8 @@ cv2.imread(filename[,flags])
 para1:filename
 para2:cv::ImreadModes
 	cv2.IMREAD_UNCHANGED 按原样返回加载的图像
-	cv2.IMREAD_GRAYSCALE 返回灰度格式的图像。或者，我们可以为此标志传递整数值0。
+	cv2.IMREAD_GRAYSCALE 返回灰度格式的图像
+	cv2.IMREAD_COLOR      以BGR颜色格式返回图像。这是默认标志。或者，我们可以为此标志传递整数值1
 return:This method returns the matrix of pixels which represent the given image. Pixel is nothing but the smallest unit of the image.
 ```
 
@@ -35,7 +36,7 @@ return:This method returns the matrix of pixels which represent the given image.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODgyNTYsLTE2Mzg3NjE0NTEsMTkwMz
-IxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1Mzgw
-NF19
+eyJoaXN0b3J5IjpbNDUzNjE5MTA0LC0xNjM4NzYxNDUxLDE5MD
+MyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4
+MDRdfQ==
 -->
