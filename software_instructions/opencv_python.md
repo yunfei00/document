@@ -79,6 +79,9 @@ retval:key value
 <h2 id="title3.4">3.4 cv.imwrite</h2>  
 
 ```
+imwrite(filename, img[, params]) -> retval
+para1:filename
+para2:img (Mat or vector of Mat) Image or Images to be saved.
 
 ```
 
@@ -98,7 +101,7 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzNjQwMzk4LC02OTA1NTY3NTIsLTE3ND
+eyJoaXN0b3J5IjpbMjA4ODY3MDQ1LC02OTA1NTY3NTIsLTE3ND
 EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
 MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ
 ==
