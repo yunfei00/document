@@ -125,7 +125,7 @@ findFile(relative_path[, required[, silentMode]])
 
 **Learn to play videos, capture videos from a camera, and write videos**
 
-<h2 id="title4.1">4.1 code </h2>  
+<h2 id="title4.1">4.1 Capture Video from Camera </h2>  
 
 ```
 import numpy as np
@@ -151,7 +151,12 @@ while True:
 cap.release()
 cv.destroyAllWindows()
 ```
-<h2 id="title4.2">4.2 cv.VideoCapture </h2>  
+
+
+<h2 id="title4.2">4.2 Playing Video from file </h2>  
+<h2 id="title4.3">4.3 Saving a Video </h2>  
+
+<h2 id="title4.4">4.4 cv.VideoCapture </h2>  
 
 ```
 
@@ -164,8 +169,8 @@ cv.destroyAllWindows()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLT
-Y5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3
-NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNz
-YsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMTA1Mjc4Nzc0MCwtMTc4OTMxNzc1OCwtMT
+E0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3
+ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3Ny
+wtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
