@@ -289,12 +289,15 @@ cv.line(img,(0,0),(511,511),(255,0,0),5)
 line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
 thickness:厚度
 ```
+<h2 id="title5.2">5.2 cv.line </h2>  
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzI3MjAxNSwxNjA5OTkxOTMxLC0xNj
+eyJoaXN0b3J5IjpbMTEwMzc4Nzc0NSwxNjA5OTkxOTMxLC0xNj
 Y1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3
 OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nz
 gsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgs
