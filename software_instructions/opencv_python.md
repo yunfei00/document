@@ -312,7 +312,7 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 ```
 要绘制椭圆，我们需要传递几个参数。一个参数是中心位置（x，y）。下一个参数是轴长度（长轴长度，短轴长度）。angle是椭圆沿逆时针方向旋转的角度。startAngle和endAngle表示从主轴沿顺时针方向测量的椭圆弧的起点和终点
 cv.ellipse（img，（256,256），（100,50），0,0,180,255，-1）
-cv.ellipse（img，（256,256），（100,50），0,0,180,（255，-1）
+cv.ellipse（img，（256,256），（100,50），0,0,180,(0,255,0)，-1）
 ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, lineType[, shift]]]) -> img
 @param thickness 负值，代表填充图形。
 
@@ -326,12 +326,14 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTkxODIzMyw4MTY2NDE0OTcsNTEzMj
-k5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMy
-NSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLT
-MzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4
-MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNT
-U2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1
-MSwxOTAzMjEyNzM0XX0=
+eyJoaXN0b3J5IjpbMTYwMTM4NjcyLDgxNjY0MTQ5Nyw1MTMyOT
+k1ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1
+LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMz
+MxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgw
+MTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NT
+Y3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUx
+LDE5MDMyMTI3MzRdfQ==
 -->
