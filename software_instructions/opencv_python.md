@@ -298,6 +298,7 @@ cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 <h2 id="title5.3">5.3 cv.circle </h2>  
 
 ```
+要绘制一个圆，需要其中心坐标和半径。我们将在上面绘制的矩形内绘制一个圆。
 cv.circle(img,(447,63), 63, (0,0,255), -1)
 circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 @param thickness 负值，代表填充图形。
@@ -321,11 +322,11 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDUzOTY4Niw1MTMyOTk1ODMsMTYwOT
-k5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5
-NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC
-0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0x
-Nzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3ND
-EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
-MzQsMTkwNDczMzc3XX0=
+eyJoaXN0b3J5IjpbMTE1Mjg5ODE4LDUxMzI5OTU4MywxNjA5OT
+kxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0
+MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLT
+E3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3
+ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MT
+M3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjcz
+NCwxOTA0NzMzNzddfQ==
 -->
