@@ -171,7 +171,7 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 
 ```
 cvtColor(src, code[, dst[, dstCn]]) -> dst
-
+颜色转换，
 ```
 
 <h2 id="title4.6">4.6 cv.VideoWriter_fourcc </h2>  
@@ -210,10 +210,10 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMz
-MxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgw
-MTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NT
-Y3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUx
-LDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OT
-U1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbLTEzNjI4MjgyNzksLTIwMDI3Nzk1MTEsMj
+EyNzEzMjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYw
+MTI1MDE3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0Mj
+M5MDUzLC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEy
+LC0xNjM4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMj
+EwODA1MTc2LC00OTU1NTM4MDRdfQ==
 -->
