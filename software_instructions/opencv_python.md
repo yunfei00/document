@@ -269,22 +269,22 @@ flip(src, flipCode[, dst]) -> dst
  flipping around the x-axis and positive value (for example, 1) means flipping around y-axis. Negative value (for example, -1) means flipping around both axes.
 ```
 
-<h1 id="title5">5 videos </h1>  
+<h1 id="title5">5 Drawing Functions</h1>  
 
 **Goal**
 * Learn to draw different geometric shapes with OpenCV
 * You will learn these functions : cv.line(), cv.circle() , cv.rectangle(), cv.ellipse(), cv.putText() etc.
 [参考链接](https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html)
 
-<h2 id="title4.1">4.1 Capture Video from Camera </h2>  
+<h2 id="title5.1">5.1 Capture Video from Camera </h2>  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk5NTgzNTYsLTE2NjUxMjI3MDYsLT
-Q1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcx
-MzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNT
-AxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1
-MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMT
-YzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgw
-NTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtND
+U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
+Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
+E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
+LC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
+M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
+MTc2LC00OTU1NTM4MDRdfQ==
 -->
