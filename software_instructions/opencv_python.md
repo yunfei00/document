@@ -61,15 +61,18 @@ image[:,:,3] represents Transparency channel  透明通道
 <h2 id="title3.X">3.X cv.samples.findFile </h2>  
 
 ```
-
+findFile(relative_path[, required[, silentMode]])
+找到则返回路径，否则返回空
 ```
-[cv.samples.findFile("starry_night.jpg")
+
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg1NzYxMiwtMTc0MTM3NTU4MCw2Nz
+eyJoaXN0b3J5IjpbLTM2MTY2NjUxNiwtMTc0MTM3NTU4MCw2Nz
 A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
 NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
