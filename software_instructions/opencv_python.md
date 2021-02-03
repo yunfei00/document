@@ -174,14 +174,28 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 ```
 
-<h2 id="title4.5">4.5 cv.cvtColor </h2>  
-
-```
-cvtColor(src, code[, dst[, dstCn]]) -> dst
+<h2 id="title4.6">4.6 cv.VideoWriter_fourcc </h2>  
 
 ```
 
 
+```
+
+<h2 id="title4.7">4.7 cv.VideoWriter </h2>  
+
+
+```
+
+
+```
+
+<h2 id="title4.8">4.8 cv.flip </h2>  
+
+
+```
+
+
+```
 
 
 
@@ -189,9 +203,9 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MDA1MjcsLTE3OTkxMDg1NzgsLTE2Nj
-AxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQy
-MzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MT
-IsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEy
-MTA4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMT
+Y2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0
+NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3OD
+QxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3Nywt
+MTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
