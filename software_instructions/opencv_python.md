@@ -155,7 +155,49 @@ cv.destroyAllWindows()
 
 
 <h2 id="title4.2">4.2 Playing Video from file </h2>  
+
+```
+import numpy as np
+import cv2 as cv
+cap = cv.VideoCapture('vtest.avi')
+while cap.isOpened():
+    ret, frame = cap.read()
+    # if frame is read correctly ret is True
+    if not ret:
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+    cv.imshow('frame', gray)
+    if cv.waitKey(1) == ord('q'):
+        break
+cap.release()
+cv.destroyAllWindows()
+```
 <h2 id="title4.3">4.3 Saving a Video </h2>  
+
+```
+import numpy as np
+import cv2 as cv
+cap = cv.VideoCapture(0)
+# Define the codec and create VideoWriter object
+fourcc = cv.VideoWriter_fourcc(*'XVID')
+out = cv.VideoWriter('output.avi', fourcc, 20.0, (640,  480))
+while cap.isOpened():
+    ret, frame = cap.read()
+    if not ret:
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+    frame = cv.flip(frame, 0)
+    # write the flipped frame
+    out.write(frame)
+    cv.imshow('frame', frame)
+    if cv.waitKey(1) == ord('q'):
+        break
+# Release everything if job is finished
+cap.release()
+out.release()
+cv.destroyAllWindows()
+```
 
 <h2 id="title4.4">4.4 cv.VideoCapture </h2>  
 
@@ -188,6 +230,7 @@ convert_image  =  cv2.cvtColor(image,  cv2.COLOR_BGR2HSV)
 ```
 fourcc :four character code
 是一种4字符代码，是一种视频流格式
+cv.VideoWriter_fourcc(*'XVID')
 ```
 
 关于python中 *的更多知识面参考如下:
@@ -221,7 +264,7 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjI2MTExNywtMTY2NTEyMjcwNiwtND
+eyJoaXN0b3J5IjpbMTQ0NDU2NzQxNywtMTY2NTEyMjcwNiwtND
 U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
 Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
 E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
