@@ -34,7 +34,8 @@ para2:cv::ImreadModes
 	cv2.IMREAD_REDUCED_COLOR_2 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/2 17
 	cv2.IMREAD_REDUCED_GRAYSCALE_4 返回灰度格式的图像，并且图像大小减小为原始图像大小的1/4 32
 	cv2.IMREAD_REDUCED_COLOR_4 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/4 33
-	cv2.IMREAD_REDUCED_GRAYSCALE_8 
+	cv2.IMREAD_REDUCED_GRAYSCALE_8 返回灰度格式的图像，并且图像尺寸减小到原始图像尺寸的1/8 64
+	cv2.IMREAD_REDUCED_COLOR_8 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/8 65
 	
 return:This method returns the matrix of pixels which represent the given image. Pixel is nothing but the smallest unit of the image.
 ```
@@ -45,7 +46,7 @@ return:This method returns the matrix of pixels which represent the given image.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTU0MzM0NCwtMTYzODc2MTQ1MSwxOT
-AzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUz
-ODA0XX0=
+eyJoaXN0b3J5IjpbNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MD
+MyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4
+MDRdfQ==
 -->
