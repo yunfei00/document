@@ -29,7 +29,7 @@ pip install opencv-python
 
 <h1 id="title3">3 images </h1>  
 
-Learn to load an image, display it, and save it back
+**Learn to load an image, display it, and save it back**
 
 <h2 id="title3.1">3.1 code </h2>  
 
@@ -123,13 +123,40 @@ findFile(relative_path[, required[, silentMode]])
 
 <h1 id="title4">4 videos </h1>  
 
-Learn to play videos, capture videos from a camera, and write videos
+**Learn to play videos, capture videos from a camera, and write videos**
 
 <h2 id="title4.1">4.1 code </h2>  
 
 ```
+import numpy as np
+import cv2 as cv
+cap = cv.VideoCapture(0)
+if not cap.isOpened():
+    print("Cannot open camera")
+    exit()
+while True:
+    # Capture frame-by-frame
+    ret, frame = cap.read()
+    # if frame is read correctly ret is True
+    if not ret:
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+    # Our operations on the frame come here
+    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+    # Display the resulting frame
+    cv.imshow('frame', gray)
+    if cv.waitKey(1) == ord('q'):
+        break
+# When everything done, release the capture
+cap.release()
+cv.destroyAllWindows()
+```
+<h2 id="title4.2">4.2 cv.VideoCapture </h2>  
 
 ```
+
+```
+
 
 
 
@@ -137,7 +164,7 @@ Learn to play videos, capture videos from a camera, and write videos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIxODc0NzIsLTExNDQyMzkwNTMsLT
+eyJoaXN0b3J5IjpbLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLT
 Y5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3
 NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNz
 YsLTQ5NTU1MzgwNF19
