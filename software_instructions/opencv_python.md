@@ -177,9 +177,13 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 <h2 id="title4.6">4.6 cv.VideoWriter_fourcc </h2>  
 
 ```
-
-
+fourcc :four character code
+是一种4字符代码，是一种视频流格式
 ```
+
+-   在Fedora中：DIVX，XVID，MJPG，X264，WMV1，WMV2。（最好使用XVID。MJPG可以生成大尺寸的视频。X264提供非常小的尺寸的视频）
+-   在Windows中：DIVX（还有待测试和添加）
+-   在OSX中：MJPG（.mp4），DIVX（.avi），X264（.mkv）。
 
 <h2 id="title4.7">4.7 cv.VideoWriter </h2>  
 
@@ -203,9 +207,9 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMT
-Y2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0
-NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3OD
-QxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3Nywt
-MTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC0xNz
+k5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0xNzg5
+MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3NDEzNz
+U1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3MzQs
+MTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4MDRdfQ==
 -->
