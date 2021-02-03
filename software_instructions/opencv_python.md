@@ -174,6 +174,14 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 ```
 
+<h2 id="title4.5">4.5 cv.cvtColor </h2>  
+
+```
+cvtColor(src, code[, dst[, dstCn]]) -> dst
+
+```
+
+
 
 
 
@@ -181,9 +189,9 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLT
-EzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5
-MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3Nj
-E0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYs
-LTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbNzM1MDA1MjcsLTE3OTkxMDg1NzgsLTE2Nj
+AxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQy
+MzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MT
+IsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEy
+MTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
