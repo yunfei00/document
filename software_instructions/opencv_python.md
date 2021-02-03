@@ -30,7 +30,11 @@ para2:cv::ImreadModes
 	cv2.IMREAD_ANYDEPTH  当输入具有相应的深度时，此标志用于返回16位/ 32位图像，否则将其转换为8位 2
 	cv2.IMREAD_ANYCOLOR  返回任何可能的颜色格式的图像 4
 	cv2.IMREAD_LOAD_GDAL 用于gdal驱动程序以加载图像 8
-	cv2.IMREAD_REDUCED_GRAYSCALE_2 
+	cv2.IMREAD_REDUCED_GRAYSCALE_2 返回灰度格式的图像，并且图像尺寸减小为原始图像尺寸的1/2 16
+	cv2.IMREAD_REDUCED_COLOR_2 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/2 17
+	cv2.IMREAD_REDUCED_GRAYSCALE_4 返回灰度格式的图像，并且图像大小减小为原始图像大小的1/4 32
+	cv2.IMREAD_REDUCED_COLOR_4 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/4 33
+	cv2.IMREAD_REDUCED_GRAYSCALE_8 
 	
 return:This method returns the matrix of pixels which represent the given image. Pixel is nothing but the smallest unit of the image.
 ```
@@ -41,7 +45,7 @@ return:This method returns the matrix of pixels which represent the given image.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjI4NDkwMiwtMTYzODc2MTQ1MSwxOT
+eyJoaXN0b3J5IjpbMjAyMTU0MzM0NCwtMTYzODc2MTQ1MSwxOT
 AzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUz
 ODA0XX0=
 -->
