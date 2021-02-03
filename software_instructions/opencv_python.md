@@ -260,14 +260,15 @@ flip(src, flipCode[, dst]) -> dst
  flipping around the x-axis and positive value (for example, 1) means flipping around y-axis. Negative value (for example, -1) means flipping around both axes.
 ```
 
+-   Learn to draw different geometric shapes with OpenCV
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NDE0OTQxLC0xNjY1MTIyNzA2LC00NT
-Y1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMy
-ODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMT
-csLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMs
-LTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mz
-g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
-NzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbLTE3OTA0OTU3ODYsLTE2NjUxMjI3MDYsLT
+Q1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcx
+MzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNT
+AxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1
+MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMT
+YzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgw
+NTE3NiwtNDk1NTUzODA0XX0=
 -->
