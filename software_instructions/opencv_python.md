@@ -37,7 +37,16 @@ para2:cv::ImreadModes
 	cv2.IMREAD_REDUCED_GRAYSCALE_8 返回灰度格式的图像，并且图像尺寸减小到原始图像尺寸的1/8 64
 	cv2.IMREAD_REDUCED_COLOR_8 以BGR颜色格式返回图像，并且图像尺寸减小为原始图像尺寸的1/8 65
 	
-return:This method returns the matrix of pixels which represent the given image. Pixel is nothing but the smallest unit of the image.
+return:This method returns the matrix of pixels which represent the given image. if error,return NULL.
+
+example:
+import cv2
+file = 'starry_night.jpg'
+image = cv2.imread(file)
+image.shape
+(1200, 1920, 3)
+
+
 ```
 
 3. ds 
@@ -46,7 +55,7 @@ return:This method returns the matrix of pixels which represent the given image.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MD
-MyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1MTc2LC00OTU1NTM4
-MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMzYzNjkxNiw2NzA4Nzg0MTIsLTE2Mz
+g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
+NzYsLTQ5NTU1MzgwNF19
 -->
