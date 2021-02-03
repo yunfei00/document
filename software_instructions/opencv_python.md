@@ -17,6 +17,15 @@
 		<h4><ul><a href="#title4.6">4.6 cv.VideoWriter_fourcc</a> </h4>
 		<h4><ul><a href="#title4.7">4.7 cv.VideoWriter </a> </h4>  			
 		<h4><ul><a href="#title4.8">4.8 cv.flip </a> </h4>
+<h3><a href="#title5">5 Drawing Functions</a> </h3>
+		<h4><ul><a href="#title5.1">4.1 Capture Video from Camera </a> </h4>
+		<h4><ul><a href="#title5.2">4.2 Playing Video from file</a> </h4>
+		<h4><ul><a href="#title5.3">4.3 Saving a Video</a> </h4>
+		<h4><ul><a href="#title5.4">4.4 cv.VideoCapture</a> </h4>
+		<h4><ul><a href="#title5.5">4.5 cv.cvtColor</a> </h4>
+		<h4><ul><a href="#title5.6">4.6 cv.VideoWriter_fourcc</a> </h4>
+		<h4><ul><a href="#title5.7">4.7 cv.VideoWriter </a> </h4>  			
+		<h4><ul><a href="#title5.8">4.8 cv.flip </a> </h4>		
 
 		
 <div style="page-break-after:always"></div>
@@ -263,12 +272,13 @@ flip(src, flipCode[, dst]) -> dst
 -   Learn to draw different geometric shapes with OpenCV
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA0OTU3ODYsLTE2NjUxMjI3MDYsLT
-Q1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcx
-MzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNT
-AxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1
-MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMT
-YzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgw
-NTE3NiwtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbMTA0MTkwMzIwMywtMTY2NTEyMjcwNiwtND
+U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
+Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
+E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
+LC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
+M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
+MTc2LC00OTU1NTM4MDRdfQ==
 -->
