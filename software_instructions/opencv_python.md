@@ -194,8 +194,9 @@ fourcc :four character code
 
 [python 参考](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html)
 ```
-<VideoWriter object>=cv.VideoWriter()<VideoWriter object>=cv.VideoWriter(filename, fourcc, fps, frameSize[, isColor])<VideoWriter object>=cv.VideoWriter(filename, apiPreference, fourcc, fps, frameSize[, isColor])
-
+cv.VideoWriter()
+cv.VideoWriter(filename, fourcc, fps, frameSize[, isColor])
+cv.VideoWriter(filename, apiPreference, fourcc, fps, frameSize[, isColor])
 ```
 
 <h2 id="title4.8">4.8 cv.flip </h2>  
@@ -215,11 +216,11 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyODkzNzk0LC00NTY1NjMzMjUsMTk4Mz
-kwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQz
-MTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEzODAxNjM0MD
-AsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MDU1Njc1Miwt
-MTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMz
-IxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1Mzgw
-NF19
+eyJoaXN0b3J5IjpbLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOT
+gzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0
+NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2Mz
+QwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUy
+LC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOT
+AzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUz
+ODA0XX0=
 -->
