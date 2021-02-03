@@ -49,7 +49,7 @@ image.shape
 image = cv2.imread('error_file')
 if image is None:
 	print('None')
-
+None
 ```
 
 3. ds 
@@ -58,7 +58,7 @@ if image is None:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzkzNDIwNSw2NzA4Nzg0MTIsLTE2Mz
-g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
-NzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbNzcwMjY0Mjc3LDY3MDg3ODQxMiwtMTYzOD
+c2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3
+NiwtNDk1NTUzODA0XX0=
 -->
