@@ -21,8 +21,9 @@ pip install opencv-python
 1.  cv.imread
 
 ```
-cv2.imread(path  ,flag)
-para1:
+cv2.imread(filename[,flags])
+para1:filename
+para2:cv::Imrea
 ```
 
 3. ds 
@@ -31,6 +32,6 @@ para1:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0OTA5MDUsMTkwMzIxMjczNCwxOTA0Nz
-MzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMjA0Mjk5NTg0OCwxOTAzMjEyNzM0LDE5MD
+Q3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
