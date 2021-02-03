@@ -190,6 +190,9 @@ fourcc :four character code
 是一种4字符代码，是一种视频流格式
 ```
 
+关于python中 *的更多知识面参考如下:
+[python中*的使用](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558)
+
 <h2 id="title4.7">4.7 cv.VideoWriter </h2>  
 
 [python 参考](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html)
@@ -215,12 +218,14 @@ flip(src, flipCode[, dst]) -> dst
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOT
-gzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0
-NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2Mz
-QwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUy
-LC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1MSwxOT
-AzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUz
-ODA0XX0=
+eyJoaXN0b3J5IjpbMjA4OTY0ODc1NiwtMTY2NTEyMjcwNiwtND
+U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
+Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
+E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
+LC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
+M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
+MTc2LC00OTU1NTM4MDRdfQ==
 -->
