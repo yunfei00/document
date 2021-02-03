@@ -318,7 +318,7 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 ```
 
-<h2 id="title5.5">5.5 cv.ellipse </h2>  
+<h2 id="title5.5">5.5 绘图多边形 </h2>  
 
 要绘制多边形，首先需要顶点的坐标。将这些点设置为ROWSx1x2形状的数组，其中ROWS是顶点数，并且其类型应为int32。
 
@@ -328,6 +328,20 @@ pts = np.array（[[10,5]，[20,30]，[70,20]，[50,10]]，np.int32）
 pts = pts.reshape（（-1,1,2））
 cv.polylines（img，[pts]，True，（0,255,255））
 如果第三个参数为False，您将获得一条连接所有点的折线，而不是闭合形状
+
+```
+
+<h2 id="title5.6">5.6 向图像添加文本 </h2>  
+
+要将文本放入图像中，需要指定以下内容。
+* 您要写入的文字数据
+* 您要放置它的位置坐标（即数据开始的左下角）。
+* 字体类型（检查cv.putText（）文档以获取受支持的字体）
+* 字体比例（指定字体大小）
+* 常规的颜色，厚度，线型等内容。为了获得更好的外观，建议使用线型= cv.LINE_AA。
+```
+font = cv.FONT_HERSHEY_SIMPLEX
+cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 ```
 
@@ -341,11 +355,11 @@ cv.polylines（img，[pts]，True，（0,255,255））
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODYzNTY4Myw4MTY2NDE0OTcsNTEzMj
-k5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMy
-NSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLT
-MzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4
-MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNT
-U2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1
-MSwxOTAzMjEyNzM0XX0=
+eyJoaXN0b3J5IjpbLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMz
+I5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMz
+MjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC
+0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEz
+ODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MD
+U1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0
+NTEsMTkwMzIxMjczNF19
 -->
