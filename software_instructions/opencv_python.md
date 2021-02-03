@@ -124,6 +124,7 @@ findFile(relative_path[, required[, silentMode]])
 <h1 id="title4">4 videos </h1>  
 
 **Learn to play videos, capture videos from a camera, and write videos**
+[参考链接](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html)
 
 <h2 id="title4.1">4.1 Capture Video from Camera </h2>  
 
@@ -180,9 +181,9 @@ cvtColor(src, code[, dst[, dstCn]]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLT
-E3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0
-MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMj
-czNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
-
+eyJoaXN0b3J5IjpbLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLT
+EzODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5
+MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3Nj
+E0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNzYs
+LTQ5NTU1MzgwNF19
 -->
