@@ -20,12 +20,13 @@ pip install opencv-python
 
 1.  cv.imread
 
-2. ds 
+
+3. ds 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMT
-A4MDUxNzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbMTY4MjA0MjIyMSwxOTAzMjEyNzM0LDE5MD
+Q3MzM3NywtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
 -->
