@@ -1,9 +1,9 @@
 # 目录
 <h3><a href="#title1">1 install</a> </h3>
 <h3><a href="#title2">2 help document</a> </h3>
-<h3><a href="#title3">3 opencv学习</a> </h3>
-		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
-		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
+<h3><a href="#title3">3 参考函数</a> </h3>
+		<h4><ul><a href="#title3.1">3.1 cv.imread </a> </h4>
+		<h4><ul><a href="#title3.2">2.2 RIGHT函数</a> </h4>
 		
 <div style="page-break-after:always"></div>
 
@@ -16,7 +16,7 @@ pip install opencv-python
  
 [document](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html)
 
-<h1 id="title3">read,write,show image </h1>  
+<h1 id="title3">3 参考函数 </h1>  
 
 <h2 id="title3.1">3.1 cv.imread </h2>  
 
@@ -65,7 +65,7 @@ image[:,:,3] represents Transparency channel  透明通道
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTgwOTk3OSw2NzA4Nzg0MTIsLTE2Mz
-g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
-NzYsLTQ5NTU1MzgwNF19
+eyJoaXN0b3J5IjpbLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
+M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
+MTc2LC00OTU1NTM4MDRdfQ==
 -->
