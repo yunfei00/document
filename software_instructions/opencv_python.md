@@ -289,7 +289,16 @@ cv.line(img,(0,0),(511,511),(255,0,0),5)
 line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
 thickness:厚度
 ```
-<h2 id="title5.2">5.2 cv.line </h2>  
+<h2 id="title5.2">5.2 cv.rectangle </h2>  
+
+```
+cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
+参数和line类似
+```
+
+
+
+
 
 
 
@@ -297,11 +306,11 @@ thickness:厚度
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzc4Nzc0NSwxNjA5OTkxOTMxLC0xNj
-Y1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3
-OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nz
-gsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgs
-LTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2Nz
-A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
-NzcsLTEyMTA4MDUxNzZdfQ==
+eyJoaXN0b3J5IjpbNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2Nj
+UxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5
+NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OC
+wtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwt
+MTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MD
+g3ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3
+NywtMTIxMDgwNTE3Nl19
 -->
