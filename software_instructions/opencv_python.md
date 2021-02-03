@@ -299,6 +299,8 @@ cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 
 ```
 cv.circle(img,(447,63), 63, (0,0,255), -1)
+circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
+@param thickness 负值，代表填充图形。
 
 ```
 
@@ -311,7 +313,7 @@ cv.circle(img,(447,63), 63, (0,0,255), -1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ5MzA0NjMsNTEzMjk5NTgzLDE2MD
+eyJoaXN0b3J5IjpbLTIwODgzMzI4OTgsNTEzMjk5NTgzLDE2MD
 k5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAw
 OTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNi
 wtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwt
