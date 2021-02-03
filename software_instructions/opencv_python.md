@@ -340,6 +340,8 @@ cv.polylines（img，[pts]，True，（0,255,255））
 * 字体比例（指定字体大小）
 * 常规的颜色，厚度，线型等内容。为了获得更好的外观，建议使用线型= cv.LINE_AA。
 ```
+putText(img, text, org, fontFace, fontScale, color[, thickness[, lineType[, bottomLeftOrigin]]]) -> img
+
 font = cv.FONT_HERSHEY_SIMPLEX
 cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
@@ -355,11 +357,11 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMz
-I5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMz
-MjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC
-0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEz
-ODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MD
-U1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0
-NTEsMTkwMzIxMjczNF19
+eyJoaXN0b3J5IjpbMTc3NjI4ODMwOCwtMjEyNDU5NjExMSw4MT
+Y2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3
+MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLD
+IxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2
+MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0ND
+IzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQx
+MiwtMTYzODc2MTQ1MV19
 -->
