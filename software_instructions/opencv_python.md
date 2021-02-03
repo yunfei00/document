@@ -2,11 +2,12 @@
 <h3><a href="#title1">1 install</a> </h3>
 <h3><a href="#title2">2 help document</a> </h3>
 <h3><a href="#title3">3 images</a> </h3>
-		<h4><ul><a href="#title3.1">3.1 cv.imread </a> </h4>
-		<h4><ul><a href="#title3.2">3.2 cv.imshow</a> </h4>
-		<h4><ul><a href="#title3.3">3.3 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title3.4">3.4 cv.imwrite</a> </h4>
-		<h4><ul><a href="#title3.5">3.5 cv.samples.findFile</a> </h4>
+		<h4><ul><a href="#title3.1">3.1 code </a> </h4>
+		<h4><ul><a href="#title3.2">3.2 cv.imread </a> </h4>
+		<h4><ul><a href="#title3.3">3.3 cv.imshow</a> </h4>
+		<h4><ul><a href="#title3.4">3.4 cv.waitKey</a> </h4>
+		<h4><ul><a href="#title3.5">3.5 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title3.6">3.6 cv.samples.findFile</a> </h4>
 <h3><a href="#title4">4 videos</a> </h3>
 		<h4><ul><a href="#title4.1">3.1 cv.imread </a> </h4>
 		<h4><ul><a href="#title4.2">3.2 cv.imshow</a> </h4>
@@ -28,7 +29,7 @@ pip install opencv-python
 
 <h1 id="title3">3 images </h1>  
 
-load an image, display it, and save it.
+Learn to load an image, display it, and save it back
 
 <h2 id="title3.1">3.1 code </h2>  
 
@@ -43,7 +44,8 @@ k = cv.waitKey(0)
 if k == ord("s"):
     cv.imwrite("starry_night.png", img)
 ```
-<h2 id="title3.1">3.1 cv.imread </h2>  
+
+<h2 id="title3.2">3.2 cv.imread </h2>  
 
 ```
 cv2.imread(filename[,flags])
@@ -84,7 +86,7 @@ image[:,:,2] represents Red channel
 image[:,:,3] represents Transparency channel  透明通道
 ```
 
-<h2 id="title3.2">3.2 cv.imshow </h2>  
+<h2 id="title3.3">3.3 cv.imshow </h2>  
 
 ```
 imshow(winname, mat) -> None
@@ -92,7 +94,7 @@ para1:window name
 para2:matrix image
 打开了一个窗口以显示图像。窗口大小取决于图像的大小。如果窗口大小大于屏幕分辨率，则它将显示图像的缩放版本
 ```
-<h2 id="title3.3">3.3 cv.waitKey</h2>  
+<h2 id="title3.4">3.4 cv.waitKey</h2>  
 
 ```
 waitKey([, delay]) -> retval
@@ -101,7 +103,7 @@ retval:key value
 
 注意：只有在窗口模式下，才起作用。
 ```
-<h2 id="title3.4">3.4 cv.imwrite</h2>  
+<h2 id="title3.5">3.5 cv.imwrite</h2>  
 
 ```
 imwrite(filename, img[, params]) -> retval
@@ -112,7 +114,7 @@ para3:Format-specific parameters encoded as pairs (paramId_1, paramValue_1, para
 retval:It returns either True or False. Return `True` if the image is successfully saved otherwise return `False`.
 ```
 
-<h2 id="title3.5">3.5 cv.samples.findFile </h2>  
+<h2 id="title3.6">3.6 cv.samples.findFile </h2>  
 
 ```
 findFile(relative_path[, required[, silentMode]])
@@ -123,7 +125,11 @@ findFile(relative_path[, required[, silentMode]])
 
 Learn to play videos, capture videos from a camera, and write videos
 
-<h2 id="title4.1">4.1 cv.imread </h2>  
+<h2 id="title4.1">4.1 code </h2>  
+
+```
+
+```
 
 
 
@@ -131,7 +137,7 @@ Learn to play videos, capture videos from a camera, and write videos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc3Njk1ODksLTExNDQyMzkwNTMsLT
+eyJoaXN0b3J5IjpbLTE4MjIxODc0NzIsLTExNDQyMzkwNTMsLT
 Y5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3
 NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNz
 YsLTQ5NTU1MzgwNF19
