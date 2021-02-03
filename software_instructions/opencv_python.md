@@ -307,8 +307,7 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 <h2 id="title5.4">5.4 cv.ellipse </h2>  
 
 ```
-cv.circle(img,(447,63), 63, (0,0,255), -1)
-circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
+ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, lineType[, shift]]]) -> img
 @param thickness 负值，代表填充图形。
 
 ```
@@ -322,7 +321,7 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzIzNzYyNyw1MTMyOTk1ODMsMTYwOT
+eyJoaXN0b3J5IjpbLTc0MDUzOTY4Niw1MTMyOTk1ODMsMTYwOT
 k5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5
 NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC
 0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0x
