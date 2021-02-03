@@ -323,11 +323,9 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 要绘制多边形，首先需要顶点的坐标。将这些点设置为ROWSx1x2形状的数组，其中ROWS是顶点数，并且其类型应为int32。
 
 ```
-要绘制椭圆，我们需要传递几个参数。一个参数是中心位置（x，y）。下一个参数是轴长度（长轴长度，短轴长度）。angle是椭圆沿逆时针方向旋转的角度。startAngle和endAngle表示从主轴沿顺时针方向测量的椭圆弧的起点和终点
-cv.ellipse（img，（256,256），（100,50），0,0,180,255，-1）
-cv.ellipse（img，（256,256），（100,50），0,0,180,(0,255,0)，-1）
-ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, lineType[, shift]]]) -> img
-@param thickness 负值，代表填充图形。
+polylines(img, pts, isClosed, color[, thickness[, lineType[, shift]]]) -> img
+
+如果第三个参数为False，您将获得一条连接所有点的折线，而不是闭合形状
 
 ```
 
@@ -341,11 +339,11 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEzMjI2MjYsODE2NjQxNDk3LDUxMz
-I5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMz
-MjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC
-0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEz
-ODAxNjM0MDAsLTE3ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MD
-U1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0
-NTEsMTkwMzIxMjczNF19
+eyJoaXN0b3J5IjpbLTkwNDYzMTIxNyw4MTY2NDE0OTcsNTEzMj
+k5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMy
+NSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLT
+MzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4
+MDE2MzQwMCwtMTc4OTMxNzc1OCwtMTE0NDIzOTA1MywtNjkwNT
+U2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2MTQ1
+MSwxOTAzMjEyNzM0XX0=
 -->
