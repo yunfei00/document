@@ -230,7 +230,8 @@ convert_image  =  cv2.cvtColor(image,  cv2.COLOR_BGR2HSV)
 ```
 fourcc :four character code
 是一种4字符代码，是一种视频流格式
-cv.VideoWriter_fourcc(*'XVID')
+cv.VideoWriter_fourcc(*'XVID') 
+相当于cv.VideoWriter_fourcc('X','V','I','D') ,其中*号相当于是一个解包器
 ```
 
 关于python中 *的更多知识面参考如下:
@@ -264,7 +265,7 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDU2NzQxNywtMTY2NTEyMjcwNiwtND
+eyJoaXN0b3J5IjpbLTc2NjEzMjI2NCwtMTY2NTEyMjcwNiwtND
 U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
 Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
 E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
