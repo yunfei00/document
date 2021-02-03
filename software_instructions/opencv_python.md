@@ -191,7 +191,7 @@ fourcc :four character code
 ```
 
 关于python中 *的更多知识面参考如下:
-[python中*的使用](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558)
+[python中*号的使用](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558)
 
 <h2 id="title4.7">4.7 cv.VideoWriter </h2>  
 
@@ -221,7 +221,7 @@ flip(src, flipCode[, dst]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTY0ODc1NiwtMTY2NTEyMjcwNiwtND
+eyJoaXN0b3J5IjpbMjEyNjI2MTExNywtMTY2NTEyMjcwNiwtND
 U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
 Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
 E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
