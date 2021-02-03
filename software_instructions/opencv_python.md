@@ -58,6 +58,10 @@ image[:,:,1] represents Green channel
 image[:,:,2] represents Red channel  
 image[:,:,3] represents Transparency channel  透明通道
 ```
+
+<h2 id="title3.2">3.2 cv.imshow </h2>  
+
+
 <h2 id="title3.X">3.X cv.samples.findFile </h2>  
 
 ```
@@ -72,7 +76,7 @@ findFile(relative_path[, required[, silentMode]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTY2NjUxNiwtMTc0MTM3NTU4MCw2Nz
+eyJoaXN0b3J5IjpbMTg1NDEyNTA3MywtMTc0MTM3NTU4MCw2Nz
 A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
 NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
