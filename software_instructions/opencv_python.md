@@ -276,14 +276,25 @@ flip(src, flipCode[, dst]) -> dst
 * You will learn these functions : cv.line(), cv.circle() , cv.rectangle(), cv.ellipse(), cv.putText() etc.
 [参考链接](https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html)
 
-<h2 id="title5.1">5.1 line </h2>  
-```
+<h2 id="title5.1">5.1 cv.line </h2>  
 
 ```
+import numpy as np
+import cv2 as cv
+# Create a black image
+img = np.zeros((512,512,3), np.uint8)
+# Draw a diagonal blue line with thickness of 5 px
+cv.line(img,(0,0),(511,511),(255,0,0),5)
+
+line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
+thickness:厚度
+```
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTk4NzgyNSwxNjA5OTkxOTMxLC0xNj
+eyJoaXN0b3J5IjpbLTQ0NzI3MjAxNSwxNjA5OTkxOTMxLC0xNj
 Y1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3
 OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nz
 gsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgs
