@@ -58,14 +58,18 @@ image[:,:,1] represents Green channel
 image[:,:,2] represents Red channel  
 image[:,:,3] represents Transparency channel  透明通道
 ```
+<h2 id="title3.X">3.X cv.samples.findFile </h2>  
 
-2. 
+```
+
+```
+[cv.samples.findFile("starry_night.jpg")
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
-M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
-MTc2LC00OTU1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbMTM5ODg1NzYxMiwtMTc0MTM3NTU4MCw2Nz
+A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
+NzcsLTEyMTA4MDUxNzYsLTQ5NTU1MzgwNF19
 -->
