@@ -30,6 +30,19 @@ pip install opencv-python
 
 load an image, display it, and save it.
 
+<h2 id="title3.1">3.1 code </h2>  
+
+```
+import cv2 as cv
+import sys
+img = cv.imread(cv.samples.findFile("starry_night.jpg"))
+if img is None:
+    sys.exit("Could not read the image.")
+cv.imshow("Display window", img)
+k = cv.waitKey(0)
+if k == ord("s"):
+    cv.imwrite("starry_night.png", img)
+```
 <h2 id="title3.1">3.1 cv.imread </h2>  
 
 ```
@@ -118,8 +131,8 @@ Learn to play videos, capture videos from a camera, and write videos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTg3MTg1OSwtMTE0NDIzOTA1MywtNj
-kwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3ODQxMiwtMTYzODc2
-MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3NywtMTIxMDgwNTE3Ni
-wtNDk1NTUzODA0XX0=
+eyJoaXN0b3J5IjpbLTE5MDc3Njk1ODksLTExNDQyMzkwNTMsLT
+Y5MDU1Njc1MiwtMTc0MTM3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3
+NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUxNz
+YsLTQ5NTU1MzgwNF19
 -->
