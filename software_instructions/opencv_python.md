@@ -288,10 +288,12 @@ cv.line(img,(0,0),(511,511),(255,0,0),5)
 
 line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
 thickness:厚度
+要绘制一条直线，您需要传递直线的起点和终点。
 ```
 <h2 id="title5.2">5.2 cv.rectangle </h2>  
 
 ```
+要绘制矩形，您需要矩形的左上角和右下角
 cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 参数和line类似
 ```
@@ -308,6 +310,7 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 <h2 id="title5.4">5.4 cv.ellipse </h2>  
 
 ```
+要绘制椭圆，我们需要传递几个参数。一个参数是中心位置（x，y）。下一个参数是轴长度（长轴长度，短轴长度）。angle是椭圆沿逆时针方向旋转的角度。startAngle和endAngle表示从主轴沿顺时针方向测量的椭圆弧的起点和终点
 ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, lineType[, shift]]]) -> img
 @param thickness 负值，代表填充图形。
 
@@ -322,11 +325,11 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mjg5ODE4LDUxMzI5OTU4MywxNjA5OT
-kxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0
-MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLT
-E3OTkxMDg1NzgsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3
-ODkzMTc3NTgsLTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MT
-M3NTU4MCw2NzA4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjcz
-NCwxOTA0NzMzNzddfQ==
+eyJoaXN0b3J5IjpbMjEwMzU0MzcyNyw1MTMyOTk1ODMsMTYwOT
+k5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5
+NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC
+0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAwLC0x
+Nzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3NTIsLTE3ND
+EzNzU1ODAsNjcwODc4NDEyLC0xNjM4NzYxNDUxLDE5MDMyMTI3
+MzQsMTkwNDczMzc3XX0=
 -->
