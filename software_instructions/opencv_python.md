@@ -159,6 +159,13 @@ cv.destroyAllWindows()
 <h2 id="title4.4">4.4 cv.VideoCapture </h2>  
 
 ```
+class VideoCapture(builtins.object)
+cv2.VideoCapture(video_path or  device index  )
+
+
+```
+
+```
 
 ```
 
@@ -169,7 +176,7 @@ cv.destroyAllWindows()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mjc4Nzc0MCwtMTc4OTMxNzc1OCwtMT
+eyJoaXN0b3J5IjpbLTI3OTI2NTc5MCwtMTc4OTMxNzc1OCwtMT
 E0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1NTgwLDY3MDg3
 ODQxMiwtMTYzODc2MTQ1MSwxOTAzMjEyNzM0LDE5MDQ3MzM3Ny
 wtMTIxMDgwNTE3NiwtNDk1NTUzODA0XX0=
