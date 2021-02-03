@@ -46,6 +46,9 @@ image = cv2.imread(file)
 image.shape
 (1200, 1920, 3)
 
+image = cv2.imread('error_file')
+if image is None:
+	print('None')
 
 ```
 
@@ -55,7 +58,7 @@ image.shape
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYzNjkxNiw2NzA4Nzg0MTIsLTE2Mz
+eyJoaXN0b3J5IjpbMTk2MzkzNDIwNSw2NzA4Nzg0MTIsLTE2Mz
 g3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMzNzcsLTEyMTA4MDUx
 NzYsLTQ5NTU1MzgwNF19
 -->
