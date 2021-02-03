@@ -276,15 +276,18 @@ flip(src, flipCode[, dst]) -> dst
 * You will learn these functions : cv.line(), cv.circle() , cv.rectangle(), cv.ellipse(), cv.putText() etc.
 [参考链接](https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html)
 
-<h2 id="title5.1">5.1 Capture Video from Camera </h2>  
+<h2 id="title5.1">5.1 line </h2>  
+```
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtND
-U2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEz
-Mjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MD
-E3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUz
-LC02OTA1NTY3NTIsLTE3NDEzNzU1ODAsNjcwODc4NDEyLC0xNj
-M4NzYxNDUxLDE5MDMyMTI3MzQsMTkwNDczMzc3LC0xMjEwODA1
-MTc2LC00OTU1NTM4MDRdfQ==
+eyJoaXN0b3J5IjpbMTkyNTk4NzgyNSwxNjA5OTkxOTMxLC0xNj
+Y1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3
+OTUxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nz
+gsLTE2NjAxMjUwMTcsLTEzODAxNjM0MDAsLTE3ODkzMTc3NTgs
+LTExNDQyMzkwNTMsLTY5MDU1Njc1MiwtMTc0MTM3NTU4MCw2Nz
+A4Nzg0MTIsLTE2Mzg3NjE0NTEsMTkwMzIxMjczNCwxOTA0NzMz
+NzcsLTEyMTA4MDUxNzZdfQ==
 -->
