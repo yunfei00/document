@@ -662,10 +662,14 @@ opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
 <h2 id="title9.2">9.2 图像融合 </h2>  
 图像融合也是也是图像加法，但是对图像赋予不同的权重，以使其具有融合或透明的感觉。
 
+```
+融合公式：
+g(x)=(1−α)f0(x)+αf1(x)
+```
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQzMjkzNjQsLTY2NTg1NjgwNSwxNj
+eyJoaXN0b3J5IjpbLTE3ODkzNzExMzksLTY2NTg1NjgwNSwxNj
 M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
 NTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LD
 E1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3
