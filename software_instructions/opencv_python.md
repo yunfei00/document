@@ -566,14 +566,15 @@ src：要处理的原图
 top, bottom, left, right：上下左右要扩展的像素数
 borderType：边框类型，这个就是需要关注的填充方式
 	其中默认方式和固定值方式最常用，我们详细说明一下
-	固定值填充:
-	
+	固定值填充:(统一都填充0也称为zero padding)   
+	img2 = cv2.copyMakeBorder(img, 1, 1, 1, 1, cv2.BORDER_CONSTANT, value=0)
+	默认边框类型
 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUwMjEzMDUsNzE1NDYzODkxLC0xMz
+eyJoaXN0b3J5IjpbLTE2MTkyNzcwMDcsNzE1NDYzODkxLC0xMz
 cxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1
 MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLD
 EzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYy
