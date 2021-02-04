@@ -668,18 +668,24 @@ add(src1, src2[, dst[, mask[, dtype]]]) -> dst
 融合公式：（下标无法表示，所以看起来是这样的）
 g(x)=(1−α)f0(x)+αf1(x)
 
-
 addWeighted(src1, alpha, src2, beta, gamma[, dst[, dtype]]) -> dst
+dst = src1*alpha + src2*beta + gamma
 
+img1 = cv.imread('ml.png')
+img2 = cv.imread('opencv-logo.png')
+dst = cv.addWeighted(img1,0.7,img2,0.3,0)
+cv.imshow('dst',dst)
+cv.waitKey(0)
+cv.destroyAllWindows()
 ```
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzQzMjUyLDQ4NDg4NTU0OCwtNjY1OD
-U2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5NzU1
-LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMz
-ExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1ODE4
-MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4OTA5LD
-E3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMzI5
-OTU4M119
+eyJoaXN0b3J5IjpbNTQxNzMzOTksNDg0ODg1NTQ4LC02NjU4NT
+Y4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUs
+LTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMT
+EzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgz
+OSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIxODg5MDksMT
+c3NjI4ODMwOCwtMjEyNDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5
+NTgzXX0=
 -->
