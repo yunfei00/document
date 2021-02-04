@@ -24,9 +24,9 @@
 		<h4><ul><a href="#title5.4">5.4 cv.ellipse</a> </h4>
 		<h4><ul><a href="#title5.5">5.5 绘图多边形</a> </h4>
 		<h4><ul><a href="#title5.6">5.6 向图像添加文本</a> </h4>
-	<h3><a href="#title5">5 Drawing Functions</a> </h3>
-		<h4><ul><a href="#title5.1">5.1 cv.line </a> </h4>
-		<h4><ul><a href="#title5.2">5.2 cv.rectangle</a> </h4>
+	<h3><a href="#title6">6 Mouse as a Paint-Brush</a> </h3>
+		<h4><ul><a href="#title6.1">5.1 cv.line </a> </h4>
+		<h4><ul><a href="#title6.2">5.2 cv.rectangle</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -348,6 +348,20 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 ```
 
+<h1 id="title6">6 y </h1>  
+
+要将文本放入图像中，需要指定以下内容。
+* 您要写入的文字数据
+* 您要放置它的位置坐标（即数据开始的左下角）。
+* 字体类型（检查cv.putText（）文档以获取受支持的字体）
+* 字体比例（指定字体大小）
+* 常规的颜色，厚度，线型等内容。为了获得更好的外观，建议使用线型= cv.LINE_AA。
+```
+putText(img, text, org, fontFace, fontScale, color[, thickness[, lineType[, bottomLeftOrigin]]]) -> img
+
+font = cv.FONT_HERSHEY_SIMPLEX
+cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
+
 
 
 
@@ -358,7 +372,7 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjY0MjAyMiwtMTk2MjE4ODkwOSwxNz
+eyJoaXN0b3J5IjpbMTE3MDkwMTA4NCwtMTk2MjE4ODkwOSwxNz
 c2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1
 ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LD
 E5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMx
