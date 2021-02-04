@@ -575,7 +575,14 @@ borderType：边框类型，这个就是需要关注的填充方式
 ```
 <h2 id="title8.3">8.3 Image ROI </h2>  
 
-使用Numpy索引次获得ROI(**region of interest**,ji)。在这里，我要选择球并将其复制到图像中的另一个区域：
+使用Numpy索引次获得ROI(**region of interest**,即感兴趣的区域)。
+比如你搜索眼睛，只需要在脸部区域，缩小了搜索范围，就可以提高效率。
+在这里，我要选择球并将其复制到图像中的另一个区域：
+
+```
+ball = img[280:340, 330:390]
+img[273:333, 100:160] = ball
+```
 
 <h2 id="title8.3">8.2 其他 </h2>  
 
@@ -600,7 +607,7 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTk1ODc2OCwxNjM3NjkxMDE5LDcxNT
+eyJoaXN0b3J5IjpbMTU1MTQ3MTgzMSwxNjM3NjkxMDE5LDcxNT
 Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
 MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
 Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
