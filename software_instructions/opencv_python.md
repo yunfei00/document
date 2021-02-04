@@ -536,17 +536,38 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 [参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
 
-<h2 id="title8.1">8.1 调色板程序 </h2>  
+<h2 id="title8.1">8.1 设置图像边框 </h2>  
 
+```
+import cv2 as cv
+import numpy as np
+from matplotlib import pyplot as plt
+BLUE = [255,0,0]
+img1 = cv.imread('opencv-logo.png')
+replicate = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REPLICATE)
+reflect = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REFLECT)
+reflect101 = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_REFLECT_101)
+wrap = cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_WRAP)
+constant= cv.copyMakeBorder(img1,10,10,10,10,cv.BORDER_CONSTANT,value=BLUE)
+plt.subplot(231),plt.imshow(img1,'gray'),plt.title('ORIGINAL')
+plt.subplot(232),plt.imshow(replicate,'gray'),plt.title('REPLICATE')
+plt.subplot(233),plt.imshow(reflect,'gray'),plt.title('REFLECT')
+plt.subplot(234),plt.imshow(reflect101,'gray'),plt.title('REFLECT_101')
+plt.subplot(235),plt.imshow(wrap,'gray'),plt.title('WRAP')
+plt.subplot(236),plt.imshow(constant,'gray'),plt.title('CONSTANT')
+plt.show()
+```
+<h2 id="title8.1">8.2 设置图像边框 </h2>  
+cv.copyMakeBorder
 copyMakeBorder(src, top, bottom, left, right, borderType[, dst[, value]]) -> dst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMTgwOTg2LC05MDI3NjI1ODksMTEzMz
-A5OTkwNSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1
-NiwxNjc0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMz
-UxMDI1MTA0LC0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1
-OTYxMTEsODE2NjQxNDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC
-0xNjY1MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAw
-Mjc3OTUxMV19
+eyJoaXN0b3J5IjpbMTk1MTIzNzAyNiwtOTAyNzYyNTg5LDExMz
+MwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0
+NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMT
+M1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0
+NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMS
+wtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5NDEsLTIw
+MDI3Nzk1MTFdfQ==
 -->
