@@ -583,11 +583,21 @@ img.item(10,10,2)
 像素值设置：
 img.itemset((10,10,2),100)
 
-形状
+形状：
+print(img.shape)
+(342, 548, 3)
+
+大小:
+print(img.size)
+562248
+
+数据类型:
+print( img.dtype )
+uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDk0NzA2OSw3MTU0NjM4OTEsLTEzNz
+eyJoaXN0b3J5IjpbMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNz
 ExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUy
 NSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMT
 MwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIx
