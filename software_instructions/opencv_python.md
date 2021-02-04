@@ -572,6 +572,19 @@ borderType：边框类型，这个就是需要关注的填充方式
 	default = cv2.copyMakeBorder(img, 1, 1, 1, 1, cv2.BORDER_DEFAULT)
 	一般情况下默认方式更加合理，因为边界的像素值更加接近，当然应视场合而定。
 具体的填充，在后面使用的时候，再进一步研究。
+
+
+如果要在图像周围创建边框（如相框），则可以使用cv.copyMakeBorder（）。但是它在卷积运算，零填充等方面有更多应用。此函数采用以下参数：
+
+src-输入图像
+顶部，底部，左侧，右侧边界的宽度，以相应方向上的像素数为单位
+borderType-定义要添加哪种边框的标志。它可以是以下类型：
+cv.BORDER_CONSTANT-添加恒定的彩色边框。该值应作为下一个参数给出。
+cv.BORDER_REFLECT-边框将是边框元素的镜像，如下所示： fedcba | abcdefgh | hgfedcb
+cv.BORDER_REFLECT_101或cv.BORDER_DEFAULT-与上述相同，但略有变化，例如： gfedcb | abcdefgh | gfedcba
+cv.BORDER_REPLICATE-最后一个元素被复制，像这样： aaaaaa | abcdefgh | hhhhhhh
+cv.BORDER_WRAP-无法解释，它看起来像这样： cdefgh | abcdefgh | abcdefg
+value-边框颜色，如果边框类型为cv.BORDER_CONSTANT
 ```
 <h2 id="title8.3">8.3 Image ROI </h2>  
 
@@ -621,11 +634,11 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA5MzczMywxNjM3NjkxMDE5LDcxNT
-Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
-MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
-Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
-NTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MT
-ExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2
-NTEyMjcwNl19
+eyJoaXN0b3J5IjpbMzMxMDE4MjUxLDE2Mzc2OTEwMTksNzE1ND
+YzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkw
+NSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
+c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
+MTA0LC0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMT
+EsODE2NjQxNDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1
+MTIyNzA2XX0=
 -->
