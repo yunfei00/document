@@ -586,7 +586,10 @@ img[273:333, 100:160] = ball
 
 <h2 id="title8.4">8.4 分割和合并图像通道 </h2>  
 
+有时您需要在图像的B，G，R通道上单独工作。在这种情况下，您需要将BGR图像拆分为单个通道。在其他情况下，您可能需要加入这些单独的渠道来创建BGR图像。您可以通过以下方式简单地做到这一点：
+```
 
+```
 <h2 id="title8.5">8.5 其他 </h2>  
 
 ```
@@ -610,7 +613,7 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ0ODIzMywxNjM3NjkxMDE5LDcxNT
+eyJoaXN0b3J5IjpbMTcyMDIyMjQxNywxNjM3NjkxMDE5LDcxNT
 Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
 MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
 Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
