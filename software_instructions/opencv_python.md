@@ -32,6 +32,12 @@
 		<h4><ul><a href="#title7.1">7.1 调色板程序 </a> </h4>
 		<h4><ul><a href="#title7.2">7.2 cv.createTrackbar </a> </h4>
 		<h4><ul><a href="#title7.3">7.3 cv.getTrackbarPos </a> </h4>
+	<h3><a href="#title8">8 图像的基本操作</a> </h3>
+		<h4><ul><a href="#title8.1">8.1 设置图像边框（边框填充） </a> </h4>
+		<h4><ul><a href="#title8.2">7.2 cv.createTrackbar </a> </h4>
+		<h4><ul><a href="#title8.3">7.3 cv.getTrackbarPos </a> </h4>
+		<h4><ul><a href="#title8.4">7.3 cv.getTrackbarPos </a> </h4>
+		<h4><ul><a href="#title8.5">7.3 cv.getTrackbarPos </a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -634,11 +640,11 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxMDE4MjUxLDE2Mzc2OTEwMTksNzE1ND
-YzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkw
-NSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
-c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
-MTA0LC0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMT
-EsODE2NjQxNDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1
-MTIyNzA2XX0=
+eyJoaXN0b3J5IjpbMTE0ODM0NjY5OSwxNjM3NjkxMDE5LDcxNT
+Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
+MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
+Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
+NTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MT
+ExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2
+NTEyMjcwNl19
 -->
