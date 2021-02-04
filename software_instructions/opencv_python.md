@@ -459,13 +459,19 @@ while(1):
 cv.destroyAllWindows()            
 ```
 
-轨迹栏作为调色板
+<h1 id="title6">7 轨迹栏作为调色板 </h1>  
+
+[参考链接](https://docs.opencv.org/master/d9/dc8/tutorial_py_trackbar.html)
+
+<h2 id="title6.1">6.1 显示所有鼠标事件 </h2>  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTczMzkyMSwxNjc0MTU2NDQxLDEzMD
-g1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4
-OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LD
-UxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1
-NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyOD
-U3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcs
-LTEzODAxNjM0MDBdfQ==
+eyJoaXN0b3J5IjpbLTE2MjY5ODI1ODMsMTY3NDE1NjQ0MSwxMz
+A4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4
+ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Ny
+w1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2
+NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMj
+g1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3
+LC0xMzgwMTYzNDAwXX0=
 -->
