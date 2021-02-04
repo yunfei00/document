@@ -658,6 +658,8 @@ opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
 [[255]]
 >>> print( x+y )          # 250+10 = 260 % 256 = 4
 [4]
+
+add(src1, src2[, dst[, mask[, dtype]]]) -> dst
 ```
 <h2 id="title9.2">9.2 图像融合 </h2>  
 图像融合也是也是图像加法，但是对图像赋予不同的权重，以使其具有融合或透明的感觉。
@@ -666,15 +668,18 @@ opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
 融合公式：（下标无法表示，所以看起来是这样的）
 g(x)=(1−α)f0(x)+αf1(x)
 
+
+addWeighted(src1, alpha, src2, beta, gamma[, dst[, dtype]]) -> dst
+
 ```
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNz
-Y5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4
-OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNT
-I0MjE2NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4
-OTYyLDEzNTEwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOC
-wtMjEyNDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5
-OTE5MzFdfQ==
+eyJoaXN0b3J5IjpbMTg3NzQzMjUyLDQ4NDg4NTU0OCwtNjY1OD
+U2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5NzU1
+LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMz
+ExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1ODE4
+MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4OTA5LD
+E3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMzI5
+OTU4M119
 -->
