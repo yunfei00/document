@@ -366,9 +366,26 @@ print( events )
 
 <h2 id="title6.1">6.2 鼠标画圆 </h2> 
 
+```
+import numpy as np
+import cv2 as cv
+# mouse callback function
+def draw_circle(event,x,y,flags,param):
+    if event == cv.EVENT_LBUTTONDBLCLK:
+        cv.circle(img,(x,y),100,(255,0,0),-1)
+# Create a black image, a window and bind the function to window
+img = np.zeros((512,512,3), np.uint8)
+cv.namedWindow('image')
+cv.setMouseCallback('image',draw_circle)
+while(1):
+    cv.imshow('image',img)
+    if cv.waitKey(20) & 0xFF == 27:
+        break
+cv.destroyAllWindows()
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDUwNjA5MiwxMzUxMDI1MTA0LC0xOT
+eyJoaXN0b3J5IjpbLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOT
 YyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQx
 NDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC
 00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3
