@@ -646,13 +646,13 @@ uint8
 
 [参考链接](https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html)
 
-<h2 id="title9.1">8.1 设置图像边框（边框填充） </h2>  
+<h2 id="title9.1">9.1 设置图像边框（边框填充） </h2>  
 
 
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTk5MDcxNiwxNjM3NjkxMDE5LDcxNT
+eyJoaXN0b3J5IjpbLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNT
 Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
 MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
 Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
