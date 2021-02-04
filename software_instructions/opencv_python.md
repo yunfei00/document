@@ -647,17 +647,27 @@ uint8
 [参考链接](https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html)
 
 <h2 id="title9.1">9.1 图像加法 </h2>  
-opencv的 cv.add()和
+opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
+但是有区别，opencv是按照饱和度计算，numpy是按照取模计算，cv.add更加合理。
+
+```
+>>> x = np.uint8([250])
+>>> y = np.uint8([10])
+>>> print( cv.add(x,y) ) # 250+10 = 260 => 255
+[[255]]
+>>> print( x+y )          # 250+10 = 260 % 256 = 4
+[4]
+```
 
 
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjc2MjIzLC02NjU4NTY4MDUsMTYzNz
-Y5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4
-OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNT
-I0MjE2NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4
-OTYyLDEzNTEwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOC
-wtMjEyNDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5
-OTE5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ5Mzk4NTQsLTY2NTg1NjgwNSwxNj
+M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
+NTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LD
+E1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3
+Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4Mz
+A4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYw
+OTk5MTkzMV19
 -->
