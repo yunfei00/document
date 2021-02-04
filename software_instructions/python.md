@@ -50,8 +50,16 @@ Step 2: Install Supporting Software
 ```
 sudo apt install software-properties-common
 ```
-
+Step 3: Add Deadsnakes PPA
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+```
+Step 4: Install Python 3
+```
+sudo apt install python3.8
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDI0NTc1NSwxMTc2NTEzNjEyLDEyOT
+eyJoaXN0b3J5IjpbLTkwMTMxOTE2MywxMTc2NTEzNjEyLDEyOT
 c5NDI2LDEzOTY0Mjk1NjUsLTIwMDYyNzY5MzddfQ==
 -->
