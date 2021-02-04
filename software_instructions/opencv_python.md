@@ -523,14 +523,29 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 
 
+<h1 id="title8">8 图像的基本操作 </h1>  
+
+学习读取和编辑像素值，以及如何使用图像ROI和其他基本操作。
+
+**目标**
+学会：
+-   访问像素值并对其进行修改
+-   访问图像属性
+-   设置感兴趣区域（ROI）
+-   分割并合并图像
+
+[参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
+
+<h2 id="title8.1">7.1 调色板程序 </h2>  
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMz
-ExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1ODE4
-MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4OTA5LD
-E3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMzI5
-OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMzMj
-UsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC0z
-MzEwNDQzMTZdfQ==
+eyJoaXN0b3J5IjpbMTIxOTMxMzMyLDExMzMwOTk5MDUsNTE0MT
+QzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1NjQ0
+MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAyNTEwNCwtMT
+k2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0
+MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNi
+wtNDU2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEy
+NzEzMjg1N119
 -->
