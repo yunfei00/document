@@ -640,26 +640,23 @@ uint8
 ```
 <h1 id="title9">9 图像算术运算 </h1>  
 
-学习读取和编辑像素值，以及如何使用图像ROI和其他基本操作。
+**目标**
+- 学习图像的几种算术运算，例如加法，减法，按位运算等。
+- 了解以下功能：cv.add(), cv.addWeighted()等。
 
+[参考链接](https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html)
 
-目标
-学习图像的几种算术运算，例如加法，减法，按位运算等。
-了解以下功能：cv.add(), cv.addWeighted()等。
-
-[参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
-
-<h2 id="title8.1">8.1 设置图像边框（边框填充） </h2>  
+<h2 id="title9.1">8.1 设置图像边框（边框填充） </h2>  
 
 
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE3MzMyMTgsMTYzNzY5MTAxOSw3MT
-U0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5
-OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LD
-E2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEw
-MjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5Nj
-ExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2
-NjUxMjI3MDZdfQ==
+eyJoaXN0b3J5IjpbMTE0MTk5MDcxNiwxNjM3NjkxMDE5LDcxNT
+Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
+MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
+Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
+NTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MT
+ExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2
+NTEyMjcwNl19
 -->
