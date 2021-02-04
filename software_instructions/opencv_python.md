@@ -592,8 +592,12 @@ b,g,r = cv.split(img)
 img = cv.merge((b,g,r))
 or
 b = img[:,:,0]
+假设您要将所有红色像素都设置为零-您不需要先拆分通道。numpy索引更快：
 img[:,:,2] = 0
+
 ```
+**警告**
+cv.split（）是一项昂贵的操作（就时间而言）。因此，仅在必要时使用它。否则请进行Numpy索引。
 <h2 id="title8.5">8.5 其他 </h2>  
 
 ```
@@ -617,11 +621,11 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIyNDI5MjMsMTYzNzY5MTAxOSw3MT
-U0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5
-OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LD
-E2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEw
-MjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5Nj
-ExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2
-NjUxMjI3MDZdfQ==
+eyJoaXN0b3J5IjpbLTIwODA5MzczMywxNjM3NjkxMDE5LDcxNT
+Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
+MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
+Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
+NTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MT
+ExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2
+NTEyMjcwNl19
 -->
