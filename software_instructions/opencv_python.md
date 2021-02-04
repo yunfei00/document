@@ -467,15 +467,52 @@ cv.destroyAllWindows()
 
 [参考链接](https://docs.opencv.org/master/d9/dc8/tutorial_py_trackbar.html)
 
-<h2 id="title7.1">7.1 显示所有鼠标事件 </h2>  
+<h2 id="title7.1">7.1 调色板程序 </h2>  
+
+```
+import numpy as np
+import cv2 as cv
+def nothing(x):
+    pass
+# Create a black image, a window
+img = np.zeros((300,512,3), np.uint8)
+cv.namedWindow('image')
+# create trackbars for color change
+cv.createTrackbar('R','image',0,255,nothing)
+cv.createTrackbar('G','image',0,255,nothing)
+cv.createTrackbar('B','image',0,255,nothing)
+# create switch for ON/OFF functionality
+switch = '0 : OFF \n1 : ON'
+cv.createTrackbar(switch, 'image',0,1,nothing)
+while(1):
+    cv.imshow('image',img)
+    k = cv.waitKey(1) & 0xFF
+    if k == 27:
+        break
+    # get current positions of four trackbars
+    r = cv.getTrackbarPos('R','image')
+    g = cv.getTrackbarPos('G','image')
+    b = cv.getTrackbarPos('B','image')
+    s = cv.getTrackbarPos(switch,'image')
+    if s == 0:
+        img[:] = 0
+    else:
+        img[:] = [b,g,r]
+cv.destroyAllWindows()
+```
+
+<h2 id="title7.2">7.2 cv.createTrackbar </h2>  
+<h2 id="title7.2">7.2 cv.createTrackbar </h2>  
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMD
-g1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4
-OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LD
-UxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1
-NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyOD
-U3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcs
-LTEzODAxNjM0MDBdfQ==
+eyJoaXN0b3J5IjpbMTg2Mzc2MTQzMiwxNTI0MjE2NDU2LDE2Nz
+QxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUx
+MDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMS
+w4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUx
+MjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NT
+ExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwt
+MTY2MDEyNTAxN119
 -->
