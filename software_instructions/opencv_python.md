@@ -502,17 +502,25 @@ cv.destroyAllWindows()
 ```
 
 <h2 id="title7.2">7.2 cv.createTrackbar </h2>  
-<h2 id="title7.2">7.2 cv.createTrackbar </h2>  
 
+```
+createTrackbar(trackbarName, windowName, value, count, onChange) -> None
+
+```
+<h2 id="title7.3">7.3 cv.getTrackbarPos </h2>  
+
+```
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mzc2MTQzMiwxNTI0MjE2NDU2LDE2Nz
-QxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUx
-MDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMS
-w4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUx
-MjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NT
-ExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwt
-MTY2MDEyNTAxN119
+eyJoaXN0b3J5IjpbLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
+c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
+MTA0LC0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMT
+EsODE2NjQxNDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1
+MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OT
+UxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nzgs
+LTE2NjAxMjUwMTddfQ==
 -->
