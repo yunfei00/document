@@ -638,11 +638,26 @@ print(img.size)
 print( img.dtype )
 uint8
 ```
+<h1 id="title8">8算术运算对图像 </h1>  
 
-算术运算对图像
+学习读取和编辑像素值，以及如何使用图像ROI和其他基本操作。
+
+**目标**
+学会：
+-   访问像素值并对其进行修改
+-   访问图像属性
+-   设置感兴趣区域（ROI）
+-   分割并合并图像
+
+[参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
+
+<h2 id="title8.1">8.1 设置图像边框（边框填充） </h2>  
+
+
+性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE2MzE3OCwxNjM3NjkxMDE5LDcxNT
+eyJoaXN0b3J5IjpbMjA4MjczOTI0MCwxNjM3NjkxMDE5LDcxNT
 Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
 MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
 Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
