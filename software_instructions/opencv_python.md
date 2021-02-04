@@ -407,10 +407,17 @@ cv.destroyAllWindows()
 
 鼠标事件回调函数说明
 setMouseCallback(windowName, onMouse [, param]) -> None
+鼠标回调函数，使用固定格式
+# mouse callback function
+
+def draw_circle(event,x,y,flags,param)
+# x y为此时的坐标位置
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcxNTE1NywtNTQyNzM4OTYyLDEzNT
+eyJoaXN0b3J5IjpbMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNT
 EwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5
 NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5MzEsLT
 E2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0yMDAy
