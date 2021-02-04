@@ -349,35 +349,18 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 ```
 
 <h1 id="title6">6 Mouse as a Paint-Brush </h1>  
+<h2 id="title6.1">6.1 显示所有鼠标事件 </h2>  
 
-
-要将文本放入图像中，需要指定以下内容。
-* 您要写入的文字数据
-* 您要放置它的位置坐标（即数据开始的左下角）。
-* 字体类型（检查cv.putText（）文档以获取受支持的字体）
-* 字体比例（指定字体大小）
-* 常规的颜色，厚度，线型等内容。为了获得更好的外观，建议使用线型= cv.LINE_AA。
 ```
-putText(img, text, org, fontFace, fontScale, color[, thickness[, lineType[, bottomLeftOrigin]]]) -> img
 
-font = cv.FONT_HERSHEY_SIMPLEX
-cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
-
-
-
-
-
-
-
-
-
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNz
-c2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1
-ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LD
-E5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMx
-MDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMT
-YzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3
-NTIsLTE3NDEzNzU1ODBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ2OTcwNTAsMTM1MTAyNTEwNCwtMT
+k2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0
+MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNi
+wtNDU2NTYzMzI1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEy
+NzEzMjg1NywtMzMxMDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMT
+I1MDE3LC0xMzgwMTYzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5
+MDUzLC02OTA1NTY3NTJdfQ==
 -->
