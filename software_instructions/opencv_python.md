@@ -28,6 +28,10 @@
 		<h4><ul><a href="#title6.1">6.1 显示所有鼠标事件 </a> </h4>
 		<h4><ul><a href="#title6.2">6.2 鼠标画圆</a> </h4>
 		<h4><ul><a href="#title6.3">6.3 拖动鼠标画图 </a> </h4>
+	<h3><a href="#title7">7 轨迹栏作为调色板</a> </h3>
+		<h4><ul><a href="#title7.1">7.1 调色板程序 </a> </h4>
+		<h4><ul><a href="#title7.2">7.2 cv.createTrackbar </a> </h4>
+		<h4><ul><a href="#title7.3">7.3 cv.getTrackbarPos </a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -459,7 +463,7 @@ while(1):
 cv.destroyAllWindows()            
 ```
 
-<h1 id="title6">7 轨迹栏作为调色板 </h1>  
+<h1 id="title7">7 轨迹栏作为调色板 </h1>  
 
 **目标**
 * 了解将轨迹栏绑定到OpenCV窗口
@@ -522,11 +526,11 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ2MDQ5MTMsNTE0MTQzNTI1LC0xMD
-MxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgx
-ODM5LC01NDI3Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOS
-wxNzc2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMy
-OTk1ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMz
-I1LDE5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1Nywt
-MzMxMDQ0MzE2XX0=
+eyJoaXN0b3J5IjpbMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMz
+ExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1ODE4
+MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4OTA5LD
+E3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LDUxMzI5
+OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1NjMzMj
+UsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyODU3LC0z
+MzEwNDQzMTZdfQ==
 -->
