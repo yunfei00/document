@@ -25,8 +25,9 @@
 		<h4><ul><a href="#title5.5">5.5 绘图多边形</a> </h4>
 		<h4><ul><a href="#title5.6">5.6 向图像添加文本</a> </h4>
 	<h3><a href="#title6">6 Mouse as a Paint-Brush</a> </h3>
-		<h4><ul><a href="#title6.1">5.1 cv.line </a> </h4>
-		<h4><ul><a href="#title6.2">5.2 cv.rectangle</a> </h4>
+		<h4><ul><a href="#title6.1">6.1 显示所有鼠标事件 </a> </h4>
+		<h4><ul><a href="#title6.2">6.2 鼠标画圆</a> </h4>
+		<h4><ul><a href="#title6.3">5.2 cv.rectangle</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -458,11 +459,11 @@ cv.destroyAllWindows()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01ND
-I3Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4
-MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMT
-YwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5
-MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0Mz
-E2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMTYzNDAw
-LC0xNzg5MzE3NzU4XX0=
+eyJoaXN0b3J5IjpbMTQzNTQxMzgzLDE2NzQxNTY0NDEsMTMwOD
+U4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIxODg5
+MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMSw4MTY2NDE0OTcsNT
+EzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2
+MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NT
+csLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywt
+MTM4MDE2MzQwMF19
 -->
