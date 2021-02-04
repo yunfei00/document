@@ -24,6 +24,9 @@
 		<h4><ul><a href="#title5.4">5.4 cv.ellipse</a> </h4>
 		<h4><ul><a href="#title5.5">5.5 绘图多边形</a> </h4>
 		<h4><ul><a href="#title5.6">5.6 向图像添加文本</a> </h4>
+	<h3><a href="#title5">5 Drawing Functions</a> </h3>
+		<h4><ul><a href="#title5.1">5.1 cv.line </a> </h4>
+		<h4><ul><a href="#title5.2">5.2 cv.rectangle</a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -355,11 +358,11 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMj
-EyNDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5
-MzEsLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC
-0yMDAyNzc5NTExLDIxMjcxMzI4NTcsLTMzMTA0NDMxNiwtMTc5
-OTEwODU3OCwtMTY2MDEyNTAxNywtMTM4MDE2MzQwMCwtMTc4OT
-MxNzc1OCwtMTE0NDIzOTA1MywtNjkwNTU2NzUyLC0xNzQxMzc1
-NTgwLDY3MDg3ODQxMl19
+eyJoaXN0b3J5IjpbLTI5NjY0MjAyMiwtMTk2MjE4ODkwOSwxNz
+c2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1
+ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LD
+E5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMx
+MDQ0MzE2LC0xNzk5MTA4NTc4LC0xNjYwMTI1MDE3LC0xMzgwMT
+YzNDAwLC0xNzg5MzE3NzU4LC0xMTQ0MjM5MDUzLC02OTA1NTY3
+NTIsLTE3NDEzNzU1ODBdfQ==
 -->
