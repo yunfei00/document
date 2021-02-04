@@ -506,6 +506,9 @@ cv.destroyAllWindows()
 ```
 createTrackbar(trackbarName, windowName, value, count, onChange) -> None
 
+value 默认值
+count 最大值
+onChange 为回调函数
 ```
 <h2 id="title7.3">7.3 cv.getTrackbarPos </h2>  
 
@@ -516,11 +519,11 @@ createTrackbar(trackbarName, windowName, value, count, onChange) -> None
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
-c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
-MTA0LC0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMT
-EsODE2NjQxNDk3LDUxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1
-MTIyNzA2LC00NTY1NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OT
-UxMSwyMTI3MTMyODU3LC0zMzEwNDQzMTYsLTE3OTkxMDg1Nzgs
-LTE2NjAxMjUwMTddfQ==
+eyJoaXN0b3J5IjpbNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1Mj
+QyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5
+NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC
+0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5
+MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5ND
+EsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMxMDQ0MzE2LC0x
+Nzk5MTA4NTc4XX0=
 -->
