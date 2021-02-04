@@ -568,13 +568,16 @@ borderType：边框类型，这个就是需要关注的填充方式
 	其中默认方式和固定值方式最常用，我们详细说明一下
 	固定值填充:(统一都填充0也称为zero padding)   
 	img2 = cv2.copyMakeBorder(img, 1, 1, 1, 1, cv2.BORDER_CONSTANT, value=0)
-	默认边框类型
+	默认边框类型(其实是取镜像对称的像素填充)
+	default = cv2.copyMakeBorder(img, 1, 1, 1, 1, cv2.BORDER_DEFAULT)
+	一般情况下默认方式更加合理，因为边界的像素值更加接近，当然应视场合而定。
+
 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkyNzcwMDcsNzE1NDYzODkxLC0xMz
+eyJoaXN0b3J5IjpbLTE1NjAzMTQ5NjksNzE1NDYzODkxLC0xMz
 cxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1
 MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLD
 EzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYy
