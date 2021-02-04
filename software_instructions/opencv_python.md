@@ -348,7 +348,8 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 ```
 
-<h1 id="title6">6 y </h1>  
+<h1 id="title6">6 Mouse as a Paint-Brush </h1>  
+
 
 要将文本放入图像中，需要指定以下内容。
 * 您要写入的文字数据
@@ -372,7 +373,7 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDkwMTA4NCwtMTk2MjE4ODkwOSwxNz
+eyJoaXN0b3J5IjpbMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNz
 c2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1
 ODMsMTYwOTk5MTkzMSwtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LD
 E5ODM5MDA5NDEsLTIwMDI3Nzk1MTEsMjEyNzEzMjg1NywtMzMx
