@@ -41,7 +41,17 @@ source venv/bin/activate
 deactivate
 ```
 
+# 3. python 安装
+Step 1: Update and Refresh Repository Lists
+```
+sudo apt update
+```
+Step 2: Install Supporting Software
+```
+sudo apt install software-properties-common
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjUxMzYxMiwxMjk3OTQyNiwxMzk2ND
-I5NTY1LC0yMDA2Mjc2OTM3XX0=
+eyJoaXN0b3J5IjpbLTc2NDI0NTc1NSwxMTc2NTEzNjEyLDEyOT
+c5NDI2LDEzOTY0Mjk1NjUsLTIwMDYyNzY5MzddfQ==
 -->
