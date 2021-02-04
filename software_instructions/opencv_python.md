@@ -27,7 +27,7 @@
 	<h3><a href="#title6">6 Mouse as a Paint-Brush</a> </h3>
 		<h4><ul><a href="#title6.1">6.1 显示所有鼠标事件 </a> </h4>
 		<h4><ul><a href="#title6.2">6.2 鼠标画圆</a> </h4>
-		<h4><ul><a href="#title6.3">5.2 cv.rectangle</a> </h4>
+		<h4><ul><a href="#title6.3">6.3 拖动鼠标画图 </a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -350,6 +350,9 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 ```
 
 <h1 id="title6">6 Mouse as a Paint-Brush </h1>  
+
+[参考链接](https://docs.opencv.org/master/db/d5b/tutorial_py_mouse_handling.html)
+
 <h2 id="title6.1">6.1 显示所有鼠标事件 </h2>  
 
 ```
@@ -456,14 +459,13 @@ while(1):
 cv.destroyAllWindows()            
 ```
 
-
-
+轨迹栏作为调色板
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTQxMzgzLDE2NzQxNTY0NDEsMTMwOD
-U4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIxODg5
-MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMSw4MTY2NDE0OTcsNT
-EzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1NjU2
-MzMyNSwxOTgzOTAwOTQxLC0yMDAyNzc5NTExLDIxMjcxMzI4NT
-csLTMzMTA0NDMxNiwtMTc5OTEwODU3OCwtMTY2MDEyNTAxNywt
-MTM4MDE2MzQwMF19
+eyJoaXN0b3J5IjpbMTAyNTczMzkyMSwxNjc0MTU2NDQxLDEzMD
+g1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC0xOTYyMTg4
+OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2NjQxNDk3LD
+UxMzI5OTU4MywxNjA5OTkxOTMxLC0xNjY1MTIyNzA2LC00NTY1
+NjMzMjUsMTk4MzkwMDk0MSwtMjAwMjc3OTUxMSwyMTI3MTMyOD
+U3LC0zMzEwNDQzMTYsLTE3OTkxMDg1NzgsLTE2NjAxMjUwMTcs
+LTEzODAxNjM0MDBdfQ==
 -->
