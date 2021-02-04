@@ -573,6 +573,9 @@ borderType：边框类型，这个就是需要关注的填充方式
 	一般情况下默认方式更加合理，因为边界的像素值更加接近，当然应视场合而定。
 具体的填充，在后面使用的时候，再进一步研究。
 ```
+<h2 id="title8.3">8.3 Image ROI </h2>  
+
+使用Numpy索引次获得ROI(**region of interest**,ji)。在这里，我要选择球并将其复制到图像中的另一个区域：
 
 <h2 id="title8.3">8.2 其他 </h2>  
 
@@ -597,11 +600,11 @@ uint8
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNz
-ExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUy
-NSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMT
-MwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIx
-ODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMSw4MTY2NDE0OT
-csNTEzMjk5NTgzLDE2MDk5OTE5MzEsLTE2NjUxMjI3MDYsLTQ1
-NjU2MzMyNV19
+eyJoaXN0b3J5IjpbMTc1NTk1ODc2OCwxNjM3NjkxMDE5LDcxNT
+Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
+MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
+Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
+NTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0NTk2MT
+ExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMSwtMTY2
+NTEyMjcwNl19
 -->
