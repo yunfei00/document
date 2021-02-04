@@ -536,7 +536,7 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 [参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
 
-<h2 id="title8.1">8.1 设置图像边框 </h2>  
+<h2 id="title8.1">8.1 设置图像边框（边框填充） </h2>  
 
 ```
 import cv2 as cv
@@ -572,13 +572,22 @@ borderType：边框类型，这个就是需要关注的填充方式
 	default = cv2.copyMakeBorder(img, 1, 1, 1, 1, cv2.BORDER_DEFAULT)
 	一般情况下默认方式更加合理，因为边界的像素值更加接近，当然应视场合而定。
 具体的填充，在后面使用的时候，再进一步研究。
+```
 
+<h2 id="title8.3">8.2 其他 </h2>  
 
+```
+像素值读取：
+img.item(10,10,2)
 
+像素值设置：
+img.itemset((10,10,2),100)
+
+形状
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzkzMTIzOCw3MTU0NjM4OTEsLTEzNz
+eyJoaXN0b3J5IjpbMTE1MDk0NzA2OSw3MTU0NjM4OTEsLTEzNz
 ExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUy
 NSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMT
 MwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIx
