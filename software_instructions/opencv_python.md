@@ -557,17 +557,20 @@ plt.subplot(235),plt.imshow(wrap,'gray'),plt.title('WRAP')
 plt.subplot(236),plt.imshow(constant,'gray'),plt.title('CONSTANT')
 plt.show()
 ```
-<h2 id="title8.1">8.2 设置图像边框 </h2>  
-cv.copyMakeBorder
+<h2 id="title8.2">8.2 cv.copyMakeBorder </h2>  
+
+```
 copyMakeBorder(src, top, bottom, left, right, borderType[, dst[, value]]) -> dst
 
 
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTIzNzAyNiwtOTAyNzYyNTg5LDExMz
-MwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0
-NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMT
-M1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0
-NTk2MTExLDgxNjY0MTQ5Nyw1MTMyOTk1ODMsMTYwOTk5MTkzMS
-wtMTY2NTEyMjcwNiwtNDU2NTYzMzI1LDE5ODM5MDA5NDEsLTIw
-MDI3Nzk1MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMT
+MzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2
+NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLD
+EzNTEwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEy
+NDU5NjExMSw4MTY2NDE0OTcsNTEzMjk5NTgzLDE2MDk5OTE5Mz
+EsLTE2NjUxMjI3MDYsLTQ1NjU2MzMyNSwxOTgzOTAwOTQxLC0y
+MDAyNzc5NTExXX0=
 -->
