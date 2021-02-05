@@ -61,7 +61,7 @@ pip install opencv-python
 
 **Learn to load an image, display it, and save it back**
 
-<h2 id="title3.1.1">3.1.1 code </h2>  
+<h3 id="title3.1.1">3.1.1 code </h3>  
 
 ```
 import cv2 as cv
@@ -75,7 +75,7 @@ if k == ord("s"):
     cv.imwrite("starry_night.png", img)
 ```
 
-<h2 id="title3.1.2">3.1.2 cv.imread </h2>  
+<h3 id="title3.1.2">3.1.2 cv.imread </h3>  
 
 ```
 cv2.imread(filename[,flags])
@@ -116,7 +116,7 @@ image[:,:,2] represents Red channel
 image[:,:,3] represents Transparency channel  透明通道
 ```
 
-<h2 id="title3.1.3">3.1.3 cv.imshow </h2>  
+<h3 id="title3.1.3">3.1.3 cv.imshow </h3>  
 
 ```
 imshow(winname, mat) -> None
@@ -124,7 +124,7 @@ para1:window name
 para2:matrix image
 打开了一个窗口以显示图像。窗口大小取决于图像的大小。如果窗口大小大于屏幕分辨率，则它将显示图像的缩放版本
 ```
-<h2 id="title3.1.4">3.1.4 cv.waitKey</h2>  
+<h3 id="title3.1.4">3.1.4 cv.waitKey</h3>  
 
 ```
 waitKey([, delay]) -> retval
@@ -133,7 +133,7 @@ retval:key value
 
 注意：只有在窗口模式下，才起作用。
 ```
-<h2 id="title3.5">3.1.5 cv.imwrite</h2>  
+<h3 id="title3.1.5">3.1.5 cv.imwrite</h3>  
 
 ```
 imwrite(filename, img[, params]) -> retval
@@ -144,19 +144,19 @@ para3:Format-specific parameters encoded as pairs (paramId_1, paramValue_1, para
 retval:It returns either True or False. Return `True` if the image is successfully saved otherwise return `False`.
 ```
 
-<h2 id="title3.6">3.6 cv.samples.findFile </h2>  
+<h3 id="title3.1.6">3.1.6 cv.samples.findFile </h3>  
 
 ```
 findFile(relative_path[, required[, silentMode]])
 找到则返回路径，否则返回空
 ```
 
-<h1 id="title4">4 videos </h1>  
+<h2 id="title3.2">3.2 videos </h2>  
 
 **Learn to play videos, capture videos from a camera, and write videos**
 [参考链接](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html)
 
-<h2 id="title4.1">4.1 Capture Video from Camera </h2>  
+<h3 id="title3.2.1">3.2.1 Capture Video from Camera </h3>  
 
 ```
 import numpy as np
@@ -184,7 +184,7 @@ cv.destroyAllWindows()
 ```
 
 
-<h2 id="title4.2">4.2 Playing Video from file </h2>  
+<h3 id="title3.2.2">3.2.2 Playing Video from file </h3>  
 
 ```
 import numpy as np
@@ -849,7 +849,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjI0NDA0NSwtMTc1NzE4MDYxMiwtNT
+eyJoaXN0b3J5IjpbLTQwMTkzMDM1OCwtMTc1NzE4MDYxMiwtNT
 kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
 MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
 Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
