@@ -865,11 +865,11 @@ opencv的库，一般要比numpy快
 
 	明度表示颜色明亮的程度，对于光源色，明度值与发光体的光亮度有关；对于物体色，此值和物体的透射比或反射比有关。通常取值范围为0%（黑）到100%（白）。
 
-RGB和CMY颜色模型都是面向硬件的，而HSV（Hue Saturation Value）颜色模型是面向用户的。
+	RGB和CMY颜色模型都是面向硬件的，而HSV（Hue Saturation Value）颜色模型是面向用户的。
 
-HSV模型的三维表示从RGB立方体演化而来。设想从RGB沿立方体对角线的白色顶点向黑色顶点观察，就可以看到立方体的六边形外形。六边形边界表示色彩，水平轴表示纯度，明度沿垂直轴测量。
+	HSV模型的三维表示从RGB立方体演化而来。设想从RGB沿立方体对角线的白色顶点向黑色顶点观察，就可以看到立方体的六边形外形。六边形边界表示色彩，水平轴表示纯度，明度沿垂直轴测量。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzI2NDE2OCw0MDYyNjY1NCwtMTc1Nz
+eyJoaXN0b3J5IjpbMTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1Nz
 E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
 NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMT
 g5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEw
