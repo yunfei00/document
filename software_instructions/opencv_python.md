@@ -853,27 +853,27 @@ opencv的库，一般要比numpy快
 这个模型中颜色的参数分别是：色调（H），饱和度（S），明度（V）。
 
 
-### 色调H
+	**色调H**
 
-用角度度量，取值范围为0°～360°，从红色开始按逆时针方向计算，红色为0°，绿色为120°,蓝色为240°。它们的补色是：黄色为60°，青色为180°,紫色为300°；
+	用角度度量，取值范围为0°～360°，从红色开始按逆时针方向计算，红色为0°，绿色为120°,蓝色为240°。它们的补色是：黄色为60°，青色为180°,紫色为300°；
 
-### 饱和度S
+	**饱和度S**
 
-饱和度S表示颜色接近光谱色的程度。一种颜色，可以看成是某种光谱色与白色混合的结果。其中光谱色所占的比例愈大，颜色接近光谱色的程度就愈高，颜色的饱和度也就愈高。饱和度高，颜色则深而艳。光谱色的白光成分为0，饱和度达到最高。通常取值范围为0%～100%，值越大，颜色越饱和。
+	饱和度S表示颜色接近光谱色的程度。一种颜色，可以看成是某种光谱色与白色混合的结果。其中光谱色所占的比例愈大，颜色接近光谱色的程度就愈高，颜色的饱和度也就愈高。饱和度高，颜色则深而艳。光谱色的白光成分为0，饱和度达到最高。通常取值范围为0%～100%，值越大，颜色越饱和。
 
-### 明度V
+	**明度V**
 
-明度表示颜色明亮的程度，对于光源色，明度值与发光体的光亮度有关；对于物体色，此值和物体的透射比或反射比有关。通常取值范围为0%（黑）到100%（白）。
+	明度表示颜色明亮的程度，对于光源色，明度值与发光体的光亮度有关；对于物体色，此值和物体的透射比或反射比有关。通常取值范围为0%（黑）到100%（白）。
 
 RGB和CMY颜色模型都是面向硬件的，而HSV（Hue Saturation Value）颜色模型是面向用户的。
 
 HSV模型的三维表示从RGB立方体演化而来。设想从RGB沿立方体对角线的白色顶点向黑色顶点观察，就可以看到立方体的六边形外形。六边形边界表示色彩，水平轴表示纯度，明度沿垂直轴测量。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc5MjA2MzUsNDA2MjY2NTQsLTE3NT
-cxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4
-NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLT
-E4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3Njkx
-MDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LD
-ExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQy
-MTY0NTZdfQ==
+eyJoaXN0b3J5IjpbLTgxNzI2NDE2OCw0MDYyNjY1NCwtMTc1Nz
+E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
+NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMT
+g5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEw
+MTksNzE1NDYzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMT
+EzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIx
+NjQ1Nl19
 -->
