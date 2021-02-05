@@ -686,11 +686,11 @@ cv.destroyAllWindows()
 
 ```
 # Load two images
-img1 = cv.imread('messi5.jpg')
-img2 = cv.imread('opencv-logo-white.png')
+img1 = cv.imread('messi5.jpg')   #  目标图像1
+img2 = cv.imread('opencv-logo-white.png')   # 目标图像2（较小）
 # I want to put logo on top-left corner, So I create a ROI
 rows,cols,channels = img2.shape
-roi = img1[0:rows, 0:cols]
+roi = img1[0:rows, 0:cols]   # 感兴趣区域为目标图像1中的左上角
 # Now create a mask of logo and create its inverse mask also
 img2gray = cv.cvtColor(img2,cv.COLOR_BGR2GRAY)
 ret, mask = cv.threshold(img2gray, 10, 255, cv.THRESH_BINARY)
@@ -745,11 +745,11 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMT
-Y0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4
-LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNz
-ExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUy
-NSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMT
-MwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLTE5NjIx
-ODg5MDldfQ==
+eyJoaXN0b3J5IjpbMTgzODk5OTk1LC0zNzcxMjg2NTcsNDEzMD
+A2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3
+LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1ND
+YzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkw
+NSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
+c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
+MTA0XX0=
 -->
