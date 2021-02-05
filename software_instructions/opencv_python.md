@@ -7,7 +7,7 @@
 		<h4><ul><a href="#title3.1.2">3.1.2 cv.imread </a> </h4>
 		<h4><ul><a href="#title3.1.3">3.1.3 cv.imshow</a> </h4>
 		<h4><ul><a href="#title3.1.4">3.1.4 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title3.1.5">3.5 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title3.1.5">3.1.5 cv.imwrite</a> </h4>
 		<h4><ul><a href="#title3.1.6">3.1.6 cv.samples.findFile</a> </h4>
 <h3><a href="#title4">4 videos</a> </h3>
 		<h4><ul><a href="#title4.1">4.1 Capture Video from Camera </a> </h4>
@@ -56,11 +56,12 @@ pip install opencv-python
  
 [document](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html)
 
-<h1 id="title3">3 images </h1>  
+<h1 id="title3">3 OpenCV中的Gui功能 </h1>  
+<h2 id="title3.1">3.1 images </h2>  
 
 **Learn to load an image, display it, and save it back**
 
-<h2 id="title3.1">3.1 code </h2>  
+<h2 id="title3.1.1">3.1.1 code </h2>  
 
 ```
 import cv2 as cv
@@ -74,7 +75,7 @@ if k == ord("s"):
     cv.imwrite("starry_night.png", img)
 ```
 
-<h2 id="title3.2">3.2 cv.imread </h2>  
+<h2 id="title3.1.2">3.1.2 cv.imread </h2>  
 
 ```
 cv2.imread(filename[,flags])
@@ -115,7 +116,7 @@ image[:,:,2] represents Red channel
 image[:,:,3] represents Transparency channel  透明通道
 ```
 
-<h2 id="title3.3">3.3 cv.imshow </h2>  
+<h2 id="title3.1.3">3.1.3 cv.imshow </h2>  
 
 ```
 imshow(winname, mat) -> None
@@ -123,7 +124,7 @@ para1:window name
 para2:matrix image
 打开了一个窗口以显示图像。窗口大小取决于图像的大小。如果窗口大小大于屏幕分辨率，则它将显示图像的缩放版本
 ```
-<h2 id="title3.4">3.4 cv.waitKey</h2>  
+<h2 id="title3.1.4">3.1.4 cv.waitKey</h2>  
 
 ```
 waitKey([, delay]) -> retval
@@ -132,7 +133,7 @@ retval:key value
 
 注意：只有在窗口模式下，才起作用。
 ```
-<h2 id="title3.5">3.5 cv.imwrite</h2>  
+<h2 id="title3.5">3.1.5 cv.imwrite</h2>  
 
 ```
 imwrite(filename, img[, params]) -> retval
@@ -848,7 +849,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzQ4NDE5MywtMTc1NzE4MDYxMiwtNT
+eyJoaXN0b3J5IjpbMTcyNjI0NDA0NSwtMTc1NzE4MDYxMiwtNT
 kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
 MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
 Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
