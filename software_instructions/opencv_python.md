@@ -38,12 +38,12 @@
 		<h5><ul><a href="#title4.1.1">4.1.1 设置图像边框（边框填充） </a> </h5>
 		<h5><ul><a href="#title4.1.2">4.1.2 cv.copyMakeBorder </a> </h5>
 		<h5><ul><a href="#title4.1.3">4.1.3 Image ROI </a> </h5>
-		<h5><ul><a href="#title4.1.4">8.4 分割和合并图像通道 </a> </h5>
-		<h5><ul><a href="#title4.1.5">8.5 其他 </a> </h5>
-	<h3><a href="#title9">9 图像算术运算</a> </h3>
-		<h4><ul><a href="#title9.1">9.1 图像加法 </a> </h4>
-		<h4><ul><a href="#title9.2">9.2 图像融合 </a> </h4>
-		<h4><ul><a href="#title9.3">9.3 按位运算 </a> </h4>
+		<h5><ul><a href="#title4.1.4">4.1.4 分割和合并图像通道 </a> </h5>
+		<h5><ul><a href="#title4.1.5">4.1.5 其他 </a> </h5>
+	<h4><a href="#title4.2">4.2 图像算术运算</a> </h4>
+		<h5><ul><a href="#title4.2.1">4.2.1 图像加法 </a> </h5>
+		<h5><ul><a href="#title4.2.2">4.2.2 图像融合 </a> </h5>
+		<h5><ul><a href="#title4.2.3">4.2.3 按位运算 </a> </h5>
 
 		
 <div style="page-break-after:always"></div>
@@ -850,7 +850,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NTIwNjg5LC0xNzU3MTgwNjEyLC01OT
+eyJoaXN0b3J5IjpbOTUwMjExMTUzLC0xNzU3MTgwNjEyLC01OT
 M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
 NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
 g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
