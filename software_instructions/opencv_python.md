@@ -698,9 +698,10 @@ ret, mask = cv.threshold(img2gray, 10, 255, cv.THRESH_BINARY)
 # 获取图像2的背景
 mask_inv = cv.bitwise_not(mask)
 # Now black-out the area of logo in ROI 
-# 图像1的背景部分
+# 图像1左上角的背景部分，需要保留
 img1_bg = cv.bitwise_and(roi,roi,mask = mask_inv)
 # Take only region of logo from logo image.
+# 提取图像中的logo不
 img2_fg = cv.bitwise_and(img2,img2,mask = mask)
 # Put logo in ROI and modify the main image
 dst = cv.add(img1_bg,img2_fg)
@@ -748,11 +749,11 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDExMTg0MCwtMzc3MTI4NjU3LDQxMz
-AwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2
-Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNT
-Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
-MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
-Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
-NTEwNF19
+eyJoaXN0b3J5IjpbLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MT
+MwMDYxNzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2
+NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MT
+U0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5
+OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LD
+E2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEw
+MjUxMDRdfQ==
 -->
