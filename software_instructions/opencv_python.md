@@ -476,7 +476,7 @@ while(1):
 cv.destroyAllWindows()            
 ```
 
-<h2 id="title3.">3.5 轨迹栏作为调色板 </h2>  
+<h2 id="title3.5">3.5 轨迹栏作为调色板 </h2>  
 
 **目标**
 * 了解将轨迹栏绑定到OpenCV窗口
@@ -484,7 +484,7 @@ cv.destroyAllWindows()
 
 [参考链接](https://docs.opencv.org/master/d9/dc8/tutorial_py_trackbar.html)
 
-<h2 id="title7.1">7.1 调色板程序 </h2>  
+<h3 id="title3.5.1">3.5.1 调色板程序 </h3>  
 
 ```
 import numpy as np
@@ -518,7 +518,7 @@ while(1):
 cv.destroyAllWindows()
 ```
 
-<h2 id="title7.2">7.2 cv.createTrackbar </h2>  
+<h3 id="title3.5.2">3.5.2 cv.createTrackbar </h3>  
 
 ```
 createTrackbar(trackbarName, windowName, value, count, onChange) -> None
@@ -527,7 +527,7 @@ value 默认值
 count 最大值
 onChange 为回调函数
 ```
-<h2 id="title7.3">7.3 cv.getTrackbarPos </h2>  
+<h3 id="title3.5.3">3.5.3 cv.getTrackbarPos </h3>  
 
 ```
 getTrackbarPos(trackbarname, winname) -> retval
@@ -536,7 +536,7 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 
 
-<h1 id="title8">8 图像的基本操作 </h1>  
+<h1 id="title4">4 图像的基本操作 </h1>  
 
 学习读取和编辑像素值，以及如何使用图像ROI和其他基本操作。
 
@@ -549,7 +549,7 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 [参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
 
-<h2 id="title8.1">8.1 设置图像边框（边框填充） </h2>  
+<h3 id="title4.1">4.1 设置图像边框（边框填充） </h3>  
 
 ```
 import cv2 as cv
@@ -570,7 +570,7 @@ plt.subplot(235),plt.imshow(wrap,'gray'),plt.title('WRAP')
 plt.subplot(236),plt.imshow(constant,'gray'),plt.title('CONSTANT')
 plt.show()
 ```
-<h2 id="title8.2">8.2 cv.copyMakeBorder </h2>  
+<h3 id="title4.2">4.2 cv.copyMakeBorder </h3>  
 
 ```
 copyMakeBorder(src, top, bottom, left, right, borderType[, dst[, value]]) -> dst
@@ -850,11 +850,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDU5MjU4MzAsLTE3NTcxODA2MTIsLT
-U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
-NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
-w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
-Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
-UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
-NDE1NjQ0MV19
+eyJoaXN0b3J5IjpbLTM4NTA2NTg1MSwtMTc1NzE4MDYxMiwtNT
+kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
+MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
+Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
+ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
+w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
+MTU2NDQxXX0=
 -->
