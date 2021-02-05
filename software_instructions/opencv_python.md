@@ -879,13 +879,20 @@ opencv的库，一般要比numpy快
 	```
 	
 	**对象追踪**
+		提取一个蓝色的对象。所以这是方法：
+		
+	-   拍摄视频的每一帧
+	-   从BGR转换为HSV颜色空间
+	-   我们将HSV图片的阈值范围设为蓝色
+	-   现在仅提取蓝色对象，我们就可以在该图像上执行任何操作。
+
 	```
 	import cv2 as cv
 	import numpy as np
 	cap = cv.VideoCapture(0)
 	while(1):
 	    # Take each frame
-		 _, frame = cap.read()
+		_, frame = cap.read()
 	    # Convert BGR to HSV
 	    hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
 	    # define range of blue color in HSV
@@ -904,11 +911,11 @@ opencv的库，一般要比numpy快
 	cv.destroyAllWindows()
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTYyMjY4MywxMjMxMTIzMDQ4LDQwNj
-I2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5
-MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOT
-U3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4
-MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLT
-kwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEz
-MDg4NV19
+eyJoaXN0b3J5IjpbOTI1OTkwNTY2LDEyMzExMjMwNDgsNDA2Mj
+Y2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkw
+NiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NT
+c3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1Njgw
+NSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOT
+AyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMw
+ODg1XX0=
 -->
