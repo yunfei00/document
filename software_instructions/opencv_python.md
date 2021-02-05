@@ -763,18 +763,20 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 
 [参考链接](https://docs.opencv.org/master/dc/d71/tutorial_py_optimization.html)
 
-<h2 id="title9.1">9.1 图像加法 </h2>  
-
+<h2 id="title9.1">9.1 s </h2>  
+getTickCount()：用于返回从操作系统启动到当前所经的计时周期数
+getTickFrequency()：用于返回CPU的频率。get Tick Frequency。这里的单位是秒，也就是一秒内重复的次数。
+时间等于 getTickCount() / getTickFrequency()
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMz
-c3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAx
-NjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNj
-M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
-NTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LD
-E1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3
-Mzg5NjJdfQ==
+eyJoaXN0b3J5IjpbMzIzODc1NDgzLC01OTM2MzE0ODcsLTE1Mj
+czNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0Mzgw
+NjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02Nj
+U4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3
+NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMT
+AzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMTMwODU4
+MTgzOV19
 -->
