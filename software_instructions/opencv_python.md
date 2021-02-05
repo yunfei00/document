@@ -751,19 +751,30 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 5.仅取绿色：Gray=G；
 通过上述任一种方法求得Gray后，将原来的RGB(R,G,B)中的R,G,B统一用Gray替换，形成新的颜色RGB(Gray,Gray,Gray)，用它替换原来的RGB(R,G,B)就是灰度图了。
 
-性能度量和改进技术
-目标
+<h1 id="title10">10 性能度量和改进技术 </h1>  
+
+
+**目标**
 在图像处理中，由于每秒要处理大量操作，因此必须使代码不仅提供正确的解决方案，而且还必须以最快的方式提供它。因此，在本章中，您将学习：
 
-衡量代码的性能。
+- 衡量代码的性能。
 一些改善代码性能的技巧。
 您将看到以下功能：cv.getTickCount，cv.getTickFrequency等。
+
+[参考链接](https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html)
+
+<h2 id="title9.1">9.1 图像加法 </h2>  
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTExNjYzMiwtMTUyNzM3ODkwNiwtMz
-c3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAx
-NjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNj
-M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
-NTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LD
-E1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3
-Mzg5NjJdfQ==
+eyJoaXN0b3J5IjpbMjAyOTkwNDU2LC0xNTI3Mzc4OTA2LC0zNz
+cxMjg2NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2
+OCwtMTg5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mz
+c2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1
+ODksMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMT
+UyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1ODE4MzksLTU0Mjcz
+ODk2Ml19
 -->
