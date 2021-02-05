@@ -752,9 +752,14 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 通过上述任一种方法求得Gray后，将原来的RGB(R,G,B)中的R,G,B统一用Gray替换，形成新的颜色RGB(Gray,Gray,Gray)，用它替换原来的RGB(R,G,B)就是灰度图了。
 
 性能度量和改进技术
+目标
+在图像处理中，由于每秒要处理大量操作，因此必须使代码不仅提供正确的解决方案，而且还必须以最快的方式提供它。因此，在本章中，您将学习：
 
+衡量代码的性能。
+一些改善代码性能的技巧。
+您将看到以下功能：cv.getTickCount，cv.getTickFrequency等。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzQ4MDc5MiwtMTUyNzM3ODkwNiwtMz
+eyJoaXN0b3J5IjpbLTIxMTExNjYzMiwtMTUyNzM3ODkwNiwtMz
 c3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAx
 NjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNj
 M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
