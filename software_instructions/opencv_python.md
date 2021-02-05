@@ -709,14 +709,26 @@ cv.destroyAllWindows()
 
 相关函数使用说明如下：
 ```
-灰度图：
+
+
 
 cv.threshold
 ```
+
+灰度图：
+一幅完整的图像，是由红色、绿色、蓝色三个通道组成的。红色、绿色、蓝色三个通道的缩览图都是以灰度显示的。用不同的灰度色阶来表示“ 红，绿，蓝”在图像中的比重。
+
+我们可以通过下面几种方法，将其转换为灰度：
+1.浮点算法：Gray=R*0.3+G*0.59+B*0.11
+2.整数方法：Gray=(R*30+G*59+B*11)/100
+3.移位方法：Gray =(R*76+G*151+B*28)>>8;
+4.平均值法：Gray=（R+G+B）/3;
+5.仅取绿色：Gray=G；
+通过上述任一种方法求得Gray后，将原来的RGB(R,G,B)中的R,G,B统一用Gray替换，形成新的颜色RGB(Gray,Gray,Gray)，用它替换原来的RGB(R,G,B)就是灰度图了。
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg2MjIwODksLTE4OTAxOTY2Nyw0OD
+eyJoaXN0b3J5IjpbLTEzODYxMzU4NjYsLTE4OTAxOTY2Nyw0OD
 Q4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5
 MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MDUsNT
 E0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1
