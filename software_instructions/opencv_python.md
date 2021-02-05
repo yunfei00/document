@@ -708,6 +708,7 @@ cv.destroyAllWindows()
 ```
 
 相关函数使用说明如下：
+[threshold使用详情可参考](https://blog.csdn.net/u012566751/article/details/77046445)
 ```
 threshold(src, thresh, maxval, type[, dst]) -> retval, dst
 src:输入灰度图像数组。
@@ -738,11 +739,11 @@ type：thresholdingTechnique: 要应用的阈值类型。
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xOD
-kwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAx
-OSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMT
-MzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2
-NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLD
-EzNTEwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEy
-NDU5NjExMV19
+eyJoaXN0b3J5IjpbMTg2NzE4NDQ2NywtMjAxNjQzODA2Miw5NT
+c3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1Njgw
+NSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOT
+AyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMw
+ODg1LDE1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC
+01NDI3Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2
+Mjg4MzA4XX0=
 -->
