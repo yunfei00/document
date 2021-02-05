@@ -818,8 +818,10 @@ In [9]: %timeit y=np.square(z)
 可见，y=x*x 是最快的，比numpy快20倍左右。
 Python标量运算比Numpy标量运算快。因此，对于包含一两个元素的运算，Python标量比Numpy数组好。当数组的大小稍大时，Numpy具有优势。
 
+opencv的库，一般要比numpy快
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjU5MzUyNywtMTc1NzE4MDYxMiwtNT
+eyJoaXN0b3J5IjpbLTU3MzgxNDQ2MiwtMTc1NzE4MDYxMiwtNT
 kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
 MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
 Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
