@@ -294,7 +294,7 @@ flip(src, flipCode[, dst]) -> dst
 * You will learn these functions : cv.line(), cv.circle() , cv.rectangle(), cv.ellipse(), cv.putText() etc.
 [参考链接](https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html)
 
-<h2 id="title5.1">5.1 cv.line </h2>  
+<h3 id="title3.3.1">3.3.1 cv.line </h3>  
 
 ```
 import numpy as np
@@ -308,7 +308,7 @@ line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
 thickness:厚度
 要绘制一条直线，您需要传递直线的起点和终点。
 ```
-<h2 id="title5.2">5.2 cv.rectangle </h2>  
+<h3 id="title3.3.2">3.3.2 cv.rectangle </h2>  
 
 ```
 要绘制矩形，您需要矩形的左上角和右下角
@@ -849,11 +849,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIyMDQ3MTAsLTE3NTcxODA2MTIsLT
-U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
-NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
-w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
-Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
-UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
-NDE1NjQ0MV19
+eyJoaXN0b3J5IjpbLTEwMDU1NjA3MSwtMTc1NzE4MDYxMiwtNT
+kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
+MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
+Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
+ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
+w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
+MTU2NDQxXX0=
 -->
