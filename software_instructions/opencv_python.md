@@ -850,7 +850,7 @@ opencv的库，一般要比numpy快
 [参考链接](https://docs.opencv.org/master/df/d9d/tutorial_py_colorspaces.html)
 
 *  HSV颜色模型
-这个模型中颜色的参数分别是：色调（H），饱和度（S），明度（V）。
+	这个模型中颜色的参数分别是：色调（H），饱和度（S），明度（V）。
 
 
 	**色调H**
@@ -868,12 +868,18 @@ opencv的库，一般要比numpy快
 	RGB和CMY颜色模型都是面向硬件的，而HSV（Hue Saturation Value）颜色模型是面向用户的。
 
 	HSV模型的三维表示从RGB立方体演化而来。设想从RGB沿立方体对角线的白色顶点向黑色顶点观察，就可以看到立方体的六边形外形。六边形边界表示色彩，水平轴表示纯度，明度沿垂直轴测量。
+
+*  函数说明
+*
+	```
+	inRange(src, lowerb, upperb[, dst]) -> dst
+	 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1Nz
-E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
-NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMT
-g5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEw
-MTksNzE1NDYzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMT
-EzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIx
-NjQ1Nl19
+eyJoaXN0b3J5IjpbLTEzNDExOTg2NCwxMjMxMTIzMDQ4LDQwNj
+I2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5
+MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOT
+U3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4
+MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLT
+kwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEz
+MDg4NV19
 -->
