@@ -716,11 +716,11 @@ maxVal: 如果像素值大于（有时小于）阈值，则给出的值。
 type：thresholdingTechnique: 要应用的阈值类型。
 有5种不同的简单阈值处理技术：
 	cv2.THRESH_BINARY: 如果像素强度大于设置的阈值，则将值设置为255，否则设置为0（黑色）。   0
-	cv2.THRESH_BINARY_INV: cv2.THRESH_BINARY。<li。的反转或相反情况。
-	cv2.THRESH_TRUNC:如果像素强度值大于阈值，则将其截断为阈值。像素值设置为与阈值相同。所有其他值保持不变。
-	cv2.THRESH_TOZERO: 对于所有像素强度，像素强度均设置为0，且小于阈值。
+	cv2.THRESH_BINARY_INV: cv2.THRESH_BINARY。<li。的反转或相反情况。1 
+	cv2.THRESH_TRUNC:如果像素强度值大于阈值，则将其截断为阈值。像素值设置为与阈值相同。所有其他值保持不变。  2
+	cv2.THRESH_TOZERO: 对于所有像素强度，像素强度均设置为0，且小于阈值。3
 	cv2.THRESH_TOZERO_INV: cv2.THRESH_TOZERO的相反或相反的情况。
-返回值
+返回值 4
 此方法返回2个值的元组，其中第一个值被给定阈值，第二个值被修改图像数组。
 ```
 
@@ -738,11 +738,11 @@ type：thresholdingTechnique: 要应用的阈值类型。
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDYxODk3Niw5NTc3MTAxNjgsLTE4OT
-AxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5
-LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMz
-MwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0
-NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMT
-M1MTAyNTEwNCwtMTk2MjE4ODkwOSwxNzc2Mjg4MzA4LC0yMTI0
-NTk2MTExXX0=
+eyJoaXN0b3J5IjpbLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xOD
+kwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAx
+OSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMT
+MzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2
+NDU2LDE2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLD
+EzNTEwMjUxMDQsLTE5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEy
+NDU5NjExMV19
 -->
