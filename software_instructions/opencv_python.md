@@ -841,6 +841,7 @@ opencv的库，一般要比numpy快
 
 <h1 id="title5">5 OpenCV中的图像处理 </h1>  
 <h2 id="title5.1">5.1 改变色彩空间 </h2>  
+了解如何在不同的色彩空间之间更改图像。此外，还要学会跟踪视频中的彩色物体。
 
 **目标**
 在本教程中，您将学习如何将图像从一种色彩空间转换为另一种色彩空间，例如BGR ↔ Gray, BGR ↔ HSV等
@@ -923,13 +924,16 @@ opencv的库，一般要比numpy快
 	>>> hsv_green = cv.cvtColor(green,cv.COLOR_BGR2HSV)
 	>>> print( hsv_green )
 	[[[ 60 255 255]]]
+	
+	可以以[H-10，100,100]和[H + 10，255，255]作为下限和上限
 	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjUxMzQ4MSwxMjMxMTIzMDQ4LDQwNj
-I2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5
-MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOT
-U3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4
-MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLT
-kwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMTAzMTEz
-MDg4NV19
+eyJoaXN0b3J5IjpbNDIzOTAyMjQzLDEyMzExMjMwNDgsNDA2Mj
+Y2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkw
+NiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NT
+c3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1Njgw
+NSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOT
+AyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMw
+ODg1XX0=
 -->
