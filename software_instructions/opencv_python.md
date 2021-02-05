@@ -869,13 +869,17 @@ opencv的库，一般要比numpy快
 
 	HSV模型的三维表示从RGB立方体演化而来。设想从RGB沿立方体对角线的白色顶点向黑色顶点观察，就可以看到立方体的六边形外形。六边形边界表示色彩，水平轴表示纯度，明度沿垂直轴测量。
 
-*  函数说明
-*
+1. 代码示例
+```
+
+```
+
 	```
-	inRange(src, lowerb, upperb[, dst]) -> dst
-	 ```
+	inRange(src, lowerb, upperb[, dst]) -> dst	
+	
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDExOTg2NCwxMjMxMTIzMDQ4LDQwNj
+eyJoaXN0b3J5IjpbMTk1MTg0NTMwNSwxMjMxMTIzMDQ4LDQwNj
 I2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5
 MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOT
 U3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4
