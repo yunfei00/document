@@ -796,13 +796,34 @@ In [9]: %timeit res = cv.medianBlur(img,49)
 10 loops, best of 3: 64.1 ms per loop
 ```
 
+<h2 id="title10.3">10.3 在IPython中评估性能 </h2>  
+
+```
+In [2]: x = 5                                                                                                                                                                                                                             
+In [3]: %timeit y=x**2                                                                                                                                                                                                                    
+162 ns ± 0.447 ns per loop (mean ± std. dev. of 7 runs, 10000000 loops each)
+
+In [4]: %timeit y=x*x                                                                                                                                                                                                                     
+33.5 ns ± 0.339 ns per loop (mean ± std. dev. of 7 runs, 10000000 loops each)
+
+In [7]: z = np.uint8([5])                                                                                                                                                                                                                 
+In [8]:  %timeit y=z*z                                                                                                                                                                                                                    
+367 ns ± 3.37 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+
+In [9]: %timeit y=np.square(z)                                                                                                                                                                                                            
+356 ns ± 2.23 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+
+```
+
+可见，y=x*x 是最快的，比numpy快20倍左右。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMT
-UyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQz
-ODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLT
-Y2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5
-OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC
-0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4
-NTgxODM5XX0=
+eyJoaXN0b3J5IjpbMTg1Mzk0OTg3LC0xNzU3MTgwNjEyLC01OT
+M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
+NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
+g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
+OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
+UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
+NTY0NDFdfQ==
 -->
