@@ -203,7 +203,7 @@ while cap.isOpened():
 cap.release()
 cv.destroyAllWindows()
 ```
-<h2 id="title4.3">4.3 Saving a Video </h2>  
+<h3 id="title3.2.3">3.2.3 Saving a Video </h3>  
 
 ```
 import numpy as np
@@ -229,7 +229,7 @@ out.release()
 cv.destroyAllWindows()
 ```
 
-<h2 id="title4.4">4.4 cv.VideoCapture </h2>  
+<h3 id="title3.2.4">3.2.4 cv.VideoCapture </h3>  
 
 ```
 class VideoCapture(builtins.object)
@@ -239,7 +239,7 @@ VideoCapture是一个对象，如果需要打开本地文件，则初始化参�
 
 ```
 
-<h2 id="title4.5">4.5 cv.cvtColor </h2>  
+<h3 id="title3.2.5">3.2.5 cv.cvtColor </h3>  
 
 ```
 cvtColor(src, code[, dst[, dstCn]]) -> dst
@@ -255,7 +255,7 @@ HSV –>色相饱和度值
 convert_image  =  cv2.cvtColor(image,  cv2.COLOR_BGR2HSV)
 ```
 
-<h2 id="title4.6">4.6 cv.VideoWriter_fourcc </h2>  
+<h3 id="title3.2.6">3.2.6 cv.VideoWriter_fourcc </h3>  
 
 ```
 fourcc :four character code
@@ -267,7 +267,7 @@ cv.VideoWriter_fourcc(*'XVID')
 关于python中 *的更多知识面参考如下:
 [python中*号的使用](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558)
 
-<h2 id="title4.7">4.7 cv.VideoWriter </h2>  
+<h3 id="title3.2.7">3.2.7 cv.VideoWriter </h3>  
 
 [python 参考](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html)
 ```
@@ -276,7 +276,7 @@ cv.VideoWriter(filename, fourcc, fps, frameSize[, isColor])
 cv.VideoWriter(filename, apiPreference, fourcc, fps, frameSize[, isColor])
 ```
 
-<h2 id="title4.8">4.8 cv.flip </h2>  
+<h3 id="title3.2.8">3.2.8 cv.flip </h3>  
 
 ```
 flip(src, flipCode[, dst]) -> dst
@@ -287,7 +287,7 @@ flip(src, flipCode[, dst]) -> dst
  flipping around the x-axis and positive value (for example, 1) means flipping around y-axis. Negative value (for example, -1) means flipping around both axes.
 ```
 
-<h1 id="title5">5 Drawing Functions</h1>  
+<h2 id="title3.3">3.3 Drawing Functions</h2>  
 
 **Goal**
 * Learn to draw different geometric shapes with OpenCV
@@ -849,11 +849,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTkzMDM1OCwtMTc1NzE4MDYxMiwtNT
-kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
-MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
-Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
-ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
-w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
-MTU2NDQxXX0=
+eyJoaXN0b3J5IjpbLTEzOTIyMDQ3MTAsLTE3NTcxODA2MTIsLT
+U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
+NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
+w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
+Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
+UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
+NDE1NjQ0MV19
 -->
