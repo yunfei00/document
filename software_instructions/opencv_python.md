@@ -599,7 +599,7 @@ cv.BORDER_REPLICATE-最后一个元素被复制，像这样： aaaaaa | abcdefgh
 cv.BORDER_WRAP-无法解释，它看起来像这样： cdefgh | abcdefgh | abcdefg
 value-边框颜色，如果边框类型为cv.BORDER_CONSTANT
 ```
-<h2 id="title4.1.3">4.1.3 Image ROI </h2>  
+<h3 id="title4.1.3">4.1.3 Image ROI </h3>  
 
 使用Numpy索引次获得ROI(**region of interest**,即感兴趣的区域)。
 比如你搜索眼睛，只需要在脸部区域，缩小了搜索范围，就可以提高效率。
@@ -610,7 +610,7 @@ ball = img[280:340, 330:390]
 img[273:333, 100:160] = ball
 ```
 
-<h2 id="title8.4">8.4 分割和合并图像通道 </h2>  
+<h3 id="title4.1.4">4.1.4 分割和合并图像通道 </h3>  
 
 有时您需要在图像的B，G，R通道上单独工作。在这种情况下，您需要将BGR图像拆分为单个通道。在其他情况下，您可能需要加入这些单独的渠道来创建BGR图像。您可以通过以下方式简单地做到这一点：
 ```
@@ -624,7 +624,7 @@ img[:,:,2] = 0
 ```
 **警告**
 cv.split（）是一项昂贵的操作（就时间而言）。因此，仅在必要时使用它。否则请进行Numpy索引。
-<h2 id="title8.5">8.5 其他 </h2>  
+<h3 id="title4.1.5">4.1.5 其他 </h3>  
 
 ```
 像素值读取：
@@ -645,7 +645,7 @@ print(img.size)
 print( img.dtype )
 uint8
 ```
-<h1 id="title9">9 图像算术运算 </h1>  
+<h2 id="title4.2">4.2 图像算术运算 </h2>  
 
 **目标**
 - 学习图像的几种算术运算，例如加法，减法，按位运算等。
@@ -653,7 +653,7 @@ uint8
 
 [参考链接](https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html)
 
-<h2 id="title9.1">9.1 图像加法 </h2>  
+<h3 id="title4.2.1">4.2.1 图像加法 </h3>  
 
 opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
 但是有区别，opencv是按照饱和度计算，numpy是按照取模计算，cv.add更加合理。
@@ -668,7 +668,7 @@ opencv的 cv.add()和numpy的res = img1 + img2都可以进行运算。
 
 add(src1, src2[, dst[, mask[, dtype]]]) -> dst
 ```
-<h2 id="title9.2">9.2 图像融合 </h2>  
+<h3 id="title4.2.2">4.2.2 图像融合 </h3>  
 图像融合也是也是图像加法，但是对图像赋予不同的权重，以使其具有融合或透明的感觉。
 
 ```
@@ -685,7 +685,7 @@ cv.imshow('dst',dst)
 cv.waitKey(0)
 cv.destroyAllWindows()
 ```
-<h2 id="title9.3">9.3 按位运算 </h2>  
+<h3 id="4.2.3">4.2.3 按位运算 </h3>  
 
 这包括按位AND，OR，NOT和XOR操作。在提取图像的任何部分（如我们将在后续章节中看到），定义和使用非矩形ROI等方面，它们将非常有用。下面我们将看到一个如何更改图像特定区域的示例。 。
 
@@ -754,7 +754,7 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 5.仅取绿色：Gray=G；
 通过上述任一种方法求得Gray后，将原来的RGB(R,G,B)中的R,G,B统一用Gray替换，形成新的颜色RGB(Gray,Gray,Gray)，用它替换原来的RGB(R,G,B)就是灰度图了。
 
-<h1 id="title10">10 性能度量和改进技术 </h1>  
+<h2 id="4.3">4.3 性能度量和改进技术 </h2>  
 
 
 **目标**
@@ -850,7 +850,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0Njg5MjIwLC0xNzU3MTgwNjEyLC01OT
+eyJoaXN0b3J5IjpbMTA2MTUxNzkyLC0xNzU3MTgwNjEyLC01OT
 M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
 NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
 g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
