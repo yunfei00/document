@@ -370,7 +370,7 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 [参考链接](https://docs.opencv.org/master/db/d5b/tutorial_py_mouse_handling.html)
 
-<h2 id="title6.1">6.1 显示所有鼠标事件 </h2>  
+<h3 id="title3.4.1">3.4.1 显示所有鼠标事件 </h3>  
 
 ```
 import cv2 as cv
@@ -407,7 +407,7 @@ EVENT_FLAG_RBUTTON = 2 右键拖拽
 EVENT_FLAG_SHIFTKEY = 16 按Shift不放事件
 ```
 
-<h2 id="title6.2">6.2 鼠标画圆 </h2> 
+<h3 id="title3.4.2">3.4.2 鼠标画圆 </h3> 
 
 ```
 import numpy as np
@@ -435,7 +435,7 @@ def draw_circle(event,x,y,flags,param)
 # x y为此时的坐标位置
 ```
 
-<h2 id="title6.3">6.3 拖动鼠标画图 </h2> 
+<h3 id="title3.4.3">3.4.3 拖动鼠标画图 </h3> 
 
 ```
 import numpy as np
@@ -476,7 +476,7 @@ while(1):
 cv.destroyAllWindows()            
 ```
 
-<h1 id="title7">7 轨迹栏作为调色板 </h1>  
+<h2 id="title3.">3.5 轨迹栏作为调色板 </h2>  
 
 **目标**
 * 了解将轨迹栏绑定到OpenCV窗口
@@ -850,11 +850,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMjExMTUzLC0xNzU3MTgwNjEyLC01OT
-M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
-NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
-g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
-OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
-UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
-NTY0NDFdfQ==
+eyJoaXN0b3J5IjpbLTIxNDU5MjU4MzAsLTE3NTcxODA2MTIsLT
+U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
+NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
+w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
+Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
+UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
+NDE1NjQ0MV19
 -->
