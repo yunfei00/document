@@ -9,7 +9,7 @@
 		<h4><ul><a href="#title3.1.4">3.1.4 cv.waitKey</a> </h4>
 		<h4><ul><a href="#title3.1.5">3.1.5 cv.imwrite</a> </h4>
 		<h4><ul><a href="#title3.1.6">3.1.6 cv.samples.findFile</a> </h4>
-<h3><a href="#title4">4 videos</a> </h3>
+<h3><a href="#title3.2">4 videos</a> </h3>
 		<h4><ul><a href="#title4.1">4.1 Capture Video from Camera </a> </h4>
 		<h4><ul><a href="#title4.2">4.2 Playing Video from file</a> </h4>
 		<h4><ul><a href="#title4.3">4.3 Saving a Video</a> </h4>
@@ -308,14 +308,14 @@ line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> img
 thickness:厚度
 要绘制一条直线，您需要传递直线的起点和终点。
 ```
-<h3 id="title3.3.2">3.3.2 cv.rectangle </h2>  
+<h3 id="title3.3.2">3.3.2 cv.rectangle </h3>  
 
 ```
 要绘制矩形，您需要矩形的左上角和右下角
 cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 参数和line类似
 ```
-<h2 id="title5.3">5.3 cv.circle </h2>  
+<h3 id="title3.3.3">3.3.3 cv.circle </h3>  
 
 ```
 要绘制一个圆，需要其中心坐标和半径。我们将在上面绘制的矩形内绘制一个圆。
@@ -325,7 +325,7 @@ circle(img, center, radius, color[, thickness[, lineType[, shift]]]) -> img
 
 ```
 
-<h2 id="title5.4">5.4 cv.ellipse </h2>  
+<h3 id="title3.3.4">3.3.4 cv.ellipse </h3>  
 
 ```
 要绘制椭圆，我们需要传递几个参数。一个参数是中心位置（x，y）。下一个参数是轴长度（长轴长度，短轴长度）。angle是椭圆沿逆时针方向旋转的角度。startAngle和endAngle表示从主轴沿顺时针方向测量的椭圆弧的起点和终点
@@ -336,7 +336,7 @@ ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, line
 
 ```
 
-<h2 id="title5.5">5.5 绘图多边形 </h2>  
+<h3 id="title3.3.5">3.3.5 绘图多边形 </h3>  
 
 要绘制多边形，首先需要顶点的坐标。将这些点设置为ROWSx1x2形状的数组，其中ROWS是顶点数，并且其类型应为int32。
 
@@ -349,7 +349,7 @@ cv.polylines（img，[pts]，True，（0,255,255））
 
 ```
 
-<h2 id="title5.6">5.6 向图像添加文本 </h2>  
+<h3 id="title3.3.6">3.3.6 向图像添加文本 </h3>  
 
 要将文本放入图像中，需要指定以下内容。
 * 您要写入的文字数据
@@ -365,7 +365,7 @@ cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)
 
 ```
 
-<h1 id="title6">6 Mouse as a Paint-Brush </h1>  
+<h2 id="title3.4">3.4 Mouse as a Paint-Brush </h2>  
 
 [参考链接](https://docs.opencv.org/master/db/d5b/tutorial_py_mouse_handling.html)
 
@@ -849,11 +849,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU1NjA3MSwtMTc1NzE4MDYxMiwtNT
-kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
-MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
-Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
-ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
-w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
-MTU2NDQxXX0=
+eyJoaXN0b3J5IjpbLTE2OTMyNDQyMTcsLTE3NTcxODA2MTIsLT
+U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
+NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
+w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
+Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
+UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
+NDE1NjQ0MV19
 -->
