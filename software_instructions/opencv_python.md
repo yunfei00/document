@@ -910,12 +910,23 @@ opencv的库，一般要比numpy快
 	        break
 	cv.destroyAllWindows()
 	```
+	**注意**
+
+	图像中有一些噪点。我们将在后面的章节中看到如何删除它。
+
+	这是对象跟踪中最简单的方法。一旦学习了轮廓的功能，您就可以做很多事情，例如找到对象的质心并使用它来跟踪对象，仅通过将手放在相机前面就可以绘制图表以及其他有趣的东西。
+
+2. 如果找到颜色阈值
+
+	```
+
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTkwNTY2LDEyMzExMjMwNDgsNDA2Mj
-Y2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkw
-NiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NT
-c3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1Njgw
-NSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOT
-AyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMw
-ODg1XX0=
+eyJoaXN0b3J5IjpbLTEwNjk5NTk5ODcsMTIzMTEyMzA0OCw0MD
+YyNjY1NCwtMTc1NzE4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4
+OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLD
+k1NzcxMDE2OCwtMTg5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2
+ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5NzU1LC
+05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMzEx
+MzA4ODVdfQ==
 -->
