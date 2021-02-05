@@ -680,14 +680,17 @@ cv.destroyAllWindows()
 ```
 <h2 id="title9.3">9.3 按位运算 </h2>  
 
+这包括按位AND，OR，NOT和XOR操作。在提取图像的任何部分（如我们将在后续章节中看到），定义和使用非矩形ROI等方面，它们将非常有用。下面我们将看到一个如何更改图像特定区域的示例。 。
+
+我想将OpenCV徽标放在图像上方。如果添加两个图像，它将改变颜色。如果将它们混合，则会获得透明效果。但我希望它不透明。如果是矩形区域，则可以像上一章一样使用ROI。但是OpenCV徽标不是矩形。因此，您可以按如下所示进行按位操作：
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NT
-g1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1
-NSwtOTAyNzYyNTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMD
-MxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgx
-ODM5LC01NDI3Mzg5NjIsMTM1MTAyNTEwNCwtMTk2MjE4ODkwOS
-wxNzc2Mjg4MzA4LC0yMTI0NTk2MTExLDgxNjY0MTQ5Nyw1MTMy
-OTk1ODNdfQ==
+eyJoaXN0b3J5IjpbMTYwNzM2MjQzNiwtMTg5MDE5NjY3LDQ4ND
+g4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkx
+LC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MT
+QxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2
+NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC
+0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2
+NjQxNDk3XX0=
 -->
