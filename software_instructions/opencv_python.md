@@ -1,13 +1,14 @@
 # 目录
 <h3><a href="#title1">1 install</a> </h3>
 <h3><a href="#title2">2 help document</a> </h3>
-<h3><a href="#title3">3 images</a> </h3>
-		<h4><ul><a href="#title3.1">3.1 code </a> </h4>
-		<h4><ul><a href="#title3.2">3.2 cv.imread </a> </h4>
-		<h4><ul><a href="#title3.3">3.3 cv.imshow</a> </h4>
-		<h4><ul><a href="#title3.4">3.4 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title3.5">3.5 cv.imwrite</a> </h4>
-		<h4><ul><a href="#title3.6">3.6 cv.samples.findFile</a> </h4>
+<h3><a href="#title3">3 OpenCV中的Gui功能</a> </h3>
+<h4><a href="#title3.1">3.1 images</a> </h4>
+		<h4><ul><a href="#title3.1.1">3.1.1 code </a> </h4>
+		<h4><ul><a href="#title3.1.2">3.1.2 cv.imread </a> </h4>
+		<h4><ul><a href="#title3.1.3">3.1.3 cv.imshow</a> </h4>
+		<h4><ul><a href="#title3.1.4">3.1.4 cv.waitKey</a> </h4>
+		<h4><ul><a href="#title3.1.5">3.5 cv.imwrite</a> </h4>
+		<h4><ul><a href="#title3.1.6">3.1.6 cv.samples.findFile</a> </h4>
 <h3><a href="#title4">4 videos</a> </h3>
 		<h4><ul><a href="#title4.1">4.1 Capture Video from Camera </a> </h4>
 		<h4><ul><a href="#title4.2">4.2 Playing Video from file</a> </h4>
@@ -847,11 +848,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwODQ0NTI2LC0xNzU3MTgwNjEyLC01OT
-M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
-NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
-g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
-OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
-UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
-NTY0NDFdfQ==
+eyJoaXN0b3J5IjpbLTc0MzQ4NDE5MywtMTc1NzE4MDYxMiwtNT
+kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
+MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
+Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
+ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
+w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
+MTU2NDQxXX0=
 -->
