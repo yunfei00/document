@@ -535,8 +535,8 @@ getTrackbarPos(trackbarname, winname) -> retval
 ```
 
 
-
-<h1 id="title4">4 图像的基本操作 </h1>  
+<h1 id="title4">4 核心操作 </h1>  
+<h2 id="title4.1">4.1 图像的基本操作 </h2>  
 
 学习读取和编辑像素值，以及如何使用图像ROI和其他基本操作。
 
@@ -549,7 +549,7 @@ getTrackbarPos(trackbarname, winname) -> retval
 
 [参考链接](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
 
-<h3 id="title4.1">4.1 设置图像边框（边框填充） </h3>  
+<h3 id="title4.1.1">4.1.1 设置图像边框（边框填充） </h3>  
 
 ```
 import cv2 as cv
@@ -570,7 +570,7 @@ plt.subplot(235),plt.imshow(wrap,'gray'),plt.title('WRAP')
 plt.subplot(236),plt.imshow(constant,'gray'),plt.title('CONSTANT')
 plt.show()
 ```
-<h3 id="title4.2">4.2 cv.copyMakeBorder </h3>  
+<h3 id="title4.1.2">4.1.2 cv.copyMakeBorder </h3>  
 
 ```
 copyMakeBorder(src, top, bottom, left, right, borderType[, dst[, value]]) -> dst
@@ -599,7 +599,7 @@ cv.BORDER_REPLICATE-最后一个元素被复制，像这样： aaaaaa | abcdefgh
 cv.BORDER_WRAP-无法解释，它看起来像这样： cdefgh | abcdefgh | abcdefg
 value-边框颜色，如果边框类型为cv.BORDER_CONSTANT
 ```
-<h2 id="title8.3">8.3 Image ROI </h2>  
+<h2 id="title4.1.3">4.1.3 Image ROI </h2>  
 
 使用Numpy索引次获得ROI(**region of interest**,即感兴趣的区域)。
 比如你搜索眼睛，只需要在脸部区域，缩小了搜索范围，就可以提高效率。
@@ -850,11 +850,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTA2NTg1MSwtMTc1NzE4MDYxMiwtNT
-kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
-MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
-Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
-ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
-w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
-MTU2NDQxXX0=
+eyJoaXN0b3J5IjpbMzk0Njg5MjIwLC0xNzU3MTgwNjEyLC01OT
+M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
+NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
+g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
+OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
+UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
+NTY0NDFdfQ==
 -->
