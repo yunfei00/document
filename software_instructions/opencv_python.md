@@ -754,7 +754,7 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 5.仅取绿色：Gray=G；
 通过上述任一种方法求得Gray后，将原来的RGB(R,G,B)中的R,G,B统一用Gray替换，形成新的颜色RGB(Gray,Gray,Gray)，用它替换原来的RGB(R,G,B)就是灰度图了。
 
-<h2 id="4.3">4.3 性能度量和改进技术 </h2>  
+<h2 id="title4.3">4.3 性能度量和改进技术 </h2>  
 
 
 **目标**
@@ -766,7 +766,7 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 
 [参考链接](https://docs.opencv.org/master/dc/d71/tutorial_py_optimization.html)
 
-<h2 id="title10.1">10.1 运行时间计算 </h2>  
+<h3 id="title4.3.1">4.3.1 运行时间计算 </h3>  
 
 ```
 e1 = cv.getTickCount()
@@ -782,7 +782,7 @@ getTickFrequency()：用于返回CPU的频率。get Tick Frequency。这里的�
 
 ```
 
-<h2 id="title10.2">10.2 OpenCV中的默认优化 </h2>  
+<h3 id="title4.3.2">4.3.2 OpenCV中的默认优化 </h3>  
 
 使用cv.useOptimized查看是否启动优化，默认是启动的，启动后运算变快。
 ```
@@ -799,7 +799,7 @@ In [9]: %timeit res = cv.medianBlur(img,49)
 10 loops, best of 3: 64.1 ms per loop
 ```
 
-<h2 id="title10.3">10.3 在IPython中评估性能 </h2>  
+<h3 id="title4.3.3">4.3.3 在IPython中评估性能 </h3>  
 
 ```
 In [2]: x = 5                                                                                                                                                                                                                             
@@ -823,7 +823,7 @@ Python标量运算比Numpy标量运算快。因此，对于包含一两个元素
 
 opencv的库，一般要比numpy快
 
-<h2 id="title10.4">10.4 性能优化技术 </h2>  
+<h3 id="title4.3.4">4.3.4 性能优化技术 </h3>  
 
 有几种技术和编码方法可以充分利用Python和Numpy的性能。此处仅记录相关内容，并链接到重要资源。这里要注意的主要事情是，首先尝试以一种简单的方式实现该算法。工作正常后，对其进行概要分析，找到瓶颈并进行优化。
 
@@ -850,7 +850,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTUxNzkyLC0xNzU3MTgwNjEyLC01OT
+eyJoaXN0b3J5IjpbODI4MTc1NDQ2LC0xNzU3MTgwNjEyLC01OT
 M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
 NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
 g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
