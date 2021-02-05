@@ -29,10 +29,11 @@
 		<h5><ul><a href="#title3.4.1">3.4.1 显示所有鼠标事件 </a> </h5>
 		<h5><ul><a href="#title3.4.2">3.4.2 鼠标画圆</a> </h5>
 		<h5><ul><a href="#title3.4.3">3.4.3 拖动鼠标画图 </a> </h5>
-	<h3><a href="#title7">7 轨迹栏作为调色板</a> </h3>
-		<h4><ul><a href="#title7.1">7.1 调色板程序 </a> </h4>
-		<h4><ul><a href="#title7.2">7.2 cv.createTrackbar </a> </h4>
-		<h4><ul><a href="#title7.3">7.3 cv.getTrackbarPos </a> </h4>
+	<h4><a href="#title3.5">3.5 轨迹栏作为调色板</a> </h4>
+		<h5><ul><a href="#title3.5.1">3.5.1 调色板程序 </a> </h5>
+		<h5><ul><a href="#title3.5.2">3.5.2 cv.createTrackbar </a> </h5>
+		<h5><ul><a href="#title3.5.3">3.5.3 cv.getTrackbarPos </a> </h5>
+	<h3><a href="#title8">8 图像的基本操作</a> </h3>
 	<h3><a href="#title8">8 图像的基本操作</a> </h3>
 		<h4><ul><a href="#title8.1">8.1 设置图像边框（边框填充） </a> </h4>
 		<h4><ul><a href="#title8.2">8.2 cv.copyMakeBorder </a> </h4>
@@ -849,7 +850,7 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0NzU5NjQ2LC0xNzU3MTgwNjEyLC01OT
+eyJoaXN0b3J5IjpbMzk0MDYzODM3LC0xNzU3MTgwNjEyLC01OT
 M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
 NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
 g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
