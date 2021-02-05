@@ -38,6 +38,10 @@
 		<h4><ul><a href="#title8.3">8.3 Image ROI </a> </h4>
 		<h4><ul><a href="#title8.4">8.4 分割和合并图像通道 </a> </h4>
 		<h4><ul><a href="#title8.5">8.5 其他 </a> </h4>
+	<h3><a href="#title9">9 图像算术运算</a> </h3>
+		<h4><ul><a href="#title9.1">9.1 图像加法 </a> </h4>
+		<h4><ul><a href="#title9.2">9.2 图像融合 </a> </h4>
+		<h4><ul><a href="#title9.3">9.3 按位运算 </a> </h4>
 
 		
 <div style="page-break-after:always"></div>
@@ -701,9 +705,10 @@ mask_inv = cv.bitwise_not(mask)
 # 图像1左上角的背景部分，需要保留
 img1_bg = cv.bitwise_and(roi,roi,mask = mask_inv)
 # Take only region of logo from logo image.
-# 提取图像中的logo不
+# 提取图像中的logo部分
 img2_fg = cv.bitwise_and(img2,img2,mask = mask)
 # Put logo in ROI and modify the main image
+# 将两部分叠加
 dst = cv.add(img1_bg,img2_fg)
 img1[0:rows, 0:cols ] = dst
 cv.imshow('res',img1)
@@ -749,11 +754,11 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MT
-MwMDYxNzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2
-NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MT
-U0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5
-OTA1LDUxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LD
-E2NzQxNTY0NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEw
-MjUxMDRdfQ==
+eyJoaXN0b3J5IjpbMjA0NzQ4MDc5MiwtMTUyNzM3ODkwNiwtMz
+c3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAx
+NjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNj
+M3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYy
+NTg5LDExMzMwOTk5MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LD
+E1MjQyMTY0NTYsMTY3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3
+Mzg5NjJdfQ==
 -->
