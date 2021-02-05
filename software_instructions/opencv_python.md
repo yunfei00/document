@@ -683,14 +683,39 @@ cv.destroyAllWindows()
 这包括按位AND，OR，NOT和XOR操作。在提取图像的任何部分（如我们将在后续章节中看到），定义和使用非矩形ROI等方面，它们将非常有用。下面我们将看到一个如何更改图像特定区域的示例。 。
 
 我想将OpenCV徽标放在图像上方。如果添加两个图像，它将改变颜色。如果将它们混合，则会获得透明效果。但我希望它不透明。如果是矩形区域，则可以像上一章一样使用ROI。但是OpenCV徽标不是矩形。因此，您可以按如下所示进行按位操作：
+
+```
+# Load two images
+img1 = cv.imread('messi5.jpg')
+img2 = cv.imread('opencv-logo-white.png')
+# I want to put logo on top-left corner, So I create a ROI
+rows,cols,channels = img2.shape
+roi = img1[0:rows, 0:cols]
+# Now create a mask of logo and create its inverse mask also
+img2gray = cv.cvtColor(img2,cv.COLOR_BGR2GRAY)
+ret, mask = cv.threshold(img2gray, 10, 255, cv.THRESH_BINARY)
+mask_inv = cv.bitwise_not(mask)
+# Now black-out the area of logo in ROI
+img1_bg = cv.bitwise_and(roi,roi,mask = mask_inv)
+# Take only region of logo from logo image.
+img2_fg = cv.bitwise_and(img2,img2,mask = mask)
+# Put logo in ROI and modify the main image
+dst = cv.add(img1_bg,img2_fg)
+img1[0:rows, 0:cols ] = dst
+cv.imshow('res',img1)
+cv.waitKey(0)
+cv.destroyAllWindows()
+```
+
+相关函数使用说米
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzM2MjQzNiwtMTg5MDE5NjY3LDQ4ND
-g4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkx
-LC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MT
-QxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2
-NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1MTA0LC
-0xOTYyMTg4OTA5LDE3NzYyODgzMDgsLTIxMjQ1OTYxMTEsODE2
-NjQxNDk3XX0=
+eyJoaXN0b3J5IjpbMTA1NDc5MTY3LC0xODkwMTk2NjcsNDg0OD
+g1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEs
+LTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxND
+E0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0
+NDEsMTMwODU4MTgzOSwtNTQyNzM4OTYyLDEzNTEwMjUxMDQsLT
+E5NjIxODg5MDksMTc3NjI4ODMwOCwtMjEyNDU5NjExMSw4MTY2
+NDE0OTddfQ==
 -->
