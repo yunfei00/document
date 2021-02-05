@@ -775,6 +775,8 @@ getTickCount()：用于返回从操作系统启动到当前所经的计时周期
 getTickFrequency()：用于返回CPU的频率。get Tick Frequency。这里的单位是秒，也就是一秒内重复的次数。
 时间等于 getTickCount() / getTickFrequency()
 
+您可以使用时间模块执行相同的操作。代替cv.getTickCount，使用time.time（）函数。然后取两次的差。
+
 ```
 
 
@@ -782,7 +784,7 @@ getTickFrequency()：用于返回CPU的频率。get Tick Frequency。这里的�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTUyMTkwMiwtNTkzNjMxNDg3LC0xNT
+eyJoaXN0b3J5IjpbMTkxNTgxMjIwOCwtNTkzNjMxNDg3LC0xNT
 I3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTczLC0yMDE2NDM4
 MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LDQ4NDg4NTU0OCwtNj
 Y1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5
