@@ -685,7 +685,7 @@ cv.imshow('dst',dst)
 cv.waitKey(0)
 cv.destroyAllWindows()
 ```
-<h3 id="4.2.3">4.2.3 按位运算 </h3>  
+<h3 id="title4.2.3">4.2.3 按位运算 </h3>  
 
 这包括按位AND，OR，NOT和XOR操作。在提取图像的任何部分（如我们将在后续章节中看到），定义和使用非矩形ROI等方面，它们将非常有用。下面我们将看到一个如何更改图像特定区域的示例。 。
 
@@ -850,11 +850,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MTc1NDQ2LC0xNzU3MTgwNjEyLC01OT
-M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
-NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
-g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
-OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
-UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
-NTY0NDFdfQ==
+eyJoaXN0b3J5IjpbLTM0NzMyMTQzNCwtMTc1NzE4MDYxMiwtNT
+kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
+MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
+Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
+ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
+w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
+MTU2NDQxXX0=
 -->
