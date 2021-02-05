@@ -820,12 +820,22 @@ Python标量运算比Numpy标量运算快。因此，对于包含一两个元素
 
 opencv的库，一般要比numpy快
 
+<h2 id="title10.4">10.4 性能优化技术 </h2>  
+
+有几种技术和编码方法可以充分利用Python和Numpy的性能。此处仅记录相关内容，并链接到重要资源。这里要注意的主要事情是，首先尝试以一种简单的方式实现该算法。工作正常后，对其进行概要分析，找到瓶颈并进行优化。
+
+1.  尽可能避免在Python中使用循环，尤其是双/三重循环等。它们本来就很慢。
+2.  由于Numpy和OpenCV针对矢量运算进行了优化，因此将矢量/算法/代码尽可能地矢量化。
+3.  利用缓存一致性。
+4.  除非有必要，否则切勿制作数组的副本。尝试改用视图。阵列复制是一项昂贵的操作。
+
+如果执行完所有这些操作后代码仍然很慢，或者不可避免地需要使用大循环，请使用Cython等其他库来使其更快。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzgxNDQ2MiwtMTc1NzE4MDYxMiwtNT
-kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
-MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
-Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
-ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
-w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
-MTU2NDQxXX0=
+eyJoaXN0b3J5IjpbODk5MzY2MjU5LC0xNzU3MTgwNjEyLC01OT
+M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
+NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
+g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
+OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
+UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
+NTY0NDFdfQ==
 -->
