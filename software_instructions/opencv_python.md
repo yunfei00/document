@@ -3,21 +3,21 @@
 <h3><a href="#title2">2 help document</a> </h3>
 <h3><a href="#title3">3 OpenCV中的Gui功能</a> </h3>
 <h4><a href="#title3.1">3.1 images</a> </h4>
-		<h4><ul><a href="#title3.1.1">3.1.1 code </a> </h4>
-		<h4><ul><a href="#title3.1.2">3.1.2 cv.imread </a> </h4>
-		<h4><ul><a href="#title3.1.3">3.1.3 cv.imshow</a> </h4>
-		<h4><ul><a href="#title3.1.4">3.1.4 cv.waitKey</a> </h4>
-		<h4><ul><a href="#title3.1.5">3.1.5 cv.imwrite</a> </h4>
-		<h4><ul><a href="#title3.1.6">3.1.6 cv.samples.findFile</a> </h4>
-<h3><a href="#title3.2">4 videos</a> </h3>
-		<h4><ul><a href="#title4.1">4.1 Capture Video from Camera </a> </h4>
-		<h4><ul><a href="#title4.2">4.2 Playing Video from file</a> </h4>
-		<h4><ul><a href="#title4.3">4.3 Saving a Video</a> </h4>
-		<h4><ul><a href="#title4.4">4.4 cv.VideoCapture</a> </h4>
-		<h4><ul><a href="#title4.5">4.5 cv.cvtColor</a> </h4>
-		<h4><ul><a href="#title4.6">4.6 cv.VideoWriter_fourcc</a> </h4>
-		<h4><ul><a href="#title4.7">4.7 cv.VideoWriter </a> </h4>  			
-		<h4><ul><a href="#title4.8">4.8 cv.flip </a> </h4>
+		<h5><ul><a href="#title3.1.1">3.1.1 code </a> </h5>
+		<h5><ul><a href="#title3.1.2">3.1.2 cv.imread </a> </h5>
+		<h5><ul><a href="#title3.1.3">3.1.3 cv.imshow</a> </h5>
+		<h5><ul><a href="#title3.1.4">3.1.4 cv.waitKey</a> </h5>
+		<h5><ul><a href="#title3.1.5">3.1.5 cv.imwrite</a> </h5>
+		<h5><ul><a href="#title3.1.6">3.1.6 cv.samples.findFile</a> </h5>
+<h4><a href="#title3.2">3.2 videos</a> </h4>
+		<h4><ul><a href="#title3.2.1">3.2.1 Capture Video from Camera </a> </h4>
+		<h4><ul><a href="#title3.2.2">3.2.2 Playing Video from file</a> </h4>
+		<h4><ul><a href="#title3.2.3">3.2.3 Saving a Video</a> </h4>
+		<h4><ul><a href="#title3.2.4">3.2.4 cv.VideoCapture</a> </h4>
+		<h4><ul><a href="#title3.2.5">3.2.5 cv.cvtColor</a> </h4>
+		<h4><ul><a href="#title3.2.6">3.2.6 cv.VideoWriter_fourcc</a> </h4>
+		<h4><ul><a href="#title3.2.7">3.2.7 cv.VideoWriter </a> </h4>  			
+		<h4><ul><a href="#title3.2.8">3.2.8 cv.flip </a> </h4>
 <h3><a href="#title5">5 Drawing Functions</a> </h3>
 		<h4><ul><a href="#title5.1">5.1 cv.line </a> </h4>
 		<h4><ul><a href="#title5.2">5.2 cv.rectangle</a> </h4>
@@ -849,11 +849,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMyNDQyMTcsLTE3NTcxODA2MTIsLT
-U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
-NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
-w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
-Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
-UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
-NDE1NjQ0MV19
+eyJoaXN0b3J5IjpbMTc3ODMzNTU1NiwtMTc1NzE4MDYxMiwtNT
+kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
+MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
+Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
+ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
+w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
+MTU2NDQxXX0=
 -->
