@@ -830,8 +830,24 @@ opencv的库，一般要比numpy快
 4.  除非有必要，否则切勿制作数组的副本。尝试改用视图。阵列复制是一项昂贵的操作。
 
 如果执行完所有这些操作后代码仍然很慢，或者不可避免地需要使用大循环，请使用Cython等其他库来使其更快。
+
+<h1 id="title11">11 OpenCV中的图像处理 </h1>  
+
+
+**目标**
+在图像处理中，由于每秒要处理大量操作，因此必须使代码不仅提供正确的解决方案，而且还必须以最快的方式提供它。因此，在本章中，您将学习：
+
+- 衡量代码的性能。
+- 一些改善代码性能的技巧。
+- 您将看到以下功能：cv.getTickCount，cv.getTickFrequency等。
+
+[参考链接](https://docs.opencv.org/master/dc/d71/tutorial_py_optimization.html)
+
+<h2 id="title10.1">10.1 运行时间计算 </h2>  
+
+[OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MzY2MjU5LC0xNzU3MTgwNjEyLC01OT
+eyJoaXN0b3J5IjpbNDkwODQ0NTI2LC0xNzU3MTgwNjEyLC01OT
 M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
 NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
 g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
