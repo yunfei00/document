@@ -779,16 +779,28 @@ getTickFrequency()：用于返回CPU的频率。get Tick Frequency。这里的�
 
 ```
 
+<h2 id="title10.2">10.2 OpenCV中的默认优化 </h2>  
 
-
-
-
+使用cv.useOptimized查看是否启动优化，默认是启动的，启动后
+```
+# check if optimization is enabled
+In [5]: cv.useOptimized()
+Out[5]: True
+In [6]: %timeit res = cv.medianBlur(img,49)
+10 loops, best of 3: 34.9 ms per loop
+# Disable it
+In [7]: cv.setUseOptimized(False)
+In [8]: cv.useOptimized()
+Out[8]: False
+In [9]: %timeit res = cv.medianBlur(img,49)
+10 loops, best of 3: 64.1 ms per loop
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTgxMjIwOCwtNTkzNjMxNDg3LC0xNT
-I3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTczLC0yMDE2NDM4
-MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LDQ4NDg4NTU0OCwtNj
-Y1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkxLC0xMzcxMTk5
-NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNSw1MTQxNDM1MjUsLT
-EwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0MTU2NDQxLDEzMDg1
-ODE4MzldfQ==
+eyJoaXN0b3J5IjpbNjI4MzA2MjE2LC01OTM2MzE0ODcsLTE1Mj
+czNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0Mzgw
+NjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02Nj
+U4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3
+NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUyNSwtMT
+AzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQxNTY0NDEsMTMwODU4
+MTgzOV19
 -->
