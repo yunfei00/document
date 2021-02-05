@@ -839,15 +839,15 @@ opencv的库，一般要比numpy快
 
 如果执行完所有这些操作后代码仍然很慢，或者不可避免地需要使用大循环，请使用Cython等其他库来使其更快。
 
-<h1 id="title11">11 OpenCV中的图像处理 </h1>  
+<h1 id="title5">5 OpenCV中的图像处理 </h1>  
+<h2 id="title5.1">5.1 运行时间计算 </h2>  
 
-
+[改变色彩空间](https://docs.opencv.org/master/df/d9d/tutorial_py_colorspaces.html)
 **目标**
-在图像处理中，由于每秒要处理大量操作，因此必须使代码不仅提供正确的解决方案，而且还必须以最快的方式提供它。因此，在本章中，您将学习：
-
-- 衡量代码的性能。
-- 一些改善代码性能的技巧。
-- 您将看到以下功能：cv.getTickCount，cv.getTickFrequency等。
+在本教程中，您将学习如何将图像从一种色彩空间转换为另一种色彩空间，例如BGR ↔ 灰色，BGR ↔ HSV等
+除此之外，我们还将创建一个应用程序来提取视频中的彩色对象
+您将学习以下功能：cv.cvtColor（），cv.inRange（）等。
+改变色彩空间
 
 [参考链接](https://docs.opencv.org/master/dc/d71/tutorial_py_optimization.html)
 
@@ -855,11 +855,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2MjY2NTQsLTE3NTcxODA2MTIsLTU5Mz
-YzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3
-MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0OD
-Q4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5
-MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MDUsNT
-E0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1
-NjQ0MV19
+eyJoaXN0b3J5IjpbMTkxMDQ5MzYxMiw0MDYyNjY1NCwtMTc1Nz
+E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
+NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMT
+g5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEw
+MTksNzE1NDYzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMT
+EzMzA5OTkwNSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIx
+NjQ1Nl19
 -->
