@@ -44,6 +44,11 @@
 		<h5><ul><a href="#title4.2.1">4.2.1 图像加法 </a> </h5>
 		<h5><ul><a href="#title4.2.2">4.2.2 图像融合 </a> </h5>
 		<h5><ul><a href="#title4.2.3">4.2.3 按位运算 </a> </h5>
+	<h4><a href="#title4.3">4.3 性能度量和改进技术</a> </h4>
+		<h5><ul><a href="#title4.3.1">4.3.1 运行时间计算 </a> </h5>
+		<h5><ul><a href="#title4.3.2">4.3.2 OpenCV中的默认优化 </a> </h5>
+		<h5><ul><a href="#title4.3.3">4.3.3 在IPython中评估性能 </a> </h5>
+		<h5><ul><a href="#title4.3.4">4.3.4 性能优化技术 </a> </h5>
 
 		
 <div style="page-break-after:always"></div>
@@ -850,11 +855,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzMyMTQzNCwtMTc1NzE4MDYxMiwtNT
-kzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2
-MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LD
-Q4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYz
-ODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkwNS
-w1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNjc0
-MTU2NDQxXX0=
+eyJoaXN0b3J5IjpbNDA2MjY2NTQsLTE3NTcxODA2MTIsLTU5Mz
+YzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3
+MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0OD
+Q4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5
+MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MDUsNT
+E0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3NDE1
+NjQ0MV19
 -->
