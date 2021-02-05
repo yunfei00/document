@@ -879,14 +879,32 @@ opencv的库，一般要比numpy快
 	```
 	
 	**对象追踪**
-	
-
 	```
-	inRange(src, lowerb, upperb[, dst]) -> dst	
-	
+	import cv2 as cv
+	import numpy as np
+	cap = cv.VideoCapture(0)
+	while(1):
+	    # Take each frame
+		 _, frame = cap.read()
+	    # Convert BGR to HSV
+	    hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
+	    # define range of blue color in HSV
+	    lower_blue = np.array([110,50,50])
+	    upper_blue = np.array([130,255,255])
+	    # Threshold the HSV image to get only blue colors
+	    mask = cv.inRange(hsv, lower_blue, upper_blue)
+	    # Bitwise-AND mask and original image
+	    res = cv.bitwise_and(frame,frame, mask= mask)
+	    cv.imshow('frame',frame)
+	    cv.imshow('mask',mask)
+	    cv.imshow('res',res)
+	    k = cv.waitKey(5) & 0xFF
+		if k == 27:
+	        break
+	cv.destroyAllWindows()
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTY1NDc4OCwxMjMxMTIzMDQ4LDQwNj
+eyJoaXN0b3J5IjpbLTcwNTYyMjY4MywxMjMxMTIzMDQ4LDQwNj
 I2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5
 MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOT
 U3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4
