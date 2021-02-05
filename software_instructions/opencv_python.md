@@ -692,10 +692,13 @@ img2 = cv.imread('opencv-logo-white.png')   # 目标图像2（较小）
 rows,cols,channels = img2.shape
 roi = img1[0:rows, 0:cols]   # 感兴趣区域为目标图像1中的左上角
 # Now create a mask of logo and create its inverse mask also
-img2gray = cv.cvtColor(img2,cv.COLOR_BGR2GRAY)
+img2gray = cv.cvtColor(img2,cv.COLOR_BGR2GRAY) # 图像2 灰度值
+# 掩码，将灰度值部分，提取出来，并设置为255，其余设置为0
 ret, mask = cv.threshold(img2gray, 10, 255, cv.THRESH_BINARY)
+# 获取图像2的背景
 mask_inv = cv.bitwise_not(mask)
-# Now black-out the area of logo in ROI
+# Now black-out the area of logo in ROI 
+# 图像1的背景部分
 img1_bg = cv.bitwise_and(roi,roi,mask = mask_inv)
 # Take only region of logo from logo image.
 img2_fg = cv.bitwise_and(img2,img2,mask = mask)
@@ -745,11 +748,11 @@ bitwise_and(src1, src2[, dst[, mask]]) -> dst
 性能度量和改进技术
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODk5OTk1LC0zNzcxMjg2NTcsNDEzMD
-A2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3
-LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1ND
-YzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkw
-NSw1MTQxNDM1MjUsLTEwMzExMzA4ODUsMTUyNDIxNjQ1NiwxNj
-c0MTU2NDQxLDEzMDg1ODE4MzksLTU0MjczODk2MiwxMzUxMDI1
-MTA0XX0=
+eyJoaXN0b3J5IjpbLTk4MDExMTg0MCwtMzc3MTI4NjU3LDQxMz
+AwNjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2
+Nyw0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNT
+Q2Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5
+MDUsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMT
+Y3NDE1NjQ0MSwxMzA4NTgxODM5LC01NDI3Mzg5NjIsMTM1MTAy
+NTEwNF19
 -->
