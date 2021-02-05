@@ -25,10 +25,10 @@
 		<h5><ul><a href="#title3.3.4">3.3.4 cv.ellipse</a> </h5>
 		<h5><ul><a href="#title3.3.5">3.3.5 绘图多边形</a> </h5>
 		<h5><ul><a href="#title3.3.6">3.3.6 向图像添加文本</a> </h5>
-	<h3><a href="#title6">6 Mouse as a Paint-Brush</a> </h3>
-		<h4><ul><a href="#title6.1">6.1 显示所有鼠标事件 </a> </h4>
-		<h4><ul><a href="#title6.2">6.2 鼠标画圆</a> </h4>
-		<h4><ul><a href="#title6.3">6.3 拖动鼠标画图 </a> </h4>
+	<h4><a href="#title3.4">3.4 Mouse as a Paint-Brush</a> </h4>
+		<h5><ul><a href="#title3.4.1">3.4.1 显示所有鼠标事件 </a> </h5>
+		<h5><ul><a href="#title3.4.2">3.4.2 鼠标画圆</a> </h5>
+		<h5><ul><a href="#title3.4.3">3.4.3 拖动鼠标画图 </a> </h5>
 	<h3><a href="#title7">7 轨迹栏作为调色板</a> </h3>
 		<h4><ul><a href="#title7.1">7.1 调色板程序 </a> </h4>
 		<h4><ul><a href="#title7.2">7.2 cv.createTrackbar </a> </h4>
@@ -849,11 +849,11 @@ opencv的库，一般要比numpy快
 
 [OpenCV中的图像处理](https://docs.opencv.org/master/d2/d96/tutorial_py_table_of_contents_imgproc.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY2MjQxNjIsLTE3NTcxODA2MTIsLT
-U5MzYzMTQ4NywtMTUyNzM3ODkwNiwtMzc3MTI4NjU3LDQxMzAw
-NjE3MywtMjAxNjQzODA2Miw5NTc3MTAxNjgsLTE4OTAxOTY2Ny
-w0ODQ4ODU1NDgsLTY2NTg1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2
-Mzg5MSwtMTM3MTE5OTc1NSwtOTAyNzYyNTg5LDExMzMwOTk5MD
-UsNTE0MTQzNTI1LC0xMDMxMTMwODg1LDE1MjQyMTY0NTYsMTY3
-NDE1NjQ0MV19
+eyJoaXN0b3J5IjpbNjU0NzU5NjQ2LC0xNzU3MTgwNjEyLC01OT
+M2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYx
+NzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsND
+g0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4
+OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LD
+UxNDE0MzUyNSwtMTAzMTEzMDg4NSwxNTI0MjE2NDU2LDE2NzQx
+NTY0NDFdfQ==
 -->
