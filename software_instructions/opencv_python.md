@@ -962,14 +962,18 @@ opencv的库，一般要比numpy快
 
 	```
 	warpAffine(src, M, dsize[, dst[, flags[, borderMode[, borderValue]]]]) -> dst
+	src:原图像
+	M：变换矩阵
+	dsize：输出图像大小，以元组形式给出，例如（100，200）
+	dst：输出图像，其大小为dsize，并且类型与src相同。
 	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg0MDA1OCwtODQ3Mjk0NTc5LC04ND
-MzNDkwMjEsMjAwNDM4MDMwLDE4NTgxODc1MDgsMzkyNjgwNDEw
-LDQyMzkwMjI0MywxMjMxMTIzMDQ4LDQwNjI2NjU0LC0xNzU3MT
-gwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5MDYsLTM3NzEyODY1
-Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4LC0xOD
-kwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNzY5MTAx
-OV19
+eyJoaXN0b3J5IjpbMTc4NTEwMzMxMywtMTY3ODQwMDU4LC04ND
+cyOTQ1NzksLTg0MzM0OTAyMSwyMDA0MzgwMzAsMTg1ODE4NzUw
+OCwzOTI2ODA0MTAsNDIzOTAyMjQzLDEyMzExMjMwNDgsNDA2Mj
+Y2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkw
+NiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2Miw5NT
+c3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NTg1Njgw
+NV19
 -->
