@@ -954,13 +954,16 @@ opencv的库，一般要比numpy快
 		-INTER_LANCZOS4
 		基于选择的插值技术，使用相应的算法。您可以将插值视为一种方法，该方法根据相邻像素和调整图像大小的比例来确定哪个像素获得哪个值。
 	```
-	[resize使用参考网址](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
+	[resize使用参考网址1](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
+[resize使用参考网址2](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzM0OTAyMSwyMDA0MzgwMzAsMTg1OD
-E4NzUwOCwzOTI2ODA0MTAsNDIzOTAyMjQzLDEyMzExMjMwNDgs
-NDA2MjY2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNz
-M3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2
-Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NT
-g1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1
-NV19
+eyJoaXN0b3J5IjpbLTk5NjMwMzY1MSwtODQzMzQ5MDIxLDIwMD
+QzODAzMCwxODU4MTg3NTA4LDM5MjY4MDQxMCw0MjM5MDIyNDMs
+MTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1NzE4MDYxMiwtNTkzNj
+MxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTcz
+LC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LDQ4ND
+g4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkx
+XX0=
 -->
