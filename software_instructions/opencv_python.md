@@ -928,13 +928,24 @@ opencv的库，一般要比numpy快
 	
 	可以以[H-10，100,100]和[H + 10，255，255]作为下限和上限
 	```
-	
+<h2 id="title5.2">5.1 改变色彩空间 </h2>  
+学习将不同的几何变换应用于图像，例如旋转，平移等。
+**目标**
+在本教程中，您将学习如何将图像从一种色彩空间转换为另一种色彩空间，例如BGR ↔ Gray, BGR ↔ HSV等
+除此之外，我们还将创建一个应用程序来提取视频中的彩色对象
+您将学习以下功能：cv.cvtColor（），cv.inRange（）等。
+
+[参考链接](https://docs.opencv.org/master/df/d9d/tutorial_py_colorspaces.html)
+
+*  HSV颜色模型
+	这个模型中颜色的参数分别是：色调（H），饱和度（S），明度（V）。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNjgwNDEwLDQyMzkwMjI0MywxMjMxMT
-IzMDQ4LDQwNjI2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcs
-LTE1MjczNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMT
-Y0MzgwNjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4
-LC02NjU4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNz
-ExOTk3NTUsLTkwMjc2MjU4OSwxMTMzMDk5OTA1LDUxNDE0MzUy
+eyJoaXN0b3J5IjpbMzQzMTQzNjE0LDM5MjY4MDQxMCw0MjM5MD
+IyNDMsMTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1NzE4MDYxMiwt
+NTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMD
+A2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3
+LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1ND
+YzODkxLC0xMzcxMTk5NzU1LC05MDI3NjI1ODksMTEzMzA5OTkw
 NV19
 -->
