@@ -940,6 +940,7 @@ opencv的库，一般要比numpy快
 
 *  函数说明
 
+1. resize
 	```
 	resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -> dst
 	src:原图像
@@ -957,13 +958,14 @@ opencv的库，一般要比numpy快
 	[resize使用参考网址1](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
 [resize使用参考网址2](https://pythonexamples.org/python-opencv-cv2-resize-image/)
 
-
+2. warpAffine
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzI5NDU3OSwtODQzMzQ5MDIxLDIwMD
-QzODAzMCwxODU4MTg3NTA4LDM5MjY4MDQxMCw0MjM5MDIyNDMs
-MTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1NzE4MDYxMiwtNTkzNj
-MxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTcz
-LC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMTg5MDE5NjY3LDQ4ND
-g4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEwMTksNzE1NDYzODkx
-XX0=
+eyJoaXN0b3J5IjpbLTEyMTEwNjYwMDEsLTg0NzI5NDU3OSwtOD
+QzMzQ5MDIxLDIwMDQzODAzMCwxODU4MTg3NTA4LDM5MjY4MDQx
+MCw0MjM5MDIyNDMsMTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1Nz
+E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
+NTcsNDEzMDA2MTczLC0yMDE2NDM4MDYyLDk1NzcxMDE2OCwtMT
+g5MDE5NjY3LDQ4NDg4NTU0OCwtNjY1ODU2ODA1LDE2Mzc2OTEw
+MTldfQ==
 -->
