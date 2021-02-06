@@ -942,13 +942,15 @@ opencv的库，一般要比numpy快
 
 	```
 	resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -> dst
+	para
 	```
+	[resize使用参考网址](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDM4MDMwLDE4NTgxODc1MDgsMzkyNj
-gwNDEwLDQyMzkwMjI0MywxMjMxMTIzMDQ4LDQwNjI2NjU0LC0x
-NzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1MjczNzg5MDYsLTM3Nz
-EyODY1Nyw0MTMwMDYxNzMsLTIwMTY0MzgwNjIsOTU3NzEwMTY4
-LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02NjU4NTY4MDUsMTYzNz
-Y5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3NTUsLTkwMjc2MjU4
-OV19
+eyJoaXN0b3J5IjpbLTIwMTg2NzA4MTMsMjAwNDM4MDMwLDE4NT
+gxODc1MDgsMzkyNjgwNDEwLDQyMzkwMjI0MywxMjMxMTIzMDQ4
+LDQwNjI2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1Mj
+czNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0Mzgw
+NjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02Nj
+U4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3
+NTVdfQ==
 -->
