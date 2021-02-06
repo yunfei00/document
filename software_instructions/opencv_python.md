@@ -958,10 +958,14 @@ opencv的库，一般要比numpy快
 	[resize使用参考网址1](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
 [resize使用参考网址2](https://pythonexamples.org/python-opencv-cv2-resize-image/)
 
-2. warpAffine
+2. warpAffine  仿射变形
+
+	```
+	
+	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTEwNjYwMDEsLTg0NzI5NDU3OSwtOD
+eyJoaXN0b3J5IjpbLTE4NTc3NDMxNjIsLTg0NzI5NDU3OSwtOD
 QzMzQ5MDIxLDIwMDQzODAzMCwxODU4MTg3NTA4LDM5MjY4MDQx
 MCw0MjM5MDIyNDMsMTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1Nz
 E4MDYxMiwtNTkzNjMxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2
