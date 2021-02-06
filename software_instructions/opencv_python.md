@@ -966,10 +966,14 @@ opencv的库，一般要比numpy快
 	M：变换矩阵
 	dsize：输出图像大小，以元组形式给出，例如（100，200）
 	dst：输出图像，其大小为dsize，并且类型与src相同。
+	flags：插值方法（请参阅resize（））
+	**borderMode：像素外推法；当borderMode = BORDER_TRANSPARENT时，表示目标图像中与源图像中的“离群值”相对应的像素未被该函数修改。  
+**borderValue：**在边界不变的情况下使用的值；默认情况下为0。
+	
 	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTEwMzMxMywtMTY3ODQwMDU4LC04ND
+eyJoaXN0b3J5IjpbMTQ0MjMzNzIwOCwtMTY3ODQwMDU4LC04ND
 cyOTQ1NzksLTg0MzM0OTAyMSwyMDA0MzgwMzAsMTg1ODE4NzUw
 OCwzOTI2ODA0MTAsNDIzOTAyMjQzLDEyMzExMjMwNDgsNDA2Mj
 Y2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNzM3ODkw
