@@ -955,11 +955,11 @@ opencv的库，一般要比numpy快
 		基于选择的插值技术，使用相应的算法。您可以将插值视为一种方法，该方法根据相邻像素和调整图像大小的比例来确定哪个像素获得哪个值。
 	```
 	[resize使用参考网址1](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
-[resize使用参考网址2](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
+[resize使用参考网址2](https://pythonexamples.org/python-opencv-cv2-resize-image/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjMwMzY1MSwtODQzMzQ5MDIxLDIwMD
+eyJoaXN0b3J5IjpbLTg0NzI5NDU3OSwtODQzMzQ5MDIxLDIwMD
 QzODAzMCwxODU4MTg3NTA4LDM5MjY4MDQxMCw0MjM5MDIyNDMs
 MTIzMTEyMzA0OCw0MDYyNjY1NCwtMTc1NzE4MDYxMiwtNTkzNj
 MxNDg3LC0xNTI3Mzc4OTA2LC0zNzcxMjg2NTcsNDEzMDA2MTcz
