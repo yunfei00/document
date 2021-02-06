@@ -947,14 +947,20 @@ opencv的库，一般要比numpy快
 	fx:是沿X轴或水平轴的缩放比例
 	fy:是沿Y轴或垂直轴的比例因子
 	interpolation:处理方法，以下选项
+		-INTER_NEAREST
+		-INTER_LINEAR
+		-INTER_AREA
+		-INTER_CUBIC
+		-INTER_LANCZOS4
+		基于选择的插值技术，使用相应的算法。您可以将插值视为一种方法，该方法根据相邻像素和调整图像大小的比例来确定哪个像素获得哪个值。
 	```
 	[resize使用参考网址](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAyMjMyNDcsMjAwNDM4MDMwLDE4NT
-gxODc1MDgsMzkyNjgwNDEwLDQyMzkwMjI0MywxMjMxMTIzMDQ4
-LDQwNjI2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1Mj
-czNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0Mzgw
-NjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02Nj
-U4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTg0MzM0OTAyMSwyMDA0MzgwMzAsMTg1OD
+E4NzUwOCwzOTI2ODA0MTAsNDIzOTAyMjQzLDEyMzExMjMwNDgs
+NDA2MjY2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNz
+M3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2
+Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NT
+g1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1
+NV19
 -->
