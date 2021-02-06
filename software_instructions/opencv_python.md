@@ -942,15 +942,16 @@ opencv的库，一般要比numpy快
 
 	```
 	resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -> dst
-	para
+	src:原图像
+	dsize：输出图像大小，以yuan zu
 	```
 	[resize使用参考网址](https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg2NzA4MTMsMjAwNDM4MDMwLDE4NT
-gxODc1MDgsMzkyNjgwNDEwLDQyMzkwMjI0MywxMjMxMTIzMDQ4
-LDQwNjI2NjU0LC0xNzU3MTgwNjEyLC01OTM2MzE0ODcsLTE1Mj
-czNzg5MDYsLTM3NzEyODY1Nyw0MTMwMDYxNzMsLTIwMTY0Mzgw
-NjIsOTU3NzEwMTY4LC0xODkwMTk2NjcsNDg0ODg1NTQ4LC02Nj
-U4NTY4MDUsMTYzNzY5MTAxOSw3MTU0NjM4OTEsLTEzNzExOTk3
-NTVdfQ==
+eyJoaXN0b3J5IjpbMTA3Nzk4NTc2MywyMDA0MzgwMzAsMTg1OD
+E4NzUwOCwzOTI2ODA0MTAsNDIzOTAyMjQzLDEyMzExMjMwNDgs
+NDA2MjY2NTQsLTE3NTcxODA2MTIsLTU5MzYzMTQ4NywtMTUyNz
+M3ODkwNiwtMzc3MTI4NjU3LDQxMzAwNjE3MywtMjAxNjQzODA2
+Miw5NTc3MTAxNjgsLTE4OTAxOTY2Nyw0ODQ4ODU1NDgsLTY2NT
+g1NjgwNSwxNjM3NjkxMDE5LDcxNTQ2Mzg5MSwtMTM3MTE5OTc1
+NV19
 -->
