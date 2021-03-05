@@ -20,7 +20,13 @@ cmake -D CMAKE_BUILD_TYPE=REALEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 sudo make install
 ```
 
-opencv编译
+opencv编译过程中，遇到问题，conda装过环境的，请参考：
+https://github.com/JdeRobot/DetectionStudio/issues/99
+
+其实，执行如下命令即可。然后删除所有文件，重新cmake
+```
+conda uninstall libtiff
+```
 
 #  <h1 id="title1">2 mac上opencv开发环境配置</h1>  
 参考 https://medium.com/@jaskaranvirdi/setting-up-opencv-and-c-development-environment-in-xcode-b6027728003
@@ -32,6 +38,6 @@ opencv编译
   [官网说明](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a57c0e81e83e60f36c83027dc2a188e80)
   <h2 id="title3.1">3.2 cv::transpose</h2>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMjk0NTIsLTExOTkzNzAxNjgsLTY2OD
-g1NDQ1NiwtMTcwNTk0OTU1Nl19
+eyJoaXN0b3J5IjpbMTA5NzQ1MTkzNiwtMTE5OTM3MDE2OCwtNj
+Y4ODU0NDU2LC0xNzA1OTQ5NTU2XX0=
 -->
