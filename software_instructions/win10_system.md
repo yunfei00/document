@@ -6,9 +6,11 @@
 vscode
 # 3 远程连接
 # 4 资料查询
+chrome
 # 5 文档查看
 # 6 文档对比
 # 7 截图
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjUxNTcwMiwtNTA0NzQzMjI2XX0=
+eyJoaXN0b3J5IjpbMTk4ODc2NjIwNiwtOTQ2NTE1NzAyLC01MD
+Q3NDMyMjZdfQ==
 -->
