@@ -14,11 +14,11 @@ notepad
 beyond compare
 # 7 截图
 snip
-
-
+# 8 代码文档管理
+git svn
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzE3NjE3MSwtNTIwNDEzMjksLTE1Nj
-A2OTk4NTQsLTIwODEyODE0OTIsLTk0NjUxNTcwMiwtNTA0NzQz
-MjI2XX0=
+eyJoaXN0b3J5IjpbLTk3NTEwMTAwLC01MjA0MTMyOSwtMTU2MD
+Y5OTg1NCwtMjA4MTI4MTQ5MiwtOTQ2NTE1NzAyLC01MDQ3NDMy
+MjZdfQ==
 -->
