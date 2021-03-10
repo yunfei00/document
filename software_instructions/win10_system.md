@@ -8,9 +8,10 @@ vscode
 # 4 资料查询
 chrome
 # 5 文档查看
+
 # 6 文档对比
 # 7 截图
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODc2NjIwNiwtOTQ2NTE1NzAyLC01MD
-Q3NDMyMjZdfQ==
+eyJoaXN0b3J5IjpbLTIwODEyODE0OTIsLTk0NjUxNTcwMiwtNT
+A0NzQzMjI2XX0=
 -->
