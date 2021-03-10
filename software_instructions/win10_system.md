@@ -2,7 +2,12 @@
 # 1 工作通讯
 微信，钉钉
 
-# 2 python 开发环境
+# 2 python 开发环境 
+# 3 远程连接
+# 4 资料查询
+# 5 文档查看
+# 6 文档对比
+# 7 截图
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkwMzY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTUwNDc0MzIyNl19
 -->
