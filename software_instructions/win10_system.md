@@ -5,15 +5,17 @@
 # 2 python 开发环境 
 vscode
 # 3 远程连接
+
 # 4 资料查询
 chrome
 # 5 文档查看
-
+notepad 
 # 6 文档对比
 beyond compare
 # 7 截图
 snip
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA2OTk4NTQsLTIwODEyODE0OTIsLT
-k0NjUxNTcwMiwtNTA0NzQzMjI2XX0=
+eyJoaXN0b3J5IjpbLTUyMDQxMzI5LC0xNTYwNjk5ODU0LC0yMD
+gxMjgxNDkyLC05NDY1MTU3MDIsLTUwNDc0MzIyNl19
 -->
