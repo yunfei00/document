@@ -10,9 +10,10 @@ chrome
 # 5 文档查看
 
 # 6 文档对比
-beyon的
+beyond compare
 # 7 截图
+snip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg1Mzg0ODUsLTIwODEyODE0OTIsLT
+eyJoaXN0b3J5IjpbLTE1NjA2OTk4NTQsLTIwODEyODE0OTIsLT
 k0NjUxNTcwMiwtNTA0NzQzMjI2XX0=
 -->
