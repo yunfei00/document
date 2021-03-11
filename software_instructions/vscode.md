@@ -11,3 +11,9 @@
 在左侧的action bar中，新出现了GitLens的图标，点击后，详细查看branch，master，commit的信息：
 8. 定位到指定行 control+g
 可参考如下网址：https://zhuanlan.zhihu.com/p/54164612
+9. 列编辑
+shift+alt+mouse_left 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjIxNDc5ODY0XX0=
+-->
