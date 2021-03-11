@@ -1,6 +1,6 @@
  说明 windows10系统安装完成后，需要下载软件进行配置。
 # 1 工作通讯
-微信，钉钉，
+微信，钉钉，腾讯会议
 
 # 2 python 开发环境 
 vscode
@@ -16,9 +16,11 @@ beyond compare
 snip
 # 8 代码文档管理
 git svn
+# 9 常用软件
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTA3NTcyMiwtOTc1MTAxMDAsLTUyMD
+eyJoaXN0b3J5IjpbMTA1NzgxMTk4NCwtOTc1MTAxMDAsLTUyMD
 QxMzI5LC0xNTYwNjk5ODU0LC0yMDgxMjgxNDkyLC05NDY1MTU3
 MDIsLTUwNDc0MzIyNl19
 -->
