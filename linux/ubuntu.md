@@ -133,11 +133,10 @@ sudo netplan apply
 
 ubuntu 系统，没有找到显示桌面系统的方法，先安装软件进行查看。
 ```
-```text
 sudo apt install screenfetch
-```
+直接输入screenfetch 进行查看，DE就是桌面环境
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI0MjYxODQsMTk0NzA1OTIzMywxNT
+eyJoaXN0b3J5IjpbLTEzMDI0MDYwMzIsMTk0NzA1OTIzMywxNT
 U0OTcwOTQzLC0xNzQ1NzU2OTk4XX0=
 -->
