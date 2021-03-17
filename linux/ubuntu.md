@@ -128,7 +128,16 @@ sudo netplan apply
 	sudo systemctl status rc-local.service
 	```
 7. 重启后检查test.log文件是否已经存在
+
+# 5 查看桌面环境版本
+
+ubuntu 系统，没有找到显示桌面系统的方法，先安装软件进行查看。
+```
+```text
+sudo apt install screenfetch
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzA1OTIzMywxNTU0OTcwOTQzLC0xNz
-Q1NzU2OTk4XX0=
+eyJoaXN0b3J5IjpbLTE3NDI0MjYxODQsMTk0NzA1OTIzMywxNT
+U0OTcwOTQzLC0xNzQ1NzU2OTk4XX0=
 -->
