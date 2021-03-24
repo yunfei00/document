@@ -81,12 +81,26 @@ Mat B(A); // Use the copy constructor
 C = A; // Assignment operator
 ```
 以上A，B，C都指向同一数据块，但是头部不同。
+矩阵数据的释放，使用引用计数器来进行，当引用计数器为0时，释放数据。
 
+真实的拷贝如下：
+```
+Mat F = A.clone();
+Mat G;
+A.copyTo(G);
+```
+
+OpenCV函数的输出图像分配是自动的(除非另有说明)。
+不需要考虑使用OpenCV的c++接口进行内存管理。
+
+赋值操作符和复制构造函数只复制头文件。
+
+图像的底层矩阵可以使用cv::Mat::clone()和cv::Mat::copyTo()函数进行复制。
 
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDAzMTM2NSwtMTMyNDg4NTc0NCwtMT
+eyJoaXN0b3J5IjpbLTk5MDE2Mjk0OSwtMTMyNDg4NTc0NCwtMT
 AzMzYzMTM4MSwyMzY5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
 -->
