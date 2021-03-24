@@ -55,8 +55,9 @@
 
   <h1 id="title1">1 安装</h1>  
 
+[安装参考](https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html)
 ```
-pip install opencv-python
+
 ```
  <h1 id="title2">2 help document </h1>  
  
@@ -70,5 +71,5 @@ pip install opencv-python
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTI1NDg2MF19
+eyJoaXN0b3J5IjpbLTEzNTI4Mjg4MTBdfQ==
 -->
