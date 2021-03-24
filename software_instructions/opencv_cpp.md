@@ -75,7 +75,7 @@ Mat本质上是具有两个数据部分的类：
 ```
 Mat A, C; // 只创建头
 
-A = imread(argv[1], [IMREAD_COLOR); // here we'll know the method used (allocate matrix)
+A = imread(argv[1], [IMREAD_COLOR); // 分配矩阵
 Mat B(A); // Use the copy constructor
 
 C = A; // Assignment operator
@@ -85,6 +85,6 @@ C = A; // Assignment operator
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTM0MjAxOSwtMTAzMzYzMTM4MSwyMz
-Y5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMjQ4ODU3NDQsLTEwMzM2MzEzODEsMj
+M2OTM5OTI5LC0xMzUyODI4ODEwXX0=
 -->
