@@ -80,11 +80,13 @@ Mat B(A); // Use the copy constructor
 
 C = A; // Assignment operator
 ```
+以上A，B，C都指向同一数据块，但是头部不同。
+
 
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ4ODU3NDQsLTEwMzM2MzEzODEsMj
-M2OTM5OTI5LC0xMzUyODI4ODEwXX0=
+eyJoaXN0b3J5IjpbLTUwNDAzMTM2NSwtMTMyNDg4NTc0NCwtMT
+AzMzYzMTM4MSwyMzY5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
 -->
