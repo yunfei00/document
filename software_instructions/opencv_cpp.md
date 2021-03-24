@@ -73,10 +73,9 @@ Mat本质上是具有两个数据部分的类：
 ```
 
 ```
-Mat A, C; // creates just the header parts
+Mat A, C; // 只创建头
 
-A = [imread](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56)(argv[1], [IMREAD_COLOR](https://docs.opencv.org/master/d8/d6a/group__imgcodecs__flags.html#gga61d9b0126a3e57d9277ac48327799c80af660544735200cbe942eea09232eb822)); // here we'll know the method used (allocate matrix)
-
+A = imread(argv[1], [IMREAD_COLOR); // here we'll know the method used (allocate matrix)
 Mat B(A); // Use the copy constructor
 
 C = A; // Assignment operator
@@ -86,6 +85,6 @@ C = A; // Assignment operator
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAyNjY5MzMsLTEwMzM2MzEzODEsMj
-M2OTM5OTI5LC0xMzUyODI4ODEwXX0=
+eyJoaXN0b3J5IjpbLTI5NTM0MjAxOSwtMTAzMzYzMTM4MSwyMz
+Y5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
 -->
