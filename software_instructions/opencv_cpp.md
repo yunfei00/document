@@ -92,15 +92,13 @@ A.copyTo(G);
 
 OpenCV函数的输出图像分配是自动的(除非另有说明)。
 不需要考虑使用OpenCV的c++接口进行内存管理。
-
 赋值操作符和复制构造函数只复制头文件。
-
 图像的底层矩阵可以使用cv::Mat::clone()和cv::Mat::copyTo()函数进行复制。
 
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDE2Mjk0OSwtMTMyNDg4NTc0NCwtMT
-AzMzYzMTM4MSwyMzY5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
+eyJoaXN0b3J5IjpbMzk1ODUyNjAzLC0xMzI0ODg1NzQ0LC0xMD
+MzNjMxMzgxLDIzNjkzOTkyOSwtMTM1MjgyODgxMF19
 -->
