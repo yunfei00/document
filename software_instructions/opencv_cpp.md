@@ -57,7 +57,9 @@
 
 [安装参考](https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html)
 ```
-
+sudo apt-get install build-essential
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 ```
  <h1 id="title2">2 help document </h1>  
  
@@ -71,5 +73,5 @@
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4Mjg4MTBdfQ==
+eyJoaXN0b3J5IjpbMjM2OTM5OTI5LC0xMzUyODI4ODEwXX0=
 -->
