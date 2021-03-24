@@ -61,14 +61,15 @@
  
 [document](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
-<h1 id="title3">3 OpenCV中的Gui功能 </h1>  
+<h1 id="title3">3 OpenCV学习 </h1>  
 <h2 id="title3.1">3.1 images </h2>  
 
 **Learn to load an image, display it, and save it back**
 
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM2MzEzODEsMjM2OTM5OTI5LC0xMz
-UyODI4ODEwXX0=
+eyJoaXN0b3J5IjpbMjMzMDQ1Nzc3LC0xMDMzNjMxMzgxLDIzNj
+kzOTkyOSwtMTM1MjgyODgxMF19
 -->
