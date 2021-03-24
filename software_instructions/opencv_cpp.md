@@ -56,14 +56,10 @@
   <h1 id="title1">1 安装</h1>  
 
 [安装参考](https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html)
-```
-sudo apt-get install build-essential
-sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
-```
+
  <h1 id="title2">2 help document </h1>  
  
-[document](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html)
+[document](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
 <h1 id="title3">3 OpenCV中的Gui功能 </h1>  
 <h2 id="title3.1">3.1 images </h2>  
@@ -73,5 +69,6 @@ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libp
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2OTM5OTI5LC0xMzUyODI4ODEwXX0=
+eyJoaXN0b3J5IjpbLTEwMzM2MzEzODEsMjM2OTM5OTI5LC0xMz
+UyODI4ODEwXX0=
 -->
