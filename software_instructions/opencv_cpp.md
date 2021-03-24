@@ -63,13 +63,16 @@
 
 <h1 id="title3">3 OpenCV学习 </h1>  
 <h2 id="title3.1">3.1 Mat-基本图像容器 </h2>  
-_Mat本质上_是具有两个数据部分的类：矩阵头（包含诸如矩阵大小，用于存储的方法，用于存储矩阵的地址之类的信息，等等）和指向包含该矩阵的矩阵的指针像素值（根据选择的存储方法采用任何尺寸）。矩阵标题的大小是恒定的，但是矩阵本身的大小可能因图像而异，通常会增加几个数量级。
 
+```
+Mat本质上是具有两个数据部分的类：
+矩阵头（包含诸如矩阵大小，用于存储的方法，用于存储矩阵的地址之类的信息，等等）和指向包含该矩阵的矩阵的指针像素值（根据选择的存储方法采用任何尺寸）。矩阵标题的大小是恒定的，但是矩阵本身的大小可能因图像而异，通常会增加几个数量级。
+```
 
 <h3 id="title3.1.1">3.1.1 code </h3>  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTEzNjMwMiwtMTAzMzYzMTM4MSwyMz
+eyJoaXN0b3J5IjpbLTQ2MTc1MTQ0MCwtMTAzMzYzMTM4MSwyMz
 Y5Mzk5MjksLTEzNTI4Mjg4MTBdfQ==
 -->
