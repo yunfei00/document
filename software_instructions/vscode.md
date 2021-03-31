@@ -15,7 +15,11 @@
 shift+alt+mouse_left 
 
 # 2 ubuntu上vscode 使用
-1. 
+1. 插件安装
+-   C/C++
+-   Code Runner
+a
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM1MzYyOCwyMjE0Nzk4NjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MzkxMDA2MTksMjIxNDc5ODY0XX0=
 -->
