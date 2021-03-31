@@ -19,9 +19,32 @@ shift+alt+mouse_left
 -   C/C++
 -   Code Runner
 安装完成后重启。
-2. 1.Ctrl+shift+a
-
+2. Ctrl+shift+a
 注释选中代码或者取消选中代码的注释
+3. alt+上下箭头
+上下移动本行代码
+4. Ctrl+shift+k
+删除本行代码
+5.Ctrl+shift+f
+
+搜索选中的代码
+
+5.Ctrl+shift+i
+
+格式化选中代码
+
+6.Ctrl+shift+p
+
+打开命令窗口
+
+7.Ctrl+shift+b
+
+运行程序
+
+8.shift + alt + 上下箭头 / Ctrl+shift+上下箭头
+
+向上或向下变长光标，可以让你同时操作几行代码
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzg0NTcyOCwyMjE0Nzk4NjRdfQ==
+eyJoaXN0b3J5IjpbMTMyODUzNDg2OCwyMjE0Nzk4NjRdfQ==
 -->
