@@ -29,19 +29,12 @@ shift+alt+mouse_left
 搜索选中的代码
 6. Ctrl+shift+i
 格式化选中代码
-
-6.Ctrl+shift+p
-
+7. Ctrl+shift+p（F1）
 打开命令窗口
-
-7.Ctrl+shift+b
-
-运行程序
-
-8.shift + alt + 上下箭头 / Ctrl+shift+上下箭头
-
+8. shift + alt + 上下箭头 / Ctrl+shift+上下箭头
 向上或向下变长光标，可以让你同时操作几行代码
+9. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NDI3OTA1LDIyMTQ3OTg2NF19
+eyJoaXN0b3J5IjpbLTE5MTYwNjA4MywyMjE0Nzk4NjRdfQ==
 -->
