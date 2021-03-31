@@ -19,7 +19,9 @@ shift+alt+mouse_left
 -   C/C++
 -   Code Runner
 安装完成后重启。
-2. 
+2. 1.Ctrl+shift+a
+
+注释选中代码或者取消选中代码的注释
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjYwMjI4NiwyMjE0Nzk4NjRdfQ==
+eyJoaXN0b3J5IjpbLTM4Nzg0NTcyOCwyMjE0Nzk4NjRdfQ==
 -->
