@@ -14,6 +14,8 @@
 9. 列编辑
 shift+alt+mouse_left 
 
+# 2 ubuntu上vscode 使用
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNDc5ODY0XX0=
+eyJoaXN0b3J5IjpbLTE1NDM1MzYyOCwyMjE0Nzk4NjRdfQ==
 -->
