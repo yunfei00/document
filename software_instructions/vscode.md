@@ -18,8 +18,8 @@ shift+alt+mouse_left
 1. 插件安装
 -   C/C++
 -   Code Runner
-a
+安装完成后重启。
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkxMDA2MTksMjIxNDc5ODY0XX0=
+eyJoaXN0b3J5IjpbMTM1MjYwMjI4NiwyMjE0Nzk4NjRdfQ==
 -->
