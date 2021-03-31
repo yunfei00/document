@@ -27,14 +27,16 @@ shift+alt+mouse_left
 删除本行代码
 5.Ctrl+shift+f
 搜索选中的代码
-6. Ctrl+shift+i
+5. Ctrl+shift+i
 格式化选中代码
-7. Ctrl+shift+p（F1）
+6. Ctrl+shift+p（F1）
 打开命令窗口
-8. shift + alt + 上下箭头 / Ctrl+shift+上下箭头
+7. shift + alt + 上下箭头 / Ctrl+shift+上下箭头
 向上或向下变长光标，可以让你同时操作几行代码
-9. 
+8. Ctrl + Alt + '-'
+跳回之前的函数
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYwNjA4MywyMjE0Nzk4NjRdfQ==
+eyJoaXN0b3J5IjpbLTE3NTg4MDg2NjgsLTE5MTYwNjA4MywyMj
+E0Nzk4NjRdfQ==
 -->
