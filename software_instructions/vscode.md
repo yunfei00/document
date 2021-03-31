@@ -26,11 +26,8 @@ shift+alt+mouse_left
 4. Ctrl+shift+k
 删除本行代码
 5.Ctrl+shift+f
-
 搜索选中的代码
-
-5.Ctrl+shift+i
-
+6. Ctrl+shift+i
 格式化选中代码
 
 6.Ctrl+shift+p
@@ -46,5 +43,5 @@ shift+alt+mouse_left
 向上或向下变长光标，可以让你同时操作几行代码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODUzNDg2OCwyMjE0Nzk4NjRdfQ==
+eyJoaXN0b3J5IjpbOTE1NDI3OTA1LDIyMTQ3OTg2NF19
 -->
