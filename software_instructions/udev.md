@@ -89,9 +89,13 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 标准**规则**位于**/lib/udev/rules.d/中**。也可以在**/etc/udev/rules.d/**下找到某些系统**规则，例如**用于网卡的**规则**。
 
+# 6 udev删除设备的规则
+如果仅将密钥的值`ACTION`从“添加”更改为“删除” ，则连接设备时有效的规则通常在删除设备时将不起作用。这是因为由于设备不再可用，因此无法再访问存储签名的设备的存储区。因此，在这里必须选择不同的方法，以便仍然标识远程设备。Udev将有关每个设备的信息保存在环境变量中。您可以使用以下命令执行此操作：
+
+udevadm monitor --env
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTEzMzMwNiwtMTgwMzc5ODcxOSwtMj
-A0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1
-MzE3NDFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTkwOTc1MDMsMTgxNTEzMzMwNiwtMT
+gwMzc5ODcxOSwtMjA0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQz
+NzYwMzcsLTE0NjM1MzE3NDFdfQ==
 -->
