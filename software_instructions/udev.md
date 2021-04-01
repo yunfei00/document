@@ -69,6 +69,39 @@ E: USEC_INITIALIZED=61647867894
 
 一下命令查看设备的详细信息
 udevadm info -q all -a /dev/VF-device0
+# 截取其中一段信息如下：
+  looking at parent device '/devices/pci0000:00/0000:00:14.0/usb1/1-6':
+    KERNELS=="1-6"
+    SUBSYSTEMS=="usb"
+    DRIVERS=="usb"
+    ATTRS{authorized}=="1"
+    ATTRS{avoid_reset_quirk}=="0"
+    ATTRS{bConfigurationValue}=="1"
+    ATTRS{bDeviceClass}=="00"
+    ATTRS{bDeviceProtocol}=="00"
+    ATTRS{bDeviceSubClass}=="00"
+    ATTRS{bMaxPacketSize0}=="8"
+    ATTRS{bMaxPower}=="90mA"
+    ATTRS{bNumConfigurations}=="1"
+    ATTRS{bNumInterfaces}==" 1"
+    ATTRS{bcdDevice}=="0600"
+    ATTRS{bmAttributes}=="a0"
+    ATTRS{busnum}=="1"
+    ATTRS{configuration}==""
+    ATTRS{devnum}=="39"
+    ATTRS{devpath}=="6"
+    ATTRS{idProduct}=="6001"
+    ATTRS{idVendor}=="0403"
+    ATTRS{ltm_capable}=="no"
+    ATTRS{manufacturer}=="FTDI"
+    ATTRS{maxchild}=="0"
+    ATTRS{product}=="FT232R USB UART"
+    ATTRS{quirks}=="0x0"
+    ATTRS{removable}=="removable"
+    ATTRS{serial}=="AQ00XISU"
+    ATTRS{speed}=="12"
+    ATTRS{urbnum}=="17"
+    ATTRS{version}==" 2.00"
 
 ```
 
@@ -82,7 +115,7 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzgzNTU2MSwtMTgwMzc5ODcxOSwtMj
+eyJoaXN0b3J5IjpbLTEzMjQ2NTAzNSwtMTgwMzc5ODcxOSwtMj
 A0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1
 MzE3NDFdfQ==
 -->
