@@ -67,6 +67,9 @@ E: SUBSYSTEM=tty
 E: TAGS=:systemd:
 E: USEC_INITIALIZED=61647867894
 
+一下命令查看设备的详细信息
+udevadm info -q all -a /dev/VF-device0
+
 ```
 
 # 4 udev 规则
@@ -79,6 +82,7 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM3OTg3MTksLTIwNDc1Mzc1MjEsMT
-Y2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNzQxXX0=
+eyJoaXN0b3J5IjpbLTQwNzgzNTU2MSwtMTgwMzc5ODcxOSwtMj
+A0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1
+MzE3NDFdfQ==
 -->
