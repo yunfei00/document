@@ -73,10 +73,12 @@ udevadm info -q all -a /dev/VF-device0
   looking at parent device '/devices/pci0000:00/0000:00:14.0/usb1/1-6':
     KERNELS=="1-6"
     SUBSYSTEMS=="usb"
-    DRIVERS=="usb"
     ATTRS{idProduct}=="6001"
     ATTRS{idVendor}=="0403"
     ATTRS{product}=="FT232R USB UART"
+使用参考如下：
+KERNEL=="ttyUSB[0-9]*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", RUN+="/bin/mv /dev/%k /dev/VF-device%n", MODE="0666"
+
 ```
 
 # 4 udev 规则
@@ -89,7 +91,7 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE1ODg4MzcsLTE4MDM3OTg3MTksLT
-IwNDc1Mzc1MjEsMTY2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYz
-NTMxNzQxXX0=
+eyJoaXN0b3J5IjpbMTgxNTEzMzMwNiwtMTgwMzc5ODcxOSwtMj
+A0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1
+MzE3NDFdfQ==
 -->
