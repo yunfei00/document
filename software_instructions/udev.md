@@ -26,9 +26,9 @@ UDEV  [61647.860485] add      /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-
 UDEV  [61647.860513] add      /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-7.2:1.0/ttyUSB1 (usb-serial)
 UDEV  [61647.868213] add      /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-7.2:1.0/ttyUSB1/tty/ttyUSB1 (tty)
 
-
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTc3MDQ4OSwtOTE0Mzc2MDM3LC0xND
+eyJoaXN0b3J5IjpbMTY2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xND
 YzNTMxNzQxXX0=
 -->
