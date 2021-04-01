@@ -1,14 +1,14 @@
 # 1 udev 简介
 udev是linux系统管理设备设备事件的系统。
 
-# 2 查看实时设备
+# 2 查看设备插拔信息 
 
 ```
 udevadm monitor
 monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
 KERNEL - the kernel uevent
-
+# 当插拔设备时，会触发类似如下事件：
 KERNEL[61642.638617] remove   /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-7.2:1.0/ttyUSB1/tty/ttyUSB1 (tty)
 KERNEL[61642.638655] remove   /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-7.2:1.0/ttyUSB1 (usb-serial)
 KERNEL[61642.638683] remove   /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-7.2:1.0 (usb)
@@ -29,6 +29,6 @@ UDEV  [61647.868213] add      /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7.2/1-
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDk5NjU2NCwtOTE0Mzc2MDM3LC0xND
+eyJoaXN0b3J5IjpbMTY4MTc3MDQ4OSwtOTE0Mzc2MDM3LC0xND
 YzNTMxNzQxXX0=
 -->
