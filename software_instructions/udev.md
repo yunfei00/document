@@ -69,8 +69,14 @@ E: USEC_INITIALIZED=61647867894
 
 ```
 
-# 4
+# 4 udev 规则
+
+udev规则定义了发现设备后会发生什么。udev规则至少包含一个条件和至少一个赋值（[规则语法](https://wiki.ubuntuusers.de/udev/#Regelsyntax)）。如果规则的所有条件都适用于设备，则将执行该规则的分配。这样，还会生成设备名称，然后在文件系统中可以使用该设备名称。可以将多个规则应用于同一设备。除了标准规则外，这还可以将您自己的规则应用于同一设备。各个规则文件以两位数开头，并按字母数字顺序处理。这样可以确保首先处理重要的规则。如果将多个规则写入规则文件，则它们会逐行分开。
+
+# 5 标准规则
+
+标准规则**位于**/lib/udev/rules.d/中**。也可以在**/etc/udev/rules.d/**下找到某些系统**规则，例如**用于网卡的**规则**。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk4NjIwMzAsLTIwNDc1Mzc1MjEsMT
-Y2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNzQxXX0=
+eyJoaXN0b3J5IjpbMjA5MDQ0MDgwNSwtMjA0NzUzNzUyMSwxNj
+Y5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1MzE3NDFdfQ==
 -->
