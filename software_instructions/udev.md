@@ -75,8 +75,10 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 # 5 标准规则
 
-标准规则**位于**/lib/udev/rules.d/中**。也可以在**/etc/udev/rules.d/**下找到某些系统**规则，例如**用于网卡的**规则**。
+标准**规则**位于**/lib/udev/rules.d/中**。也可以在**/etc/udev/rules.d/**下找到某些系统**规则，例如**用于网卡的**规则**。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDQ0MDgwNSwtMjA0NzUzNzUyMSwxNj
-Y5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1MzE3NDFdfQ==
+eyJoaXN0b3J5IjpbLTE4MDM3OTg3MTksLTIwNDc1Mzc1MjEsMT
+Y2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNzQxXX0=
 -->
