@@ -74,35 +74,9 @@ udevadm info -q all -a /dev/VF-device0
     KERNELS=="1-6"
     SUBSYSTEMS=="usb"
     DRIVERS=="usb"
-    ATTRS{authorized}=="1"
-    ATTRS{avoid_reset_quirk}=="0"
-    ATTRS{bConfigurationValue}=="1"
-    ATTRS{bDeviceClass}=="00"
-    ATTRS{bDeviceProtocol}=="00"
-    ATTRS{bDeviceSubClass}=="00"
-    ATTRS{bMaxPacketSize0}=="8"
-    ATTRS{bMaxPower}=="90mA"
-    ATTRS{bNumConfigurations}=="1"
-    ATTRS{bNumInterfaces}==" 1"
-    ATTRS{bcdDevice}=="0600"
-    ATTRS{bmAttributes}=="a0"
-    ATTRS{busnum}=="1"
-    ATTRS{configuration}==""
-    ATTRS{devnum}=="39"
-    ATTRS{devpath}=="6"
     ATTRS{idProduct}=="6001"
     ATTRS{idVendor}=="0403"
-    ATTRS{ltm_capable}=="no"
-    ATTRS{manufacturer}=="FTDI"
-    ATTRS{maxchild}=="0"
     ATTRS{product}=="FT232R USB UART"
-    ATTRS{quirks}=="0x0"
-    ATTRS{removable}=="removable"
-    ATTRS{serial}=="AQ00XISU"
-    ATTRS{speed}=="12"
-    ATTRS{urbnum}=="17"
-    ATTRS{version}==" 2.00"
-
 ```
 
 # 4 udev 规则
@@ -115,7 +89,7 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ2NTAzNSwtMTgwMzc5ODcxOSwtMj
-A0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMzcsLTE0NjM1
-MzE3NDFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjE1ODg4MzcsLTE4MDM3OTg3MTksLT
+IwNDc1Mzc1MjEsMTY2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYz
+NTMxNzQxXX0=
 -->
