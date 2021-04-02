@@ -1,5 +1,5 @@
 # 1 udev 简介
-udev是linux系统管理设备设备事件的系统。
+udev是linux系统管理设备设备事件的系统。[参考链接](https://wiki.ubuntuusers.de/udev/)
 
 # 2 查看设备插拔信息 
 
@@ -101,8 +101,8 @@ ACTION=="remove",  ENV{ID_SERIAL_SHORT}=="ABCDEF012345",   RUN+="/usr/local/bin/
 # 7 udev 命令使用说明
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAzMjI2MjUsODI1MTk5Nzc5LC0xNj
-E5MDk3NTAzLDE4MTUxMzMzMDYsLTE4MDM3OTg3MTksLTIwNDc1
-Mzc1MjEsMTY2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNz
-QxXX0=
+eyJoaXN0b3J5IjpbLTk0OTcxNzM2NywtMTU3MDMyMjYyNSw4Mj
+UxOTk3NzksLTE2MTkwOTc1MDMsMTgxNTEzMzMwNiwtMTgwMzc5
+ODcxOSwtMjA0NzUzNzUyMSwxNjY5OTAxODQ1LC05MTQzNzYwMz
+csLTE0NjM1MzE3NDFdfQ==
 -->
