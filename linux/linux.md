@@ -738,13 +738,21 @@ B $ ssh-copy-id usera@a.site
 2. last reboot
 可以看到Linux系统历史启动的时间
 
-3. 
+3. w命令
+```
+w
+10:09:13 up 2 days, 16:44,  2 users,  load average: 0.08, 0.09, 0.18
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+visbodyf tty7     :0               二17    2days 12:28   0.14s /sbin/upstart --user
+visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
+```
+4.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNDE5NjMwLDEwMzEyNjI4NTcsNDAwND
-A3NjYyLDIwNjUzMDI0MDcsMTM4MzMwNzk3OSwtMjA2NTk1NjE0
-Nyw5NjcwMzYwMjAsLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2Mz
-QxNTM4NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2
-LC02NzU3ODQ3NTksMTE1MjMwMTQ0OCwxNjM2MDMyMTI2LDE2Mz
-YwMzIxMjYsLTE5MzY3NzExNjAsLTE3MzE4MjU4NDAsMjEwOTY4
-Nzk2MF19
+eyJoaXN0b3J5IjpbMTY4NzU5MTE4MCwxMDMxMjYyODU3LDQwMD
+QwNzY2MiwyMDY1MzAyNDA3LDEzODMzMDc5NzksLTIwNjU5NTYx
+NDcsOTY3MDM2MDIwLC0xNDgwMjE5NTEzLC00OTMyOTQ3OTgsNj
+M0MTUzODU4LDM2OTAzNDM5OCw2MjMyNDk2MjAsLTMyNzY5MDc0
+NiwtNjc1Nzg0NzU5LDExNTIzMDE0NDgsMTYzNjAzMjEyNiwxNj
+M2MDMyMTI2LC0xOTM2NzcxMTYwLC0xNzMxODI1ODQwLDIxMDk2
+ODc5NjBdfQ==
 -->
