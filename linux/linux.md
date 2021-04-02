@@ -245,6 +245,11 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	```
 7. date -d 显示未来或者过去的时间
 ```
+下载
+date --date="next tue"
+2021年 04月 06日 星期二 00:00:00 CST
+date --date "next tue"
+2021年 04月 06日 星期二 00:00:00 CST
 
 ```
 8. UTC时间
@@ -766,7 +771,7 @@ visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
 	2021-03-30 17:24:19
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDUwMjQ4MSwtNjY0NzA1MjMxLDE1Mj
+eyJoaXN0b3J5IjpbLTU3NTI2MTgyMCwtNjY0NzA1MjMxLDE1Mj
 Q5MTg2NSwxMDMxMjYyODU3LDQwMDQwNzY2MiwyMDY1MzAyNDA3
 LDEzODMzMDc5NzksLTIwNjU5NTYxNDcsOTY3MDM2MDIwLC0xND
 gwMjE5NTEzLC00OTMyOTQ3OTgsNjM0MTUzODU4LDM2OTAzNDM5
