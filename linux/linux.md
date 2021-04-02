@@ -728,9 +728,19 @@ ssh-keygen -t 'rsa' -C 'autossh@B'
 B $ ssh-copy-id usera@a.site
 ```
 
-#
+<h1 id="title24">24 开机启动时间查询</h1>  
+
+1. **who 命令查看**
+	```
+	who -b 查看最后一次系统启动的时间。
+	who -r 查看当前系统运行时间
+	```
+2. 
+
+
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5OTg4MTcyLDEwMzEyNjI4NTcsNDAwND
+eyJoaXN0b3J5IjpbNDc1MDYyMTAzLDEwMzEyNjI4NTcsNDAwND
 A3NjYyLDIwNjUzMDI0MDcsMTM4MzMwNzk3OSwtMjA2NTk1NjE0
 Nyw5NjcwMzYwMjAsLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2Mz
 QxNTM4NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2
