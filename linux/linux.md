@@ -188,7 +188,11 @@ sudo timedatectl set-ntp true
 ```
 
 <h1 id="title11">11 date 命令</h1>  
-命令见
+
+**命令简介**
+
+Linux维护两个时钟：**硬件时钟**和**软件时钟**。电池驱动的硬件时钟保持计算机关闭时的时间。在引导过程中，Linux会读取硬件时钟并将软件时钟设置为其获取的值。
+使用_date_命令手动设置软件时钟。
 
 1. 时间戳解析成指定格式
 date --date='@1575447167' "+%Y%m%d"
@@ -244,29 +248,27 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 
 	```
 7. date -d 显示未来或者过去的时间
-```
-# 下周二
-date --date="next tue"
-2021年 04月 06日 星期二 00:00:00 CST
-date --date "next tue"
-2021年 04月 06日 星期二 00:00:00 CST
+	```
+	# 下周二
+	date --date="next tue"
+	2021年 04月 06日 星期二 00:00:00 CST
+	date --date "next tue"
+	2021年 04月 06日 星期二 00:00:00 CST
 
-# 4秒前
-date --date="4 seconds ago"
-2021年 04月 02日 星期五 10:36:56 CST
-date --date "4 seconds ago"
-2021年 04月 02日 星期五 10:37:02 CST
+	# 4秒前
+	date --date="4 seconds ago"
+	2021年 04月 02日 星期五 10:36:56 CST
+	date --date "4 seconds ago"
+	2021年 04月 02日 星期五 10:37:02 CST
 
-# 2年前
-date --date "2 year ago"
-2019年 04月 02日 星期二 10:37:57 CST
+	# 2年前
+	date --date "2 year ago"
+	2019年 04月 02日 星期二 10:37:57 CST
 
-# 2年50天前
-date --date "2 year ago 50 days ago"
-2019年 02月 11日 星期一 10:38:52 CST
-
-
-```
+	# 2年50天前
+	date --date "2 year ago 50 days ago"
+	2019年 02月 11日 星期一 10:38:52 CST
+	```
 8. UTC时间
 
 	```
@@ -786,7 +788,7 @@ visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
 	2021-03-30 17:24:19
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODY4OTE0NCwtNjY0NzA1MjMxLDE1Mj
+eyJoaXN0b3J5IjpbLTc1NTYwMDk1NywtNjY0NzA1MjMxLDE1Mj
 Q5MTg2NSwxMDMxMjYyODU3LDQwMDQwNzY2MiwyMDY1MzAyNDA3
 LDEzODMzMDc5NzksLTIwNjU5NTYxNDcsOTY3MDM2MDIwLC0xND
 gwMjE5NTEzLC00OTMyOTQ3OTgsNjM0MTUzODU4LDM2OTAzNDM5
