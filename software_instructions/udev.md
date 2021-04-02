@@ -95,8 +95,14 @@ udev规则定义了发现设备后会发生什么。udev规则至少包含一个
 ```
 ACTION=="remove",  ENV{ID_SERIAL_SHORT}=="ABCDEF012345",   RUN+="/usr/local/bin/remove"
 ```
+
+目前发现删除的时候，使用产品ID等都会执行两次脚本，后期脚本开发时，需要考虑。
+
+# 7 udev 命令使用说明
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MTk5Nzc5LC0xNjE5MDk3NTAzLDE4MT
-UxMzMzMDYsLTE4MDM3OTg3MTksLTIwNDc1Mzc1MjEsMTY2OTkw
-MTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNzQxXX0=
+eyJoaXN0b3J5IjpbLTE1NzAzMjI2MjUsODI1MTk5Nzc5LC0xNj
+E5MDk3NTAzLDE4MTUxMzMzMDYsLTE4MDM3OTg3MTksLTIwNDc1
+Mzc1MjEsMTY2OTkwMTg0NSwtOTE0Mzc2MDM3LC0xNDYzNTMxNz
+QxXX0=
 -->
