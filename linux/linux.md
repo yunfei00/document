@@ -188,7 +188,7 @@ sudo timedatectl set-ntp true
 ```
 
 <h1 id="title11">11 date 命令</h1>  
-
+命令见
 
 1. 时间戳解析成指定格式
 date --date='@1575447167' "+%Y%m%d"
@@ -258,6 +258,13 @@ date --date "4 seconds ago"
 2021年 04月 02日 星期五 10:37:02 CST
 
 # 2年前
+date --date "2 year ago"
+2019年 04月 02日 星期二 10:37:57 CST
+
+# 2年50天前
+date --date "2 year ago 50 days ago"
+2019年 02月 11日 星期一 10:38:52 CST
+
 
 ```
 8. UTC时间
@@ -779,11 +786,11 @@ visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
 	2021-03-30 17:24:19
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ2Njg3NjUsLTY2NDcwNTIzMSwxNT
-I0OTE4NjUsMTAzMTI2Mjg1Nyw0MDA0MDc2NjIsMjA2NTMwMjQw
-NywxMzgzMzA3OTc5LC0yMDY1OTU2MTQ3LDk2NzAzNjAyMCwtMT
-Q4MDIxOTUxMywtNDkzMjk0Nzk4LDYzNDE1Mzg1OCwzNjkwMzQz
-OTgsNjIzMjQ5NjIwLC0zMjc2OTA3NDYsLTY3NTc4NDc1OSwxMT
-UyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEyNiwtMTkzNjc3
-MTE2MF19
+eyJoaXN0b3J5IjpbMTU2ODY4OTE0NCwtNjY0NzA1MjMxLDE1Mj
+Q5MTg2NSwxMDMxMjYyODU3LDQwMDQwNzY2MiwyMDY1MzAyNDA3
+LDEzODMzMDc5NzksLTIwNjU5NTYxNDcsOTY3MDM2MDIwLC0xND
+gwMjE5NTEzLC00OTMyOTQ3OTgsNjM0MTUzODU4LDM2OTAzNDM5
+OCw2MjMyNDk2MjAsLTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNT
+IzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2Nzcx
+MTYwXX0=
 -->
