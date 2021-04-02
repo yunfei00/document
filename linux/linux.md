@@ -735,12 +735,12 @@ B $ ssh-copy-id usera@a.site
 	who -b 查看最后一次系统启动的时间。
 	who -r 查看当前系统运行时间
 	```
-2. 
-
+2. last reboot
+可以看到Linux系统历史启动的时间
 
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDYyMTAzLDEwMzEyNjI4NTcsNDAwND
+eyJoaXN0b3J5IjpbODkyNDE5NjMwLDEwMzEyNjI4NTcsNDAwND
 A3NjYyLDIwNjUzMDI0MDcsMTM4MzMwNzk3OSwtMjA2NTk1NjE0
 Nyw5NjcwMzYwMjAsLTE0ODAyMTk1MTMsLTQ5MzI5NDc5OCw2Mz
 QxNTM4NTgsMzY5MDM0Mzk4LDYyMzI0OTYyMCwtMzI3NjkwNzQ2
