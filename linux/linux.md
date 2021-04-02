@@ -276,11 +276,14 @@ expr $(date +%s) - $(date --date='Dec 27 11:26:07' +%s)
 	```
 9. **_hwclock_  command**
 
-```
-hwclock   # 显示当前时间
-hwclock -set -date "09/12/2014 20:32:45"  # 设置时间
-
-```
+	```
+	hwclock   # 显示当前时间
+	hwclock -set -date "09/12/2014 20:32:45"  # 设置时间
+	# 要基于软件时钟设置硬件时钟，请使用-w或–systohc选项
+	hwclock -w
+	# 要基于硬件时钟设置软件时钟，请使用-s或–hctosys选项：
+	hwclock -s
+	```
 <h1 id="title12">12 ubuntu修改静态IP</h1>  
 
 1 打开目标文件
@@ -795,11 +798,11 @@ visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
 	2021-03-30 17:24:19
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDg3MzM0NSwtNjY0NzA1MjMxLDE1Mj
-Q5MTg2NSwxMDMxMjYyODU3LDQwMDQwNzY2MiwyMDY1MzAyNDA3
-LDEzODMzMDc5NzksLTIwNjU5NTYxNDcsOTY3MDM2MDIwLC0xND
-gwMjE5NTEzLC00OTMyOTQ3OTgsNjM0MTUzODU4LDM2OTAzNDM5
-OCw2MjMyNDk2MjAsLTMyNzY5MDc0NiwtNjc1Nzg0NzU5LDExNT
-IzMDE0NDgsMTYzNjAzMjEyNiwxNjM2MDMyMTI2LC0xOTM2Nzcx
-MTYwXX0=
+eyJoaXN0b3J5IjpbNzA4NDg2OTE3LC02NjQ3MDUyMzEsMTUyND
+kxODY1LDEwMzEyNjI4NTcsNDAwNDA3NjYyLDIwNjUzMDI0MDcs
+MTM4MzMwNzk3OSwtMjA2NTk1NjE0Nyw5NjcwMzYwMjAsLTE0OD
+AyMTk1MTMsLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MDM0Mzk4
+LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTksMTE1Mj
+MwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzEx
+NjBdfQ==
 -->
