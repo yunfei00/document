@@ -335,16 +335,17 @@ int main() {
  
     int a[] = {0, 1, 2, 3, 4, 5};
     for (int n : a) // the initializer may be an array
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << n << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << n << ' ';
+    std::cout << '\n';
  
     for ([[maybe_unused]] int n : a)  
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << 1 << ' '; // the loop variable need not be used
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << 1 << ' '; // the loop variable need not be used
+    std::cout << '\n';
  
+	 //
     for (auto n = v.size(); auto i : v) // the init-statement (C++20)
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << --n + i << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << --n + i << ' ';
+    std::cout << '\n';
  
 }
  ```
@@ -356,11 +357,11 @@ for (auto&& [first,second] : mymap) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTU5MjM3NSwtODY5MDMzNTI3LDE1OD
-Q0NzAwMzEsMTQ5OTYwODc2LDc4NTk4ODc1LC0yMDAyMDUwNTQx
-LC0xMjkyNDg0NjMxLDExNjkzMDE5MDMsLTE5Nzc3ODU0OTMsLT
-gzNjI0NjMxMiwtNjc5NDU1NjU1LDYzMTkwMDA3MiwtOTUwNDU5
-MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMsMTQ0NTI4MzU1NSwtNT
-AwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIw
-MzI1Ml19
+eyJoaXN0b3J5IjpbLTEyODgyNjk0MjMsLTg2OTAzMzUyNywxNT
+g0NDcwMDMxLDE0OTk2MDg3Niw3ODU5ODg3NSwtMjAwMjA1MDU0
+MSwtMTI5MjQ4NDYzMSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC
+04MzYyNDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1
+OTA3LDU4NzgxOTkwOSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLT
+UwMDUwNTUzNywxNzEyMTA5NTcwLC01MjE0NzU1ODksLTExNjIy
+MDMyNTJdfQ==
 -->
