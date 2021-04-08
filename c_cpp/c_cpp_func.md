@@ -305,15 +305,18 @@ std::thread t(std::mem_fn(&cls::funcls), &m_cls);// 类成员函数需用mem_fn
  
  1. 简单实用
  ```
- 
+for (auto&& [first,second] : mymap) {
+}
  ```
  2. 范围使用
 ```
-
+for (auto&& [first,second] : mymap) {
+    // use first and second
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjQxODM1OSwxNDk5NjA4NzYsNzg1OT
+eyJoaXN0b3J5IjpbMTU4NDQ3MDAzMSwxNDk5NjA4NzYsNzg1OT
 g4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMTE2OTMwMTkw
 MywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNj
 MxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3
