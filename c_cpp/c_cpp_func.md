@@ -312,13 +312,13 @@ int main() {
     std::vector<int> v = {0, 1, 2, 3, 4, 5};
     for (const int& i : v) // access by const reference
         std::cout << i << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << '\n';
  
-    for (auto i : v) // access by value, the type of i is int
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+   for (auto i : v) // access by value, the type of i is int
+	   std::cout << i << ' ';
+       std::cout << '\n';
  
-    for (auto&& i : v) // access by forwarding reference, the type of i is int&
+   for (auto&& i : v) // access by forwarding reference, the type of i is int&
         [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
     [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
  
@@ -346,15 +346,6 @@ int main() {
     [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
  
 }
-
-0 1 2 3 4 5 
-0 1 2 3 4 5 
-0 1 2 3 4 5 
-0 1 2 3 4 5 
-0 1 2 3 4 5 
-0 1 2 3 4 5 
-1 1 1 1 1 1 
-5 5 5 5 5 5
  ```
  2. 范围使用
 ```
@@ -364,10 +355,10 @@ for (auto&& [first,second] : mymap) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE5MDUxMDcsMTU4NDQ3MDAzMSwxND
-k5NjA4NzYsNzg1OTg4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2
-MzEsMTE2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC
-02Nzk0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5
-MDksMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMT
-cxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbLTE3NzYyNTE5NSwxNTg0NDcwMDMxLDE0OT
+k2MDg3Niw3ODU5ODg3NSwtMjAwMjA1MDU0MSwtMTI5MjQ4NDYz
+MSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYyNDYzMTIsLT
+Y3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LDU4NzgxOTkw
+OSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUwNTUzNywxNz
+EyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNTJdfQ==
 -->
