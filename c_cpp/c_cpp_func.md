@@ -292,17 +292,17 @@ int main()
   2. thread -利用类成员函数( MyClass::thread_func )来创建子线程
   
 ```
-
+std::thread t(std::mem_fn(&cls::funcls), &m_cls);// 类成员函数需用mem_fn
 ```
   
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjE0MzQwNSwtMjAwMjA1MDU0MSwtMT
-I5MjQ4NDYzMSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYy
-NDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LD
-U4NzgxOTkwOSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUw
-NTUzNywxNzEyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNT
-JdfQ==
+eyJoaXN0b3J5IjpbNzg1OTg4NzUsLTIwMDIwNTA1NDEsLTEyOT
+I0ODQ2MzEsMTE2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2
+MzEyLC02Nzk0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1OD
+c4MTk5MDksMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1
+MzcsMTcxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX
+0=
 -->
