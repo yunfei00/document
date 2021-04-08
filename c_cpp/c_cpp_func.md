@@ -326,12 +326,12 @@ int main() {
     const auto& cv = v;
  
     for (auto&& i : cv) // access by f-d reference, the type of i is const int&
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << i << ' ';
+    std::cout << '\n';
  
     for (int n : {0, 1, 2, 3, 4, 5}) // the initializer may be a braced-init-list
-        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << n << ' ';
-    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+        std::cout << n << ' ';
+    std::cout << '\n';
  
     int a[] = {0, 1, 2, 3, 4, 5};
     for (int n : a) // the initializer may be an array
@@ -356,10 +356,11 @@ for (auto&& [first,second] : mymap) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTAzMzUyNywxNTg0NDcwMDMxLDE0OT
-k2MDg3Niw3ODU5ODg3NSwtMjAwMjA1MDU0MSwtMTI5MjQ4NDYz
-MSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYyNDYzMTIsLT
-Y3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LDU4NzgxOTkw
-OSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUwNTUzNywxNz
-EyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNTJdfQ==
+eyJoaXN0b3J5IjpbLTY4OTU5MjM3NSwtODY5MDMzNTI3LDE1OD
+Q0NzAwMzEsMTQ5OTYwODc2LDc4NTk4ODc1LC0yMDAyMDUwNTQx
+LC0xMjkyNDg0NjMxLDExNjkzMDE5MDMsLTE5Nzc3ODU0OTMsLT
+gzNjI0NjMxMiwtNjc5NDU1NjU1LDYzMTkwMDA3MiwtOTUwNDU5
+MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMsMTQ0NTI4MzU1NSwtNT
+AwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIw
+MzI1Ml19
 -->
