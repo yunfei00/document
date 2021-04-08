@@ -4,7 +4,13 @@
 - <a href="#title2">2 信号集 sigset_t</a> 
 - <a href="#title3">3 json 解析</a> 
  - <a href="#title4">4 thread </a> 
+ - <a href="#title5">5 基于范围的for循环 </a> 
+
+
 <div STYLE="page-break-after: always;"></div>
+
+
+
  <h1 id="title1">1 帮助函数 getopt</h1>  
 
 参考程序：
@@ -295,12 +301,19 @@ int main()
 std::thread t(std::mem_fn(&cls::funcls), &m_cls);// 类成员函数需用mem_fn
 ```
   
-   <h1 id="title5">5 基于</h1>  
+   <h1 id="title5">5 基于范围的for循环</h1>  
  
+ 1. 简单实用
+ ```
+ 
+ ```
+ 2. 范围使用
+```
 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTA1NDI0MiwxNDk5NjA4NzYsNzg1OT
+eyJoaXN0b3J5IjpbLTkxMjQxODM1OSwxNDk5NjA4NzYsNzg1OT
 g4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMTE2OTMwMTkw
 MywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNj
 MxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3
