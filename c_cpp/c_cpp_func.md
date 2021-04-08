@@ -257,13 +257,45 @@ g++ -o test test.cpp -l jsoncpp
 
   <h1 id="title4">4 thread</h1>  
   
+  1. thread 简单示例
+  ```
+// thread example
+#include <iostream>       // std::cout
+#include <thread>         // std::thread
+void foo() 
+{
+  // do stuff...
+}
+
+void bar(int x)
+{
+  // do stuff...
+}
+
+int main() 
+{
+  std::thread first (foo);     // spawn new thread that calls foo()
+  std::thread second (bar,0);  // spawn new thread that calls bar(0)
+
+  std::cout << "main, foo and bar now execute concurrently...\n";
+
+  // synchronize threads:
+  first.join();                // pauses until first finishes
+  second.join();               // pauses until second finishes
+
+  std::cout << "foo and bar completed.\n";
+
+  return 0;
+}
+```
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMT
-E2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0
-NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMT
-I4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEw
-OTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbMTA3NTAwMzc5NywtMjAwMjA1MDU0MSwtMT
+I5MjQ4NDYzMSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYy
+NDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LD
+U4NzgxOTkwOSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUw
+NTUzNywxNzEyMTA5NTcwLC01MjE0NzU1ODksLTExNjIyMDMyNT
+JdfQ==
 -->
