@@ -289,12 +289,17 @@ int main()
 }
 ```
 
-  2. thread 简单示例
+  2. thread -利用类成员函数( MyClass::thread_func )来创建子线程
+  
+```
+
+```
+  
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTU4MjU0NSwtMjAwMjA1MDU0MSwtMT
+eyJoaXN0b3J5IjpbMTY5NjE0MzQwNSwtMjAwMjA1MDU0MSwtMT
 I5MjQ4NDYzMSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYy
 NDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LD
 U4NzgxOTkwOSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUw
