@@ -303,10 +303,58 @@ std::thread t(std::mem_fn(&cls::funcls), &m_cls);// 类成员函数需用mem_fn
   
    <h1 id="title5">5 基于范围的for循环</h1>  
  
- 1. 简单实用
+ 1. 简单使用
+
  ```
-for (auto&& [first,second] : mymap) {
+#include <iostream>
+#include <vector>
+int main() {
+    std::vector<int> v = {0, 1, 2, 3, 4, 5};
+    for (const int& i : v) // access by const reference
+        std::cout << i << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    for (auto i : v) // access by value, the type of i is int
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    for (auto&& i : v) // access by forwarding reference, the type of i is int&
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    const auto& cv = v;
+ 
+    for (auto&& i : cv) // access by f-d reference, the type of i is const int&
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << i << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    for (int n : {0, 1, 2, 3, 4, 5}) // the initializer may be a braced-init-list
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << n << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    int a[] = {0, 1, 2, 3, 4, 5};
+    for (int n : a) // the initializer may be an array
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << n << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    for ([[maybe_unused]] int n : a)  
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << 1 << ' '; // the loop variable need not be used
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
+    for (auto n = v.size(); auto i : v) // the init-statement (C++20)
+        [std::cout](http://en.cppreference.com/w/cpp/io/cout) << --n + i << ' ';
+    [std::cout](http://en.cppreference.com/w/cpp/io/cout) << '\n';
+ 
 }
+
+0 1 2 3 4 5 
+0 1 2 3 4 5 
+0 1 2 3 4 5 
+0 1 2 3 4 5 
+0 1 2 3 4 5 
+0 1 2 3 4 5 
+1 1 1 1 1 1 
+5 5 5 5 5 5
  ```
  2. 范围使用
 ```
@@ -316,10 +364,10 @@ for (auto&& [first,second] : mymap) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDQ3MDAzMSwxNDk5NjA4NzYsNzg1OT
-g4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMTE2OTMwMTkw
-MywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNj
-MxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3
-MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNT
-IxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
+eyJoaXN0b3J5IjpbLTE2OTE5MDUxMDcsMTU4NDQ3MDAzMSwxND
+k5NjA4NzYsNzg1OTg4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2
+MzEsMTE2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC
+02Nzk0NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5
+MDksMTI4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMT
+cxMjEwOTU3MCwtNTIxNDc1NTg5LC0xMTYyMjAzMjUyXX0=
 -->
