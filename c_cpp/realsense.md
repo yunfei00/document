@@ -1,6 +1,6 @@
 # 目录
 <h3><a href="#title1">1 说明</a> </h3>
-<h3><a href="#title2">2 help document</a> </h3>
+<h3><a href="#title2">2 rs-hello-realsense</a> </h3>
 <h3><a href="#title3">3 OpenCV中的Gui功能</a> </h3>
 <h4><a href="#title3.1">3.1 images</a> </h4>
 		<h5><ul><a href="#title3.1.1">3.1.1 code </a> </h5>
@@ -57,9 +57,8 @@
 
 本文档主要针对C++版本中的realsense库进行学习记录。
 
- <h1 id="title2">2 help document </h1>  
+ <h1 id="title2">2 rs-hello-realsense </h1>  
  
-[document](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
 <h1 id="title3">3 OpenCV学习 </h1>  
 <h2 id="title3.1">3.1 Mat-基本图像容器 </h2>  
@@ -72,5 +71,5 @@ Mat本质上是具有两个数据部分的类：
 通过不必要地复制(可能较大的图像)来提升程序速度。
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbLTM0NDc4OTc3OCw5Nzk5NzMyMzZdfQ==
 -->
