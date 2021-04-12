@@ -130,7 +130,11 @@ Mat本质上是具有两个数据部分的类：
 	}
 	```
 2. [rs2::config](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1config.html)
-3. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
+该配置允许管道用户为管道流以及设备选择和配置请求过滤器。这是管道创建中的可选步骤，因为管道在内部解析其流设备。Config为用户提供了一种设置过滤器并测试是否与设备的管道要求没有冲突的方法。它还允许用户找到配置过滤器和管道的匹配设备，以便显式选择设备，并在流开始之前修改其控件。
+
+
+
+5. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
 管道用于采集视频流
 ```
 
@@ -138,6 +142,7 @@ Mat本质上是具有两个数据部分的类：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMT
-UzODcwLDM1Nzg0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbMTc4MTY4MDk0MCw1NDU2MTc1MjksMTA4Nz
+Q3Njc5LC02NzAxNTM4NzAsMzU3ODQ0MzM5LDk3OTk3MzIzNl19
+
 -->
