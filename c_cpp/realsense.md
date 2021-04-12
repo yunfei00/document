@@ -130,10 +130,14 @@ Mat本质上是具有两个数据部分的类：
 	}
 	```
 
-2. [rs2::pipeline]()
+2. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
+管道用于采集视频流
+```
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTAzMTgyNywtNjcwMTUzODcwLDM1Nz
-g0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
+Q0MzM5LDk3OTk3MzIzNl19
 -->
