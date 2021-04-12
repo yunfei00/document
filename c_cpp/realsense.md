@@ -161,8 +161,11 @@ Mat本质上是具有两个数据部分的类：
 	```
 6. [rs2::sensor](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1sensor.html)
 
+7. [rs2::depth_sensor]() 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Nzg3NzgsLTEyMTI4OTc5NTUsLTUwMD
-Q1ODQyNCwtMTAzNDkwMTcyLDU0NTYxNzUyOSwxMDg3NDc2Nzks
-LTY3MDE1Mzg3MCwzNTc4NDQzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbMTAxOTgxOTAxMSwxMjY3ODc3OCwtMTIxMj
+g5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAxNzIsNTQ1NjE3NTI5
+LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nzg0NDMzOSw5Nzk5Nz
+MyMzZdfQ==
 -->
