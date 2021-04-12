@@ -119,7 +119,7 @@ Mat本质上是具有两个数据部分的类：
 
 <h1 id="title_reference">参考 </h1>  
 
-1. rs2::context
+1. [rs2::context](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1context.html)
 
 	常见用法：用于查询设备
 	```
@@ -130,8 +130,10 @@ Mat本质上是具有两个数据部分的类：
 	}
 	```
 
+2. [rs2::pipeline]()
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NDEzODAyLC02NzAxNTM4NzAsMzU3OD
-Q0MzM5LDk3OTk3MzIzNl19
+eyJoaXN0b3J5IjpbMjEzMTAzMTgyNywtNjcwMTUzODcwLDM1Nz
+g0NDMzOSw5Nzk5NzMyMzZdfQ==
 -->
