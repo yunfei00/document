@@ -144,6 +144,10 @@ Mat本质上是具有两个数据部分的类：
 
 4. [rs2::align](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1align.html)
 
+	```
+	rs2::align align_to_color(RS2_STREAM_DEPTH);
+	data = align_to_color.process(data);
+	```
 5. [rs2::pipeline_profile](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline__profile.html)
 
 	管道配置文件包括设备和具有特定配置文件的活动流的选择。该概要文件是在管道定义的过滤器和条件下对上述内容的选择。流可能属于该设备的多个传感器。
@@ -158,7 +162,7 @@ Mat本质上是具有两个数据部分的类：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTU5MjQwMSwtNTAwNDU4NDI0LC0xMD
-M0OTAxNzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcw
-LDM1Nzg0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMT
+AzNDkwMTcyLDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3
+MCwzNTc4NDQzMzksOTc5OTczMjM2XX0=
 -->
