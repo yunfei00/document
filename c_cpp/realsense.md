@@ -146,11 +146,19 @@ Mat本质上是具有两个数据部分的类：
 5. [rs2::pipeline_profile](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline__profile.html)
 
 	管道配置文件包括设备和具有特定配置文件的活动流的选择。该概要文件是在管道定义的过滤器和条件下对上述内容的选择。流可能属于该设备的多个传感器。
-	···
+	```
+	rs2::pipeline_profile profile;
+	auto sensor = profile.get_device().first<rs2::depth_sensor>();
+	sensor.set_option(RS2_OPTION_LASER_POWER, 100.0);
+	auto  device_name = sensor.get_info(RS2_CAMERA_INFO_NAME);
+	std::cout << "Intel Realsense " << device_name << " " <<sensor.get_info(RS2_CAMERA_INFO_SERIAL_NUMBER)
+
+<< " is connected." << std::endl;
+	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEzNTEzMDEsLTUwMDQ1ODQyNCwtMT
-AzNDkwMTcyLDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3
-MCwzNTc4NDQzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbMTU2NTAzODY5MywtNTAwNDU4NDI0LC0xMD
+M0OTAxNzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcw
+LDM1Nzg0NDMzOSw5Nzk5NzMyMzZdfQ==
 -->
