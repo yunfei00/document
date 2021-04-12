@@ -129,8 +129,8 @@ Mat本质上是具有两个数据部分的类：
 	std::cout << "realsense device count is " << ctx.query_devices().size() << std::endl;
 	}
 	```
-
-2. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
+2. [rs2::config]()
+3. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
 管道用于采集视频流
 ```
 
@@ -138,6 +138,6 @@ Mat本质上是具有两个数据部分的类：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
-Q0MzM5LDk3OTk3MzIzNl19
+eyJoaXN0b3J5IjpbMTY2NTc5ODAxNCwxMDg3NDc2NzksLTY3MD
+E1Mzg3MCwzNTc4NDQzMzksOTc5OTczMjM2XX0=
 -->
