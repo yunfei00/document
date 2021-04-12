@@ -140,12 +140,12 @@ Mat本质上是具有两个数据部分的类：
 
 ```
 
-4. [rs2::align]()
-5. 9rs2::pipeline_profile]
+4. [rs2::align](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1align.html)
+5. [rs2::pipeline_profile](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline__profile.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3ODU2ODc3LC0xMDM0OTAxNzIsNTQ1Nj
-E3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nzg0NDMzOSw5
-Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbLTUwMDQ1ODQyNCwtMTAzNDkwMTcyLDU0NT
+YxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4NDQzMzks
+OTc5OTczMjM2XX0=
 -->
