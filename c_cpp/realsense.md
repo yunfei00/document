@@ -120,10 +120,18 @@ Mat本质上是具有两个数据部分的类：
 <h1 id="title_reference">参考 </h1>  
 
 1. rs2::context
-2. 
+
+	常见用法：用于查询设备
+	```
+	if (ctx.query_devices().size() == 0) {
+		EXIT_PROGRAM("No realsense device connected.");
+	} else {
+	std::cout << "realsense device count is " << ctx.query_devices().size() << std::endl;
+	}
+	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc0MTIzNDQsLTY3MDE1Mzg3MCwzNT
-c4NDQzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbNjQ0NDEzODAyLC02NzAxNTM4NzAsMzU3OD
+Q0MzM5LDk3OTk3MzIzNl19
 -->
