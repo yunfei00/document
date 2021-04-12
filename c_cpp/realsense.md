@@ -140,12 +140,12 @@ Mat本质上是具有两个数据部分的类：
 
 ```
 
-4. rs2::align
-5. rs2::pipeline_profile
+4. [rs2::align]()
+5. 9rs2::pipeline_profile]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ5MDE3Miw1NDU2MTc1MjksMTA4Nz
-Q3Njc5LC02NzAxNTM4NzAsMzU3ODQ0MzM5LDk3OTk3MzIzNl19
-
+eyJoaXN0b3J5IjpbNDQ3ODU2ODc3LC0xMDM0OTAxNzIsNTQ1Nj
+E3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nzg0NDMzOSw5
+Nzk5NzMyMzZdfQ==
 -->
