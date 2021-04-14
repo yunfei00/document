@@ -21,6 +21,9 @@
 <h3><a href="#title21">21 Centos postfix 邮箱服务器搭建</a> </h3>
 <h3><a href="#title22">22 ubuntu 内核日志错误码</a> </h3>
 <h3><a href="#title23">23 反向链接</a> </h3>
+<h3><a href="#title24">24 开机启动时间查询</a> </h3>
+<h3><a href="#title25">25 nmap</a> </h3>
+
 <div style="page-break-after:always"></div>
 
 <h1 id="title1">1 nohup</h1>  
@@ -797,12 +800,14 @@ visbodyf pts/18   192.168.0.85     二17    1.00s  0.22s  0.00s w
 	date -d "$(awk -F. '{print $1}' /proc/uptime) second ago" +"%Y-%m-%d %H:%M:%S" 
 	2021-03-30 17:24:19
 	```
+<h1 id="title25">25 nmap</h1>  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NDg2OTE3LC02NjQ3MDUyMzEsMTUyND
-kxODY1LDEwMzEyNjI4NTcsNDAwNDA3NjYyLDIwNjUzMDI0MDcs
-MTM4MzMwNzk3OSwtMjA2NTk1NjE0Nyw5NjcwMzYwMjAsLTE0OD
-AyMTk1MTMsLTQ5MzI5NDc5OCw2MzQxNTM4NTgsMzY5MDM0Mzk4
-LDYyMzI0OTYyMCwtMzI3NjkwNzQ2LC02NzU3ODQ3NTksMTE1Mj
-MwMTQ0OCwxNjM2MDMyMTI2LDE2MzYwMzIxMjYsLTE5MzY3NzEx
-NjBdfQ==
+eyJoaXN0b3J5IjpbMTU2MzY3MTI5MCw3MDg0ODY5MTcsLTY2ND
+cwNTIzMSwxNTI0OTE4NjUsMTAzMTI2Mjg1Nyw0MDA0MDc2NjIs
+MjA2NTMwMjQwNywxMzgzMzA3OTc5LC0yMDY1OTU2MTQ3LDk2Nz
+AzNjAyMCwtMTQ4MDIxOTUxMywtNDkzMjk0Nzk4LDYzNDE1Mzg1
+OCwzNjkwMzQzOTgsNjIzMjQ5NjIwLC0zMjc2OTA3NDYsLTY3NT
+c4NDc1OSwxMTUyMzAxNDQ4LDE2MzYwMzIxMjYsMTYzNjAzMjEy
+Nl19
 -->
