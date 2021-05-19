@@ -4,8 +4,10 @@
 
 ```
 Unable to install GRUB in /dev/sda
-Executing grub-insta
+Executing 'grub-install/dev/sda' failed.
+This is a fatal error.
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzkzNjAyNF19
+eyJoaXN0b3J5IjpbMTgxOTgwODExXX0=
 -->
