@@ -8,7 +8,7 @@
 		<h4><ul><a href="#title4.3">4.3 QT 全屏</a> </h4>
 		<h4><ul><a href="#title4.4">4.4 QTablewidget 去掉默认行号</a> </h4>
 <h3><a href="#title5">5 QT ubuntu mp4播放问题</a> </h3>
-
+<h3><a href="#title6">6 ubuntu18.04 上Qt程序发布</a> </h3>
 <div STYLE="page-break-after: always;"></div>
  
  <h1 id="title1">1 ubuntu16.04 上Qt程序发布</h1>  
@@ -154,11 +154,16 @@ headerView->setHidden(true);
  <h1 id="title5">5 QT ubuntu mp4播放问题</h1>  
 # 
 [参考网址](http://www.open-terrain.org/index.php/Pong/August30th2016QMediaPlayerOnUbuntu16-04LTS)
+ 
+ <h1 id="title6">6 ubuntu18.04 上Qt程序发布</h1>  
 
+在ubuntu18.04上发布时，需要使用最新的发布工具，并且增加选项
+--verbose=1，即可成功发布。
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU3NzIyMzMsMjAyNDI2MjE2OCwxNz
-g0MTQxNzM4LC05OTkyNzkzMDYsMTEyNzgyMDcwNSw2NjI3NTk2
-MCwtMTc1ODI4NDMwNyw5NDI0NzQ5MjQsLTIwMDA0MDY3MzAsMT
-E4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbLTE3NjQ1MTAyMzAsLTE0MjU3NzIyMzMsMj
+AyNDI2MjE2OCwxNzg0MTQxNzM4LC05OTkyNzkzMDYsMTEyNzgy
+MDcwNSw2NjI3NTk2MCwtMTc1ODI4NDMwNyw5NDI0NzQ5MjQsLT
+IwMDA0MDY3MzAsMTE4ODUzMDE5MF19
 -->
