@@ -1,4 +1,4 @@
-# 1 无法安装ubuntu系统
+# 1 无法安装ubuntu18.04系统
 
 铂盛主机，CPU较新，安装的时候，安装失败，报错内容如下：
 
@@ -12,8 +12,11 @@ This is a fatal error.
 
 ```
 sudo add-apt-repository ppa:yannubuntu/boot-repair
-sudo
+sudo apt-get update
+sudo apt-get install boot-repair
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjI5ODI0MDldfQ==
+eyJoaXN0b3J5IjpbLTEzMTIzODU1MzVdfQ==
 -->
