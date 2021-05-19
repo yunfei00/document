@@ -8,6 +8,12 @@ Executing 'grub-install/dev/sda' failed.
 This is a fatal error.
 ```
 
+解决方案：尝试使用linux的系统修复工具进行修复。
+
+```
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTgwODExXX0=
+eyJoaXN0b3J5IjpbLTE1NjI5ODI0MDldfQ==
 -->
