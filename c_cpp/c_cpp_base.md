@@ -6,8 +6,7 @@
 函数的定义和声明默认情况下是extern的，但静态函数只是在声明他的文件当中可见，不能被其他文件所用。  
 定义静态函数的好处：  
 <1> 其他文件中可以定义相同名字的函数，不会发生冲突  
-<2> 静态函数不能被其他文件所用。 存储说明符auto，register，extern，static，对应两种存储期：自动存储期和静态存储期。 auto和register对应自动存储期。具有自动存储期的变量在进入声明该变量的程序块时被建立，它在该程序块活动时存在，退出该程序块时撤销。  
-关键字extern和static用来说明具有静态存储期的变量和函数。用static声明的局部变量具有静态存储持续期（static storage duration），或静态范围（static extent）。虽然他的值在函数调用之间保持有效，但是其名字的可视性仍限制在其局部域内。静态局部对象在程序执行到该对象的声明处时被首次初始化。
+<2> 静态函数不能被其他文件所用。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzI5NDE1M119
+eyJoaXN0b3J5IjpbLTEwODU1NDQzOF19
 -->
