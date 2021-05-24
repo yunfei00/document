@@ -60,9 +60,12 @@ autoreconf: libtoolize is needed because this package uses Libtool
 git clone https://github.com/protocolbuffers/protobuf.git
 cd protobuf
 git checkout v2.6.1
+./autogen.sh
+./configure --prefix=/usr/local/protobuf   # 安装到指定路径
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDM4MjQ2MiwtOTEyNzA5NzE1LC0zOT
-gyOTE5ODAsMTM4OTQ5NjIxMywtMTg4Nzc1MzA5MV19
+eyJoaXN0b3J5IjpbMjA1MDA4NDE0NSwtNDYwMzgyNDYyLC05MT
+I3MDk3MTUsLTM5ODI5MTk4MCwxMzg5NDk2MjEzLC0xODg3NzUz
+MDkxXX0=
 -->
