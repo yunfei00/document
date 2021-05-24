@@ -51,7 +51,13 @@ autoreconf: libtoolize is needed because this package uses Libtool
 		sudo apt-get install libtool
 		```
 
+
+# 2  同时安装多个版本的pb
+
+此处以3.17.0和2.
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODI5MTk4MCwxMzg5NDk2MjEzLC0xOD
-g3NzUzMDkxXX0=
+eyJoaXN0b3J5IjpbLTExMDIxNTYxMjMsLTM5ODI5MTk4MCwxMz
+g5NDk2MjEzLC0xODg3NzUzMDkxXX0=
 -->
