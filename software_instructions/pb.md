@@ -54,10 +54,12 @@ autoreconf: libtoolize is needed because this package uses Libtool
 
 # 2  同时安装多个版本的pb
 
-此处以3.17.0和2.
+此处以3.17.0和2.6.1为例。
+
 ```
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIxNTYxMjMsLTM5ODI5MTk4MCwxMz
-g5NDk2MjEzLC0xODg3NzUzMDkxXX0=
+eyJoaXN0b3J5IjpbLTkxMjcwOTcxNSwtMzk4MjkxOTgwLDEzOD
+k0OTYyMTMsLTE4ODc3NTMwOTFdfQ==
 -->
