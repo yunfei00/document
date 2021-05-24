@@ -60,12 +60,13 @@ autoreconf: libtoolize is needed because this package uses Libtool
 git clone https://github.com/protocolbuffers/protobuf.git
 cd protobuf
 git checkout v2.6.1
-./configure --prefix=/ # 安装路径
+./configure --prefix=/home/visbodyfit/software/pb/pb2_6_1 # 安装路径
+ln -s /home/visbodyfit/software/pb/pb2_6_1/bin/protoc /usr/local/bin/protoc2.6.1 
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU3ODE2MjMsMjA1MDA4NDE0NSwtND
-YwMzgyNDYyLC05MTI3MDk3MTUsLTM5ODI5MTk4MCwxMzg5NDk2
-MjEzLC0xODg3NzUzMDkxXX0=
+eyJoaXN0b3J5IjpbLTc1NzQ3ODAyOCwyMDUwMDg0MTQ1LC00Nj
+AzODI0NjIsLTkxMjcwOTcxNSwtMzk4MjkxOTgwLDEzODk0OTYy
+MTMsLTE4ODc3NTMwOTFdfQ==
 -->
