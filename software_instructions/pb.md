@@ -57,9 +57,12 @@ autoreconf: libtoolize is needed because this package uses Libtool
 此处以3.17.0和2.6.1为例。
 
 ```
+git clone https://github.com/protocolbuffers/protobuf.git
+cd protobuf
+git checkout v2.6.1
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjcwOTcxNSwtMzk4MjkxOTgwLDEzOD
-k0OTYyMTMsLTE4ODc3NTMwOTFdfQ==
+eyJoaXN0b3J5IjpbLTQ2MDM4MjQ2MiwtOTEyNzA5NzE1LC0zOT
+gyOTE5ODAsMTM4OTQ5NjIxMywtMTg4Nzc1MzA5MV19
 -->
