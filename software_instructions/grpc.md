@@ -16,8 +16,9 @@ protobuf也不要搞成兼容的版本，不然以来有问题，使用源码进
 解决方案：
 sudo cp -r  ~/.local/grpc/third_party/abseil-cpp/absl /usr/local/include/
 
+# 2 python
 
-
+# 3 c++
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDExNDgwMywtNDkxOTMxMDE3XX0=
+eyJoaXN0b3J5IjpbMTEyMzE4NjM2OSwtNDkxOTMxMDE3XX0=
 -->
