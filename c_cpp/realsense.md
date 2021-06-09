@@ -54,10 +54,9 @@
 	<h5><ul><a href="#reference1">1. rs2::context </a> </h5>	
 	<h5><ul><a href="#reference2">2. rs2::config </a> </h5>	
 	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+    <h5><ul><a href="#reference4">4. rs2::align </a> </h5>	
 	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
 	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
-		<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
-	<h3 id="reference4">4. rs2::align</h3>
 
 <div style="page-break-after:always"></div>
 
@@ -160,6 +159,7 @@ Mat本质上是具有两个数据部分的类：
 	rs2::align align_to_color(RS2_STREAM_DEPTH);
 	data = align_to_color.process(data);
 	```
+<h3 id="reference5">5. rs2::pipeline_profile</h3>
 5. [rs2::pipeline_profile](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline__profile.html)
 
 	管道配置文件包括设备和具有特定配置文件的活动流的选择。该概要文件是在管道定义的过滤器和条件下对上述内容的选择。流可能属于该设备的多个传感器。
@@ -171,13 +171,15 @@ Mat本质上是具有两个数据部分的类：
 	auto  device_name = sensor.get_info(RS2_CAMERA_INFO_NAME);
 	std::cout << "Intel Realsense " << device_name << " " << 					sensor.get_info(RS2_CAMERA_INFO_SERIAL_NUMBER) << " is connected." << std::endl;
 	```
+<h3 id="reference6">6. rs2::sensor</h3>
 6. [rs2::sensor](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1sensor.html)
 
+<h3 id="reference7">7. rs2::depth_sensor</h3>
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NDYxNDE1LDEwMTk4MTkwMTEsMTI2Nz
-g3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMTAzNDkwMTcy
-LDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4ND
-QzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbLTE1ODM0MjU1NDEsMTAxOTgxOTAxMSwxMj
+Y3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAx
+NzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nz
+g0NDMzOSw5Nzk5NzMyMzZdfQ==
 -->
