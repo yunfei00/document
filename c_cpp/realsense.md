@@ -174,14 +174,15 @@ Mat本质上是具有两个数据部分的类：
 	std::cout << "Intel Realsense " << device_name << " " << 					sensor.get_info(RS2_CAMERA_INFO_SERIAL_NUMBER) << " is connected." << std::endl;
 	```
 <h3 id="reference6">6. rs2::sensor</h3>
+
 6. [rs2::sensor](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1sensor.html)
 
 <h3 id="reference7">7. rs2::depth_sensor</h3>
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzczMzg5LDEwMTk4MTkwMTEsMTI2Nz
-g3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMTAzNDkwMTcy
-LDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4ND
-QzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbLTE5ODIzNTA0MSwxMDE5ODE5MDExLDEyNj
+c4Nzc4LC0xMjEyODk3OTU1LC01MDA0NTg0MjQsLTEwMzQ5MDE3
+Miw1NDU2MTc1MjksMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
+Q0MzM5LDk3OTk3MzIzNl19
 -->
