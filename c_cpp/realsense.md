@@ -55,8 +55,10 @@
 	<h5><ul><a href="#reference2">2. rs2::config </a> </h5>	
 	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
     <h5><ul><a href="#reference4">4. rs2::align </a> </h5>	
-	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
-	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+	<h5><ul><a href="#reference5">5. rs2::pipeline_profile </a> </h5>	
+	<h5><ul><a href="#reference6">6. rs2::sensor </a> </h5>	
+	<h5><ul><a href="#reference7">7. rs2::depth_sensor </a> </h5>	
+
 
 <div style="page-break-after:always"></div>
 
@@ -178,8 +180,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0MjU1NDEsMTAxOTgxOTAxMSwxMj
-Y3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAx
-NzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nz
-g0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbMTE5MzczMzg5LDEwMTk4MTkwMTEsMTI2Nz
+g3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMTAzNDkwMTcy
+LDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4ND
+QzMzksOTc5OTczMjM2XX0=
 -->
