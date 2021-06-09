@@ -152,6 +152,8 @@ Mat本质上是具有两个数据部分的类：
 	```
 	rs2::pipeline pipe;
 	pipe.start(cfg);
+	
+	rs2::fra
 	```
 
 <h3 id="reference4">4. rs2::align</h3>
@@ -181,8 +183,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcxNzUxMTMsMTAxOTgxOTAxMSwxMj
-Y3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAx
-NzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nz
-g0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbMjA3NzYwOTk2NywtMTg2NzE3NTExMywxMD
+E5ODE5MDExLDEyNjc4Nzc4LC0xMjEyODk3OTU1LC01MDA0NTg0
+MjQsLTEwMzQ5MDE3Miw1NDU2MTc1MjksMTA4NzQ3Njc5LC02Nz
+AxNTM4NzAsMzU3ODQ0MzM5LDk3OTk3MzIzNl19
 -->
