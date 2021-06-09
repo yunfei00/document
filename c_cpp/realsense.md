@@ -50,6 +50,9 @@
 		<h5><ul><a href="#title4.3.3">4.3.3 在IPython中评估性能 </a> </h5>
 		<h5><ul><a href="#title4.3.4">4.3.4 性能优化技术 </a> </h5>
 
+<h4><ul><a href="#title4.3.4">常用喊出书 </a> </h4>	
+<h3 id="reference1">1. rs2::context</h3>
+
 		
 <div style="page-break-after:always"></div>
 
@@ -119,7 +122,7 @@ Mat本质上是具有两个数据部分的类：
 
 <h1 id="title_reference">参考 </h1>  
 
-<h3 id="reference1"></h3>
+<h3 id="reference1">1. rs2::context</h3>
 1. [rs2::context](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1context.html)
 
 	常见用法：用于查询设备
@@ -130,11 +133,13 @@ Mat本质上是具有两个数据部分的类：
 	std::cout << "realsense device count is " << ctx.query_devices().size() << std::endl;
 	}
 	```
+<h3 id="reference2">2. rs2::config</h3>
 2. [rs2::config](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1config.html)
 该配置允许管道用户为管道流以及设备选择和配置请求过滤器。这是管道创建中的可选步骤，因为管道在内部解析其流设备。Config为用户提供了一种设置过滤器并测试是否与设备的管道要求没有冲突的方法。它还允许用户找到配置过滤器和管道的匹配设备，以便显式选择设备，并在流开始之前修改其控件。
 	```
 	cfg.enable_stream(RS2_STREAM_COLOR, -1, 1280, 720, RS2_FORMAT_BGR8, 30);
 	```
+<h3 id="reference3">3. rs2::pipeline</h3>
 3. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
 管道用于采集视频流
 	```
@@ -165,8 +170,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgzNjcxNDQsMTAxOTgxOTAxMSwxMj
-Y3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAx
-NzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nz
-g0NDMzOSw5Nzk5NzMyMzZdfQ==
+eyJoaXN0b3J5IjpbLTc0NTkzNzkyMCwxMDE5ODE5MDExLDEyNj
+c4Nzc4LC0xMjEyODk3OTU1LC01MDA0NTg0MjQsLTEwMzQ5MDE3
+Miw1NDU2MTc1MjksMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
+Q0MzM5LDk3OTk3MzIzNl19
 -->
