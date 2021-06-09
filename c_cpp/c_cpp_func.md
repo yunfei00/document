@@ -5,6 +5,7 @@
 - <a href="#title3">3 json 解析</a> 
  - <a href="#title4">4 thread </a> 
  - <a href="#title5">5 基于范围的for循环 </a> 
+ - <a href="#title6">6 get_current_dir_name </a> 
 
 
 <div STYLE="page-break-after: always;"></div>
@@ -357,12 +358,16 @@ for (auto&& [first,second] : mymap) {
 }
 ```
 
+  <h1 id="title6">6 get_current_dir_name </h1>  
+
+具体函数参考[]
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjI0NTYyMSwtODY5MDMzNTI3LDE1OD
-Q0NzAwMzEsMTQ5OTYwODc2LDc4NTk4ODc1LC0yMDAyMDUwNTQx
-LC0xMjkyNDg0NjMxLDExNjkzMDE5MDMsLTE5Nzc3ODU0OTMsLT
-gzNjI0NjMxMiwtNjc5NDU1NjU1LDYzMTkwMDA3MiwtOTUwNDU5
-MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMsMTQ0NTI4MzU1NSwtNT
-AwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3NTU4OSwtMTE2MjIw
-MzI1Ml19
+eyJoaXN0b3J5IjpbLTE3NjExODQxOTksLTM5MjI0NTYyMSwtOD
+Y5MDMzNTI3LDE1ODQ0NzAwMzEsMTQ5OTYwODc2LDc4NTk4ODc1
+LC0yMDAyMDUwNTQxLC0xMjkyNDg0NjMxLDExNjkzMDE5MDMsLT
+E5Nzc3ODU0OTMsLTgzNjI0NjMxMiwtNjc5NDU1NjU1LDYzMTkw
+MDA3MiwtOTUwNDU5MDcsNTg3ODE5OTA5LDEyODMwMDAzNzMsMT
+Q0NTI4MzU1NSwtNTAwNTA1NTM3LDE3MTIxMDk1NzAsLTUyMTQ3
+NTU4OV19
 -->
