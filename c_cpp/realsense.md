@@ -52,7 +52,12 @@
 
 <h4><ul><a href="#title_reference">常用函数说明 </a> </h4>	
 	<h5><ul><a href="#reference1">1. rs2::context </a> </h5>	
-	<h5><ul><a href="#reference1">1. rs2::config </a> </h5>	
+	<h5><ul><a href="#reference2">2. rs2::config </a> </h5>	
+	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+	<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+		<h5><ul><a href="#reference3">3. rs2::pipeline </a> </h5>	
+	<h3 id="reference4">4. rs2::align</h3>
 
 <div style="page-break-after:always"></div>
 
@@ -148,6 +153,7 @@ Mat本质上是具有两个数据部分的类：
 	pipe.start(cfg);
 	```
 
+<h3 id="reference4">4. rs2::align</h3>
 4. [rs2::align](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1align.html)
 
 	```
@@ -170,7 +176,7 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0ODc3MDMzLDEwMTk4MTkwMTEsMTI2Nz
+eyJoaXN0b3J5IjpbODA0NDYxNDE1LDEwMTk4MTkwMTEsMTI2Nz
 g3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMTAzNDkwMTcy
 LDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4ND
 QzMzksOTc5OTczMjM2XX0=
