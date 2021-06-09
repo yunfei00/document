@@ -155,7 +155,9 @@ Mat本质上是具有两个数据部分的类：
 	
 	//阻塞程序，直到有数据
 	rs2::frameset frames = pipe.wait_for_frames();
-	rs3::depth_frame depth = frames.get_depth_frame();
+	//获取深度数据
+	rs2::depth_frame depth = frames.get_depth_frame();
+
 	```
 
 <h3 id="reference4">4. rs2::align</h3>
@@ -185,8 +187,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1ODgxNjE1LC0xODY3MTc1MTEzLDEwMT
-k4MTkwMTEsMTI2Nzg3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQy
-NCwtMTAzNDkwMTcyLDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MD
-E1Mzg3MCwzNTc4NDQzMzksOTc5OTczMjM2XX0=
+eyJoaXN0b3J5IjpbLTE0OTY5MDg4MzQsLTE4NjcxNzUxMTMsMT
+AxOTgxOTAxMSwxMjY3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4
+NDI0LC0xMDM0OTAxNzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNj
+cwMTUzODcwLDM1Nzg0NDMzOSw5Nzk5NzMyMzZdfQ==
 -->
