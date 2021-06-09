@@ -146,11 +146,11 @@ Mat本质上是具有两个数据部分的类：
 	cfg.enable_stream(RS2_STREAM_COLOR, -1, 1280, 720, RS2_FORMAT_BGR8, 30);
 	```
 <h3 id="reference3">3. rs2::pipeline</h3>
+
 3. [rs2::pipeline](http://docs.ros.org/en/kinetic/api/librealsense2/html/classrs2_1_1pipeline.html)
 管道用于采集视频流
 	```
 	rs2::pipeline pipe;
-	pipe.start(cfg);
 	pipe.start(cfg);
 	```
 
@@ -181,8 +181,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIzNTA0MSwxMDE5ODE5MDExLDEyNj
-c4Nzc4LC0xMjEyODk3OTU1LC01MDA0NTg0MjQsLTEwMzQ5MDE3
-Miw1NDU2MTc1MjksMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
-Q0MzM5LDk3OTk3MzIzNl19
+eyJoaXN0b3J5IjpbLTE4NjcxNzUxMTMsMTAxOTgxOTAxMSwxMj
+Y3ODc3OCwtMTIxMjg5Nzk1NSwtNTAwNDU4NDI0LC0xMDM0OTAx
+NzIsNTQ1NjE3NTI5LDEwODc0NzY3OSwtNjcwMTUzODcwLDM1Nz
+g0NDMzOSw5Nzk5NzMyMzZdfQ==
 -->
