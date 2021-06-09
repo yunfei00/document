@@ -50,10 +50,10 @@
 		<h5><ul><a href="#title4.3.3">4.3.3 在IPython中评估性能 </a> </h5>
 		<h5><ul><a href="#title4.3.4">4.3.4 性能优化技术 </a> </h5>
 
-<h4><ul><a href="#title4.3.4">常用喊出书 </a> </h4>	
-<h3 id="reference1">1. rs2::context</h3>
+<h4><ul><a href="#title_reference">常用函数说明 </a> </h4>	
+	<h5><ul><a href="#reference1">1. rs2::context </a> </h5>	
+	<h5><ul><a href="#reference1">1. rs2::config </a> </h5>	
 
-		
 <div style="page-break-after:always"></div>
 
   <h1 id="title1">1 说明</h1>  
@@ -170,8 +170,8 @@ Mat本质上是具有两个数据部分的类：
 7. [rs2::depth_sensor]() 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTkzNzkyMCwxMDE5ODE5MDExLDEyNj
-c4Nzc4LC0xMjEyODk3OTU1LC01MDA0NTg0MjQsLTEwMzQ5MDE3
-Miw1NDU2MTc1MjksMTA4NzQ3Njc5LC02NzAxNTM4NzAsMzU3OD
-Q0MzM5LDk3OTk3MzIzNl19
+eyJoaXN0b3J5IjpbNzk0ODc3MDMzLDEwMTk4MTkwMTEsMTI2Nz
+g3NzgsLTEyMTI4OTc5NTUsLTUwMDQ1ODQyNCwtMTAzNDkwMTcy
+LDU0NTYxNzUyOSwxMDg3NDc2NzksLTY3MDE1Mzg3MCwzNTc4ND
+QzMzksOTc5OTczMjM2XX0=
 -->
