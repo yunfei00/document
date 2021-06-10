@@ -29,13 +29,14 @@ rs-color.c:(.text+0x1c6): undefined reference to `rs2_get_device_count'
 rs-color.c:(.text+0x22c): undefined reference to `rs2_create_device'
 
 ```
-说明，编译的时候
+说明，编译的时候，找不到对应的库
 在Makelist文档汇总，修改如下：
 ```
 target_link_libraries (rs-color  PRIVATE realsense2::realsense2)
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDQ3MTAyOSwtMTI4NjkzNDYwNSwtMT
+eyJoaXN0b3J5IjpbLTYyNjkwNTYzMCwtMTI4NjkzNDYwNSwtMT
 UzMjAyNDY2NF19
 -->
