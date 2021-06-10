@@ -10,6 +10,7 @@ fx,fy为焦距，一般情况下，二者相等。
 x0,y0为主坐标（相对于成像平面）。  
 s为坐标轴倾斜参数，理想情况下为0。
 
+
 # 3 示例错误
 
 1. 编译的时候报错信息如下：
@@ -38,6 +39,6 @@ target_link_libraries (rs-color  PRIVATE realsense2::realsense2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjQ2ODQ5MywtNjI2OTA1NjMwLC0xMj
-g2OTM0NjA1LC0xNTMyMDI0NjY0XX0=
+eyJoaXN0b3J5IjpbMjAzNzI2NDM1MSwxNTcyNDY4NDkzLC02Mj
+Y5MDU2MzAsLTEyODY5MzQ2MDUsLTE1MzIwMjQ2NjRdfQ==
 -->
