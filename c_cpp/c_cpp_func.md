@@ -362,12 +362,50 @@ for (auto&& [first,second] : mymap) {
 
 [具体函数参考](http://www.cplusplus.com/forum/general/72682/)
 
+  <h1 id="title7">7 grpc peer ip </h1>  
+
+
+```
+grpc::Status CommonServiceImpl::CheckSelf(grpc::ServerContext *context, const VA600Algorithm::CommonReq *request, VA600Algorithm::CommonRes *response)
+{
+    std::vector<std::string> splitted_peer;
+    std::string peer_raw = context->peer();
+
+    std::cout << "peer_raw is " << peer_raw << std::endl;
+    //peer_raw is ipv4:127.0.0.1:34428
+
+    boost::split(splitted_peer, peer_raw, boost::is_any_of(":"), boost::token_compress_on);
+
+    if (splitted_peer.size() != 3) {
+        std::cout << "Could not parse peer address. Got " << splitted_peer.size()
+                << " instead 3 ";
+
+        return grpc::Status(grpc::StatusCode::INVALID_ARGUMENT, "Could not parse peer address");
+    }
+
+    std::string protocol_family = splitted_peer[0];
+    std::string client_ip = splitted_peer[1];
+
+    if (protocol_family != "ipv4") {
+        std::cout << "We support only IPv4 client but got client with protocol: " << protocol_family;
+        return grpc::Status(grpc::StatusCode::INVALID_ARGUMENT, "We support only IPv4 client but got client with protocol: " + protocol_family);
+    }
+
+    std::cout << "peer ip is " << client_ip << std::endl;
+
+
+
+    messages.push(1);
+    response->set_code(VA600Algorithm::CommonRes::OK);
+    return grpc::Status::OK;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTgwNDEzMSwtMzkyMjQ1NjIxLC04Nj
-kwMzM1MjcsMTU4NDQ3MDAzMSwxNDk5NjA4NzYsNzg1OTg4NzUs
-LTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMTE2OTMwMTkwMywtMT
-k3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0NTU2NTUsNjMxOTAw
-MDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMTI4MzAwMDM3MywxND
-Q1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEwOTU3MCwtNTIxNDc1
-NTg5XX0=
+eyJoaXN0b3J5IjpbLTE5ODU4NjM0MjQsMTIwMTgwNDEzMSwtMz
+kyMjQ1NjIxLC04NjkwMzM1MjcsMTU4NDQ3MDAzMSwxNDk5NjA4
+NzYsNzg1OTg4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMT
+E2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0
+NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMT
+I4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEw
+OTU3MF19
 -->
