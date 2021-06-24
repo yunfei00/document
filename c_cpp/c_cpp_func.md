@@ -364,7 +364,12 @@ for (auto&& [first,second] : mymap) {
 
   <h1 id="title7">7 grpc peer ip </h1>  
 
+1. ubuntu install boost
+sudo apt-get install libboost-dev-all
+头文件
+<boost/algorithm/string.hpp>
 
+cmakelist-->  find
 ```
 grpc::Status CommonServiceImpl::CheckSelf(grpc::ServerContext *context, const VA600Algorithm::CommonReq *request, VA600Algorithm::CommonRes *response)
 {
@@ -401,11 +406,11 @@ grpc::Status CommonServiceImpl::CheckSelf(grpc::ServerContext *context, const VA
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU4NjM0MjQsMTIwMTgwNDEzMSwtMz
-kyMjQ1NjIxLC04NjkwMzM1MjcsMTU4NDQ3MDAzMSwxNDk5NjA4
-NzYsNzg1OTg4NzUsLTIwMDIwNTA1NDEsLTEyOTI0ODQ2MzEsMT
-E2OTMwMTkwMywtMTk3Nzc4NTQ5MywtODM2MjQ2MzEyLC02Nzk0
-NTU2NTUsNjMxOTAwMDcyLC05NTA0NTkwNyw1ODc4MTk5MDksMT
-I4MzAwMDM3MywxNDQ1MjgzNTU1LC01MDA1MDU1MzcsMTcxMjEw
-OTU3MF19
+eyJoaXN0b3J5IjpbMTYxNzA2MjIxMCwtMTk4NTg2MzQyNCwxMj
+AxODA0MTMxLC0zOTIyNDU2MjEsLTg2OTAzMzUyNywxNTg0NDcw
+MDMxLDE0OTk2MDg3Niw3ODU5ODg3NSwtMjAwMjA1MDU0MSwtMT
+I5MjQ4NDYzMSwxMTY5MzAxOTAzLC0xOTc3Nzg1NDkzLC04MzYy
+NDYzMTIsLTY3OTQ1NTY1NSw2MzE5MDAwNzIsLTk1MDQ1OTA3LD
+U4NzgxOTkwOSwxMjgzMDAwMzczLDE0NDUyODM1NTUsLTUwMDUw
+NTUzN119
 -->
