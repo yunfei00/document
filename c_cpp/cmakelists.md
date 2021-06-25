@@ -8,12 +8,9 @@
 
 # 2.CMakeLists.txt文件的基本写法
 
-#声明要求的cmake最低版本
-
-cmake_minimun_required( VERSION 2.8)
-
+1. 声明要求的cmake最低版本
+``cmake_minimun_required( VERSION 2.8)``
 #声明一个cmake工程，工程名为post_fusion
-
 project(post_fusion)
 
 # 添加c++ 11标准支持
@@ -52,6 +49,6 @@ target_link_libraries(irfusion irfusion_shared)
 整个工程中的代码结构：
 # 1 find_package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE2MDgwMSwtMzMyNTMzNTQ1LC0yMz
+eyJoaXN0b3J5IjpbLTE1Mjg0MTYyMywtMzMyNTMzNTQ1LC0yMz
 g2ODAzNDVdfQ==
 -->
