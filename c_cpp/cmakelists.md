@@ -65,7 +65,10 @@
 5. SET(CMAKE_C_FLAGS_DEBUG "-g -Wall") 设置编译器的类型
 	CMAKE_C_FLAGS_DEBUG ---- C 编译器
 	CMAKE_CXX_FLAGS_DEBUG ---- C++ 编译器
+6. ADD_SUBDIRECTORY(utility) 添加要编译的子目录
+为工程主目录下的存放源代码的子目录使用该命令，各子目录出现的顺序随意。
+如上便是工程server_project 主目录src 下的CMakeLists.txt 文件，下一篇我们解释子目录utiltiy中的CMakeLists.txt 文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njg2MzA0LC0xNjM3MzUzNjEwLC03Mz
-AzODU3NSwtMzMyNTMzNTQ1LC0yMzg2ODAzNDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MjkxODI3NjUsLTE2MzczNTM2MTAsLT
+czMDM4NTc1LC0zMzI1MzM1NDUsLTIzODY4MDM0NV19
 -->
