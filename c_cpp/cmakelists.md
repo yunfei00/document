@@ -65,6 +65,8 @@ option 提供选项让用户选择是 ON 或者 OFF ，如果没有提供初始�
 也就是说默认的值是OFF。
 
 example:
+option(USE_MYMATH  "Use tutorial provided math implementation"  ON)
+
 code:
 #ifdef USE_MYMATH
   const double outputValue = mysqrt(inputValue);
@@ -103,7 +105,7 @@ cmakelists:
 为工程主目录下的存放源代码的子目录使用该命令，各子目录出现的顺序随意。
 如上便是工程server_project 主目录src 下的CMakeLists.txt 文件，下一篇我们解释子目录utiltiy中的CMakeLists.txt 文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDQwMjY0MCwtMjE1NTA0ODI4LC0xNT
-I5MTgyNzY1LC0xNjM3MzUzNjEwLC03MzAzODU3NSwtMzMyNTMz
-NTQ1LC0yMzg2ODAzNDVdfQ==
+eyJoaXN0b3J5IjpbLTIxMzQ1MzQyNzMsLTU5MDQwMjY0MCwtMj
+E1NTA0ODI4LC0xNTI5MTgyNzY1LC0xNjM3MzUzNjEwLC03MzAz
+ODU3NSwtMzMyNTMzNTQ1LC0yMzg2ODAzNDVdfQ==
 -->
