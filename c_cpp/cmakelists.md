@@ -30,25 +30,28 @@
 ``add_library(irfusion comfunc.c post_sins_gnss.cpp)``
 
 	这条命令告诉cmake，我们想把这些源文件编译成一个叫作“irfusion”的库。在linux中，库文件分为静态库和动态库两种，静态库以.a作为后缀名，共享库以.so结尾。所有库都是一些函数打包后的集合，差别在于静态库每次被调用都会生成一个副本，而共享库则只有一个副本，更省空间。如果想生成共享库而不是静态库，只需要使用以下语句即可
-``add_library(irfusion_shared SHARED  comfunc.c post_sins_gnss.cpp)``
-此时得到的文件就是irfusion_shared.so了。
+	
+	```
+	add_library(irfusion_shared SHARED  comfunc.c 
+	post_sins_gnss.cpp)
+	```
+	此时得到的文件就是irfusion_shared.so了。
 
 7. 在CMakeList.txt中添加一个可执行程序的生成命令，链接到刚才使用的库上
-```
-add_executable(irfusion main.cpp)
-target_link_libraries(irfusion irfusion_shared)
-```
-通过这两行语句，irfusion程序就能顺利使用irfusion_shared库中的代码了。
-整个工程中的代码结构：
+	```
+	add_executable(irfusion main.cpp)
+	target_link_libraries(irfusion irfusion_shared)
+	```
+	通过这两行语句，irfusion程序就能顺利使用irfusion_shared库中的代码了。
 
 8. 使用cmake编译整个工程
-```
-cd build
-cmake ..
-make
-```
+	```
+	cd build
+	cmake ..
+	make
+	```
 # 1 find_package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTMxMTI4MCwtNzMwMzg1NzUsLTMzMj
-UzMzU0NSwtMjM4NjgwMzQ1XX0=
+eyJoaXN0b3J5IjpbLTE2MzczNTM2MTAsLTczMDM4NTc1LC0zMz
+I1MzM1NDUsLTIzODY4MDM0NV19
 -->
