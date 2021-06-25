@@ -59,8 +59,13 @@
 	```
 3. MESSAGE（STATUS, "Content") 打印相关消息
 	输出消息，供调试CMakeLists.txt 文件使用。
-	
+4. SET(CMAKE_BUILE_TYPE DEBUG) 设置编译类型debug 或者release。 		
+	debug 版会生成相关调试信息，可以使用GDB 进行
+	调试；release不会生成调试信息。当无法进行调试时查看此处是否设置为debug.
+5. SET(CMAKE_C_FLAGS_DEBUG "-g -Wall") 设置编译器的类型
+	CMAKE_C_FLAGS_DEBUG ---- C 编译器
+	CMAKE_CXX_FLAGS_DEBUG ---- C++ 编译器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDM3MTAwNCwtMTYzNzM1MzYxMCwtNz
-MwMzg1NzUsLTMzMjUzMzU0NSwtMjM4NjgwMzQ1XX0=
+eyJoaXN0b3J5IjpbMTc3Njg2MzA0LC0xNjM3MzUzNjEwLC03Mz
+AzODU3NSwtMzMyNTMzNTQ1LC0yMzg2ODAzNDVdfQ==
 -->
