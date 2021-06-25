@@ -16,7 +16,7 @@
 ``set( CMAKE_CXX_FLAGS "-std=c++11" )``
 如果程序中使用了C++11标准，则需要设置告诉编译器，没有可以不用写。
 4. 设置编译器编译模式：
-··set( CMAKE_BUILD_TYPE "Debug" )
+``set( CMAKE_BUILD_TYPE "Debug" )``
 
 对于编译用的Debug模式和调试用的Release模式，在Debug模式中，程序运行较慢，当可以在IDE中进行断点调试，而Release模式则速度较快，但没有调试信息。不设置默认是Debug模式。
 
@@ -44,6 +44,6 @@ target_link_libraries(irfusion irfusion_shared)
 整个工程中的代码结构：
 # 1 find_package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA0NTQ1NDMsLTMzMjUzMzU0NSwtMj
-M4NjgwMzQ1XX0=
+eyJoaXN0b3J5IjpbLTczMDM4NTc1LC0zMzI1MzM1NDUsLTIzOD
+Y4MDM0NV19
 -->
