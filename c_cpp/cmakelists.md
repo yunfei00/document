@@ -20,13 +20,10 @@
 
 对于编译用的Debug模式和调试用的Release模式，在Debug模式中，程序运行较慢，当可以在IDE中进行断点调试，而Release模式则速度较快，但没有调试信息。不设置默认是Debug模式。
 
-# 添加引用的第三方头文件，例如添加Eigen头文件
-
-include_directories( "/usr/include/eigen3" )
-
-#编译生成库文件
-
-add_library(irfusion comfunc.c post_sins_gnss.cpp)
+5. 添加引用的第三方头文件，例如添加Eigen头文件
+``include_directories( "/usr/include/eigen3" )``
+6. 编译生成库文件
+``add_library(irfusion comfunc.c post_sins_gnss.cpp)``
 
 这条命令告诉cmake，我们想把这些源文件编译成一个叫作“irfusion”的库。在linux中，库文件分为静态库和动态库两种，静态库以.a作为后缀名，共享库以.so结尾。所有库都是一些函数打包后的集合，差别在于静态库每次被调用都会生成一个副本，而共享库则只有一个副本，更省空间。如果想生成共享库而不是静态库，只需要使用以下语句即可
 
@@ -44,6 +41,6 @@ target_link_libraries(irfusion irfusion_shared)
 整个工程中的代码结构：
 # 1 find_package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDM4NTc1LC0zMzI1MzM1NDUsLTIzOD
-Y4MDM0NV19
+eyJoaXN0b3J5IjpbLTE5NDE3ODkwMzQsLTczMDM4NTc1LC0zMz
+I1MzM1NDUsLTIzODY4MDM0NV19
 -->
