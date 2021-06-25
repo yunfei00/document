@@ -50,8 +50,17 @@
 	cmake ..
 	make
 	```
-# 1 find_package
+# 参考说明
+1. CMakeLists.txt 文件中不区分大小写
+2. PROJECT(project_name) 定义工程名称
+	```
+	语法：project(projectname [cxx] [c] [java])
+	可以指定工程采用的语言，选项分别表示：C++, C, java， 如不指定默认支持所有语言
+	```
+3. MESSAGE（STATUS, "Content") 打印相关消息
+	输出消息，供调试CMakeLists.txt 文件使用。
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczNTM2MTAsLTczMDM4NTc1LC0zMz
-I1MzM1NDUsLTIzODY4MDM0NV19
+eyJoaXN0b3J5IjpbMjA3MDM3MTAwNCwtMTYzNzM1MzYxMCwtNz
+MwMzg1NzUsLTMzMjUzMzU0NSwtMjM4NjgwMzQ1XX0=
 -->
