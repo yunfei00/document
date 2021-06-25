@@ -51,7 +51,12 @@
 	make
 	```
 # 3 其他语句
-1. 
+1. option
+option 选项，让你可以根据选项值进行条件编译。
+
+2. configure_file
+ configure_file配置文件，让你可以在代码文件中使用CMake中定义的的变量
+
 # 参考说明
 1. CMakeLists.txt 文件中不区分大小写
 2. PROJECT(project_name) 定义工程名称
@@ -71,7 +76,7 @@
 为工程主目录下的存放源代码的子目录使用该命令，各子目录出现的顺序随意。
 如上便是工程server_project 主目录src 下的CMakeLists.txt 文件，下一篇我们解释子目录utiltiy中的CMakeLists.txt 文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTUwNDgyOCwtMTUyOTE4Mjc2NSwtMT
-YzNzM1MzYxMCwtNzMwMzg1NzUsLTMzMjUzMzU0NSwtMjM4Njgw
-MzQ1XX0=
+eyJoaXN0b3J5IjpbLTE3ODMzNjYyODEsLTIxNTUwNDgyOCwtMT
+UyOTE4Mjc2NSwtMTYzNzM1MzYxMCwtNzMwMzg1NzUsLTMzMjUz
+MzU0NSwtMjM4NjgwMzQ1XX0=
 -->
