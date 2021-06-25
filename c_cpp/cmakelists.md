@@ -12,10 +12,11 @@
 ``cmake_minimun_required( VERSION 2.8)``
 2. 声明一个cmake工程，工程名为post_fusion
 ``project(post_fusion)``
+3.  添加c++ 11标准支持
+``set( CMAKE_CXX_FLAGS "-std=c++11" )``
+如果程序中使用了C++11标准，则需要设置告诉编译器，没有可以不用写。
+4. 
 
-# 添加c++ 11标准支持
-
-set( CMAKE_CXX_FLAGS "-std=c++11" )
 
 如果程序中使用了C++11标准，则需要设置告诉编译器，没有可以不用写。
 
@@ -49,6 +50,6 @@ target_link_libraries(irfusion irfusion_shared)
 整个工程中的代码结构：
 # 1 find_package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTMyMTI5MjAsLTMzMjUzMzU0NSwtMj
+eyJoaXN0b3J5IjpbLTE0NjMxOTI3MDgsLTMzMjUzMzU0NSwtMj
 M4NjgwMzQ1XX0=
 -->
