@@ -50,6 +50,8 @@
 	cmake ..
 	make
 	```
+# 3 其他语句
+1. 
 # 参考说明
 1. CMakeLists.txt 文件中不区分大小写
 2. PROJECT(project_name) 定义工程名称
@@ -69,6 +71,7 @@
 为工程主目录下的存放源代码的子目录使用该命令，各子目录出现的顺序随意。
 如上便是工程server_project 主目录src 下的CMakeLists.txt 文件，下一篇我们解释子目录utiltiy中的CMakeLists.txt 文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkxODI3NjUsLTE2MzczNTM2MTAsLT
-czMDM4NTc1LC0zMzI1MzM1NDUsLTIzODY4MDM0NV19
+eyJoaXN0b3J5IjpbLTIxNTUwNDgyOCwtMTUyOTE4Mjc2NSwtMT
+YzNzM1MzYxMCwtNzMwMzg1NzUsLTMzMjUzMzU0NSwtMjM4Njgw
+MzQ1XX0=
 -->
