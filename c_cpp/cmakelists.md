@@ -57,7 +57,6 @@ option 选项，让你可以根据选项值进行条件编译。
 ```
 Provides an option that the user can optionally select.
 option 提供一个用户可以任选的选项。语法如下
-
 option(<option_variable> "help string describing option"
             [initial value])
 
@@ -65,6 +64,9 @@ Provide an option for the user to select as ON or OFF. If no initial value is pr
 option 提供选项让用户选择是 ON 或者 OFF ，如果没有提供初始化值，使用OFF。
 也就是说默认的值是OFF。
 
+example:
+
+```
 但是请注意：这个option命令和你本地是否存在编译缓存的关系很大。
 所以，如果你有关于 option 的改变，那么请你务必清理 CMakeCache.txt 和 CMakeFiles 文件夹。
 还有，请使用标准的 [initial value] 值 ON 或者 OFF。
@@ -93,7 +95,7 @@ option 提供选项让用户选择是 ON 或者 OFF ，如果没有提供初始�
 为工程主目录下的存放源代码的子目录使用该命令，各子目录出现的顺序随意。
 如上便是工程server_project 主目录src 下的CMakeLists.txt 文件，下一篇我们解释子目录utiltiy中的CMakeLists.txt 文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNjM3MzU3LC0yMTU1MDQ4MjgsLTE1Mj
-kxODI3NjUsLTE2MzczNTM2MTAsLTczMDM4NTc1LC0zMzI1MzM1
-NDUsLTIzODY4MDM0NV19
+eyJoaXN0b3J5IjpbMTI3OTU4NzE2OSwtMjE1NTA0ODI4LC0xNT
+I5MTgyNzY1LC0xNjM3MzUzNjEwLC03MzAzODU3NSwtMzMyNTMz
+NTQ1LC0yMzg2ODAzNDVdfQ==
 -->
