@@ -35,7 +35,7 @@ virtualenv -p /usr/bin/python2.7 venv
 virtualenv -p python3 myenv
 
 # 安装指定版本python虚拟环境
-virtualenv venv --python=python3.7
+virtualenv venv --p	ython=python3.7
 
 # Active your virtual environment:
 source venv/bin/activate
@@ -63,7 +63,7 @@ Step 4: Install Python 3
 sudo apt install python3.8
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTY5NjYwOCwtOTAxMzE5MTYzLDExNz
-Y1MTM2MTIsMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNjI3Njkz
-N119
+eyJoaXN0b3J5IjpbMTAwNzAyNzU3NiwxODU5Njk2NjA4LC05MD
+EzMTkxNjMsMTE3NjUxMzYxMiwxMjk3OTQyNiwxMzk2NDI5NTY1
+LC0yMDA2Mjc2OTM3XX0=
 -->
