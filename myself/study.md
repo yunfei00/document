@@ -15,8 +15,8 @@ web入门
 - 自动化系统 webpack 用于自动执行重复性任务，例如缩小代码和运行测试。
 -  库、框架等，以加快编写常用功能。库往往是现有的 JavaScript 或 CSS 文件，它提供现成的功能供您在代码中使用。一个框架倾向于更进一步，提供一个完整的系统，其中包含一些自定义语法，供您在其上编写 Web 应用程序。
 
-
+勾画网站草图：001
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwOTMxMDYsLTE1Njk2OTMzMzEsLTE2Nj
-QzNDY3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTc2Nzk3NjA2MywtMTU2OTY5MzMzMSwtMT
+Y2NDM0NjczOSwtMjA4ODc0NjYxMl19
 -->
