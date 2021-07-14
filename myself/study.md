@@ -4,10 +4,14 @@
 首页 产品 新闻 资源 关于我们 联系我们
 
 第一天
+web入门
+安装基础软件：
 
+- 文本编辑器   vscode
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5OTYwNCwtMTU2OTY5MzMzMSwtMTY2ND
-M0NjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTUzNDEwNzIxOCwtMTU2OTY5MzMzMSwtMT
+Y2NDM0NjczOSwtMjA4ODc0NjYxMl19
 -->
