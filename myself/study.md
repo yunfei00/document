@@ -20,10 +20,11 @@ web入门
 个人简介文字说明   个人图片
 
 一个网站由许多文件组成：文本内容、代码、样式表、媒体内容等。在构建网站时，您需要将这些文件组合成一个合理的结构，并确保它们可以相互通信。
+大致结构如下：
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2NTI2NjgxLDExNTE0NTEyNjEsLTE1Nj
-k2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzg5MDU3OCwxMTUxNDUxMjYxLC0xNT
+Y5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
 -->
