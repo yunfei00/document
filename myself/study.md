@@ -8,10 +8,12 @@ web入门
 安装基础软件：
 
 - 文本编辑器   vscode
+- web 浏览器 chrome
+- 图形编辑器 GIMP
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDEwNzIxOCwtMTU2OTY5MzMzMSwtMT
-Y2NDM0NjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyODc4NDUxNjcsLTE1Njk2OTMzMzEsLT
+E2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
 -->
