@@ -16,7 +16,11 @@ web入门
 -  库、框架等，以加快编写常用功能。库往往是现有的 JavaScript 或 CSS 文件，它提供现成的功能供您在代码中使用。一个框架倾向于更进一步，提供一个完整的系统，其中包含一些自定义语法，供您在其上编写 Web 应用程序。
 
 勾画网站草图：001
+首页链接
+个人简介文字说明   个人图片
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Nzk3NjA2MywtMTU2OTY5MzMzMSwtMT
-Y2NDM0NjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjgyMjg1NTczLC0xNTY5NjkzMzMxLC0xNj
+Y0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
 -->
