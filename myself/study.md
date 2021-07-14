@@ -21,10 +21,17 @@ web入门
 
 一个网站由许多文件组成：文本内容、代码、样式表、媒体内容等。在构建网站时，您需要将这些文件组合成一个合理的结构，并确保它们可以相互通信。
 大致结构如下：
-
+└─test-site
+    │  index.html
+    │
+    ├─images
+    │      child.jpg│
+    ├─scripts
+    └─styles
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg5MDU3OCwxMTUxNDUxMjYxLC0xNT
-Y5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3MzU0MzkzNDIsLTEwMzg5MDU3OCwxMT
+UxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4
+NzQ2NjEyXX0=
 -->
