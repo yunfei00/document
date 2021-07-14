@@ -36,10 +36,10 @@ HTML 是一种_标记语言_，用于定义内容的结构。
 
 这里不再说明各种标签，可以参考[html参考](https://www.runoob.com/html/html-tutorial.html)
 
-CSS基础
-
+**CSS基础**
+CSS（层叠样式表）是为网页内容设计样式的代码。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzUwOTA1NCwxMzIwNjE4NDQyLC0xMD
+eyJoaXN0b3J5IjpbMTAwMjQ1MzIyNCwxMzIwNjE4NDQyLC0xMD
 M4OTA1NzgsMTE1MTQ1MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0
 NjczOSwtMjA4ODc0NjYxMl19
 -->
