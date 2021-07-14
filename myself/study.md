@@ -19,8 +19,9 @@ web入门
 首页链接
 个人简介文字说明   个人图片
 
+一个网站由许多文件组成：文本内容、代码、样式表、媒体内容等。在构建网站时，您需要将这些文件组合成一个合理的结构，并确保它们可以相互通信。[处理文件](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)解释了如何为您的网站设置合理的文件结构以及您应该注意哪些问题。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMjg1NTczLC0xNTY5NjkzMzMxLC0xNj
-Y0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQ3OTc1OTIxMSwtMTU2OTY5MzMzMSwtMT
+Y2NDM0NjczOSwtMjA4ODc0NjYxMl19
 -->
