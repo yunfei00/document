@@ -38,8 +38,16 @@ HTML 是一种_标记语言_，用于定义内容的结构。
 
 **CSS基础**
 CSS（层叠样式表）是为网页内容设计样式的代码。
+与 HTML 一样，CSS 不是一种编程语言。它也不是一种标记语言。**CSS 是一种样式表语言。**CSS 是您用来有选择地设置 HTML 元素样式的工具。
+
+这个 CSS 选择段落文本，将颜色设置为红色：
+```
+p {
+  color: red;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjQ1MzIyNCwxMzIwNjE4NDQyLC0xMD
-M4OTA1NzgsMTE1MTQ1MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0
-NjczOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMz
+g5MDU3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2
+NzM5LC0yMDg4NzQ2NjEyXX0=
 -->
