@@ -23,15 +23,19 @@ web入门
 大致结构如下：
 └─test-site
     │  index.html
-    │
     ├─images
     │      child.jpg│
     ├─scripts
     └─styles
 
+**HTML 基础知识**
+HTML 是一种_标记语言_，用于定义内容的结构。
+```
+<p>My cat is very grumpy</p>
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU0MzkzNDIsLTEwMzg5MDU3OCwxMT
-UxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjk2NDY0MDI4LC0xMDM4OTA1NzgsMTE1MT
+Q1MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0NjczOSwtMjA4ODc0
+NjYxMl19
 -->
