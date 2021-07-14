@@ -47,9 +47,10 @@ p {
 }
 ```
 **JavaScript 基础**
-JavaScript 是一种编程语言，可为您的网站增加交互性
+JavaScript 是一种编程语言，可为您的网站增加交互性。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTg3NjAyOSw1MjU4MzQxMjMsMTMyMD
-YxODQ0MiwtMTAzODkwNTc4LDExNTE0NTEyNjEsLTE1Njk2OTMz
-MzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEwMTkwNDQzMjMsNTI1ODM0MTIzLDEzMj
+A2MTg0NDIsLTEwMzg5MDU3OCwxMTUxNDUxMjYxLC0xNTY5Njkz
+MzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
 -->
