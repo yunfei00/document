@@ -192,9 +192,17 @@ title属性--指向链接时的提示信息
 ```
 
 ### 上标和下标
+```
+<p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+<p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+<p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+```
+
+**文档和网站结构**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDEyNDAxMCwxNzg5NzQ2MzQzLC05Nz
+eyJoaXN0b3J5IjpbMTQ0MDgzNDk5OCwxNzg5NzQ2MzQzLC05Nz
 U0MDU2ODcsMTA2ODA1MTcwOSwtNjU4MDAyNDQyLC0xNjYxNjcw
 NzM0LDQ5OTA0NzMxNiwtNjE5NjI1ODE3LC0xMDE5MDQ0MzIzLD
 UyNTgzNDEyMywxMzIwNjE4NDQyLC0xMDM4OTA1NzgsMTE1MTQ1
