@@ -56,12 +56,14 @@ JavaScript 是一种编程语言，可为您的网站增加交互性。
 
 第二天
 HTML简介
-**head和meta**
+**head和metadata**
+HTML 文档的头部是页面加载时未在 Web 浏览器中显示的部分。它包含页面`<title>`,CSS链接,自定义收藏夹图标的链接和其他元数据.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEwNTcwODYsLTE2NjE2NzA3MzQsND
-k5MDQ3MzE2LC02MTk2MjU4MTcsLTEwMTkwNDQzMjMsNTI1ODM0
-MTIzLDEzMjA2MTg0NDIsLTEwMzg5MDU3OCwxMTUxNDUxMjYxLC
-0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTQ1NjU0NDMwOCwtMTY2MTY3MDczNCw0OT
+kwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0NDMyMyw1MjU4MzQx
+MjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LDExNTE0NTEyNjEsLT
+E1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
 
 -->
