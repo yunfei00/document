@@ -154,12 +154,23 @@ title属性--指向链接时的提示信息
 </a>
 ```
 
-g
+**高级文本格式**
+
+```
+<dl>
+  <dt>soliloquy</dt>
+  <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
+  <dt>monologue</dt>
+  <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
+  <dt>aside</dt>
+  <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
+</dl>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTUyOTAwMiwxNzg5NzQ2MzQzLC05Nz
-U0MDU2ODcsMTA2ODA1MTcwOSwtNjU4MDAyNDQyLC0xNjYxNjcw
-NzM0LDQ5OTA0NzMxNiwtNjE5NjI1ODE3LC0xMDE5MDQ0MzIzLD
-UyNTgzNDEyMywxMzIwNjE4NDQyLC0xMDM4OTA1NzgsMTE1MTQ1
-MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0NjczOSwtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbLTEzMTQ1NDAyNjAsMTc4OTc0NjM0MywtOT
+c1NDA1Njg3LDEwNjgwNTE3MDksLTY1ODAwMjQ0MiwtMTY2MTY3
+MDczNCw0OTkwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0NDMyMy
+w1MjU4MzQxMjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LDExNTE0
+NTEyNjEsLTE1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3ND
+Y2MTJdfQ==
 -->
