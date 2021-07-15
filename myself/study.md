@@ -234,12 +234,19 @@ title属性--指向链接时的提示信息
 ```
 <img src="dinosaur.jpg">
 ```
+
+替换文字，当图片无法显示时，使用文字替换，属性alt
+```
+<img src="images/dinosaur.jpg"
+     alt="The head and torso of a dinosaur skeleton;
+          it has a large head with long sharp teeth">
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDczOTMwNiwtMTU3MjE0Njk3NSwtNz
-YzMjU2OTk4LDE0NDA4MzQ5OTgsMTc4OTc0NjM0MywtOTc1NDA1
-Njg3LDEwNjgwNTE3MDksLTY1ODAwMjQ0MiwtMTY2MTY3MDczNC
-w0OTkwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0NDMyMyw1MjU4
-MzQxMjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LDExNTE0NTEyNj
-EsLTE1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTExNDY0MjkxNjgsLTE1NzIxNDY5NzUsLT
+c2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQw
+NTY4NywxMDY4MDUxNzA5LC02NTgwMDI0NDIsLTE2NjE2NzA3Mz
+QsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEwMTkwNDQzMjMsNTI1
+ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5MDU3OCwxMTUxNDUxMj
+YxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEy
+XX0=
 -->
