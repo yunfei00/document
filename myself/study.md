@@ -72,10 +72,18 @@ html简单示例
   </body>
 </html>
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODAwMjQ0MiwtMTY2MTY3MDczNCw0OT
-kwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0NDMyMyw1MjU4MzQx
-MjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LDExNTE0NTEyNjEsLT
-E1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
 
+**HTML文本基础**
+
+```
+<p>I am a paragraph, oh yes I am.</p>
+<h1>I am the title of the story.</h1>
+
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODMwNDc0NTA4LC02NTgwMDI0NDIsLTE2Nj
+E2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEwMTkwNDQz
+MjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5MDU3OCwxMT
+UxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4
+NzQ2NjEyXX0=
 -->
