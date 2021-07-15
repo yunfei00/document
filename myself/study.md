@@ -223,17 +223,17 @@ title属性--指向链接时的提示信息
 
 ### 用于构建内容的html
 -   **标题：**`<header>`
--   **导航栏：**[`<nav>`]
--   **主要内容是：**[`<main>`]
-- [`<section>`
-- `<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)元件。
--   **侧边栏：**[`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) ; 经常放在里面[`<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)。
--   **页脚：**[`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)。
+-   **导航栏：**`<nav>`
+-   **主要内容是：**`<main> <section> <div>`
+-   **侧边栏：**`<aside>`
+-   **页脚：**`<footer>`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIzMzU1MjMsMTQ0MDgzNDk5OCwxNz
-g5NzQ2MzQzLC05NzU0MDU2ODcsMTA2ODA1MTcwOSwtNjU4MDAy
-NDQyLC0xNjYxNjcwNzM0LDQ5OTA0NzMxNiwtNjE5NjI1ODE3LC
-0xMDE5MDQ0MzIzLDUyNTgzNDEyMywxMzIwNjE4NDQyLC0xMDM4
-OTA1NzgsMTE1MTQ1MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0Nj
-czOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTc2MzI1Njk5OCwxNDQwODM0OTk4LDE3OD
+k3NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUxNzA5LC02NTgwMDI0
+NDIsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLT
+EwMTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5
+MDU3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2Nz
+M5LC0yMDg4NzQ2NjEyXX0=
 -->
