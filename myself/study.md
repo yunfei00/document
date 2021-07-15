@@ -200,12 +200,31 @@ title属性--指向链接时的提示信息
 
 **文档和网站结构**
 
+### 文档的基本部分
 
+标题：
+
+通常在顶部有一个大条带，上面有一个大标题、标志，也许还有一个标语。这通常从一个网页到另一个网页保持不变。
+
+导航栏：
+
+网站主要部分的链接；通常由菜单按钮、链接或选项卡表示。
+
+主要内容：
+中心的一个大区域，包含给定网页的大部分独特内容，
+
+侧边栏：
+
+一些外围信息、链接、引用、广告等。通常，这与主要内容中包含的内容相关（例如，在新闻文章页面上，侧边栏可能包含作者的简历或相关文章的链接），但也有在某些情况下，您还会发现一些重复出现的元素，例如辅助导航系统。
+
+页脚：
+
+页面底部的条带，通常包含精美的印刷品、版权声明或联系信息。这是一个放置公共信息（如标题）的地方，但通常，该信息对网站本身并不重要或次要。页脚有时也用于[SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)目的，通过提供快速访问流行内容的链接。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDgzNDk5OCwxNzg5NzQ2MzQzLC05Nz
-U0MDU2ODcsMTA2ODA1MTcwOSwtNjU4MDAyNDQyLC0xNjYxNjcw
-NzM0LDQ5OTA0NzMxNiwtNjE5NjI1ODE3LC0xMDE5MDQ0MzIzLD
-UyNTgzNDEyMywxMzIwNjE4NDQyLC0xMDM4OTA1NzgsMTE1MTQ1
-MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0NjczOSwtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbMjEzODA0NzUwMSwxNDQwODM0OTk4LDE3OD
+k3NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUxNzA5LC02NTgwMDI0
+NDIsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLT
+EwMTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5
+MDU3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2Nz
+M5LC0yMDg4NzQ2NjEyXX0=
 -->
