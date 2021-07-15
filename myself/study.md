@@ -59,9 +59,21 @@ HTML简介
 **head和metadata**
 HTML 文档的头部是页面加载时未在 Web 浏览器中显示的部分。它包含页面`<title>`,CSS链接,自定义收藏夹图标的链接和其他元数据.
 
-
+html简单示例
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjU0NDMwOCwtMTY2MTY3MDczNCw0OT
+eyJoaXN0b3J5IjpbLTY1ODAwMjQ0MiwtMTY2MTY3MDczNCw0OT
 kwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0NDMyMyw1MjU4MzQx
 MjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LDExNTE0NTEyNjEsLT
 E1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIwODg3NDY2MTJdfQ==
