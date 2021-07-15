@@ -219,9 +219,9 @@ title属性--指向链接时的提示信息
 
 页脚：
 
-页面底部的条带，通常包含精美的印刷品、版权声明或联系信息。这是一个放置公共信息（如标题）的地方，但通常，该信息对网站本身并不重要或次要。页脚有时也用于[SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)目的，通过提供快速访问流行内容的链接。
+页面底部的条带，通常包含精美的印刷品、版权声明或联系信息。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODA0NzUwMSwxNDQwODM0OTk4LDE3OD
+eyJoaXN0b3J5IjpbMTc2NDc2MjA5MiwxNDQwODM0OTk4LDE3OD
 k3NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUxNzA5LC02NTgwMDI0
 NDIsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLT
 EwMTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5
