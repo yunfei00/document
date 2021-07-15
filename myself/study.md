@@ -236,13 +236,16 @@ title属性--指向链接时的提示信息
 ```
 
 替换文字，当图片无法显示时，使用文字替换，属性alt
+指定大小时，使用width和height属性
 ```
 <img src="images/dinosaur.jpg"
      alt="The head and torso of a dinosaur skeleton;
-          it has a large head with long sharp teeth">
+          it has a large head with long sharp teeth"
+     width="400"
+     height="341">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY0MjkxNjgsLTE1NzIxNDY5NzUsLT
+eyJoaXN0b3J5IjpbLTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLT
 c2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQw
 NTY4NywxMDY4MDUxNzA5LC02NTgwMDI0NDIsLTE2NjE2NzA3Mz
 QsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEwMTkwNDQzMjMsNTI1
