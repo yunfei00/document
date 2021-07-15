@@ -244,12 +244,24 @@ title属性--指向链接时的提示信息
      width="400"
      height="341">
 ```
+
+```
+<figure>
+  <img src="images/dinosaur.jpg"
+       alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth"
+       width="400"
+       height="341">
+
+  <figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
+</figure>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLT
-c2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQw
-NTY4NywxMDY4MDUxNzA5LC02NTgwMDI0NDIsLTE2NjE2NzA3Mz
-QsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEwMTkwNDQzMjMsNTI1
-ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5MDU3OCwxMTUxNDUxMj
-YxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5LC0yMDg4NzQ2NjEy
-XX0=
+eyJoaXN0b3J5IjpbLTIwODgxNDE1NzAsLTE3NDM2MTQ5NjcsLT
+E1NzIxNDY5NzUsLTc2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3
+NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUxNzA5LC02NTgwMDI0ND
+IsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEw
+MTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5MD
+U3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5
+LC0yMDg4NzQ2NjEyXX0=
 -->
