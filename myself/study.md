@@ -256,12 +256,19 @@ title属性--指向链接时的提示信息
   <figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
 </figure>
 ```
+
+### 视频处理
+```
+<video src="rabbit320.webm" controls>
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p>
+</video>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgxNDE1NzAsLTE3NDM2MTQ5NjcsLT
-E1NzIxNDY5NzUsLTc2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3
-NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUxNzA5LC02NTgwMDI0ND
-IsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4MTcsLTEw
-MTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLTEwMzg5MD
-U3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0MzQ2NzM5
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTI2NzE1MTYzOSwtMjA4ODE0MTU3MCwtMT
+c0MzYxNDk2NywtMTU3MjE0Njk3NSwtNzYzMjU2OTk4LDE0NDA4
+MzQ5OTgsMTc4OTc0NjM0MywtOTc1NDA1Njg3LDEwNjgwNTE3MD
+ksLTY1ODAwMjQ0MiwtMTY2MTY3MDczNCw0OTkwNDczMTYsLTYx
+OTYyNTgxNywtMTAxOTA0NDMyMyw1MjU4MzQxMjMsMTMyMDYxOD
+Q0MiwtMTAzODkwNTc4LDExNTE0NTEyNjEsLTE1Njk2OTMzMzEs
+LTE2NjQzNDY3MzldfQ==
 -->
