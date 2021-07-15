@@ -122,9 +122,17 @@ hummus
 </ol>
 ```
 
-## <
+## 文本重点
+
+```
+# em为斜体
+<p>I am <em>glad</em> you weren't <em>late</em>.</p>
+# strong 为粗体
+<p>This liquid is <strong>highly toxic</strong>.</p>
+<p>I am counting on you. <strong>Do not</strong> be late!</p>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTg1NTgzNywxMDY4MDUxNzA5LC02NT
+eyJoaXN0b3J5IjpbMTIyNjgxMTgyMywxMDY4MDUxNzA5LC02NT
 gwMDI0NDIsLTE2NjE2NzA3MzQsNDk5MDQ3MzE2LC02MTk2MjU4
 MTcsLTEwMTkwNDQzMjMsNTI1ODM0MTIzLDEzMjA2MTg0NDIsLT
 EwMzg5MDU3OCwxMTUxNDUxMjYxLC0xNTY5NjkzMzMxLC0xNjY0
