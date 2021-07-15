@@ -106,10 +106,25 @@ hummus
   <li>The school is on your right, 300 meters up the road</li>
 </ol>
 ```
+
+## 嵌套列表
+```
+<ol>
+  <li>Remove the skin from the garlic, and chop coarsely.</li>
+  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+  <li>Add all the ingredients into a food processor.</li>
+  <li>Process all the ingredients into a paste.
+    <ul>
+      <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
+      <li>If you want a smooth hummus, process it for a longer time.</li>
+    </ul>
+  </li>
+</ol>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA5MDYxNzIsLTY1ODAwMjQ0MiwtMT
-Y2MTY3MDczNCw0OTkwNDczMTYsLTYxOTYyNTgxNywtMTAxOTA0
-NDMyMyw1MjU4MzQxMjMsMTMyMDYxODQ0MiwtMTAzODkwNTc4LD
-ExNTE0NTEyNjEsLTE1Njk2OTMzMzEsLTE2NjQzNDY3MzksLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTA2ODA1MTcwOSwtNjU4MDAyNDQyLC0xNj
+YxNjcwNzM0LDQ5OTA0NzMxNiwtNjE5NjI1ODE3LC0xMDE5MDQ0
+MzIzLDUyNTgzNDEyMywxMzIwNjE4NDQyLC0xMDM4OTA1NzgsMT
+E1MTQ1MTI2MSwtMTU2OTY5MzMzMSwtMTY2NDM0NjczOSwtMjA4
+ODc0NjYxMl19
 -->
