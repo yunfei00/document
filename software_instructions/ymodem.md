@@ -23,7 +23,27 @@ SOH 00 FF Foo.c NUL[123] CRC CRC
 最后两字节：这里需要注意，只有数据部分参与了效CRC验,不包括头和编码部分。
 16位CRC效验，高字节在前，低字节在后。
 ```
-3. 
+3. 接收方收到第一帧数据包后，发送ACK正确应答。
+然后再发送一个字符'C'。
+4. 发送方收到'C'后，开始发送第二帧，第二帧中的数据存放的是第一包数据。
+5. 接收方收到数据后，发送一个ACK然后等待下一包数据传送完毕，继续ACK应答。直到所有数据传输完毕。
+
+数据传输完毕后，发送方发EOT，第一次接收方以NAK应答，进行二次确认。
+
+发送方收到NAK后，重发EOT，接收方第二次收到结束符，就以ACK应答。
+
+最后接收方再发送一个'C'，发送方在没有第二个文件要传输的情况下，
+
+发送如下数据
+
+SOH 00 FF 00~00(共128个) CRCH CRCL
+
+接收方应答ACK后，正式结束数据传输。
+
+以上部分，为YMODEM协议的基本操作流程。
+
+
+**CRC校验**
 
 
 
@@ -31,5 +51,5 @@ SOH 00 FF Foo.c NUL[123] CRC CRC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjAyNjg2MSwzMTg5Mzc3OF19
+eyJoaXN0b3J5IjpbNzU1NzYxMTA1LDMxODkzNzc4XX0=
 -->
