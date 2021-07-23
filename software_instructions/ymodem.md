@@ -40,7 +40,7 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 以上部分，为YMODEM协议的基本操作流程。
 
 **CRC校验**
-
+CRC校验计算速度快，检错能力强，易于用编码器等硬件电路实现。从检错的正确率与速度、成本等方面，都比奇偶校验等校验方式具有优势。因而，CRC 成为计算机信息通信领域最为普遍的校验方式。常见应用有以太网/USB通信，压缩解压，视频编码，图像存储，磁盘读写等。
 
 **TL体脂板升级ymodem协议**
 1. 发送方发送命令，[0x75, 0x70, 0x64, 0x61, 0x74, 0x65, 0x0d, 0x0a]，进入升级模式
@@ -75,6 +75,6 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzcyMzY1NCwtMTQ5NTczODc2LC0zMD
-Y2MDgyOTYsMzE4OTM3NzhdfQ==
+eyJoaXN0b3J5IjpbOTU4NzU1MTU5LC0xNDk1NzM4NzYsLTMwNj
+YwODI5NiwzMTg5Mzc3OF19
 -->
