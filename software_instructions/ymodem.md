@@ -1,4 +1,5 @@
-宏定义
+**宏定义**
+```
 SOH = b'\x01'
 STX = b'\x02'
 EOT = b'\x04'
@@ -6,8 +7,12 @@ ACK = b'\x06'
 NAK = b'\x15'
 CAN = b'\x18'
 CRC = b'C'
+```
+**协议具体过程**
+
 1. ymodem协议由接收方发起字符C开始
 2. 发送方在接收到C之后，开始发送数据
+```
 发送第一帧数据包，内容如下：
 SOH 00 FF Foo.c NUL[123] CRC CRC
 第1字节SOH:表示本包数据区大小有128字节。如果头为STX表示本包数据区大小为1024
@@ -17,11 +22,14 @@ SOH 00 FF Foo.c NUL[123] CRC CRC
 在文件名和文件大小之后，如果不满128字节，以0补满。
 最后两字节：这里需要注意，只有数据部分参与了效CRC验,不包括头和编码部分。
 16位CRC效验，高字节在前，低字节在后。
+```
+3. 
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0NjUxMDAxLDMxODkzNzc4XX0=
+eyJoaXN0b3J5IjpbLTYyNjAyNjg2MSwzMTg5Mzc3OF19
 -->
