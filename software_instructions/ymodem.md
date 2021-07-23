@@ -41,7 +41,8 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 
 **CRC校验**
 
-TL体脂板升级ymodem协议
+
+**TL体脂板升级ymodem协议**
 1. 发送方发送命令，[0x75, 0x70, 0x64, 0x61, 0x74, 0x65, 0x0d, 0x0a]，进入升级模式
 2. 体脂板发起字符C
 3. 上位机接收到C之后，开始发送数据
@@ -74,6 +75,6 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU3Mzg3NiwtMzA2NjA4Mjk2LDMxOD
-kzNzc4XX0=
+eyJoaXN0b3J5IjpbLTg4MzcyMzY1NCwtMTQ5NTczODc2LC0zMD
+Y2MDgyOTYsMzE4OTM3NzhdfQ==
 -->
