@@ -29,21 +29,17 @@ SOH 00 FF Foo.c NUL[123] CRC CRC
 5. 接收方收到数据后，发送一个ACK然后等待下一包数据传送完毕，继续ACK应答。直到所有数据传输完毕。
 ...
 6. 数据传输完毕后，发送方发EOT，第一次接收方以NAK应答，进行二次确认。
-
-发送方收到NAK后，重发EOT，接收方第二次收到结束符，就以ACK应答。
-
-最后接收方再发送一个'C'，发送方在没有第二个文件要传输的情况下，
-
+7. 发送方收到NAK后，重发EOT，接收方第二次收到结束符，就以ACK应答。
+8. 最后接收方再发送一个'C'，发送方在没有第二个文件要传输的情况下，
 发送如下数据
-
 SOH 00 FF 00~00(共128个) CRCH CRCL
-
-接收方应答ACK后，正式结束数据传输。
+9. 接收方应答ACK后，正式结束数据传输。
 
 以上部分，为YMODEM协议的基本操作流程。
 
-
 **CRC校验**
+
+TL体脂板
 
 
 
@@ -51,5 +47,5 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEyMjc5OTMsMzE4OTM3NzhdfQ==
+eyJoaXN0b3J5IjpbNjg5MDQzMDk1LDMxODkzNzc4XX0=
 -->
