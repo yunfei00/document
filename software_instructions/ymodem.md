@@ -27,8 +27,8 @@ SOH 00 FF Foo.c NUL[123] CRC CRC
 然后再发送一个字符'C'。
 4. 发送方收到'C'后，开始发送第二帧，第二帧中的数据存放的是第一包数据。
 5. 接收方收到数据后，发送一个ACK然后等待下一包数据传送完毕，继续ACK应答。直到所有数据传输完毕。
-
-数据传输完毕后，发送方发EOT，第一次接收方以NAK应答，进行二次确认。
+...
+6. 数据传输完毕后，发送方发EOT，第一次接收方以NAK应答，进行二次确认。
 
 发送方收到NAK后，重发EOT，接收方第二次收到结束符，就以ACK应答。
 
@@ -51,5 +51,5 @@ SOH 00 FF 00~00(共128个) CRCH CRCL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NzYxMTA1LDMxODkzNzc4XX0=
+eyJoaXN0b3J5IjpbLTE0OTEyMjc5OTMsMzE4OTM3NzhdfQ==
 -->
