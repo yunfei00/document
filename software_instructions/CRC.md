@@ -101,9 +101,39 @@ x | y # 或操作，返回结果的每一位是 x 和 y 中对应位做 or 运�
 ~x # 反转操作，对 x 求的每一位求补，只需记住结果是 -x - 1
 x ^ y # 或非运算，如果 y 对应位是0，那么结果位取 x 的对应位，如果 y 对应位是1，取 x 对应位的补
 ```
-
+**下面为CRC的计算过程：**  
+  
+1．设置CRC寄存器，并给其赋值FFFF(hex)。  
+  
+2．将数据的第一个8-bit字符与16位CRC寄存器的低8位进行异或，并把结果存入CRC寄存器。  
+  
+3．CRC寄存器向右移一位，MSB补零，移出并检查LSB。  
+  
+4．如果LSB为0，重复第三步；若LSB为1，CRC寄存器与多项式码相异或。  
+  
+5．重复第3与第4步直到8次移位全部完成。此时一个8-bit数据处理完毕。  
+  
+6．重复第2至第5步直到所有数据全部处理完成。  
+  
+7．最终CRC寄存器的内容即为CRC值。  
+  
+常用的CRC循环冗余校验标准多项式如下：  
+  
+CRC(16位) = X16+X15+X2+1  
+  
+CRC(CCITT) = X16+X12 +X5+1  
+  
+CRC(32位) = X32+X26+X23+X16+X12+X11+X10+ X8+X7+X5+X4+X2+X+1  
+  
+以CRC(16位)多项式为例，其对应校验二进制位列为1 1000 0000 0000 0101。  
+  
+注意：这儿列出的标准校验多项式都含有(X+1)的多项式因子；各多项式的系数均为二进制数，所涉及的四则运算仍遵循对二取模的运算规则。  
+  
+(注：对二取模的四则运算指参与运算的两个二进制数各位之间凡涉及加减运算时均进行XOR异或运算，即：1 XOR 1=0，0 XOR 0=0，1 XOR 0=1)  
+  
+CRC-16码由两个字节构成，在开始时CRC寄存器的每一位都预置为1，然后把CRC寄存器与8-bit的数据进行异或，之后对CRC寄存器从高到低进行移位，在最高位（MSB）的位置补零，而最低位（LSB，移位后已经被移出CRC寄存器）如果为1，则把寄存器与预定义的多项式码进行异或，否则如果LSB为零，则无需进行异或。重复上述的由高至低的移位8次，第一个8-bit数据处理完毕，用此时CRC寄存器的值与下一个8-bit数据异或并进行如前一个数据似的8次移位。所有的字符处理完成后CRC寄存器内的值即为最终的CRC值。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDE0MDgzMCwtNzQxMDA2OTQzLDEyND
-YyNzQyNTcsMjExNzY2MzI5MiwtMTU0NzQ2MTAwMyw4ODQ3NTI4
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDg1MDMwODAsMTI3NDE0MDgzMCwtNz
+QxMDA2OTQzLDEyNDYyNzQyNTcsMjExNzY2MzI5MiwtMTU0NzQ2
+MTAwMyw4ODQ3NTI4MTFdfQ==
 -->
