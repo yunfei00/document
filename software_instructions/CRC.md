@@ -149,7 +149,7 @@ REFOUT = TRUE
 有了上面的参数，这样计算条件才算完整，下面来实际计算：
 
 ```
-0.原始数据 = 0x12
+0.原始数据 = 0x1234
   多项式 = 0x1021 = 1 0001 0000 0010 0001
 1.INIT = 00，原始数据高8位和初始值进行异或运算保持不变。
 2.REFIN为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100
@@ -164,7 +164,7 @@ REFOUT = TRUE
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU0NDU3OTAsLTExNDkzNjU0NCwtMT
+eyJoaXN0b3J5IjpbLTE0NzkwMjY0MjksLTExNDkzNjU0NCwtMT
 AwODUwMzA4MCwxMjc0MTQwODMwLC03NDEwMDY5NDMsMTI0NjI3
 NDI1NywyMTE3NjYzMjkyLC0xNTQ3NDYxMDAzLDg4NDc1MjgxMV
 19
