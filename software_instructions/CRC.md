@@ -49,6 +49,9 @@ REFOUT = TRUE
 7.数据+CRC：0011 0100 1101 1111 = 34DF，相当于原始数据左移8位+余数。
 ```
 
+代码实现：
+
+
 ### CRC校验
 
 上面通过笔算的方式，讲解了CRC计算的原理，下面来介绍一下如何进行校验。
@@ -90,6 +93,6 @@ REFOUT = TRUE
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjI3NDI1NywyMTE3NjYzMjkyLC0xNT
-Q3NDYxMDAzLDg4NDc1MjgxMV19
+eyJoaXN0b3J5IjpbLTc0MTAwNjk0MywxMjQ2Mjc0MjU3LDIxMT
+c2NjMyOTIsLTE1NDc0NjEwMDMsODg0NzUyODExXX0=
 -->
