@@ -64,7 +64,32 @@ REFOUT = TRUE
 
 ### CRC python 实现
 参考模型
+CRC-16
+```
+POLY = 0x31 = 0011 0001(最高位1已经省略)
+INIT = 0x00
+XOROUT = 0x00
+REFIN = TRUE
+REFOUT = TRUE
+```
+
+有了上面的参数，这样计算条件才算完整，下面来实际计算：
+
+```
+0.原始数据 = 0x34 = 0011 0100，多项式 = 0x31 = 1 0011 0001
+1.INIT = 00，原始数据高8位和初始值进行异或运算保持不变。
+2.REFIN为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100
+3.原始数据左移8位，即后面补8个0：0010 1100 0000 0000
+4.把处理之后的数据和多项式进行模2除法，求得余数：
+原始数据：0010 1100 0000 0000 = 10 1100 0000 0000
+多项式：1 0011 0001
+模2除法取余数低8位：1111 1011
+5.与XOROUT进行异或，1111 1011 xor 0000 0000 = 1111 1011 
+6.因为REFOUT为TRUE，对结果进行翻转得到最终的CRC-8值：1101 1111 = 0xDF
+7.数据+CRC：0011 0100 1101 1111 = 34DF，相当于原始数据左移8位+余数。
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzY2MzI5MiwtMTU0NzQ2MTAwMyw4OD
-Q3NTI4MTFdfQ==
+eyJoaXN0b3J5IjpbMTI0NjI3NDI1NywyMTE3NjYzMjkyLC0xNT
+Q3NDYxMDAzLDg4NDc1MjgxMV19
 -->
