@@ -149,7 +149,8 @@ REFOUT = TRUE
 有了上面的参数，这样计算条件才算完整，下面来实际计算：
 
 ```
-0.原始数据 = 0x34 = 0011 0100，多项式 = 0x31 = 1 0011 0001
+0.原始数据 = 0x34 = 0011 0100
+  多项式 = 0x1021 = 1 0011 0001 110001
 1.INIT = 00，原始数据高8位和初始值进行异或运算保持不变。
 2.REFIN为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100
 3.原始数据左移8位，即后面补8个0：0010 1100 0000 0000
@@ -163,7 +164,7 @@ REFOUT = TRUE
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzQ0NTk2NCwtMTAwODUwMzA4MCwxMj
+eyJoaXN0b3J5IjpbMTE5ODg3NzU5OSwtMTAwODUwMzA4MCwxMj
 c0MTQwODMwLC03NDEwMDY5NDMsMTI0NjI3NDI1NywyMTE3NjYz
 MjkyLC0xNTQ3NDYxMDAzLDg4NDc1MjgxMV19
 -->
