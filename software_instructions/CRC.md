@@ -60,7 +60,11 @@ REFOUT = TRUE
 另一种方法是把整个数据帧进行CRC运算，因为是数据帧相当于把原始数据左移8位，然后加上余数，如果直接对整个数据帧进行CRC运算（除以多项式），那么余数应该为0，如果不为0说明数据出错。
 
 而且，不同位出错，余数也不同，可以证明，余数与出错位数的对应关系只与CRC参数模型有关，而与原始数据无关。
+
+
+### CRC python 实现
+参考模型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE2OTY1NDAsLTE1NDc0NjEwMDMsOD
-g0NzUyODExXX0=
+eyJoaXN0b3J5IjpbMjExNzY2MzI5MiwtMTU0NzQ2MTAwMyw4OD
+Q3NTI4MTFdfQ==
 -->
