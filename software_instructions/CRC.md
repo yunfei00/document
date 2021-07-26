@@ -58,7 +58,9 @@ REFOUT = TRUE
 接收端的校验有两种方式，一种是和CRC计算一样，在本地把**接收到的数据和CRC分离**，然后在本地对数据进行CRC运算，得到的CRC值和接收到的CRC进行比较，如果一致，说明数据接收正确，如果不一致，说明数据有错误。
 
 另一种方法是把整个数据帧进行CRC运算，因为是数据帧相当于把原始数据左移8位，然后加上余数，如果直接对整个数据帧进行CRC运算（除以多项式），那么余数应该为0，如果不为0说明数据出错。
+
+而且，不同位出错，余数也不同，可以证明，余数与出错位数的对应关系只与CRC参数模型有关，而与原始数据无关。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU4MjA1NTAsLTE1NDc0NjEwMDMsOD
+eyJoaXN0b3J5IjpbLTE3MjE2OTY1NDAsLTE1NDc0NjEwMDMsOD
 g0NzUyODExXX0=
 -->
