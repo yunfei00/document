@@ -132,8 +132,38 @@ CRC(32位) = X32+X26+X23+X16+X12+X11+X10+ X8+X7+X5+X4+X2+X+1
 (注：对二取模的四则运算指参与运算的两个二进制数各位之间凡涉及加减运算时均进行XOR异或运算，即：1 XOR 1=0，0 XOR 0=0，1 XOR 0=1)  
   
 CRC-16码由两个字节构成，在开始时CRC寄存器的每一位都预置为1，然后把CRC寄存器与8-bit的数据进行异或，之后对CRC寄存器从高到低进行移位，在最高位（MSB）的位置补零，而最低位（LSB，移位后已经被移出CRC寄存器）如果为1，则把寄存器与预定义的多项式码进行异或，否则如果LSB为零，则无需进行异或。重复上述的由高至低的移位8次，第一个8-bit数据处理完毕，用此时CRC寄存器的值与下一个8-bit数据异或并进行如前一个数据似的8次移位。所有的字符处理完成后CRC寄存器内的值即为最终的CRC值。
+
+
+# CRC-16
+参考模型
+原始值 0x34
+CRC-16
+```
+POLY = 0x1021
+INIT = 0x00
+XOROUT = 0x00
+REFIN = TRUE
+REFOUT = TRUE
+```
+
+有了上面的参数，这样计算条件才算完整，下面来实际计算：
+
+```
+0.原始数据 = 0x34 = 0011 0100，多项式 = 0x31 = 1 0011 0001
+1.INIT = 00，原始数据高8位和初始值进行异或运算保持不变。
+2.REFIN为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100
+3.原始数据左移8位，即后面补8个0：0010 1100 0000 0000
+4.把处理之后的数据和多项式进行模2除法，求得余数：
+原始数据：0010 1100 0000 0000 = 10 1100 0000 0000
+多项式：1 0011 0001
+模2除法取余数低8位：1111 1011
+5.与XOROUT进行异或，1111 1011 xor 0000 0000 = 1111 1011 
+6.因为REFOUT为TRUE，对结果进行翻转得到最终的CRC-8值：1101 1111 = 0xDF
+7.数据+CRC：0011 0100 1101 1111 = 34DF，相当于原始数据左移8位+余数。
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg1MDMwODAsMTI3NDE0MDgzMCwtNz
-QxMDA2OTQzLDEyNDYyNzQyNTcsMjExNzY2MzI5MiwtMTU0NzQ2
-MTAwMyw4ODQ3NTI4MTFdfQ==
+eyJoaXN0b3J5IjpbMTQzMzQ0NTk2NCwtMTAwODUwMzA4MCwxMj
+c0MTQwODMwLC03NDEwMDY5NDMsMTI0NjI3NDI1NywyMTE3NjYz
+MjkyLC0xNTQ3NDYxMDAzLDg4NDc1MjgxMV19
 -->
