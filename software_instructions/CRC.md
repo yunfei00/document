@@ -18,6 +18,8 @@ CRC校验计算速度快，检错能力强，易于用编码器等硬件电路�
     
 
 通常如果只给了一个多项式，其他的没有说明则：INIT=0x00，REFIN=false，REFOUT=false，XOROUT=0x00。
+
+![preview](https://pic2.zhimg.com/v2-91f148259b466e4a75a10c6607370855_r.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NzUyODExXX0=
+eyJoaXN0b3J5IjpbLTE1NDc0NjEwMDMsODg0NzUyODExXX0=
 -->
