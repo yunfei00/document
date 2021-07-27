@@ -21,6 +21,16 @@ CRC校验计算速度快，检错能力强，易于用编码器等硬件电路�
 
 ![preview](https://pic2.zhimg.com/v2-91f148259b466e4a75a10c6607370855_r.jpg)
 
+### CRC 计算流程如下
+
+1.init 原始数据高width位和初始值进行异或运算
+2.refin为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100,只是对每一个字节进行翻转，顺序不变
+3.原始数据处理 把处理之后的数据和多项式进行模2除法，求得余数：
+
+4.与xorout进行异或
+
+5.refout为TRUE，对结果进行翻转得到最终的CRC
+
 **问：原始数据：0x34，使用CRC-8/MAXIN参数模型，求CRC值？**
 
 答：根据CRC参数模型表，得到CRC-8/MAXIN的参数如下：
@@ -164,8 +174,8 @@ REFOUT = TRUE
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzQxNzc1MCwtMTE0OTM2NTQ0LC0xMD
-A4NTAzMDgwLDEyNzQxNDA4MzAsLTc0MTAwNjk0MywxMjQ2Mjc0
-MjU3LDIxMTc2NjMyOTIsLTE1NDc0NjEwMDMsODg0NzUyODExXX
-0=
+eyJoaXN0b3J5IjpbLTQ2NjE2MjkyLC01Mzc0MTc3NTAsLTExND
+kzNjU0NCwtMTAwODUwMzA4MCwxMjc0MTQwODMwLC03NDEwMDY5
+NDMsMTI0NjI3NDI1NywyMTE3NjYzMjkyLC0xNTQ3NDYxMDAzLD
+g4NDc1MjgxMV19
 -->
