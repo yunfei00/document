@@ -10,8 +10,8 @@ CRC校验计算速度快，检错能力强，易于用编码器等硬件电路�
 -   NAME：参数模型名称。
 -   WIDTH：宽度，即生成的CRC数据位宽，如CRC-8，生成的CRC为8位
 -   POLY：十六进制多项式，省略最高位1，如 x8 + x2 + x + 1，二进制为1 0000 0111，省略最高位1，转换为十六进制为0x07。
--   INIT：CRC初始值，和WIDTH位宽一致。
--   REFIN：true或false，在进行计算之前，原始数据是否翻转，如原始数据：0x34 = 0011 0100，如果REFIN为true，进行翻转之后为0010 1100 = 0x2c
+-   INIT：CRC初始值，和WIDTH位宽一致,原始数据高width位和初始值进行异或运算
+-   REFIN：true或false，在进行计算之前，原始数据是否翻转.如果REFIN为true，需要先对原始数据进行翻转,只是对每一个字节进行翻转，顺序不变
 -   REFOUT：true或false，运算完成之后，得到的CRC值是否进行翻转，如计算得到的CRC值：0x97 = 1001 0111，如果REFOUT为true，进行翻转之后为11101001 = 0xE9。  
     
 -   XOROUT：计算结果与此参数进行异或运算后得到最终的CRC值，和WIDTH位宽一致。  
@@ -26,9 +26,7 @@ CRC校验计算速度快，检错能力强，易于用编码器等硬件电路�
 1.init 原始数据高width位和初始值进行异或运算
 2.refin为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100,只是对每一个字节进行翻转，顺序不变
 3.原始数据处理 把处理之后的数据和多项式进行模2除法，求得余数：
-
 4.与xorout进行异或
-
 5.refout为TRUE，对结果进行翻转得到最终的CRC
 
 **问：原始数据：0x34，使用CRC-8/MAXIN参数模型，求CRC值？**
@@ -174,8 +172,8 @@ REFOUT = TRUE
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjE2MjkyLC01Mzc0MTc3NTAsLTExND
-kzNjU0NCwtMTAwODUwMzA4MCwxMjc0MTQwODMwLC03NDEwMDY5
-NDMsMTI0NjI3NDI1NywyMTE3NjYzMjkyLC0xNTQ3NDYxMDAzLD
-g4NDc1MjgxMV19
+eyJoaXN0b3J5IjpbLTEwMzg4MDczMDAsLTUzNzQxNzc1MCwtMT
+E0OTM2NTQ0LC0xMDA4NTAzMDgwLDEyNzQxNDA4MzAsLTc0MTAw
+Njk0MywxMjQ2Mjc0MjU3LDIxMTc2NjMyOTIsLTE1NDc0NjEwMD
+MsODg0NzUyODExXX0=
 -->
