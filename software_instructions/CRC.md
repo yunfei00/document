@@ -66,10 +66,89 @@ x ^ y # 或非运算，如果 y 对应位是0，那么结果位取 x 的对应�
 
 ### 代码实现
 ```
+def crc_cal(data,width,poly,init,xorout,refin,refout):
+    # CRC 计算流程如下
+    # 1.init 原始数据高width位和初始值进行异或运算
+    # 2.refin为TRUE，需要先对原始数据进行翻转：0011 0100 > 0010 1100,只是对每一个字节进行翻转，顺序不变
+    # 3.原始数据处理 把处理之后的数据和多项式进行模2除法，求得余数：
+    # 4.与xorout进行异或
+    # 5.refout为TRUE，对结果进行翻转得到最终的CRC
+    
+    data_len = data.__len__()
+    if not data_len:
+        return None
+
+    # print('init is ',init)
+    # 1. init 处理
+    if width == 8:
+        data[0] = init & 0xFF ^ data[0]
+    elif width == 16:
+        if data_len < 2:  
+            print('input lenth is so short for {},input is {}'.format(width,data))
+            return None
+        data[0] = init & 0xFF ^ data[0]
+        data[1] = init & 0xFF ^ data[1]
+    elif width == 32:
+        if data_len < 4:  
+            print('input lenth is so short for {},input is {}'.format(width,data))
+            return None
+        data[0] = init & 0xFF ^ data[0]
+        data[1] = init & 0xFF ^ data[1]
+        data[2] = init & 0xFF ^ data[2]
+        data[3] = init & 0xFF ^ data[3]                  
+
+    # 2. 翻转处理 
+    data_in_ref = data
+    if refin:
+        data_in_ref = []
+        for i in range(0,data_len):
+            data_in_ref.append(int('{:08b}'.format(data[i])[::-1],2))
+
+
+    # 3. 数据处理
+    crc = 0
+    for i in range(0,data_len):
+        # print('{:08b}'.format(data_in_ref[i]))
+        crc = crc ^ data_in_ref[i] 
+        # print('crc left 8 is {:08b}'.format(crc))
+        for i in range(0,8):
+            if crc & pow(2,width-1):
+                crc = (crc << 1 & (pow(2,width)-1)) ^ poly
+            else:
+                crc = crc << 1 & (pow(2,width)-1)
+            # print('crc {} is {:08b}'.format(i,crc & (pow(2,width)-1)))
+
+
+    # 上面的操作，最终左移位数为8,如果是16位，则需要修改为16，增加少的位数
+    if width > 8:
+        for i in range(0,width-8):
+            if crc & pow(2,width-1):
+                crc = (crc << 1 & (pow(2,width)-1)) ^ poly
+            else:
+                crc = crc << 1 & (pow(2,width)-1)
+            # print('crc {} is {:08b}'.format(i,crc & (pow(2,width)-1)))
+            
+    
+    # print('crc is {:08b}'.format(crc & (pow(2,width)-1)))
+
+    # 4. xorout异或处理
+    crc = crc ^ xorout
+    
+    # 5. 翻转处理
+    if refout:
+        # 反转
+        crc_str = '{:0b}'.format(crc)
+        if crc_str.__len__() < width:
+            crc_str = '0' * (width-crc_str.__len__()) + crc_str 
+        
+        crc_str_reverse = crc_str[::-1]
+        crc = int(crc_str_reverse,2)
+        
+    return crc
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTczNTA3NjQsLTk5Nzg0MzU4MiwtNT
+eyJoaXN0b3J5IjpbLTE4ODA3Mzg1NTksLTk5Nzg0MzU4MiwtNT
 M3NDE3NzUwLC0xMTQ5MzY1NDQsLTEwMDg1MDMwODAsMTI3NDE0
 MDgzMCwtNzQxMDA2OTQzLDEyNDYyNzQyNTcsMjExNzY2MzI5Mi
 wtMTU0NzQ2MTAwMyw4ODQ3NTI4MTFdfQ==
