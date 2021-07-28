@@ -7,6 +7,8 @@ flask django Tornado
 
 都掌握后，薪资可以达到15k。
 
+autowware、apollo等开源自动驾驶开发经验
+都zh n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE2MjM5ODddfQ==
+eyJoaXN0b3J5IjpbLTE4MDg4NzQ2MThdfQ==
 -->
