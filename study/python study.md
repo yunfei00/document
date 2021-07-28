@@ -5,7 +5,8 @@ python掌握技能：
 web 框架
 flask django Tornado
 
+都掌握后，薪资可以达到15k。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDE0MTUxMl19
+eyJoaXN0b3J5IjpbLTE5NTE2MjM5ODddfQ==
 -->
