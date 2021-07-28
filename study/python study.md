@@ -26,7 +26,9 @@ autowware、apollo等开源自动驾驶开发经验
 6、参与软件概要设计、详细设计以及需求文档编写满足质量要求  
 7、能够独立分析并解决软件开发过程中的问题
 
-都
+都掌握后，预计22k。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMzg2MzUxXX0=
+eyJoaXN0b3J5IjpbNzAxMzQwMTY0XX0=
 -->
