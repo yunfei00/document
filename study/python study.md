@@ -13,7 +13,10 @@ autowware、apollo等开源自动驾驶开发经验
 深度学习框架：如caffe、tensorflow、Mxnet、pytorch
 都掌握后，预计能达到18k。
 
+熟悉MySQL、MongoDB、Redis等中间件的使用
+都掌握后，预计达到20k。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzE1ODQxOF19
+eyJoaXN0b3J5IjpbMTQyMDY4NDgwMF19
 -->
