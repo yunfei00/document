@@ -12,12 +12,13 @@ b 880.2-959.8
 c 上感下容 左并右串
 7 频率范围在20-300MHz的无线电波是什么波？
 a 米波
-8 vswr在移动通讯蜂窝系统的基站天线中，最大值小yu
+8 vswr在移动通讯蜂窝系统的基站天线中，最大值小于或等于多少
 b 1.5：1
-9 gsm1800
-bcd
-512 698 885
-10 滤波器
+9 以下哪些属于gsm1800的信道号
+b 512
+c 698
+d 885
+10 以下属于滤波器主要特性指标
 a b c d
 11 低频电路基本原件
 a b c d
@@ -38,6 +39,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNDA5MTMxLC0xODczNDEyODkyLC0xOD
+eyJoaXN0b3J5IjpbLTMxNTIyNzM5LC0xODczNDEyODkyLC0xOD
 YxNDYwMzk1XX0=
 -->
