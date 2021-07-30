@@ -19,18 +19,24 @@ b 512
 c 698
 d 885
 10 以下属于滤波器主要特性指标
-a b c d
-11 低频电路基本原件
-a b c d
-12 常见的窄带通讯系统
+a 
+b 
+c 
+d
+11 低频电路基本原件哪些
+a 
+b 
+c 
+d
+12 常见的窄带通讯系统有
 abcd
-13 2.4产生干扰
+13 LTE哪些频段最容易与2.4Gwifi产生干扰
 abcd
-14 手机常用的天线
+14 手机常用的天线形式有哪些
 abd
 looap天线
 ifa天线
-model poll天线
+monopome del poll天线
 15 收发器
 abd
 单双三
@@ -39,6 +45,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTIyNzM5LC0xODczNDEyODkyLC0xOD
-YxNDYwMzk1XX0=
+eyJoaXN0b3J5IjpbMTExMDI4NDc5MCwtMTg3MzQxMjg5MiwtMT
+g2MTQ2MDM5NV19
 -->
