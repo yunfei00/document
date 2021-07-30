@@ -9,7 +9,7 @@ b 1w
 5 gsm频率范围
 b 880.3-959.8
 6 关于史密斯原
-c 上感下容 左病游船
+c 上感下容 左并右串
 7 频率
 a 米波
 8 zswa最大值
@@ -38,5 +38,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE0NjAzOTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NzM0MTI4OTIsLTE4NjE0NjAzOTVdfQ
+==
 -->
