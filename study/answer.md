@@ -1,8 +1,8 @@
 1. wcdma载频带宽是多少?
 d 5M
 2 中国移动4G频段是多少？
-c
-3 q1-900去欧迪电容
+c band38 
+3 1-900M去欧迪电容
 b 33pm
 4 射频功率 300换算
 b 1w
@@ -38,6 +38,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM0MTI4OTIsLTE4NjE0NjAzOTVdfQ
-==
+eyJoaXN0b3J5IjpbLTc4MTkwMzkyMiwtMTg3MzQxMjg5MiwtMT
+g2MTQ2MDM5NV19
 -->
