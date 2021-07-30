@@ -2,11 +2,11 @@
 d 5M
 2 中国移动4G频段是多少？
 c band38 
-3 1-900M去欧迪电容
-b 33pm
-4 射频功率 300换算
+3 抑制射频无线干扰的去偶电容是多少？
+b 33pf
+4 射频功率30dbm换算成常用功率是多少？
 b 1w
-5 gsm频率范围
+5 gsm900频率范围
 b 880.3-959.8
 6 关于史密斯原
 c 上感下容 左并右串
@@ -38,6 +38,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTkwMzkyMiwtMTg3MzQxMjg5MiwtMT
-g2MTQ2MDM5NV19
+eyJoaXN0b3J5IjpbLTE3OTI2NTY4NzUsLTE4NzM0MTI4OTIsLT
+E4NjE0NjAzOTVdfQ==
 -->
