@@ -7,12 +7,12 @@ b 33pf
 4 射频功率30dbm换算成常用功率是多少？
 b 1w
 5 gsm900频率范围
-b 880.3-959.8
-6 关于史密斯原
+b 880.2-959.8
+6 关于史密斯原图调节匹配规律
 c 上感下容 左并右串
-7 频率
+7 频率范围在20-300MHz的无线电波是什么波？
 a 米波
-8 zswa最大值
+8 vswr在移动通讯蜂窝系统的基站天线中，最大值小yu
 b 1.5：1
 9 gsm1800
 bcd
@@ -38,6 +38,6 @@ abc
 频率误差 相位误差 evm
 17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI2NTY4NzUsLTE4NzM0MTI4OTIsLT
-E4NjE0NjAzOTVdfQ==
+eyJoaXN0b3J5IjpbODIwNDA5MTMxLC0xODczNDEyODkyLC0xOD
+YxNDYwMzk1XX0=
 -->
