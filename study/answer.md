@@ -36,15 +36,15 @@ abcd
 abd
 looap天线
 ifa天线
-monopome del poll天线
-15 收发器
+monopome天线
+15 收发器根据其工作频率可以分为：
 abd
 单双三
-16 发射机调制性能
+16 以下哪些是发射机调制性能指标
 abc
 频率误差 相位误差 evm
-17
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDI4NDc5MCwtMTg3MzQxMjg5MiwtMT
+eyJoaXN0b3J5IjpbMjA5ODgwNDkwNCwtMTg3MzQxMjg5MiwtMT
 g2MTQ2MDM5NV19
 -->
