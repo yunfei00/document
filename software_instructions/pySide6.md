@@ -14,9 +14,12 @@ pip show PySide6
 拷贝plugins、translations、qt.conf到发布路径即可。
 
 2. 打包命令
-
-
+```
+pyinstaller -F -w mycode.py
+-F 是打包成一个文件
+-w 不带后台窗口
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY2Nzg1NzBdfQ==
+eyJoaXN0b3J5IjpbMTQyNDc0ODEwMF19
 -->
