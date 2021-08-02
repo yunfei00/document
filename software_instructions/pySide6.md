@@ -20,6 +20,7 @@ pyinstaller -F -w mycode.py
 -w 不带后台窗口
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDc0ODEwMF19
+eyJoaXN0b3J5IjpbMTEyMTk0MjM4NiwxNDI0NzQ4MTAwXX0=
 -->
