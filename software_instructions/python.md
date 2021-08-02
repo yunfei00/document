@@ -62,8 +62,12 @@ Step 4: Install Python 3
 ```
 sudo apt install python3.8
 ```
+
+# 4 __init__.py
+
+`__init__.py`该文件的作用就是相当于把自身整个文件夹当作一个包来管理，每当有外部`import`的时候，就会自动执行里面的函数。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzAyNzU3NiwxODU5Njk2NjA4LC05MD
-EzMTkxNjMsMTE3NjUxMzYxMiwxMjk3OTQyNiwxMzk2NDI5NTY1
-LC0yMDA2Mjc2OTM3XX0=
+eyJoaXN0b3J5IjpbMTkzMDA2ODEzMywxMDA3MDI3NTc2LDE4NT
+k2OTY2MDgsLTkwMTMxOTE2MywxMTc2NTEzNjEyLDEyOTc5NDI2
+LDEzOTY0Mjk1NjUsLTIwMDYyNzY5MzddfQ==
 -->
