@@ -32,7 +32,7 @@ conda uninstall libtiff
 
 ## 1.2 windows 安装
 
-[参考链接]()
+[参考链接](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html)
 #  <h1 id="title1">2 mac上opencv开发环境配置</h1>  
 参考 https://medium.com/@jaskaranvirdi/setting-up-opencv-and-c-development-environment-in-xcode-b6027728003
 
@@ -43,6 +43,6 @@ conda uninstall libtiff
   [官网说明](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a57c0e81e83e60f36c83027dc2a188e80)
   <h2 id="title3.1">3.2 cv::transpose</h2>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzM3MDY1MCwxMDk3NDUxOTM2LC0xMT
+eyJoaXN0b3J5IjpbMTQzMjQ0MjQ3OCwxMDk3NDUxOTM2LC0xMT
 k5MzcwMTY4LC02Njg4NTQ0NTYsLTE3MDU5NDk1NTZdfQ==
 -->
