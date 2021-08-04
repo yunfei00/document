@@ -17,9 +17,10 @@
 
 <h2 id="title1.1">1.1 安装</h1>  
 
-  
+  安装虚拟环境，进行开发。
+
   
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDI0NDY0N119
+eyJoaXN0b3J5IjpbMjA0NjcyNzAxMCwxNDM0MjQ0NjQ3XX0=
 -->
