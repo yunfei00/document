@@ -4,7 +4,7 @@
 
 俗话说，懒人创造了整个世界，程序员就是在不断偷懒的过程中获得进步，使用Makefile最根本的目的就是简化我们的工作。
 
-
+餐卡
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMwOTUyODBdfQ==
+eyJoaXN0b3J5IjpbMjAzMjg0ODM1MSwtMjA0MzA5NTI4MF19
 -->
