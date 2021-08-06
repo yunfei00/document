@@ -281,29 +281,12 @@ JavaScript 是一种脚本或编程语言，它允许您在网页上实现复杂
 1. Document 获取文档中的内容，接口如下
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document
 
-2. ## Window 对象
-3. prompt alert confirm
-alert() 弹出个提示框 （确定）  
-confirm() 弹出个确认框 （确定，取消）  
-prompt() 弹出个输入框 让你输入东西
+2. Window 对象
+Window 对象表示浏览器中打开的窗口。
 
-警告消息框  
-alert 方法有一个参数，即希望对用户显示的文本字符串。该字符串不是 HTML 格式。该消息框提供了一个“确定”按钮让用户关闭该消息框，并且该消息框是模式对话框，也就是说，用户必须先关闭该消息框然后才能继续进行操作。
-
-var truthBeTold = confirm("单击“确定”继续。单击“取消”停止。");  
-if (truthBeTold) {  
-window.alert("欢迎访问我们的 Web 页！");  
-} else window.alert("再见啦！");  
-
-
-提示消息框  
-提示消息框提供了一个文本字段，用户可以在此字段输入一个答案来响应您的提示。该消息框有一个“确定”按钮和一个“取消”按钮。如果您提供了一个辅助字符串参数，则提示消息框将在文本字段显示该辅助字符串作为默认响应。否则，默认文本为 "<undefined>"。
-
-
-
-
+https://www.w3school.com.cn/jsref/obj_window.asp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzExOTg1OTcsLTE5NDI4Njk5MTIsLT
+eyJoaXN0b3J5IjpbLTEzMzE1MTE5MDUsLTE5NDI4Njk5MTIsLT
 E1NzkxMjE0MjIsLTExODk0MzU4MTgsNjUyMjcwODM1LC05MDQx
 MDk3NDgsMjA0MjUyMDY1OSwxOTQ3Mjg0NDYxLC0xMzM4NDYwMD
 M5LC0xNjgwNzUxMDc1LC0xMzgyNTM3ODIzLDEyNjcxNTE2Mzks
