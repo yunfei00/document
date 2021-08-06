@@ -281,17 +281,22 @@ JavaScript 是一种脚本或编程语言，它允许您在网页上实现复杂
 1. Document 获取文档中的内容，接口如下
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document
 
-2. prompt
+2. prompt alert confirm
+alert() 弹出个提示框 （确定）  
+confirm() 弹出个确认框 （确定，取消）  
+prompt() 弹出个输入框 让你输入东西
+
+	
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMzU0NjU2LC0xNTc5MTIxNDIyLC0xMT
-g5NDM1ODE4LDY1MjI3MDgzNSwtOTA0MTA5NzQ4LDIwNDI1MjA2
-NTksMTk0NzI4NDQ2MSwtMTMzODQ2MDAzOSwtMTY4MDc1MTA3NS
-wtMTM4MjUzNzgyMywxMjY3MTUxNjM5LC0yMDg4MTQxNTcwLC0x
-NzQzNjE0OTY3LC0xNTcyMTQ2OTc1LC03NjMyNTY5OTgsMTQ0MD
-gzNDk5OCwxNzg5NzQ2MzQzLC05NzU0MDU2ODcsMTA2ODA1MTcw
-OSwtNjU4MDAyNDQyXX0=
+eyJoaXN0b3J5IjpbLTE5NDI4Njk5MTIsLTE1NzkxMjE0MjIsLT
+ExODk0MzU4MTgsNjUyMjcwODM1LC05MDQxMDk3NDgsMjA0MjUy
+MDY1OSwxOTQ3Mjg0NDYxLC0xMzM4NDYwMDM5LC0xNjgwNzUxMD
+c1LC0xMzgyNTM3ODIzLDEyNjcxNTE2MzksLTIwODgxNDE1NzAs
+LTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLTc2MzI1Njk5OCwxND
+QwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUx
+NzA5LC02NTgwMDI0NDJdfQ==
 -->
