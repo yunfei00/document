@@ -281,7 +281,8 @@ JavaScript 是一种脚本或编程语言，它允许您在网页上实现复杂
 1. Document 获取文档中的内容，接口如下
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document
 
-2. prompt alert confirm
+2. ## Window 对象
+3. prompt alert confirm
 alert() 弹出个提示框 （确定）  
 confirm() 弹出个确认框 （确定，取消）  
 prompt() 弹出个输入框 让你输入东西
@@ -302,11 +303,11 @@ window.alert("欢迎访问我们的 Web 页！");
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTgyNzU4OCwtMTk0Mjg2OTkxMiwtMT
-U3OTEyMTQyMiwtMTE4OTQzNTgxOCw2NTIyNzA4MzUsLTkwNDEw
-OTc0OCwyMDQyNTIwNjU5LDE5NDcyODQ0NjEsLTEzMzg0NjAwMz
-ksLTE2ODA3NTEwNzUsLTEzODI1Mzc4MjMsMTI2NzE1MTYzOSwt
-MjA4ODE0MTU3MCwtMTc0MzYxNDk2NywtMTU3MjE0Njk3NSwtNz
-YzMjU2OTk4LDE0NDA4MzQ5OTgsMTc4OTc0NjM0MywtOTc1NDA1
-Njg3LDEwNjgwNTE3MDldfQ==
+eyJoaXN0b3J5IjpbLTE2NzExOTg1OTcsLTE5NDI4Njk5MTIsLT
+E1NzkxMjE0MjIsLTExODk0MzU4MTgsNjUyMjcwODM1LC05MDQx
+MDk3NDgsMjA0MjUyMDY1OSwxOTQ3Mjg0NDYxLC0xMzM4NDYwMD
+M5LC0xNjgwNzUxMDc1LC0xMzgyNTM3ODIzLDEyNjcxNTE2Mzks
+LTIwODgxNDE1NzAsLTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLT
+c2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQw
+NTY4NywxMDY4MDUxNzA5XX0=
 -->
