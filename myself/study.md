@@ -277,7 +277,9 @@ JavaScript 是一种脚本或编程语言，它允许您在网页上实现复杂
 今天主要学习一下，教程中的js实例
 
 
-JS 相关接口，可以参考如下
+JS 相关接口，可以参考如下:
+https://www.w3school.com.cn/jsref/met_win_prompt.asp
+
 1. Document 获取文档中的内容，接口如下
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document
 
@@ -286,7 +288,7 @@ Window 对象表示浏览器中打开的窗口。
 
 https://www.w3school.com.cn/jsref/obj_window.asp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA2Mjk4MSwtMTMzMTUxMTkwNSwtMT
+eyJoaXN0b3J5IjpbMTI0NDA4MjE3NywtMTMzMTUxMTkwNSwtMT
 k0Mjg2OTkxMiwtMTU3OTEyMTQyMiwtMTE4OTQzNTgxOCw2NTIy
 NzA4MzUsLTkwNDEwOTc0OCwyMDQyNTIwNjU5LDE5NDcyODQ0Nj
 EsLTEzMzg0NjAwMzksLTE2ODA3NTEwNzUsLTEzODI1Mzc4MjMs
