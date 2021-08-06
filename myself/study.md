@@ -277,7 +277,7 @@ JavaScript 是一种脚本或编程语言，它允许您在网页上实现复杂
 今天主要学习一下，教程中的js实例
 
 
-
+JS 相关接口，可以参考如下
 1. Document 获取文档中的内容，接口如下
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document
 
@@ -286,11 +286,11 @@ Window 对象表示浏览器中打开的窗口。
 
 https://www.w3school.com.cn/jsref/obj_window.asp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE1MTE5MDUsLTE5NDI4Njk5MTIsLT
-E1NzkxMjE0MjIsLTExODk0MzU4MTgsNjUyMjcwODM1LC05MDQx
-MDk3NDgsMjA0MjUyMDY1OSwxOTQ3Mjg0NDYxLC0xMzM4NDYwMD
-M5LC0xNjgwNzUxMDc1LC0xMzgyNTM3ODIzLDEyNjcxNTE2Mzks
-LTIwODgxNDE1NzAsLTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLT
-c2MzI1Njk5OCwxNDQwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQw
-NTY4NywxMDY4MDUxNzA5XX0=
+eyJoaXN0b3J5IjpbLTEzOTA2Mjk4MSwtMTMzMTUxMTkwNSwtMT
+k0Mjg2OTkxMiwtMTU3OTEyMTQyMiwtMTE4OTQzNTgxOCw2NTIy
+NzA4MzUsLTkwNDEwOTc0OCwyMDQyNTIwNjU5LDE5NDcyODQ0Nj
+EsLTEzMzg0NjAwMzksLTE2ODA3NTEwNzUsLTEzODI1Mzc4MjMs
+MTI2NzE1MTYzOSwtMjA4ODE0MTU3MCwtMTc0MzYxNDk2NywtMT
+U3MjE0Njk3NSwtNzYzMjU2OTk4LDE0NDA4MzQ5OTgsMTc4OTc0
+NjM0MywtOTc1NDA1Njg3XX0=
 -->
