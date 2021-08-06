@@ -286,17 +286,27 @@ alert() 弹出个提示框 （确定）
 confirm() 弹出个确认框 （确定，取消）  
 prompt() 弹出个输入框 让你输入东西
 
-	
+警告消息框  
+alert 方法有一个参数，即希望对用户显示的文本字符串。该字符串不是 HTML 格式。该消息框提供了一个“确定”按钮让用户关闭该消息框，并且该消息框是模式对话框，也就是说，用户必须先关闭该消息框然后才能继续进行操作。
+
+var truthBeTold = confirm("单击“确定”继续。单击“取消”停止。");  
+if (truthBeTold) {  
+window.alert("欢迎访问我们的 Web 页！");  
+} else window.alert("再见啦！");  
+
+
+提示消息框  
+提示消息框提供了一个文本字段，用户可以在此字段输入一个答案来响应您的提示。该消息框有一个“确定”按钮和一个“取消”按钮。如果您提供了一个辅助字符串参数，则提示消息框将在文本字段显示该辅助字符串作为默认响应。否则，默认文本为 "<undefined>"。
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI4Njk5MTIsLTE1NzkxMjE0MjIsLT
-ExODk0MzU4MTgsNjUyMjcwODM1LC05MDQxMDk3NDgsMjA0MjUy
-MDY1OSwxOTQ3Mjg0NDYxLC0xMzM4NDYwMDM5LC0xNjgwNzUxMD
-c1LC0xMzgyNTM3ODIzLDEyNjcxNTE2MzksLTIwODgxNDE1NzAs
-LTE3NDM2MTQ5NjcsLTE1NzIxNDY5NzUsLTc2MzI1Njk5OCwxND
-QwODM0OTk4LDE3ODk3NDYzNDMsLTk3NTQwNTY4NywxMDY4MDUx
-NzA5LC02NTgwMDI0NDJdfQ==
+eyJoaXN0b3J5IjpbLTUzOTgyNzU4OCwtMTk0Mjg2OTkxMiwtMT
+U3OTEyMTQyMiwtMTE4OTQzNTgxOCw2NTIyNzA4MzUsLTkwNDEw
+OTc0OCwyMDQyNTIwNjU5LDE5NDcyODQ0NjEsLTEzMzg0NjAwMz
+ksLTE2ODA3NTEwNzUsLTEzODI1Mzc4MjMsMTI2NzE1MTYzOSwt
+MjA4ODE0MTU3MCwtMTc0MzYxNDk2NywtMTU3MjE0Njk3NSwtNz
+YzMjU2OTk4LDE0NDA4MzQ5OTgsMTc4OTc0NjM0MywtOTc1NDA1
+Njg3LDEwNjgwNTE3MDldfQ==
 -->
