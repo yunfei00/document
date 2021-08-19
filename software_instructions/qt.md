@@ -9,6 +9,9 @@
 		<h4><ul><a href="#title4.4">4.4 QTablewidget 去掉默认行号</a> </h4>
 <h3><a href="#title5">5 QT ubuntu mp4播放问题</a> </h3>
 <h3><a href="#title6">6 ubuntu18.04 上Qt程序发布</a> </h3>
+<h3><a href="#title7">7 win10 上Qt程序发布</a> </h3>
+
+
 <div STYLE="page-break-after: always;"></div>
  
  <h1 id="title1">1 ubuntu16.04 上Qt程序发布</h1>  
@@ -160,12 +163,13 @@ headerView->setHidden(true);
 在ubuntu18.04上发布时，需要使用最新的发布工具，并且增加选项
 --verbose=1，即可成功发布。
 
- <h1 id="title7">7 ubuntu18.04 上Qt程序发布</h1>  
+ <h1 id="title7">7 win10 上Qt程序发布</h1>  
+ 
 https://doc.qt.io/qt-5/windows-deployment.html
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTAzNjk3NywtMTc2NDUxMDIzMCwtMT
+eyJoaXN0b3J5IjpbMTMzMjA2MDI0MSwtMTc2NDUxMDIzMCwtMT
 QyNTc3MjIzMywyMDI0MjYyMTY4LDE3ODQxNDE3MzgsLTk5OTI3
 OTMwNiwxMTI3ODIwNzA1LDY2Mjc1OTYwLC0xNzU4Mjg0MzA3LD
 k0MjQ3NDkyNCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
