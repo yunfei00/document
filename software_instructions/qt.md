@@ -159,11 +159,14 @@ headerView->setHidden(true);
 
 在ubuntu18.04上发布时，需要使用最新的发布工具，并且增加选项
 --verbose=1，即可成功发布。
+
+ <h1 id="title7">7 ubuntu18.04 上Qt程序发布</h1>  
+https://doc.qt.io/qt-5/windows-deployment.html
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ1MTAyMzAsLTE0MjU3NzIyMzMsMj
-AyNDI2MjE2OCwxNzg0MTQxNzM4LC05OTkyNzkzMDYsMTEyNzgy
-MDcwNSw2NjI3NTk2MCwtMTc1ODI4NDMwNyw5NDI0NzQ5MjQsLT
-IwMDA0MDY3MzAsMTE4ODUzMDE5MF19
+eyJoaXN0b3J5IjpbMTI0NTAzNjk3NywtMTc2NDUxMDIzMCwtMT
+QyNTc3MjIzMywyMDI0MjYyMTY4LDE3ODQxNDE3MzgsLTk5OTI3
+OTMwNiwxMTI3ODIwNzA1LDY2Mjc1OTYwLC0xNzU4Mjg0MzA3LD
+k0MjQ3NDkyNCwtMjAwMDQwNjczMCwxMTg4NTMwMTkwXX0=
 -->
