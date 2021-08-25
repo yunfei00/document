@@ -69,13 +69,13 @@ sudo apt install python3.8
 
 # 5. python环境问题
 1. 解决apt-get /var/lib/dpkg/lock-frontend 问题
-2
+
 ```
 sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/lib/dpkg/lock
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODg4MTI1NSwxOTMwMDY4MTMzLDEwMD
+eyJoaXN0b3J5IjpbLTMzNTg4MDIwNSwxOTMwMDY4MTMzLDEwMD
 cwMjc1NzYsMTg1OTY5NjYwOCwtOTAxMzE5MTYzLDExNzY1MTM2
 MTIsMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNjI3NjkzN119
 -->
