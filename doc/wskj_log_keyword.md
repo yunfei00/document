@@ -57,8 +57,6 @@ VisbodyFit-Air|体脂板数据校验失败3
 体脂测量 左边脚掌或者左手四指松开 会在第三个SP包之后报错
 右边脚掌或者右手四指松开 则直接报错 不返回SP信息
 
-krDf5y5P
-
 grep '硬件返回异常类型' *
 egrep '上报体重|BODY_INFO_REQUEST|userID is |VisbodyFit-Air|START_SCAN_REQUEST|< CC >|< TB0 >|< TB9 >|100%|上报体脂板测量异常|上报' *
 EVENT_RAIL_BOTTOM_SENSER_INTERRUPT|EVENT_RAIL_TOP_SENSER_INTERRUPT|EVENT_RAIL_TOP_SENSER_INTERRUPT|VisbodyFit-Air
@@ -66,16 +64,12 @@ EVENT_RAIL_BOTTOM_SENSER_INTERRUPT|EVENT_RAIL_TOP_SENSER_INTERRUPT|EVENT_RAIL_TO
 3 V-R 关键字
 上报电阻数据|
 
-
-
-
-
 VD:
 校准文件打印关键字
-Raw50kg :
+Raw50kg 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MjgwMTE4XX0=
+eyJoaXN0b3J5IjpbOTgyNzUxMjQ0XX0=
 -->
