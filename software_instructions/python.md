@@ -66,8 +66,16 @@ sudo apt install python3.8
 # 4 __init__.py
 
 `__init__.py`该文件的作用就是相当于把自身整个文件夹当作一个包来管理，每当有外部`import`的时候，就会自动执行里面的函数。
+
+# 5. python环境问题
+1. 解决apt-get /var/lib/dpkg/lock-frontend 问题
+2
+```
+sudo rm /var/lib/dpkg/lock-frontend
+sudo rm /var/lib/dpkg/lock
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDA2ODEzMywxMDA3MDI3NTc2LDE4NT
-k2OTY2MDgsLTkwMTMxOTE2MywxMTc2NTEzNjEyLDEyOTc5NDI2
-LDEzOTY0Mjk1NjUsLTIwMDYyNzY5MzddfQ==
+eyJoaXN0b3J5IjpbLTQ2ODg4MTI1NSwxOTMwMDY4MTMzLDEwMD
+cwMjc1NzYsMTg1OTY5NjYwOCwtOTAxMzE5MTYzLDExNzY1MTM2
+MTIsMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNjI3NjkzN119
 -->
