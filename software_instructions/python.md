@@ -35,7 +35,7 @@ virtualenv -p /usr/bin/python2.7 venv
 virtualenv -p python3 myenv
 
 # 安装指定版本python虚拟环境
-virtualenv venv --p	ython=python3.7
+virtualenv venv --python=python3.7
 
 # Active your virtual environment:
 source venv/bin/activate
@@ -75,7 +75,8 @@ sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/lib/dpkg/lock
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTg4MDIwNSwxOTMwMDY4MTMzLDEwMD
-cwMjc1NzYsMTg1OTY5NjYwOCwtOTAxMzE5MTYzLDExNzY1MTM2
-MTIsMTI5Nzk0MjYsMTM5NjQyOTU2NSwtMjAwNjI3NjkzN119
+eyJoaXN0b3J5IjpbMTE1MzMyMzA5OSwtMzM1ODgwMjA1LDE5Mz
+AwNjgxMzMsMTAwNzAyNzU3NiwxODU5Njk2NjA4LC05MDEzMTkx
+NjMsMTE3NjUxMzYxMiwxMjk3OTQyNiwxMzk2NDI5NTY1LC0yMD
+A2Mjc2OTM3XX0=
 -->
