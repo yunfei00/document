@@ -70,6 +70,12 @@ Raw50kg
 
 
 
+# 4. SVN 路径
+svn://192.168.0.199/project/VF_PLUS/代码/硬件服务
+svn://192.168.0.199/project/VF_1.1/硬件/8传感器体重体脂程序
+svn://192.168.0.199/project/VF_SMART/硬件
+svn://192.168.0.199/project/VF_SMART/硬件
+svn://192.168.0.199/project/VF_1/硬件/代码
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNzUxMjQ0XX0=
+eyJoaXN0b3J5IjpbLTY4MzQxODY1M119
 -->
