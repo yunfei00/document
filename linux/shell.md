@@ -144,9 +144,19 @@ fi
 7. 元素切片，同字符切片相同
 
  <h1 id="title3"> 3 正则表达式匹配数字</h1>  
+
 ```
 echo office365 | grep -P '\d+' -o
 365
+visbodyfit@visbodyfit:~$ echo XXX12345678YYY|sed 's/.*\([0-9]\{4\}\).*\([0-9]\{2\}\).*\(..\).*/\1/'
+3456
+visbodyfit@visbodyfit:~$ echo XXX12345678YYY|sed 's/.*\([0-9]\{4\}\).*\([0-9]\{2\}\).*\([0-9]\{2\}\).*/\1/'
+1234
+visbodyfit@visbodyfit:~$ echo XXX12345678YYY|sed 's/.*\([0-9]\{4\}\).*\([0-9]\{2\}\).*\([0-9]\{2\}\).*/\2/'
+56
+visbodyfit@visbodyfit:~$ echo XXX12345678YYY|sed 's/.*\([0-9]\{4\}\).*\([0-9]\{2\}\).*\([0-9]\{2\}\).*/\3/'
+78
+
 ```
  <h1 id="title4"> 4 wait</h1>  
 wait [作业指示或进程号]
@@ -336,9 +346,9 @@ expr geeks : geek
 
 **bc**命令用于命令行计算器。它类似于基本计算器，通过它我们可以进行基本的数学计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTk2MDYwNCwtMTUwNTE5NTcyNywtMT
-IzMzAwNDAzMCw5MzgwMDMzODEsLTEzMzAyOTI2NzUsNjI5ODMz
-MzkwLC0xNzI1NDgwMzY1LDYwMjE0ODQyOCwtMjMxODk2LDI2Nj
-Q0MjE5NCwtMTc3NTE0MTA0MywtMTU2MTA0NDAzMSwxOTI4Njc0
-NjI1XX0=
+eyJoaXN0b3J5IjpbMTg0NzQ0MjI1MywyMDAxOTYwNjA0LC0xNT
+A1MTk1NzI3LC0xMjMzMDA0MDMwLDkzODAwMzM4MSwtMTMzMDI5
+MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4LC
+0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0
+MDMxLDE5Mjg2NzQ2MjVdfQ==
 -->
