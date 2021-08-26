@@ -145,6 +145,8 @@ fi
 
  <h1 id="title3"> 3 正则表达式匹配数字</h1>  
 
+感觉匹配时，是从右向左匹配的。
+
 ```
 echo office365 | grep -P '\d+' -o
 365
@@ -346,9 +348,9 @@ expr geeks : geek
 
 **bc**命令用于命令行计算器。它类似于基本计算器，通过它我们可以进行基本的数学计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzQ0MjI1MywyMDAxOTYwNjA0LC0xNT
-A1MTk1NzI3LC0xMjMzMDA0MDMwLDkzODAwMzM4MSwtMTMzMDI5
-MjY3NSw2Mjk4MzMzOTAsLTE3MjU0ODAzNjUsNjAyMTQ4NDI4LC
-0yMzE4OTYsMjY2NDQyMTk0LC0xNzc1MTQxMDQzLC0xNTYxMDQ0
-MDMxLDE5Mjg2NzQ2MjVdfQ==
+eyJoaXN0b3J5IjpbLTk4Njc1MjM0LDIwMDE5NjA2MDQsLTE1MD
+UxOTU3MjcsLTEyMzMwMDQwMzAsOTM4MDAzMzgxLC0xMzMwMjky
+Njc1LDYyOTgzMzM5MCwtMTcyNTQ4MDM2NSw2MDIxNDg0MjgsLT
+IzMTg5NiwyNjY0NDIxOTQsLTE3NzUxNDEwNDMsLTE1NjEwNDQw
+MzEsMTkyODY3NDYyNV19
 -->
