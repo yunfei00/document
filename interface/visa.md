@@ -71,11 +71,9 @@ viVPrintf(param1, param2, param3)
 说明           发送GPIB命令的程序消息时的程序消息，消息结束处要求一个消息终结符（ctrl_ext.vba中的Chr$（10））
 数据类型    字符串型
 
-参数       (param3)
-说明       变量待格式化，若不可应用，则输入0。
-数据类型
-
-规定的数据类型
+参数         (param3)
+说明         变量待格式化，若不可应用，则输入0。
+数据类型  规定的数据类型
 
 210行控制接收对话。VISA的viVScanf  功能接收来自规定仪器的结果，并将其存储在输出变量中。这个功能的参数是连接信息（ctrl_ext.vba中的Equip）、输出变量的格式参数（ctrl_ext.vba中的%t）和输出变量（ctrl_ext.vba中的Prod）。
 
@@ -85,26 +83,12 @@ viVScanf(param1, param2, param3)
 
 ## 参数
 
-参数
+参数            (param1)
+说明            连接信息（输入）
+数据类型    长整型
 
-(param1)
-
-说明
-
-连接信息（输入）
-
-数据类型
-
-长整型
-
-参数
-
-(param2)
-
-说明
-
-输出变量的格式参数
-
+参数             (param2)
+说明             输出变量的格式参数
 数据类型
 
 字符串型
@@ -121,5 +105,5 @@ viVScanf(param1, param2, param3)
 
 字符串型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mjc5ODk1NiwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbMTAzMTYwMTk2OCwxNzY0MzIyNjA0XX0=
 -->
