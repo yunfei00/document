@@ -63,10 +63,7 @@ viVPrintf(param1, param2, param3)
 
 ## 参数
 
-参数
-
-(param1)
-
+参数   (param1)
 说明
 
 连接信息（输出）
@@ -143,5 +140,5 @@ viVScanf(param1, param2, param3)
 
 字符串型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzIzOTEzMiwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbLTE3MTY5Njg1OTAsMTc2NDMyMjYwNF19
 -->
