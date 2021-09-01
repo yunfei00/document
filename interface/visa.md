@@ -12,13 +12,80 @@ viOpenDefaultRM(param)
 
 ## 参数
 
+参数         (param)
+说明         起动信息（输出）
+数据类型 长整型
+
+## 第2步：连接
+
+130行处理连接对话。VISA的viOpen功能进行与规定仪器的连接。viOpen功能返回某个值，使得VISA功能可以将其应用于规定仪器，这个功能的参数是起动信息（Defrm）、规定仪器的地址信息（ctrl_ext.vba中的“GPIB：：17：：INSTR”）、接入方式（ctrl_ext.vba中的0）、超时（ctrl_ext.vba中的0）和连接信息（ctrl_ext.vba中的Equip）。
+
+## 语法
+
+viOpen(param1,  param2,  param3, param4, param5)
+
+## 参数
+
 参数
 
-(param)
+(param1)
 
 说明
-起动信息（输出）
-数据类型 长整型
+
+起动信息（输入）
+
+数据类型
+
+长整型
+
+参数
+
+(param2)
+
+说明
+
+规定仪器的地址信息（输入）
+
+数据类型
+
+字符串型
+
+语法
+
+"GPIB0::gpib address::INSTR"
+
+"USB0::manufacturer ID::model code::serial number::0::INSTR"  
+(ex. "USB0::2391::2312::MY12345678::0::INSTR")
+
+"TCPIP0::IP address::inst0::INSTR"
+
+参数
+
+(param3)
+
+说明
+
+接入方式（输入0）
+
+参数
+
+(param4)
+
+说明
+
+超时（输入0）
+
+参数
+
+(param5)
+
+说明
+
+连接信息（输出）
+
+数据类型
+
+长整型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNDIxMywxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbMzIwNTkzNDYzLDE3NjQzMjI2MDRdfQ==
 -->
