@@ -38,32 +38,15 @@ viOpen(param1,  param2,  param3, param4, param5)
 					(ex. "USB0::2391::2312::MY12345678::0::INSTR")
 					"TCPIP0::IP address::inst0::INSTR"
 
-参数
-(param3)
+参数          (param3)
+说明          接入方式（输入0）
 
-说明
+参数          (param4)
+说明          超时（输入0）
 
-接入方式（输入0）
-
-参数
-
-(param4)
-
-说明
-
-超时（输入0）
-
-参数
-
-(param5)
-
-说明
-
-连接信息（输出）
-
-数据类型
-
-长整型
+参数          (param5)
+说明          连接信息（输出）
+数据类型   长整型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTMyNjQ2OSwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbMTEyMTUzMDYwMywxNzY0MzIyNjA0XX0=
 -->
