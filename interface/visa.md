@@ -26,29 +26,13 @@ viOpen(param1,  param2,  param3, param4, param5)
 
 ## 参数
 
-参数
+参数            (param1)
+说明            起动信息（输入）
+数据类型    长整型
 
-(param1)
-
-说明
-
-起动信息（输入）
-
-数据类型
-
-长整型
-
-参数
-
-(param2)
-
-说明
-
-规定仪器的地址信息（输入）
-
-数据类型
-
-字符串型
+参数   (param2)
+说明     规定仪器的地址信息（输入）
+数据类型    字符串型
 
 语法
 
@@ -87,5 +71,5 @@ viOpen(param1,  param2,  param3, param4, param5)
 
 长整型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNTkzNDYzLDE3NjQzMjI2MDRdfQ==
+eyJoaXN0b3J5IjpbNDA1OTIyNywxNzY0MzIyNjA0XX0=
 -->
