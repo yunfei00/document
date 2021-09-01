@@ -89,21 +89,11 @@ viVScanf(param1, param2, param3)
 
 参数             (param2)
 说明             输出变量的格式参数
-数据类型
+数据类型      字符串型
 
-字符串型
-
-参数
-
-(param3)
-
-说明
-
-输出变量（输出）
-
-数据类型
-
-字符串型
+参数              (param3)
+说明              输出变量（输出）
+数据类型      字符串型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTYwMTk2OCwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbMTY1Njg1MTE3MiwxNzY0MzIyNjA0XX0=
 -->
