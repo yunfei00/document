@@ -110,7 +110,8 @@ viClose(param)
 数据类型   长整型
 
 
-#样本程序  用来读出外围设备（仪器）产品信息
+# 样本程序 
+用来读出外围设备（仪器）产品信息
 
 ctrl_ext.vba  是利用E5071C作为系统控制器时，控制通过USB/GPIB接口电缆连接的仪器的样本程序。这个VBA程序由下列程序模块组成。
 
@@ -242,6 +243,6 @@ mdlVisa
 
 400| End Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2OTU0MTk3LDE2NTY4NTExNzIsMTc2ND
-MyMjYwNF19
+eyJoaXN0b3J5IjpbMTQ5MDcyNzUwOSwxNjU2ODUxMTcyLDE3Nj
+QzMjI2MDRdfQ==
 -->
