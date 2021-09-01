@@ -115,23 +115,13 @@ viClose(param)
 
 ctrl_ext.vba  是利用E5071C作为系统控制器时，控制通过USB/GPIB接口电缆连接的仪器的样本程序。这个VBA程序由下列程序模块组成。
 
-对象名
-
-模块类型
-
-内容
-
-mdlVisa
-
-标准模块
-
-读出外部仪器的产品信息。
+对象名   模块类型
+内容      mdlVisa
+标准模块  读出外部仪器的产品信息。
 
 模块1  
 模块2
-
 标准模块
-
 利用VISA程序库的两个定义文件
 
 -   当您由E5071C VBA来控制外围设备时，利用对仪器提供的GPIB命令经VISA进行通信。相反，当您由E5071C VBA来控制仪器本身时，则利用对仪器提供的COM对象进行通信。
@@ -163,6 +153,7 @@ mdlVisa
 
 读出产品信息（ctrl_ext.vba）
 
+```
 10| Sub Main()
 
 20|
@@ -216,33 +207,21 @@ mdlVisa
 260|
 
 270| ' Closes the resource manager session (which closes everything)
-
 280| Call viClose(Defrm)
-
 290|
-
 300| GoTo Prog_end
-
 310|
-
 320| VisaErrorHandler:
-
 330| Dim VisaErr As String * 200
-
 340| Call viStatusDesc(Defrm, status, VisaErr)
-
 350| MsgBox "Error : " & VisaErr, vbExclamation
-
 360| Exit Sub
-
 370|
-
 380| Prog_end:
-
 390|
-
 400| End Sub
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDcyNzUwOSwxNjU2ODUxMTcyLDE3Nj
-QzMjI2MDRdfQ==
+eyJoaXN0b3J5IjpbNjU2MTI1MDQ5LDE0OTA3Mjc1MDksMTY1Nj
+g1MTE3MiwxNzY0MzIyNjA0XX0=
 -->
