@@ -155,57 +155,31 @@ ctrl_ext.vba  是利用E5071C作为系统控制器时，控制通过USB/GPIB接�
 
 ```
 10| Sub Main()
-
 20|
-
 30| Dim status As Long 'VISA function status return code
-
 40| Dim Defrm As Long 'Session to Default Resource Manager
-
 50| Dim Equip As Long 'Session to instrument
-
 60| Dim Prod As String * 100 'String to receive the result
-
 70|
-
 80| ' Initializes the VISA system.
-
 90| status = viOpenDefaultRM(Defrm)
-
 100| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
-
 110|
-
 120| ' Opens the session to the specified instrument.
-
 130| status = viOpen(Defrm, "GPIB0::17::INSTR", 0, 0, Equip)
-
 140| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
-
 150|
-
 160| ' Asks for the instrument's product information.
-
 170| status = viVPrintf(Equip, "*IDN?" & Chr$(10), 0)
-
 180| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
-
 190|
-
 200| ' Reads the result.
-
 210| status = viVScanf(Equip, "%t", Prod)
-
 220| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
-
 230|
-
 240| ' Displays the result.
-
 250| MsgBox Prod
-
 260|
-
 270| ' Closes the resource manager session (which closes everything)
 280| Call viClose(Defrm)
 290|
@@ -222,6 +196,6 @@ ctrl_ext.vba  是利用E5071C作为系统控制器时，控制通过USB/GPIB接�
 400| End Sub
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MTI1MDQ5LDE0OTA3Mjc1MDksMTY1Nj
-g1MTE3MiwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbMTE3NjQyNjUyNSwxNDkwNzI3NTA5LDE2NT
+Y4NTExNzIsMTc2NDMyMjYwNF19
 -->
