@@ -30,21 +30,15 @@ viOpen(param1,  param2,  param3, param4, param5)
 说明            起动信息（输入）
 数据类型    长整型
 
-参数   (param2)
-说明     规定仪器的地址信息（输入）
+参数           (param2)
+说明           规定仪器的地址信息（输入）
 数据类型    字符串型
-
-语法
-
-"GPIB0::gpib address::INSTR"
-
-"USB0::manufacturer ID::model code::serial number::0::INSTR"  
-(ex. "USB0::2391::2312::MY12345678::0::INSTR")
-
-"TCPIP0::IP address::inst0::INSTR"
+语法           "GPIB0::gpib address::INSTR"
+					"USB0::manufacturer ID::model code::serial number::0::INSTR"  
+					(ex. "USB0::2391::2312::MY12345678::0::INSTR")
+					"TCPIP0::IP address::inst0::INSTR"
 
 参数
-
 (param3)
 
 说明
@@ -71,5 +65,5 @@ viOpen(param1,  param2,  param3, param4, param5)
 
 长整型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1OTIyNywxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbLTQwMTMyNjQ2OSwxNzY0MzIyNjA0XX0=
 -->
