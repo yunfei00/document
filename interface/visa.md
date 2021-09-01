@@ -94,6 +94,154 @@ viVScanf(param1, param2, param3)
 参数              (param3)
 说明              输出变量（输出）
 数据类型      字符串型
+
+## 第4步： 断开
+
+280行处理断开对话。VISA的  viClose  功能将通信中断并使VISA系统终结，这个功能的参数是起动信息（ctrl_ext.vba中的Defrm）。
+
+## 语法
+
+viClose(param)
+
+## Parameter
+
+参数           (param)
+说明           起动信息（输入）
+数据类型   长整型
+
+
+#样本程序  用来读出外围设备（仪器）产品信息
+
+ctrl_ext.vba  是利用E5071C作为系统控制器时，控制通过USB/GPIB接口电缆连接的仪器的样本程序。这个VBA程序由下列程序模块组成。
+
+对象名
+
+模块类型
+
+内容
+
+mdlVisa
+
+标准模块
+
+读出外部仪器的产品信息。
+
+模块1  
+模块2
+
+标准模块
+
+利用VISA程序库的两个定义文件
+
+-   当您由E5071C VBA来控制外围设备时，利用对仪器提供的GPIB命令经VISA进行通信。相反，当您由E5071C VBA来控制仪器本身时，则利用对仪器提供的COM对象进行通信。
+    
+
+### 90行到100行
+
+对VISA系统进行初始化和起动，并将起动信息输出到Defrm变量。在这个过程期间，若发生差错，程序便转到错误处理程序（320行到360行）。
+
+### 130行到140行
+
+建立与经GPIB连接的外部仪器（GPIB地址：17）的连接，并将连接信息输出到Equip变量。在这个过程期间，若发生差错，程序便转到错误处理程序（320行到360行）。
+
+### 170行到180行
+
+查询利用VISA经USB/GPIB接口电缆连接的外部仪器的产品信息，在这个过程期间，若发生差错，程序便转到错误处理程序（320行到360行）。
+
+### 210行到250行
+
+通过VISA对产品信息进行检索，并将产品信息输出到Prod变量。在消息框中显示读出结果。在这个过程期间，若发生差错，程序便转到错误处理程序（320行到360行）。
+
+### 280行
+
+中断通信并使VISA系统终结。
+
+### 320行到360行
+
+若VISA功能发生差错，将显示错误的细节并使程序终结。
+
+读出产品信息（ctrl_ext.vba）
+
+10| Sub Main()
+
+20|
+
+30| Dim status As Long 'VISA function status return code
+
+40| Dim Defrm As Long 'Session to Default Resource Manager
+
+50| Dim Equip As Long 'Session to instrument
+
+60| Dim Prod As String * 100 'String to receive the result
+
+70|
+
+80| ' Initializes the VISA system.
+
+90| status = viOpenDefaultRM(Defrm)
+
+100| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
+
+110|
+
+120| ' Opens the session to the specified instrument.
+
+130| status = viOpen(Defrm, "GPIB0::17::INSTR", 0, 0, Equip)
+
+140| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
+
+150|
+
+160| ' Asks for the instrument's product information.
+
+170| status = viVPrintf(Equip, "*IDN?" & Chr$(10), 0)
+
+180| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
+
+190|
+
+200| ' Reads the result.
+
+210| status = viVScanf(Equip, "%t", Prod)
+
+220| If (status <> VI_SUCCESS) Then GoTo VisaErrorHandler
+
+230|
+
+240| ' Displays the result.
+
+250| MsgBox Prod
+
+260|
+
+270| ' Closes the resource manager session (which closes everything)
+
+280| Call viClose(Defrm)
+
+290|
+
+300| GoTo Prog_end
+
+310|
+
+320| VisaErrorHandler:
+
+330| Dim VisaErr As String * 200
+
+340| Call viStatusDesc(Defrm, status, VisaErr)
+
+350| MsgBox "Error : " & VisaErr, vbExclamation
+
+360| Exit Sub
+
+370|
+
+380| Prog_end:
+
+390|
+
+400| End Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njg1MTE3MiwxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbNzM2OTU0MTk3LDE2NTY4NTExNzIsMTc2ND
+MyMjYwNF19
 -->
