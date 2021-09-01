@@ -1,4 +1,5 @@
 
+参考地址 https://documentation.help/E5071C-zh/Programming_with_VISA.htm#Overview
 # 1 使用VISA控制仪器的流程
 启动VISA（viOpenDefaultRM）--> 连接viOpen -->通讯Sx：viVPrintf Rx：viVScanf --> 断开viClose
 
@@ -47,6 +48,100 @@ viOpen(param1,  param2,  param3, param4, param5)
 参数          (param5)
 说明          连接信息（输出）
 数据类型   长整型
+
+
+## 第3步. 通信
+
+170行进行通信对话。VISA的viVPrintf功能将程序消息（GPIB命令）发送到规定仪器。这个功能的参数是连接信息（Equip）、程序消息（*EDN?）和待格式化变量（ctrl_ext.vba中的0）。
+
+-   为了输入/输出GPIB命令，主要是利用viVPrintf  功能和viVScanf功能信息，但也可以利用其它VISA功能。欲知详情，请参考visa.hlp  （VISA程序库的在线帮助）。
+    
+
+## 语法
+
+viVPrintf(param1, param2, param3)
+
+## 参数
+
+参数
+
+(param1)
+
+说明
+
+连接信息（输出）
+
+数据类型
+
+长整型
+
+参数
+
+(param2)
+
+说明
+
+发送GPIB命令的程序消息时的程序消息，消息结束处要求一个消息终结符（ctrl_ext.vba中的Chr$（10））
+
+数据类型
+
+字符串型
+
+参数
+
+(param3)
+
+说明
+
+变量待格式化，若不可应用，则输入0。
+
+数据类型
+
+规定的数据类型
+
+210行控制接收对话。VISA的viVScanf  功能接收来自规定仪器的结果，并将其存储在输出变量中。这个功能的参数是连接信息（ctrl_ext.vba中的Equip）、输出变量的格式参数（ctrl_ext.vba中的%t）和输出变量（ctrl_ext.vba中的Prod）。
+
+## 语法
+
+viVScanf(param1, param2, param3)
+
+## 参数
+
+参数
+
+(param1)
+
+说明
+
+连接信息（输入）
+
+数据类型
+
+长整型
+
+参数
+
+(param2)
+
+说明
+
+输出变量的格式参数
+
+数据类型
+
+字符串型
+
+参数
+
+(param3)
+
+说明
+
+输出变量（输出）
+
+数据类型
+
+字符串型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTUzMDYwMywxNzY0MzIyNjA0XX0=
+eyJoaXN0b3J5IjpbLTI0NzIzOTEzMiwxNzY0MzIyNjA0XX0=
 -->
