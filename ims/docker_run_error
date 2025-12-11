@@ -15,4 +15,116 @@ See 'docker run --help'.
   看django 容器日志
   docker logs ims-app
 
+  拷贝文件
+  docker cp /usr/bin/docker ims-app:/usr/local/bin/docker
+
+
+按照http对待：
+/etc/docker/daemon.json
+一步一步修：在宿主机上配置 insecure registry
+
+因为你的应用容器是通过挂载 /var/run/docker.sock 去调用宿主机的 docker daemon，所以：
+
+必须在 宿主机 的 Docker 配置里，把
+49.7.180.245:31080
+加到 insecure-registries 里，让它按 HTTP 仓库 对待。
+
+① 编辑宿主机 /etc/docker/daemon.json
+
+在 宿主机 上执行：
+
+sudo vim /etc/docker/daemon.json
+
+
+如果这个文件是空的，可以直接写成：
+
+{
+  "insecure-registries": ["49.7.180.245:31080"]
+}
+
+
+如果里面已经有内容（比如 registry-mirrors 之类），就合并一下，例如：
+
+{
+  "registry-mirrors": [
+    "https://your.mirror.com"
+  ],
+  "insecure-registries": [
+    "49.7.180.245:31080"
+  ]
+}
+
+
+注意：这是一个 有效的 JSON，不能多逗号、不能少大括号。
+
+② 重启宿主机 docker 服务
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+
+⚠️ 注意：重启 docker 会停掉当前所有容器（包括 ims-app、ims-nginx），
+重启后要重新 docker run 一次你的 IMS 容器。
+
+③ 在宿主机上先测试 docker login
+
+在宿主机上先确认 login 正常：
+
+docker login 49.7.180.245:31080
+
+
+输入用户名 xstest2 和密码，看是否返回：
+
+Login Succeeded
+
+
+如果这里都失败，就跟 IMS 无关了，是账号/仓库配置问题，需要先在宿主机解决。
+
+④ 再重新启动 ims-app 容器，测试上传
+
+重启 IMS 应用容器（示例）：
+
+docker rm -f ims-app || true
+
+docker run -d \
+  --name ims-app \
+  --network ims-net \
+  --env-file /opt/ims/.env \
+  -e IMS_DATA_DIR=/data \
+  -v /opt/ims/data:/data \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  ims-app:1.0.1   # 或你当前镜像版本
+
+
+再在网页上重新上传基础镜像，看日志：
+
+docker logs ims-app | tail -n 100
+
+
+你应该能看到类似：
+
+[RUN] docker login 49.7.180.245:31080 --username xstest2 --password-stdin
+[OK ] docker
+...
+push finish
+
+顺便帮你总结一下现在的状态
+
+✅ 文件上传：没问题
+
+✅ docker 二进制：在容器里也 OK
+
+✅ docker load：已经跑成功
+
+❌ docker login：因为 HTTPS/HTTP 协议不匹配失败
+
+你只需要在宿主机上：
+
+配置 insecure-registries
+
+重启 docker
+
+确认宿主机 docker login 能成功
+
+然后 IMS 容器里的 push_image 整条链路就会通了。
+
   
