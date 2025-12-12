@@ -1,22 +1,18 @@
-docker 
-镜像报错
-  
-[root@ims-builder files]# ./upgrade_ims.sh 1.0.3
-Loaded image: ims-app:1.0.3
-Error response from daemon: No such container: ims-app
-docker: invalid reference format.
-See 'docker run --help'.
-[root@ims-builder files]#
-
-
-  进入docker 镜像 
+# docker 使用问题
+## 1. 进入docker 镜像 
+  ```
   docker exec -it ims-app bash
+  ```
 
-  看django 容器日志
+## 2. 看django 容器日志
+  ```
   docker logs ims-app
+  ```
 
-  拷贝文件
+## 3. 拷贝文件
+  ```
   docker cp /usr/bin/docker ims-app:/usr/local/bin/docker
+  ```
 
 
 按照http对待：
