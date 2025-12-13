@@ -1,0 +1,83 @@
+# 仓库管理
+
+
+## 1. 查询仓库信息
+客户仓库信息查询
+```
+curl -H 'accept: application/json'  -X 'GET' -u admin:abc-123 http://22.10.80.166:31080/api/v1/system/repository?current=1&pageSize=10&is_local=1
+
+```
+
+![返回信息](./images/repo_list.png)
+
+测试仓库信息查询
+```
+curl -H 'accept: application/json'  -X 'GET' --user 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/repository?current=1&pageSize=10&is_local=1
+
+# 返回信息如下；
+
+[root@ims-builder ~]# curl -H 'accept: application/json'  -X 'GET' --user 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/repository?current=1&pageSize=10&is_local=1
+[3] 11599
+[4] 11600
+[2]   Done                    pageSize=10
+[root@ims-builder ~]# {"code":"OK","body":{"list":[{"id":"1495097876821574","name":"basic","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/basic","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:44:27.041867+08:00","update_time":"2025-12-02T10:44:27.041867+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1495097780516422","name":"basic-prod","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/basic-prod","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:44:15.285654+08:00","update_time":"2025-12-02T10:44:15.285654+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1495098189829702","name":"business","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/business","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:45:05.250921+08:00","update_time":"2025-12-02T10:45:05.250921+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1495098006812229","name":"business-prod","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/business-prod","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:44:42.90915+08:00","update_time":"2025-12-02T10:44:42.90915+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1495098352432710","name":"middle","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/middle","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:45:25.099335+08:00","update_time":"2025-12-02T10:45:25.099335+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1495098279155270","name":"middle-prod","description":"","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/middle-prod","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":true,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-12-02T10:45:16.154333+08:00","update_time":"2025-12-02T10:45:16.154333+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1474748759676486","name":"xstest2","description":"西数 Docker 测试仓库","type":"Docker","class":1,"public":false,"remote_url":"","repo_url":"/xstest2","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":false,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-11-03T16:44:03.952857+08:00","update_time":"2025-11-03T16:44:32.417363+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""},{"id":"1474750166275653","name":"xstest2_generic","description":"西数一般测试仓库","type":"Generic","class":1,"public":false,"remote_url":"","repo_url":"/artifactory/xstest2_generic/","remote_provider":"","username":"","password":"","distribution":"","encryptx_type":"","include_pattern":0,"pkg_count":"0","artifact_count":"0","tag_count":"0","quota_used":0,"auto_scan":false,"status":1,"extra_attrs":{"url_pattern":{"include":["**/*"]},"remote_cache":{"meta_cache_period":0,"meta_cache_timeout":0,"missed_cache_period":60,"assumed_offline_period":3,"artifact_expire_time":0},"local_config":{"allow_force_push":true,"max_size":1073741824,"enable_index_upload":false},"is_resource":false,"resource_config":{"logo":"","markdown":"","sync_index":false},"scan_wait_second":0},"proxy_id":0,"env":"","signature_policy":0,"scan_policy":0,"cleanup_policy":0,"interception_policy":0,"data_encrypt_algo":"","relation":null,"create_time":"2025-11-03T16:46:55.65608+08:00","update_time":"2025-11-03T16:46:55.65608+08:00","select_url":"","replication_policy":null,"exist_policy":false,"project_name":"","project_id":"","share_project":null,"share_all":false,"quality_policy_id":0,"quality_policy_name":""}],"pagination":{"total":0,"current":0,"pageSize":10,"scroll":"xstest2_generic"}}}
+
+[3]-  Done                    curl -H 'accept: application/json' -X 'GET' --user 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/repository?current=1
+[4]+  Done                    pageSize=10
+
+```
+
+
+## 2. 创建仓库
+
+客户仓库信息
+```
+curl -H 'accept: application/json'   -H 'Content-Type: application/json'  -u admin:abc-123 http://22.10.80.166:31080/api/v1/system/repository -d '{ "auto_scan": true,"class": 1,  "description": "hjjx-pord","extra_attrs": {"local_config": {"max_size": 10737418240}}, "name": "goldel-prod", "status": 1,"sub_project": "1502292558955397", "type": "Docker"}'
+```
+参数说明:
+```
+"auto_scan": true 是否自动扫描
+"class": 1  1是本地仓库，2是远程
+"description": "hjjx-pord"    仓库描述
+"max_size": 10737418240 仓库配额，1GB是1073741824，10GB就是10x1073741824
+"name": "goldel-prod"   是仓库名字
+"sub_project": "1502292558955397"    关联项目（可不写）
+"type": "Docker"    仓库类型一般是docker  
+```
+
+测试仓库信息----这里目前只能盲写  客户没有给admin的密码
+```
+curl -H 'accept: application/json'   -H 'Content-Type: application/json'  --user 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/repository -d '{ "auto_scan": true,"class": 1,  "description": "hjjx-pord","extra_attrs": {"local_config": {"max_size": 10737418240}}, "name": "repo_01", "status": 1, "type": "Docker"}'
+```
+
+## 3. 创建项目
+
+客户项目数据
+```
+curl  -H 'accept: application/json'  -H 'Content-Type: application/json'  -X 'POST' -u admin:abc-123 http://22.10.80.166:31080/api/v1/system/projects?projectId=0 -d '{"description": "基础黄金镜像","name": "hjjx-public", "repositories": [{"repo_id": "1500175609265158","repo_name": "golden-local"}],"subscribe": true}'
+{"code":"OK","body":{"id":"1502292558955397"}}
+
+# 参数描述
+"description": "基础黄金镜像"：项目描述
+"name": "hjjx-public"  ：项目名称
+"repositories": [{"repo_id": "1500175609265158","repo_name": "golden-local"}],
+```
+
+## 4. 查询项目
+
+客户查询项目
+```
+curl -H 'accept: application/json'  -X 'GET' -u admin:abc-123 
+http://22.10.80.166:31080/api/v1/system/projects?current=1&pageSize=10&projectId=0 
+```
+
+![返回信息](./images/project_list.png)
+
+
+测试环境查询
+```
+curl -H 'accept: application/json'  -X 'GET' --user 'xstest2:9Q{]ru2d)<K7gZ>S'  
+http://49.7.180.245:31080/api/v1/system/projects?current=1&pageSize=10&projectId=0 
+```
+
+
