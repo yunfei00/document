@@ -8,6 +8,15 @@
   ```
   docker logs ims-app
   docker logs ims-app | tail -n 100
+  docker logs --since 10m ims-app | tail -n 200
+
+
+  docker logs ims-nginx | tail -n 50
+
+  其他日志查看
+  tail -n 200 /opt/ims/logs/nginx/error.log
+
+
   ```
 
 ## 3. 拷贝文件
@@ -15,7 +24,13 @@
   docker cp /usr/bin/docker ims-app:/usr/local/bin/docker
   ```
 
-## 4. docker http支持
+## 4. docker 重启服务
+  ```
+  docker restart ims-nginx
+
+  ``` 
+
+## 5. docker http支持
 
   ```
   sudo vim /etc/docker/daemon.json
@@ -46,4 +61,16 @@
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart docker
+```
+
+## 6. 删除docker 镜像
+
+先停止并删除所有容器（否则镜像删不掉）
+```
+docker images -aq | xargs -r docker rmi -f
+```
+
+删除所有镜像
+```
+docker images -aq | xargs -r docker rmi -f
 ```
