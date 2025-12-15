@@ -74,3 +74,42 @@ docker images -aq | xargs -r docker rmi -f
 ```
 docker images -aq | xargs -r docker rmi -f
 ```
+
+## 7. 离线安装docker compose
+
+1. 在「有外网的机器」准备离线文件 下载 docker-compose v2 二进制（Linux x86_64 版本建议：v2.25.0（稳定、兼容 Docker 26）
+  ```
+  mkdir -p docker_compose_offline
+  cd docker_compose_offline
+
+  wget https://github.com/docker/compose/releases/download/v2.25.0/docker-compose-linux-x86_64
+  ```
+2. 重命名（这是 plugin 规范）
+```
+  mv docker-compose-linux-x86_64 docker-compose
+  chmod +x docker-compose
+  ```
+3. 打包带走
+```
+tar czvf docker-compose-v2.25.0-linux-x86_64.tar.gz docker-compose
+```
+
+4. 在「离线服务器（CentOS 7.9）」安装
+```
+scp docker-compose-v2.25.0-linux-x86_64.tar.gz root@服务器:/opt/
+```
+
+5. 解压并安装到 Docker plugin 目录
+```
+cd /opt
+tar zxvf docker-compose-v2.25.0-linux-x86_64.tar.gz
+
+mkdir -p /usr/local/lib/docker/cli-plugins
+mv docker-compose /usr/local/lib/docker/cli-plugins/
+```
+
+6. 验证
+```
+docker compose version
+Docker Compose version v2.25.0
+```
