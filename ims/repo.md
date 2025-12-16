@@ -101,3 +101,18 @@ id,name,description,repo_url
 填写到模型中的:
 external_repo_id,name,description,repo_url
 ```
+
+## 6. 查看仓库内所有的镜像文件
+根据id去获取该仓库的内容：‘1获取的id就是2里面的repo_id’
+
+```
+[root@ims-builder ~]# curl -H 'Content-Type: application/json' -H 'accept: application/json' -X POST -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/artifact/repo/file/list -d '{"deleted": false,"repo_id":1495097876821574}'
+{"code":"OK","body":{"pre":".","list":[{"dir":1,"name":"a","path":"basic/a"},{"dir":1,"name":"aa","path":"basic/aa"},{"dir":1,"name":"basic-prod","path":"basic/basic-prod"},{"dir":1,"name":"basic-test","path":"basic/basic-test"},{"dir":1,"name":"bus-test","path":"basic/bus-test"},{"dir":1,"name":"mysql","path":"basic/mysql"},{"dir":1,"name":"test","path":"basic/test"},{"dir":1,"name":"ubuntu","path":"basic/ubuntu"},{"dir":1,"name":"ubuntu----test","path":"basic/ubuntu----test"},{"dir":1,"name":"ubuntu-aaaa","path":"basic/ubuntu-aaaa"},{"dir":1,"name":"ubuntu-base","path":"basic/ubuntu-base"},{"dir":1,"name":"ubuntu-test","path":"basic/ubuntu-test"},{"dir":1,"name":"ubuntu24","path":"basic/ubuntu24"}]}}
+```
+
+## 7. 查看指定路径下的文件
+
+[root@ims-builder ~]# curl -H 'Content-Type: application/json' -H 'accept: application/json' -X POST -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/artifact/repo/file/list -d '{"deleted": false,"repo_id":1495097876821574,"path":"basic/a"}'
+{"code":"OK","body":{"pre":"basic","list":[{"dir":1,"name":"V1","path":"basic/a/V1"},{"dir":1,"name":"V2","path":"basic/a/V2"},{"dir":1,"name":"V3","path":"basic/a/V3"},{"dir":1,"name":"V4","path":"basic/a/V4"},{"dir":1,"name":"V5","path":"basic/a/V5"},{"dir":1,"name":"V6","path":"basic/a/V6"},{"dir":1,"name":"V7","path":"basic/a/V7"},{"dir":1,"name":"V9","path":"basic/a/V9"}]}}
+[root@ims-builder ~]#
+

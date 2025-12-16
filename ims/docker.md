@@ -113,3 +113,48 @@ mv docker-compose /usr/local/lib/docker/cli-plugins/
 docker compose version
 Docker Compose version v2.25.0
 ```
+
+## 8. docker compose 启动程序
+
+启动进程  需要当前路径下有 docker-compose.yml 文件
+```
+[root@ims-builder files]# docker compose up -d
+[+] Running 4/4
+ ✔ Container ims-redis   Running           0.0s
+ ✔ Container ims-app     Started           0.6s
+ ✔ Container ims-nginx   Running           0.0s
+ ✔ Container ims-worker  Started           0.4s
+```
+
+1. 容器名称冲突
+
+```
+docker compose up
+[+] Running 1/0
+ ✔ Container ims-redis  Running                                                                                          0.0s
+ ⠋ Container ims-app    Creating                                                                                         0.0s
+Error response from daemon: Conflict. The container name "/ims-app" is already in use by container "d99e2be7047ed5bf6b70ba5e95e2ad403faf098f9db54c2e9ca8351eacfadce1". You have to remove (or rename) that container to be able to reuse that name.
+```
+
+docker-compose.yml 里指定了 container_name: ims-app，但宿主机上已经有一个同名容器 ims-app（ID 以 d99e2b… 开头）在占用
+
+处理方案:
+删掉旧的 ims-app 容器，再 compose up
+```
+docker ps -a --filter "name=^/ims-app$"
+docker rm -f ims-app
+docker compose up -d
+```
+
+2. 彻底清掉旧容器
+```
+docker rm -f ims-nginx ims-app ims-worker ims-redis
+确认干净：
+docker ps | grep ims
+```
+
+3. 删除旧的 ims-net 网络
+```
+docker network rm ims-net
+```
+
