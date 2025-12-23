@@ -112,7 +112,31 @@ external_repo_id,name,description,repo_url
 
 ## 7. 查看指定路径下的文件
 
+```
 [root@ims-builder ~]# curl -H 'Content-Type: application/json' -H 'accept: application/json' -X POST -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/artifact/repo/file/list -d '{"deleted": false,"repo_id":1495097876821574,"path":"basic/a"}'
 {"code":"OK","body":{"pre":"basic","list":[{"dir":1,"name":"V1","path":"basic/a/V1"},{"dir":1,"name":"V2","path":"basic/a/V2"},{"dir":1,"name":"V3","path":"basic/a/V3"},{"dir":1,"name":"V4","path":"basic/a/V4"},{"dir":1,"name":"V5","path":"basic/a/V5"},{"dir":1,"name":"V6","path":"basic/a/V6"},{"dir":1,"name":"V7","path":"basic/a/V7"},{"dir":1,"name":"V9","path":"basic/a/V9"}]}}
-[root@ims-builder ~]#
+```
 
+## 8. 创建仓库项目
+
+curl  -H 'accept: application/json'  -H 'Content-Type: application/json'  -X 'POST' -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/projects?projectId=0 -d '{"description": "基础黄金镜像","name": "hjjx-public", "repositories": [{"repo_id": "1495097876821574","repo_name": "basic"}],"subscribe": true}'
+{"code":"OK","body":{"id":"1502292558955397"}}
+
+
+## 9. 查询仓库项目
+curl -H 'accept: application/json'  -X 'GET' -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/system/projects?current=1&pageSize=10&projectId=0 
+
+
+## 10. 仓库类型
+添加仓库时，填写仓库类型，目前是系统 测试 生产
+```
+>>> from repo.models import Repository
+>>> Repository.objects.values("id","name","type")
+<QuerySet [{'id': 1, 'name': 'basic', 'type': 'test'}, {'id': 2, 'name': 'basic-prod', 'type': 'test'}]>
+>>> Repository.objects.values("id","name","type")
+<QuerySet [{'id': 1, 'name': 'basic', 'type': 'system'}, {'id': 2, 'name': 'basic-prod', 'type': 'test'}]>
+>>> Repository.objects.values("id","name","type")
+<QuerySet [{'id': 1, 'name': 'basic', 'type': 'system'}, {'id': 2, 'name': 'basic-prod', 'type': 'production'}]>
+>>>
+
+```

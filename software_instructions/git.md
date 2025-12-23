@@ -1,23 +1,7 @@
-# 目录
+## github 使用说明
 
-<h3><a href="#title1">1 mac 上git安装使用说明</a> </h3>
-		<h4><ul><a href="#title1.1">1.1 git 安装</a> </h4>
-		<h4><ul><a href="#title1.2">1.2 git 基本使用</a> </h4>
-		<h4><ul><a href="#title1.3">1.3 git 连接github使用</a> </h4>
-		<h4><ul><a href="#title1.4">1.4 创建与合并分支</a> </h4>
-		<h4><ul><a href="#title1.5">1.5 分支冲突解决</a> </h4> 
-		<h4><ul><a href="#title1.6">1.6 bug分支</a> </h4> 
-		<h4><ul><a href="#title1.7">1.7 多人协作</a> </h4> 
-		<h4><ul><a href="#title1.8">1.8 Git常用命令集</a> </h4> 
-<h3><a href="#title2">2 ubuntu 上git保存用户名密码</a> </h3>
-<h3><a href="#title3">3 Windows 上git 使用</a> </h3>
-<h3><a href="#title4">4 git服務器搭建 </a> </h3>
-
-<div style="page-break-after:always"></div>
-
-  <h1 id="title1">1 mac 上git安装使用说明</h1>  
-   <h2 id="title1.1">1.1 git 安装</h2>  	
-1. 下载git  [https://git-scm.com/download/mac](https://git-scm.com/download/mac). 
+## 1. git安装使用说明
+### 1. 下载git  [https://git-scm.com/download/mac](https://git-scm.com/download/mac). 
 2. 双击安装,安装完成后查看版本
 	```
 	git --version
@@ -473,3 +457,54 @@ kwNjY4Nzg2LDI4NDMzNDYxMiwtMTExNTY2OTAxNywtMTU2MDQ2
 Nzk2MiwxODMyODgyMTQ1LDIwMDg0ODUyNjksMTgxNjc4NDM5NS
 wtOTIxNDExODUwLC0xNzcwNjcyOTEyXX0=
 -->
+
+
+## 1. github 连接
+GitHub 添加认证 一般有两种主流方式：
+SSH 密钥（推荐，用 git@github.com:xxx/yyy.git）
+HTTPS + Personal Access Token（用 https://github.com/xxx/yyy.git）
+
+这里介绍ssh密钥的方式
+
+打开 终端 Terminal，执行（推荐 Ed25519 算法）:
+```
+ssh-keygen -t ed25519 -C "goodman_yunfei@163.com"
+```
+
+提示保存路径时，直接回车即可使用默认路径 ~/.ssh/id_ed25519。
+如果提示已经有了，可以换个名字，比如 id_ed25519_github。
+
+然后提示设置密码（passphrase），可以设置一个，也可以直接回车留空。
+
+复制公钥内容
+cat ~/.ssh/id_ed25519.pub
+4. 在 GitHub 上添加 SSH Key
+
+打开 GitHub，右上角头像 → Settings
+
+左侧 Access → SSH and GPG keys
+
+点 New SSH key / New Key
+
+随便填个标题（例如 iMac），把刚才复制的公钥粘贴进去，保存
+
+“Adding a new SSH key to your GitHub account” 的完整步骤见官方文档。
+GitHub Docs
+5. 测试 SSH 连接
+
+终端执行：
+
+ssh -T git@github.com
+
+
+如果一切正常，会看到类似：
+
+Hi your-username! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+说明 iMac 已经可以通过 SSH 认证访问 GitHub 了。
+GitHub Docs
+
+之后 clone 仓库就用 SSH 地址，比如：
+
+git clone git@github.com:用户名/仓库名.git
