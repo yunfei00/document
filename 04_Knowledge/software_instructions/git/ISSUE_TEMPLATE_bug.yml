@@ -1,0 +1,90 @@
+name: Bug Report
+description: 报告一个可复现的问题（Bug）
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量提供可复现信息：环境、步骤、日志、截图。信息越完整，修复越快。（注意脱敏）
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本信息
+      description: 例如 v1.1.0 / commit id / 镜像 tag
+      placeholder: "v1.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 严重程度
+      options:
+        - S1 - 阻塞/核心功能不可用
+        - S2 - 重要功能异常，有替代方案
+        - S3 - 一般问题/体验问题
+        - S4 - 建议优化
+    validations:
+      required: true
+
+  - type: textarea
+    id: env
+    attributes:
+      label: 运行环境
+      description: OS、Docker/Python版本、部署方式（离线/在线）、浏览器等
+      placeholder: |
+        OS: CentOS 7.9
+        Docker: 24.x
+        Deploy: docker-compose / offline
+        Browser: Chrome xxx
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      placeholder: "期望点击下载后返回文件流并成功下载"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      placeholder: "实际报错：403/404/500，或前端无响应"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志/截图（关键证据，可选）
+      description: 建议贴后端日志、前端 console、截图（注意脱敏）
+      placeholder: |
+        - Backend logs:
+        - Frontend console:
+        - Screenshot:
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 临时绕过方案（如有）
+      placeholder: "例如：刷新/改配置/换浏览器/重试"
+    validations:
+      required: false

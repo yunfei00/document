@@ -1,0 +1,67 @@
+name: Feature Request
+description: 提交新需求或改进建议
+title: "[FEAT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请说明目标与收益，并给出验收标准（AC）。越清晰越容易一次做对、避免返工。
+
+  - type: input
+    id: goal
+    attributes:
+      label: 目标（一句话）
+      placeholder: "例如：支持项目维度的检测报告统一下载"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景/问题
+      placeholder: "现状：... 影响：..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 方案设想（可选）
+      placeholder: |
+        - UI：...
+        - API：...
+        - 数据：...
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准（AC）
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      options:
+        - P0 - 紧急（阻塞交付）
+        - P1 - 高（近期必须做）
+        - P2 - 中（有价值但可排期）
+        - P3 - 低（长期优化）
+    validations:
+      required: true
+
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险与影响面（可选）
+      placeholder: "例如：涉及权限、数据迁移、兼容性、离线部署影响"
+    validations:
+      required: false
