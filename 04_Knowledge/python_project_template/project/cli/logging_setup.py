@@ -1,7 +1,3 @@
-# 日志配置（入口统一）
-
-推荐：
-```python
 import logging
 
 def setup_logging(verbosity: int) -> None:
@@ -10,8 +6,3 @@ def setup_logging(verbosity: int) -> None:
         level=level,
         format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     )
-```
-
-与 argparse 联动：
-- parser 用 `action="count"` 收集 `-v/-vv`
-- main 里先 setup_logging，再进入业务逻辑

@@ -1,1 +1,5 @@
-来源
+# 配置来源
+1. CLI
+2. ENV
+3. FILE
+4. DEFAULT
