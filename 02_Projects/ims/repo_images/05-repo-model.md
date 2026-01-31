@@ -140,3 +140,25 @@ curl -H 'accept: application/json'  -X 'GET' -u 'xstest2:9Q{]ru2d)<K7gZ>S' http:
 >>>
 
 ```
+
+## 11. 获取镜像时间
+
+```
+
+[root@iZ0jl0q0zxp24c05mijxhmZ ~]# curl -H 'Content-Type: application/json' -H 'accept: application/json' -X POST -u 'xstest2:9Q{]ru2d)<K7gZ>S' http://49.7.180.245:31080/api/v1/artifact/repo/file/metadata -d '{"path": "basic/bus/V3/manifest.json","repo_id": 1495097876821574}'
+{"code":"OK","body":{"cached":true,"digest":"sha256:a7d517b288030b8a904584ace91b3d5228c64b7e0a3cabadd1c6747190867146","size":2196,"content_type":"application/vnd.docker.distribution.manifest.v2+json","url":"http://49.7.180.245:31080/artifactory/basic/bus/V3/manifest.json","update_time":"2026-01-08T23:28:42.817806+08:00","common":{"can_scan":true,"can_delete":true,"can_export_report":true,"is_text":true,"text_title":"Manifest"},"docker":{"can_scan":true,"can_export_tar":true,"can_rename":true,"can_base_image":true,"package_name":"basic/bus","tag_name":"V3","os":"linux","arch":"amd64","is_arch_single":true,"is_arch_multi":false,"is_base_image":false,"image_size":15925003,"is_sign":true,"sign_algo":"","pull":"docker pull 49.7.180.245:31080/basic/bus:V3"}}}
+
+```
+
+## 12. 删除接口
+```
+这个路径不对 删除失败
+[root@iZ0jl0q0zxp24c05mijxhmZ ~]# curl -u 'xstest2:9Q{]ru2d)<K7gZ>S' -H 'Content-type: application/json'  -H 'Accept:application/json, text/plain, */*'   -X DELETE http://49.7.180.245:31080/api/v1/artifact/repo/file -d '{"path":"basic/a/V1/","repo_id":1495097876821574,"absolute":true,"dir":true}'
+{"code":"OK","body":{"ok":false,"rows_affected":0}}
+
+这个实际删除了
+[root@iZ0jl0q0zxp24c05mijxhmZ ~]# curl -u 'xstest2:9Q{]ru2d)<K7gZ>S' -H 'Content-type: application/json'  -H 'Accept:application/json, text/plain, */*'   -X DELETE http://49.7.180.245:31080/api/v1/artifact/repo/file -d '{"path":"basic/a/V1/","repo_id":1495097876821574,"absolute":true,"dir":true}'
+{"code":"OK","body":{"ok":true,"rows_affected":7}}
+
+
+```
