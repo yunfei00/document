@@ -187,6 +187,95 @@ git stash pop
 git reflog
 git reset --hard <commit_id>
 ```
+5.7 修改提交信息（commit message）
+
+有时提交后发现 commit message 写错了，可以修改提交信息。
+
+注意：修改 commit message 本质上是在 修改 Git 历史。
+如果已经 push 到远端，需要强制推送。
+
+5.7.1 修改最近一次 commit（最常见）
+
+如果只是 刚刚提交的 commit，可以使用：
+
+git commit --amend -m "新的提交信息"
+
+示例：
+
+git commit --amend -m "fix(report): project report download path"
+
+如果不加 -m 参数：
+
+git commit --amend
+
+Git 会打开默认编辑器，让你手动修改 commit message。
+
+5.7.2 修改最近一次 commit（只修改内容，不改 message）
+
+如果只是 忘记 add 文件，想把文件加入刚才的 commit：
+
+git add missing_file.py
+git commit --amend --no-edit
+
+说明：
+
+--no-edit 表示 不修改 commit message
+
+只更新 commit 的内容
+
+5.7.3 commit 已经 push 到远端
+
+如果 commit 已经 push 到 GitHub / GitLab，修改后需要强制推送：
+
+git commit --amend -m "新的提交信息"
+git push --force-with-lease
+
+推荐使用：
+
+git push --force-with-lease
+
+原因：
+
+比 git push --force 更安全
+
+可以避免覆盖他人的提交
+
+⚠️ 注意：
+
+不要在多人共享分支（main / develop）随意修改历史
+
+一般只在 个人 feature/fix 分支 使用
+
+5.7.4 修改更早的 commit（交互式 rebase）
+
+如果需要修改 不是最后一个 commit 的提交信息：
+
+例如修改最近 3 个 commit：
+
+git rebase -i HEAD~3
+
+会出现类似内容：
+
+pick a1b2c3 commit1
+pick d4e5f6 commit2
+pick g7h8i9 commit3
+
+把需要修改的 commit 改为：
+
+reword d4e5f6 commit2
+
+保存后 Git 会打开编辑器让你修改 commit message。
+
+5.7.5 查看修改结果
+
+修改完成后可以查看历史：
+
+git log --oneline
+
+或：
+
+git log --oneline --graph --decorate
+
 
 ---
 
