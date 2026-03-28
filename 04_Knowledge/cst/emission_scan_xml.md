@@ -11,7 +11,7 @@
 
 
 ## 已保存样例
-- 当前 XML 已保存到：`06_Assets/cst/emission_scan/ex.xml`
+- 当前 XML 已保存到：[ex.xml](../../06_Assets/cst/emission_scan/ex.xml)
 
 ## 建议文档结构（可直接套用）
 1. 这个 XML 能解决什么问题
