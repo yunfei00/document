@@ -12,3 +12,4 @@
 
 ## 新增
 - [LangChain 手册（工程实践版）](LangChain/LangChain_手册.md)
+- [Next.js 手册（工程实践版）](Next.js/Next.js_手册.md)
