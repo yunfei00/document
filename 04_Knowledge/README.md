@@ -9,3 +9,6 @@
 建议：每篇文档最后补一段：
 - “在我项目中的用法 / 经验”
 
+
+## 新增
+- [LangChain 手册（工程实践版）](LangChain/LangChain_手册.md)
