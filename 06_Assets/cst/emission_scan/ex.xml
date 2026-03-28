@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmissionScan>
+    <Nfs_ver>1.0</Nfs_ver>
+    <Filename>ex.xml</Filename>
+    <File_ver>1</File_ver>
+    <Probe>
+        <Field>Ex</Field>
+    </Probe>
+    <Data>
+        <Coordinates>xyz</Coordinates>
+        <Frequencies>
+            <List>500000000</List>
+        </Frequencies>
+        <Measurement>
+            <Unit>A/m</Unit>
+            <Format>ri</Format>
+            <Data_files>ex.dat</Data_files>
+        </Measurement>
+    </Data>
+</EmissionScan>
