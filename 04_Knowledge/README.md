@@ -13,3 +13,4 @@
 ## 新增
 - [LangChain 手册（工程实践版）](LangChain/LangChain_手册.md)
 - [Next.js 手册（工程实践版）](Next.js/Next.js_手册.md)
+- [uv Python 环境管理使用说明（工程实践版）](software_instructions/uv.md)
